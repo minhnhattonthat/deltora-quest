@@ -453,7 +453,7 @@
   "id": "2179_075",
   "hdr": "4A810370",
   "jp": "じゃあ、かじの練習を{n}しておくんだぞ",
-  "en": "Then you keep practicing{n}your smithing, okay?"
+  "en": "Then you keep practising{n}your smithing, okay?"
  },
  {
   "id": "2179_076",
@@ -687,7 +687,7 @@
   "id": "2179_114",
   "hdr": "00000000",
   "jp": "馬車にとびおりろ！{n}{n}ゴミを捨てに行く馬車に{n}タイミングよくとびおりるんだ！{n}{n}下画面タッチでとびおります",
-  "en": "Jump onto the cart!{n}{n}Time it right and jump onto{n}the cart taking away the rubbish!{n}{n}Touch the lower screen to jump."
+  "en": "Jump onto the cart!{n}{n}Time it right and jump onto{n}the cart taking away the rubbish!{n}{n}Tap the bottom screen to jump."
  },
  {
   "id": "2179_115",
@@ -1023,7 +1023,7 @@
   "id": "2179_170",
   "hdr": "00000500",
   "jp": "プランディンには{sp}気をつけろ。{n}ベルトは{sp}きみと国を{sp}すくう。{n}けして{sp}手ばなすな。{n}{n}ぼくは{sp}いつでも{sp}きみの味方だ。",
-  "en": "Beware of Prandine.{n}The Belt will save you and the kingdom.{p}Never part with it.{p}I am always your friend."
+  "en": "Beware of Prandine.{n}The Belt will save you and the kingdom.{n}Never part with it.{n}I will always be on your side."
  },
  {
   "id": "2179_171",
@@ -1041,13 +1041,13 @@
   "id": "2179_173",
   "hdr": "28810700",
   "jp": "いひひひ、そうだな……今すぐに{n}雨をふらせてみろ",
-  "en": "Hee hee hee, all right then...{n}Make it rain. Right now."
+  "en": "Hee hee hee... Let's see.{n}Make it rain. Right now."
  },
  {
   "id": "2179_174",
   "hdr": "28810700",
   "jp": "ならば{sp}助けてやらない事もない",
-  "en": "Then maybe we'll help you."
+  "en": "Do that, and I might just help you."
  },
  {
   "id": "2179_175",

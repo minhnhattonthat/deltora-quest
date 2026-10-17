@@ -307,7 +307,7 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | クリーン•チュルナイ | "Clean Noradz!" | game | Noradz salute; ? | Kuriin Churunai |
 | チュルナイせいじょういいん会 | the Noradz Purity Committee | game | ? | |
 | テケスタ / たすけて | "PLEH" / "HELP" | game | reversed-text puzzle (テケスタ = たすけて backwards); keep the reversal | Tekesuta |
-| ！いなぶあ ！んけき | "!REGNAD !TUO HCTAW" | game | reversed "Danger! Watch out!" | |
+| ！いなぶあ ！んけき | (guide) '!eraweB !regnaD' | game | reversed "Danger! Beware!" (2180_001, sign 2180_183) | |
 | るれからひはちみばけふ | reversed "Blow and the path will open" | game | reversed puzzle; ? final wording after layout check | |
 | しんじつにむかってとびたて | "Leap toward the truth" | game | stepping-stone riddle | |
 | ジョーカーここにねむる | "Here lies Doom" | novel | grave marker | Here lies Joker |

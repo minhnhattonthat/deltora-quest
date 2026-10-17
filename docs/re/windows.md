@@ -5,8 +5,8 @@ glyph torture line (all English glyphs + double space: clean, work/qa/torture). 
 
 | Window | Which lines | Measured | Budget |
 |---|---|---|---|
-| Portrait dialogue box (bottom screen, name tag, portrait) | header word 2 != 0000 (2,370 lines) | centred, visible 0-256 px, 2 lines per page (3rd falls below the box) | 240 px, 2 lines/page, add pages with {p} |
-| Narration (over pictures / room, no portrait) | header 0000 0000 in story files | centred, visible 0-256 px, 4 lines fit | 240 px; lines/page <= JP's for that line (warn) |
+| Portrait dialogue box (bottom screen, name tag, portrait) | header word 2 slot (low byte) not 00/05 | centred, visible 0-256 px, 2 lines per page (3rd falls below the box) | 240 px, 2 lines/page, add pages with {p} |
+| Narration (over pictures / room / book, letters; no portrait) | header word 2 = 0000 or slot 00 / 05 | centred, visible 0-256 px, 4 lines fit | 240 px; lines/page <= JP's for that line (warn) |
 | Title button (2199_001), はじめから panel (2192_014), top-screen prompts (2192) | system | marker "[2199_001] The quick brown fox" (~150 px) fits the button | 240 px; keep labels near the JP width |
 | Menus, item names/descriptions (2197, 2191), shop (2195), status (2194), link (2200) | | **not measured** (screens not reachable yet) | 240 px; lines/page <= JP's (warn) |
 

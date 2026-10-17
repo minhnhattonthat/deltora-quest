@@ -28,7 +28,7 @@ SYSTEM_FILES = {"2192", "2194", "2195", "2198", "2199", "2200"}
 
 
 def form(e):
-    if e["hdr"][4:] != "0000":
+    if lint.is_portrait(e["hdr"]):
         return "dlg"
     f = e["id"][:4]
     return "menu" if f in MENU_FILES else "system" if f in SYSTEM_FILES else "narration"
@@ -80,9 +80,9 @@ def chunks(todo, size, chars):
 
 def split(size, chars):
     DIR.mkdir(parents=True, exist_ok=True)
-    todo = [e for e in all_entries().values() if not e.get(text.LANG)]
+    todo = [e for e in all_entries().values() if not e.get(text.LANG) and e["jp"]]
     gl = glossary_rows()
-    n = len(list(DIR.glob("b[0-9]*.tsv")))
+    n = len([p for p in DIR.glob("b[0-9][0-9][0-9].tsv")])  # inputs only, not bNNN.out.tsv
     for k, part in enumerate(chunks(todo, size, chars)):
         name = f"b{n + k:03d}"
         if (DIR / f"{name}.tsv").exists():

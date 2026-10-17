@@ -21,6 +21,12 @@ TOKEN = re.compile(r"\{[^}]*\}")
 JP = re.compile(r"[぀-ヿ一-鿿]")
 
 
+def is_portrait(hdr):
+    """Portrait dialogue box: header word 2 slot (low byte) set, except 00 (picture narration) and 05 (narrator:
+    book/letter narration window, measured 4+ lines)."""
+    return hdr[4:8] != "0000" and hdr[4:6] not in ("00", "05")
+
+
 def line_px(line, adv):
     px = 0
     for tok in re.split(r"(\{[^}]*\})", line):
@@ -52,7 +58,7 @@ def check(e, adv, t):
         errs.append(f"control codes {sorted(KEEP.findall(jp))} -> {sorted(KEEP.findall(en))}")
     if re.search(r"\{var\}(st|nd|rd|th)\b", en):
         errs.append("ordinal suffix after {var}")
-    portrait = e["hdr"][4:] != "0000"
+    portrait = is_portrait(e["hdr"])
     jp_lines = max(len(p) for p in pages(jp))
     for pg in pages(en):
         for ln in pg:
