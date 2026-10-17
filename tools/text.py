@@ -14,11 +14,10 @@ from pathlib import Path
 
 import ndspy.rom
 
-import build
 import lf2
 from tbl import Table
 
-ROOT = build.ROOT
+ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = ROOT / "script"
 TEXT_FILES = range(2178, 2201)
 LANG = "en"
@@ -55,7 +54,27 @@ def encode(t, text):
     return t.encode(text + "{end}")
 
 
+def load_script():
+    return {n: json.loads((SCRIPT / f"{n}.json").read_text(encoding="utf-8")) for n in TEXT_FILES}
+
+
+def insert(files, lang=LANG, marker=False):
+    """Write the translated text files into `files` (the FILEDATA list) in place. Lines with no `lang` text keep
+    their original bytes; marker=True replaces every line with '[id] ...' at full length (marker build)."""
+    t_en, script = table("en"), load_script()
+    for n in TEXT_FILES:
+        old = split(files[n])
+        assert len(old) == len(script[n]), n
+        new = []
+        for (hdr, body), e in zip(old, script[n]):
+            assert e["hdr"] == hdr.hex().upper(), e["id"]
+            s = f"[{e['id']}] The quick brown fox" if marker else e.get(lang, "")
+            new.append((hdr, encode(t_en, s) if s else body))
+        files[n] = join(new)
+
+
 def rom_files():
+    import build  # here, not at the top: build imports text
     return lf2.read(ndspy.rom.NintendoDSRom(build.ROM.read_bytes()).files[build.FILEDATA])
 
 

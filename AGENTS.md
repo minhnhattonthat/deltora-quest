@@ -3,7 +3,8 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `C:/Users/Nathan/.claude/plugins/cache/retro-translation/translate-retro-game/d6945f695321/skills/translate-retro-game/SKILL.md`; `$SKILL` = the directory holding its SKILL.md). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py`  -> build/deltora_en.nds (checks the dump against `rom.sha1` first)
+- Build:    `python -X utf8 tools/build.py [--marker]`  -> build/deltora_en.nds / deltora_marker.nds (checks the dump against `rom.sha1` first)
+- Font:     edit `fonts/en_font.txt`, then `python -X utf8 tools/fontgen.py --tbl` (regenerates tbl/en.tbl)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/deltora_en.nds --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py <scene> [--rom build/deltora_en.nds]` (`--all` regenerates work/states; scenes: `tools/debug/scenes.json`; never ask the user to play to a scene)

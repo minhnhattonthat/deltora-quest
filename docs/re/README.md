@@ -12,4 +12,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| filedata.md | NitroFS, LF2 archive, ROM rebuild quirks | verified |
+| text.md | text files, codes, charset, font, renderer | verified; FFF6/FFF9 meaning guessed |
+| engine.md | VWF hooks in ITCM, English font | verified in marker build |
+| debug.md | scene warps, text viewer, probes | route scenes only |
