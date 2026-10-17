@@ -1,9 +1,22 @@
 {
- "_doc": "Scene list for tools/debug/warp.py. Each scene: a route from cold boot, optional touch-mash after it (mash frames), total frames, and what it shows. Route-based until story flags are mapped (docs/re/debug.md).",
+ "_doc": "Scene list for tools/debug/warp.py. route: cold-boot route; frames: run length; mash: touch-mash after the route; warp: [chapter, area] = New Game starts in that stage and plays its own intro (tools/debug/warp.lua, docs/re/events.md). shows: what the scene proves.",
  "title": {"route": "tools/routes/boot.txt", "frames": 1500, "shows": "title menu, (C) line, ぼうけんをはじめる button"},
  "entry_card": {"route": "tools/routes/new_game.txt", "frames": 1700, "shows": "signature screen: top prompt, はじめから panel, Entry card"},
  "new_adventure": {"route": "tools/routes/new_game.txt", "frames": 2300, "shows": "あたらしいぼうけんをはじめます + はい/いいえ portraits"},
  "book": {"route": "tools/routes/new_game.txt", "frames": 3000, "shows": "The Belt of Deltora book cover (graphic)"},
  "dialogue": {"route": "tools/routes/new_game.txt", "frames": 4300, "mash": true, "shows": "just before the first narration + portrait dialogue in the castle library; text viewer base state"},
- "prologue_end": {"route": "tools/routes/new_game.txt", "frames": 14000, "mash": true, "shows": "end of the touch-mashed opening"}
+ "prologue_end": {"route": "tools/routes/new_game.txt", "frames": 14000, "mash": true, "shows": "end of the touch-mashed opening, player control in the library"},
+ "ch1": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [1, 1], "shows": "chapter 1 (ちんもくの森) intro, Barda tutorial, battle HUD"},
+ "ch2": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [2, 1], "shows": "chapter 2 (なげきのみずうみ) intro"},
+ "ch3": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [3, 1], "shows": "chapter 3 (ラット・シティ) intro"},
+ "ch4": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [4, 1], "shows": "chapter 4 (うごめく砂) intro"},
+ "ch5": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [5, 1], "shows": "chapter 5 (きょうふの山) intro"},
+ "ch6": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [6, 1], "shows": "chapter 6 (まもののどうくつ) intro"},
+ "ch7": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [7, 1], "shows": "chapter 7 (いましめの谷) intro"},
+ "ch8": {"route": "tools/routes/new_game.txt", "frames": 5500, "mash": true, "warp": [8, 1], "shows": "final chapter (きかん) intro"},
+ "tower": {"route": "tools/routes/new_game.txt", "frames": 4500, "mash": true, "warp": [9, 3], "shows": "むげんの塔 floor, gameplay HUD"},
+ "worldmap": {"route": "tools/routes/new_game.txt", "frames": 4000, "mash": true, "warp": [0, 2], "event": [2609, 1], "shows": "world map (event script 2609: also CallShop/CallCamp)"},
+ "smithy": {"route": "tools/routes/new_game.txt", "frames": 4500, "mash": true, "warp": [0, 2], "event": [1814, 1], "shows": "castle smithy event (script 1814, CallSmith)"},
+ "paint": {"route": "tools/routes/new_game.txt", "frames": 3700, "mash": true, "warp": [0, 2], "event": [1817, 1], "shows": "portrait dialogue then parchment screen (script 1817, CallPaint)"},
+ "cutscene_1798": {"route": "tools/routes/new_game.txt", "frames": 6000, "mash": true, "warp": [9, 1], "event": [1798, 1], "shows": "cinematic dialogue layout: scene on top, centred text + portrait on black bottom screen"}
 }

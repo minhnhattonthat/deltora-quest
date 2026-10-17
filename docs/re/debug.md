@@ -1,9 +1,12 @@
 # Debug tool
 
 ## Scenes (tools/debug/warp.py + scenes.json)
-Route-based from cold boot (touch-mash advances dialogue; A does not). States: `work/states/<scene>.dst`.
-Story chapters, world map, shops, battles, endings and credits are **not reachable yet**: next step is mapping the
-story-progress variables (RAM search across save points) or the event dispatcher, then adding flag-based entries.
+Cold boot + New Game route; `warp: [chapter, area]` makes New Game start in that stage (its own intro plays), and
+`event: [script, n]` replaces the n-th LoadExecEvent with any event script (docs/re/events.md). Touch-mash advances
+dialogue; A does not. States: `work/states/<scene>.dst`. `--all --jobs 4` regenerates every state.
+Reached: title, entry card, prologue, chapters 1-8, tower, world map, smithy, paint screen, a cutscene layout.
+Not yet: staff roll (CallStaffRoll has no script caller), game over, shop/compound menus (scripts found, need
+the menu opened), later areas of each chapter (add `warp` entries per area as needed).
 
 ## Text viewer (tools/debug/show.py + textview.lua) (verified: ids, rulers and 4-line text in real windows)
 - 0x0204D234(r0 window, r1 file, r2 index) is the game's message loader (file = FILEDATA number, e.g. 2179).
