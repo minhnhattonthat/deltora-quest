@@ -1,12 +1,13 @@
-"""show.py: show script lines in a real in-game text window (text viewer, tools/debug/textview.lua).
+"""show.py: show script lines in real in-game text windows (text viewer, tools/debug/textview.lua).
 
-    python -X utf8 tools/debug/show.py 2179_000 2192_003 ... [--rom build/deltora_en.nds] [--lang jp|en]
-           [--state work/states/<scene>.dst] [--frames 1500] [--out work/qa/show]
-Each text window the game opens after the state loads shows the next id instead. Touch-mash advances dialogue.
-Shots: OUT/f*.png plus a sheet.
+    python -X utf8 tools/debug/show.py 2179_000 "=raw English{n}text" ... [--rom build/deltora_en.nds]
+           [--state work/states/<scene>.dst] [--frames 1500] [--mash 45] [--out work/qa/show]
+The next text windows the game opens after the state loads show these instead, in order. An id is loaded by the game
+itself from --rom (its own name tag and portrait); "=text" is encoded with tbl/en.tbl and keeps the window's
+original header. Touch-mash every --mash frames advances dialogue. Shots: OUT/f*.png plus a sheet; log.txt lists
+every message load as file_index.
 """
 import argparse
-import json
 import subprocess
 import sys
 from pathlib import Path
@@ -19,27 +20,30 @@ SKILL = Path("C:/Users/Nathan/.claude/plugins/cache/retro-translation/translate-
 ORIG = ROOT / "rom/1415 - Deltora Quest - 7-tsu no Houseki (J)(Caravan).nds"
 
 
+def entry(item, en):
+    if item.startswith("="):
+        return "{" + ",".join(map(str, text.encode(en, item[1:]))) + "}"
+    f, i = item.split("_")
+    return f"{{file={int(f)}, index={int(i)}}}"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("ids", nargs="+")
     ap.add_argument("--rom", default=str(ORIG))
-    ap.add_argument("--lang", default="jp")
     ap.add_argument("--state", default=str(ROOT / "work/states/dialogue.dst"))
     ap.add_argument("--frames", type=int, default=1500)
     ap.add_argument("--out", default=str(ROOT / "work/qa/show"))
+    ap.add_argument("--mash", default="45", help="frames between touches that advance the text")
     a = ap.parse_args()
-    t = text.table(a.lang)
-    rows = {}
-    for p in (ROOT / "script").glob("*.json"):
-        rows.update({e["id"]: e for e in json.loads(p.read_text(encoding="utf-8"))})
-    bodies = [text.encode(t, rows[i][a.lang] or rows[i]["jp"]) for i in a.ids]
+    en = text.table("en")
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     gen = out / "_strs.lua"
-    gen.write_text("STRS = {\n" + "".join("{" + ",".join(map(str, b)) + "},\n" for b in bodies) + "}\n"
-                   + "STR_IDS = {" + ",".join(f'"{i}"' for i in a.ids) + "}\n", encoding="utf-8", newline="\n")
+    gen.write_text("STRS = {\n" + "".join(entry(i, en) + ",\n" for i in a.ids) + "}\n"
+                   + "STR_IDS = {" + ",".join(f'"{k}"' for k in range(len(a.ids))) + "}\n", encoding="utf-8", newline="\n")
     sys.exit(subprocess.call([sys.executable, "-X", "utf8", str(SKILL / "scripts/emu.py"), a.rom, "--out", str(out),
-                              "--state-in", a.state, "--frames", str(a.frames), "--mash", "45", "--mash-key", "t128,96",
+                              "--state-in", a.state, "--frames", str(a.frames), "--mash", a.mash, "--mash-key", "t128,96",
                               "--script", str(gen), "--script", str(ROOT / "tools/debug/textview.lua"),
                               "--shot-every", "60", "--sheet", "--debugger"]))
 
