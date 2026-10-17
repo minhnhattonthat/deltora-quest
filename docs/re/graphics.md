@@ -1,15 +1,17 @@
 # Graphics text survey
 
-Japanese that stayed Japanese in the marker build (so it is not script text). Source = first guess until confirmed.
-Screens past the opening are not surveyed yet: they need story warps (docs/status.md).
+Japanese that stayed Japanese in the marker build (so it is not script text). Surveyed on every scene in
+`tools/debug/scenes.json` (19 scenes, marker build, work/qa/survey; full notes in work/qa/survey/graphics_survey.md).
+Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
 
-| # | Screen (scene) | Element | Layer | Source guess | State |
+| # | Element | Japanese | Where | Source guess | State |
 |---|---|---|---|---|---|
-| G1 | title, all story screens (title) | logo subtitle デルトラクエスト (small katakana) + 7つの宝石 | top BG | RGCN/RCSN in FILEDATA | todo |
-| G2 | title (title) | (C)2006 デルトラクエスト製作委員会・テレビ愛知 (C)2007 NBGI | bottom BG/OBJ | graphic | todo (legal line: translate or keep, ask?) |
-| G3 | new-adventure prompt (new_adventure) | はい / いいえ labels over Lief portraits | bottom OBJ? | graphic | todo |
-| G4 | every portrait dialogue (dialogue) | speaker name tag (ジャード, ジャスミン, ...) in cyan | bottom OBJ | one graphic per speaker, picked by the header | todo: list all speakers |
-| G5 | title intro movie (_dtq.vx) | any text in the movie | video | VX video | check |
-| G6 | world map, menus, shops, battle, chapter cards, game over, ending, credits | ? | ? | ? | not surveyed |
+| G1 | logo katakana above QUEST | デルトラクエスト | top screen, title and every story screen | logo bitmap (RGCN) | todo: redraw or remove |
+| G2 | logo subtitle | 7つの宝石 | top screen, under DELTORA | logo bitmap | todo: "The Seven Gems" |
+| G3 | copyright line | (C)2006 デルトラクエスト製作委員会・テレビ愛知 (C)2007 NBGI | title, top | graphic (grey, antialiased) | todo: translate (legal line) |
+| G4 | yes / no labels | はい / いいえ | entry-card confirm, above the two Lief portraits | font-styled but no script string has them: sprite in the font's look? | check: VRAM/OAM dump |
+| G5 | speaker name tags | リーフ, バルダ, ジャード, ... | dialogue box top edge (cyan) | one graphic per speaker, chosen by header | todo: list every speaker tag (all chapters) |
 
-Already English in the original: entry card (DELTORA QUEST Entry card, Name), book cover (The Belt of Deltora).
+Already English in the original: Bandai Namco splash, entry card, book cover, map scroll labels, HUD icons.
+Not surveyed yet (no scene reaches them): in-game menu (items, equipment, recipes), shop, mixing room, smithing
+minigame, game over, staff roll, chapter-clear screens. Add scenes for them, then extend this table.
