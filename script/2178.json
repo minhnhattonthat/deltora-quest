@@ -3,450 +3,450 @@
   "id": "2178_000",
   "hdr": "1103030C",
   "jp": "ねえ、知ってる？{n}この町は{sp}石のカベで囲まれているのよ{p}息がつまるわね",
-  "en": ""
+  "en": "Hey, did you know? This town is{n}surrounded by stone walls.{p}It makes it hard to breathe."
  },
  {
   "id": "2178_001",
   "hdr": "1303030C",
   "jp": "これから、どうなるんだろう",
-  "en": ""
+  "en": "I wonder what will happen now."
  },
  {
   "id": "2178_002",
   "hdr": "1181030C",
   "jp": "あらリーフ。{n}やっと起きたの？",
-  "en": ""
+  "en": "Oh, Lief.{n}You're finally up?"
  },
  {
   "id": "2178_003",
   "hdr": "04030104",
   "jp": "うん、よくねたー！",
-  "en": ""
+  "en": "Yeah, I slept great!"
  },
  {
   "id": "2178_004",
   "hdr": "1181030C",
   "jp": "これからは{sp}ずっと{sp}ゆっくり{n}できるんじゃない？",
-  "en": ""
+  "en": "From now on, you can finally{n}take it easy, right?"
  },
  {
   "id": "2178_005",
   "hdr": "03030104",
   "jp": "そうもいかないんだ",
-  "en": ""
+  "en": "It's not that simple."
  },
  {
   "id": "2178_006",
   "hdr": "1181030C",
   "jp": "どういう意味！？",
-  "en": ""
+  "en": "What do you mean?!"
  },
  {
   "id": "2178_007",
   "hdr": "01030104",
   "jp": "やる事が{sp}たくさんある。{n}やりきれないほどあるんだ{p}ジョーカーやバルダが{n}手伝ってくれてもまだ足りない",
-  "en": ""
+  "en": "There's so much to do.{n}More than I could ever finish.{p}Even with Doom and Barda helping,{n}it's still not enough."
  },
  {
   "id": "2178_008",
   "hdr": "1381030C",
   "jp": "うん……たいへんね。{n}ねむる時間、あるかしら",
-  "en": ""
+  "en": "Yes... That sounds hard.{n}Will you even have time to sleep?"
  },
  {
   "id": "2178_009",
   "hdr": "01030104",
   "jp": "時間があっても{sp}ねむれないよ{p}きみが……",
-  "en": ""
+  "en": "Even if I had the time,{n}I couldn't sleep.{p}Because you..."
  },
  {
   "id": "2178_010",
   "hdr": "1181030C",
   "jp": "わたしが？",
-  "en": ""
+  "en": "Me?"
  },
  {
   "id": "2178_011",
   "hdr": "01030104",
   "jp": "きみが{sp}ここに{sp}いつまで{n}いてくれるのか、気になってさ",
-  "en": ""
+  "en": "I keep wondering how long{n}you'll stay here with us."
  },
  {
   "id": "2178_012",
   "hdr": "03030104",
   "jp": "(言っちゃったよ……)",
-  "en": ""
+  "en": "(There, I said it...)"
  },
  {
   "id": "2178_013",
   "hdr": "1381030C",
   "jp": "町のカベをこわす？",
-  "en": ""
+  "en": "Will you tear down the town walls?"
  },
  {
   "id": "2178_014",
   "hdr": "01030104",
   "jp": "うん、カベはこわそう",
-  "en": ""
+  "en": "Yes, let's tear the walls down."
  },
  {
   "id": "2178_015",
   "hdr": "1181030C",
   "jp": "緑をふやす？",
-  "en": ""
+  "en": "And plant more green things?"
  },
  {
   "id": "2178_016",
   "hdr": "01030104",
   "jp": "うん、きみの好きなだけ！",
-  "en": ""
+  "en": "Yes, as much as you like!"
  },
  {
   "id": "2178_017",
   "hdr": "02030104",
   "jp": "ねえ、ジャスミン{p}みんなで力を合わせて{n}この世界を……",
-  "en": ""
+  "en": "Listen, Jasmine...{p}If we all work together,{n}we can make this world..."
  },
  {
   "id": "2178_018",
   "hdr": "1481030C",
   "jp": "わたし好みに変えるのよ！",
-  "en": ""
+  "en": "...just the way I like it!"
  },
  {
   "id": "2178_019",
   "hdr": "05030104",
   "jp": "待ってよ！",
-  "en": ""
+  "en": "Hey, wait!"
  },
  {
   "id": "2178_020",
   "hdr": "28010000",
   "jp": "{f9}父さん。{n}{f9}もう、だいじょうぶです。{n}{f9}世界も国も……ぼくたちも。",
-  "en": ""
+  "en": "{f9}Father.{n}{f9}Everything is all right now.{n}{f9}The world, the kingdom... and us."
  },
  {
   "id": "2178_021",
   "hdr": "09030208",
   "jp": "おう、リーフ……",
-  "en": ""
+  "en": "Ah, Lief..."
  },
  {
   "id": "2178_022",
   "hdr": "0B030208",
   "jp": "いや、王様か……",
-  "en": ""
+  "en": "No... Your Majesty, I should say..."
  },
  {
   "id": "2178_023",
   "hdr": "0C030208",
   "jp": "わはははは！{sp}リーフ王か！",
-  "en": ""
+  "en": "Ha ha ha ha! King Lief, eh!"
  },
  {
   "id": "2178_024",
   "hdr": "19030718",
   "jp": "さあ、リーフ。{n}何からはじめよう{p}すべき事が{sp}山ほどあるぞ。{n}旅よりも{sp}たいへんかもな！",
-  "en": ""
+  "en": "Well, Lief.{n}Where shall we begin?{p}There's a mountain of work to do.{n}It may be harder than your journey!"
  },
  {
   "id": "2178_025",
   "hdr": "1C030828",
   "jp": "ぐっすりねむれたようね{p}ひさしぶりに{sp}あなたの{n}ねがおを見て{sp}安心したわ{p}それが{sp}わたしの{sp}いちばんの{n}しあわせよ",
-  "en": ""
+  "en": "You slept soundly, I see.{p}It's been so long since I last saw{n}you asleep. What a relief it is.{p}Nothing makes me{n}happier than that."
  },
  {
   "id": "2178_026",
   "hdr": "00000000",
   "jp": "　　　　　　　　　　　　　　　　おわり　",
-  "en": ""
+  "en": "                                                            The End"
  },
  {
   "id": "2178_027",
   "hdr": "00000000",
   "jp": "デルトラクエスト{n}岩崎書店刊{n}{n}原作{n}エミリー•ロッダ",
-  "en": ""
+  "en": "Deltora Quest{n}Published by Iwasaki Shoten{n}{n}Original Story{n}Emily Rodda"
  },
  {
   "id": "2178_028",
   "hdr": "00000000",
   "jp": "シナリオ{n}有限会社ステラヴィスタ{n}野島{sp}一成",
-  "en": ""
+  "en": "Scenario{n}Stellavista Ltd.{n}Kazushige Nojima"
  },
  {
   "id": "2178_029",
   "hdr": "00000000",
   "jp": "アートワーク{n}yocky",
-  "en": ""
+  "en": "Artwork{n}yocky"
  },
  {
   "id": "2178_030",
   "hdr": "00000000",
   "jp": "開発{n}有限会社アウディオ",
-  "en": ""
+  "en": "Development{n}Aodio Ltd."
  },
  {
   "id": "2178_031",
   "hdr": "00000000",
   "jp": "ディレクター{n}上田{sp}晃",
-  "en": ""
+  "en": "Director{n}Akira Ueda"
  },
  {
   "id": "2178_032",
   "hdr": "00000000",
   "jp": "プランニング{n}庭野{sp}正志{n}上田{sp}晃",
-  "en": ""
+  "en": "Planning{n}Masashi Niwano{n}Akira Ueda"
  },
  {
   "id": "2178_033",
   "hdr": "00000000",
   "jp": "スクリプト{n}植草{sp}健治{n}佐藤{sp}栄作",
-  "en": ""
+  "en": "Script{n}Kenji Uekusa{n}Eisaku Sato"
  },
  {
   "id": "2178_034",
   "hdr": "00000000",
   "jp": "プログラム{n}大澤{sp}健二{n}吉尾{sp}享",
-  "en": ""
+  "en": "Programming{n}Kenji Osawa{n}Toru Yoshio"
  },
  {
   "id": "2178_035",
   "hdr": "00000000",
   "jp": "アートディレクター{n}上田{sp}晃",
-  "en": ""
+  "en": "Art Director{n}Akira Ueda"
  },
  {
   "id": "2178_036",
   "hdr": "00000000",
   "jp": "プレイヤーキャラクターデザイン{n}黒川{sp}理加{n}{n}モンスターキャラクターデザイン{n}八幡{sp}裕二{n}黒川{sp}理加{n}橋本{sp}昌之",
-  "en": ""
+  "en": "Player Character Design{n}Rika Kurokawa{n}{n}Monster Character Design{n}Yuji Yahata{n}Rika Kurokawa{n}Masayuki Hashimoto"
  },
  {
   "id": "2178_037",
   "hdr": "00000000",
   "jp": "マップ&BGデザイン{n}橋本{sp}昌之{n}上田{sp}晃{n}{n}3Dモデリング{n}太田{sp}亜樹",
-  "en": ""
+  "en": "Map & BG Design{n}Masayuki Hashimoto{n}Akira Ueda{n}{n}3D Modeling{n}Aki Ota"
  },
  {
   "id": "2178_038",
   "hdr": "00000000",
   "jp": "音響制作{n}サウンドプロデュース{n}有限会社ベイシスケイプ",
-  "en": ""
+  "en": "Audio Production{n}Sound Production{n}Basiscape Ltd."
  },
  {
   "id": "2178_039",
   "hdr": "00000000",
   "jp": "サウンドスーパーバイズ{n}崎元{sp}仁",
-  "en": ""
+  "en": "Sound Supervisor{n}Hitoshi Sakimoto"
  },
  {
   "id": "2178_040",
   "hdr": "00000000",
   "jp": "作曲{n}崎元{sp}仁{n}{n}金田{sp}充弘{n}阿部{sp}公弘{n}上倉{sp}紀行{n}岩田{sp}匡治",
-  "en": ""
+  "en": "Music{n}Hitoshi Sakimoto{n}{n}Mitsuhiro Kaneda{n}Kimihiro Abe{n}Noriyuki Kamikura{n}Masaharu Iwata"
  },
  {
   "id": "2178_041",
   "hdr": "00000000",
   "jp": "マニピュレート{n}金子{sp}昌晃",
-  "en": ""
+  "en": "Sound Manipulation{n}Masaaki Kaneko"
  },
  {
   "id": "2178_042",
   "hdr": "00000000",
   "jp": "効果音{n}金子{sp}昌晃{n}中越{sp}健太郎",
-  "en": ""
+  "en": "Sound Effects{n}Masaaki Kaneko{n}Kentaro Nakagoshi"
  },
  {
   "id": "2178_043",
   "hdr": "00000000",
   "jp": "サウンドマネージャー{n}伊藤{sp}美紀{n}{n}サウンドアシスタント{n}松本{sp}紫歩子",
-  "en": ""
+  "en": "Sound Manager{n}Miki Ito{n}{n}Sound Assistant{n}Shihoko Matsumoto"
  },
  {
   "id": "2178_044",
   "hdr": "00000000",
   "jp": "デルトラクエスト{sp}メインテーマ{n}作曲{n}崎元{sp}仁{n}{n}演奏{n}エミネンス交響楽団{n}{n}レコーディングスタジオ{n}FOXSTUDIO",
-  "en": ""
+  "en": "Deltora Quest Main Theme{n}Music{n}Hitoshi Sakimoto{n}{n}Performed by{n}Eminence Symphony Orchestra{n}{n}Recording Studio{n}FOX STUDIO"
  },
  {
   "id": "2178_045",
   "hdr": "00000000",
   "jp": "ムービー制作{n}デジプラネット有限会社",
-  "en": ""
+  "en": "Movie Production{n}DigiPlanet Ltd."
  },
  {
   "id": "2178_046",
   "hdr": "00000000",
   "jp": "演出•ディレクター{n}麻生{sp}憲{n}{n}編集{n}吉岡{sp}有人{n}{n}アニメーション{n}高橋{sp}渉",
-  "en": ""
+  "en": "Direction / Director{n}Ken Aso{n}{n}Editing{n}Arito Yoshioka{n}{n}Animation{n}Wataru Takahashi"
  },
  {
   "id": "2178_047",
   "hdr": "00000000",
   "jp": "ムービーモデル制作{n}渡邉{sp}靖之{n}大塚{sp}智幸{n}三本{sp}一輝",
-  "en": ""
+  "en": "Movie Modeling{n}Yasuyuki Watanabe{n}Tomoyuki Otsuka{n}Kazuki Mitsumoto"
  },
  {
   "id": "2178_048",
   "hdr": "00000000",
   "jp": "ムービーモデル制作(リーフ){n}モデルプロデューサー{n}赤城{sp}晴康{n}{n}3DCGモデラー{n}熊澤{sp}直紀{n}荻原{sp}あすか{n}大野{sp}彰",
-  "en": ""
+  "en": "Movie Modeling (Lief){n}Model Producer{n}Haruyasu Akagi{n}{n}3DCG Modelers{n}Naoki Kumazawa{n}Asuka Ogiwara{n}Akira Ono"
  },
  {
   "id": "2178_049",
   "hdr": "00000000",
   "jp": "監修{n}株式会社ジェンコ{n}佐藤{sp}尚樹{n}森尻{sp}和明{n}橋本{sp}健",
-  "en": ""
+  "en": "Supervision{n}GENCO, Inc.{n}Naoki Sato{n}Kazuaki Morijiri{n}Ken Hashimoto"
  },
  {
   "id": "2178_050",
   "hdr": "00000000",
   "jp": "株式会社電通テック{n}武藤{sp}博昭{n}岡田{sp}大将{n}坂本{sp}明久{n}竹村{sp}麻友子",
-  "en": ""
+  "en": "Dentsu Tec Inc.{n}Hiroaki Muto{n}Taisho Okada{n}Akihisa Sakamoto{n}Mayuko Takemura"
  },
  {
   "id": "2178_051",
   "hdr": "00000000",
   "jp": "スペシャルサンクス{n}株式会社岩崎書店{n}細谷{sp}洋{n}佐々木{sp}幹子",
-  "en": ""
+  "en": "Special Thanks{n}Iwasaki Shoten Co., Ltd.{n}Hiroshi Hosoya{n}Mikiko Sasaki"
  },
  {
   "id": "2178_052",
   "hdr": "00000000",
   "jp": "株式会社電通{n}仲野{sp}隆{n}笹田{sp}直樹{n}下園{sp}隆洋",
-  "en": ""
+  "en": "Dentsu Inc.{n}Takashi Nakano{n}Naoki Sasada{n}Takahiro Shimozono"
  },
  {
   "id": "2178_053",
   "hdr": "00000000",
   "jp": "株式会社講談社{n}河北{sp}壮平{n}立石{sp}謙介",
-  "en": ""
+  "en": "Kodansha Ltd.{n}Sohei Kawakita{n}Kensuke Tateishi"
  },
  {
   "id": "2178_054",
   "hdr": "00000000",
   "jp": "株式会社バンダイ{n}久保{sp}勝範{n}射場{sp}周作{n}細字{sp}佑佳",
-  "en": ""
+  "en": "Bandai Co., Ltd.{n}Katsunori Kubo{n}Shusaku Iba{n}Yuka Hosoji"
  },
  {
   "id": "2178_055",
   "hdr": "00000000",
   "jp": "株式会社電通{n}仲野{sp}隆{n}笹田{sp}直樹{n}下園{sp}隆洋",
-  "en": ""
+  "en": "Dentsu Inc.{n}Takashi Nakano{n}Naoki Sasada{n}Takahiro Shimozono"
  },
  {
   "id": "2178_056",
   "hdr": "00000000",
   "jp": "株式会社グラスホッパー•マニファクチュア{n}須田{sp}剛一{n}{n}中沢{sp}哲也{n}渡辺{sp}和寿",
-  "en": ""
+  "en": "Grasshopper Manufacture Inc.{n}Goichi Suda{n}{n}Tetsuya Nakazawa{n}Kazuhisa Watanabe"
  },
  {
   "id": "2178_057",
   "hdr": "00000000",
   "jp": "今井{sp}紀男{n}松村{sp}卓",
-  "en": ""
+  "en": "Norio Imai{n}Taku Matsumura"
  },
  {
   "id": "2178_058",
   "hdr": "00000000",
   "jp": "デバッグ{n}ポールトゥウィン株式会社{n}田中{sp}一穂{n}蛯原{sp}有紀{n}生田{sp}学{n}川崎{sp}一人",
-  "en": ""
+  "en": "Debug{n}Pole To Win Co., Ltd.{n}Kazuho Tanaka{n}Yuki Ebihara{n}Manabu Ikuta{n}Kazuto Kawasaki"
  },
  {
   "id": "2178_059",
   "hdr": "00000000",
   "jp": "ベック品質管理室{n}チームリーダー{n}柳沼{sp}聡",
-  "en": ""
+  "en": "Bec Quality Control{n}Team Leader{n}Satoshi Yaginuma"
  },
  {
   "id": "2178_060",
   "hdr": "00000000",
   "jp": "中川{sp}伸一{n}石井{sp}大樹{n}山{k4EE}{sp}なぎさ{n}中谷{sp}奈津美",
-  "en": ""
+  "en": "Shinichi Nakagawa{n}Daiki Ishii{n}Nagisa Yamazaki{n}Natsumi Nakatani"
  },
  {
   "id": "2178_061",
   "hdr": "00000000",
   "jp": "米川{sp}千秋{n}船木{sp}信宏{n}國田{sp}一勧{n}濱井{sp}翔",
-  "en": ""
+  "en": "Chiaki Yonekawa{n}Nobuhiro Funaki{n}Kazuyuki Kunida{n}Sho Hamai"
  },
  {
   "id": "2178_062",
   "hdr": "00000000",
   "jp": "マニュアルデザイン{n}株式会社レイアップ",
-  "en": ""
+  "en": "Manual Design{n}Layup Co., Ltd."
  },
  {
   "id": "2178_063",
   "hdr": "00000000",
   "jp": "宇都宮{sp}千秋{n}齋藤{sp}由紀子{n}中村{sp}憲二{n}日向野{sp}知恵{n}森川{sp}敦",
-  "en": ""
+  "en": "Chiaki Utsunomiya{n}Yukiko Saito{n}Kenji Nakamura{n}Chie Higano{n}Atsushi Morikawa"
  },
  {
   "id": "2178_064",
   "hdr": "00000000",
   "jp": "制作/企画{n}株式会社ベック",
-  "en": ""
+  "en": "Production / Planning{n}Bec Co., Ltd."
  },
  {
   "id": "2178_065",
   "hdr": "00000000",
   "jp": "ディレクター•企画原案{n}芝村{sp}裕吏",
-  "en": ""
+  "en": "Director / Original Concept{n}Yuri Shibamura"
  },
  {
   "id": "2178_066",
   "hdr": "00000000",
   "jp": "プロデューサー{n}山本{sp}恵里香",
-  "en": ""
+  "en": "Producer{n}Erika Yamamoto"
  },
  {
   "id": "2178_067",
   "hdr": "00000000",
   "jp": "エグゼクティブプロデューサー{n}岡本{sp}吉弘{n}富岡{sp}英明",
-  "en": ""
+  "en": "Executive Producers{n}Yoshihiro Okamoto{n}Hideaki Tomioka"
  },
  {
   "id": "2178_068",
   "hdr": "00000000",
   "jp": "製作{n}株式会社バンダイナムコゲームス",
-  "en": ""
+  "en": "Production{n}Bandai Namco Games Inc."
  },
  {
   "id": "2178_069",
   "hdr": "00000000",
   "jp": "セールスプロモーション{n}西澤{sp}冬樹{n}古田{sp}真美{n}星合{sp}真樹{n}山崎{sp}秀之{n}山崎{sp}翔也",
-  "en": ""
+  "en": "Sales Promotion{n}Fuyuki Nishizawa{n}Mami Furuta{n}Maki Hoshiai{n}Hideyuki Yamazaki{n}Shoya Yamazaki"
  },
  {
   "id": "2178_070",
   "hdr": "00000000",
   "jp": "パブリシティプロモーション{n}渡辺{sp}浩孝{n}安子{sp}大樹{n}森山{sp}愛子",
-  "en": ""
+  "en": "Publicity Promotion{n}Hirotaka Watanabe{n}Daiki Yasuko{n}Aiko Moriyama"
  },
  {
   "id": "2178_071",
   "hdr": "00000000",
   "jp": "プロデューサー{n}原田{sp}真史{n}南條{sp}智輝",
-  "en": ""
+  "en": "Producers{n}Masashi Harada{n}Tomoki Nanjo"
  },
  {
   "id": "2178_072",
   "hdr": "00000000",
   "jp": "プロダクトマネージャー{n}今西{sp}智明{n}新藤{sp}貴行{n}石田{sp}実緒{n}三戸{sp}亮",
-  "en": ""
+  "en": "Product Managers{n}Tomoaki Imanishi{n}Takayuki Shindo{n}Mio Ishida{n}Ryo Mito"
  },
  {
   "id": "2178_073",
   "hdr": "00000000",
   "jp": "エグゼクティブプロデューサー{n}鵜之澤{sp}伸{n}澤田{sp}悦己",
-  "en": ""
+  "en": "Executive Producers{n}Shin Unozawa{n}Etsumi Sawada"
  },
  {
   "id": "2178_074",
   "hdr": "00000000",
   "jp": "Produced{sp}by{n}株式会社バンダイナムコゲームス",
-  "en": ""
+  "en": "Produced by{n}Bandai Namco Games Inc."
  }
 ]

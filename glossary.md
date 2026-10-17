@@ -162,6 +162,10 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 
 | JP | EN | source | notes | Avoid |
 |---|---|---|---|---|
+| えいへい / 兵 | (guide) guard(s) | game | palace guards; えいへいバトル = Guard Battle (b000) | |
+| 王子 | (guide) Prince Endon / Your Highness | novel | (b000) | |
+| 城 | (guide) the palace | novel | Del's castle is "the palace" (b001) | Del Castle |
+| うば | (guide) nurse | novel | Endon's nurse Min (b001) | |
 | ベルト / デルトラのベルト | the Belt / the Belt of Deltora | novel | | Deltora's belt |
 | 宝石 / 七つの宝石 | gem(s) / the seven gems | novel | | jewels |
 | トパーズ | topaz | novel | せいじつ = faithfulness (novel symbol) | Topazu |
@@ -173,7 +177,7 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | ダイアモンド | diamond | novel | purity and strength | Daiamondo |
 | ユリ / 百合の蜜 / ユリのミツ / ミツ | the Lilies of Life / nectar of the Lilies of Life / nectar | novel | | lily honey |
 | ブーロン | Boolong | novel | ブーロンの実 = Boolong fruit | Buuron |
-| ブーロンの皮の盾 / たて | Boolong-Skin Shield | game | | |
+| ブーロンの皮の盾 | Boolong-Skin Shield | game | bare たて / 盾 = shield | |
 | 女王バチ | Queen Bee | novel | brand name | |
 | 女王バチのアップルドリンク | Queen Bee juice | novel | 立ち入り禁止 sign = "Queen Bee juice - Keep out" | apple drink |
 | アップルドリンク | Queen Bee Juice | novel | item-list name; ? could be plain "Apple Juice" for the mixable item | |

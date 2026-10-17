@@ -53,7 +53,12 @@ Never edit `glossary.md` or any file but your output. For a recurring name or te
 use it consistently, and report it.
 
 ## Notes from earlier batches
-(none yet)
+- A line whose Japanese is empty: write the id alone on its line (no tab needed); it stays empty.
+- The glossary check matches whole words; if it still flags a false hit, report it as `UNSURE: id - false glossary
+  hit <term>` and leave the line as is (the controller fixes the checker).
+- Japanese written backwards (signs like 『！いなぶあ　！んけき』) = backwards English, keep it readable ("!regnaD").
+- Staff credits (2178): company names in their official English forms (e.g. "Bandai Namco Games Inc."); person
+  names in Western order, readings you can't verify marked UNSURE.
 
 ## Report (reply with only this)
 Files written and entry count; then any lines: `NEW TERM: jp -> en`, `UNSURE: id - note`, `LONG: id - note`.

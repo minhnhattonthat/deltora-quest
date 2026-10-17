@@ -6,8 +6,8 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
 
 | # | Element | Japanese | Where | Source guess | State |
 |---|---|---|---|---|---|
-| G1 | logo katakana above QUEST | デルトラクエスト | top screen, title and every story screen | logo bitmap (RGCN) | todo: redraw or remove |
-| G2 | logo subtitle | 7つの宝石 | top screen, under DELTORA | logo bitmap | todo: "The Seven Gems" |
+| G1 | logo katakana above QUEST | デルトラクエスト | top screen (sub BG), title and every story screen | FILEDATA 465 (RGCN, 767 tiles; vramfind exact match at sub-BG VRAM 0x06200020, work/qa/tag) | todo: redraw or remove |
+| G2 | logo subtitle | 7つの宝石 | top screen, under DELTORA | FILEDATA 465 (same) | todo: "The Seven Gems" |
 | G3 | copyright line | (C)2006 デルトラクエスト製作委員会・テレビ愛知 (C)2007 NBGI | title, top | graphic (grey, antialiased) | todo: translate (legal line) |
 | G4 | yes / no labels | はい / いいえ | entry-card confirm, above the two Lief portraits | font-styled but no script string has them: sprite in the font's look? | check: VRAM/OAM dump |
 | G5 | speaker name tags | リーフ, バルダ, ジャード, ... | dialogue box top edge (cyan) | one graphic per speaker, chosen by header | todo: list every speaker tag (all chapters) |

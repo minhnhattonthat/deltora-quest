@@ -107,14 +107,31 @@ def fit(s, portrait):
             print(f"page {i + 1}: {len(pg)} lines > {lint.PORTRAIT_LINES} (dialogue box)")
 
 
+KATA = re.compile(r"[ァ-ヺー・•]")
+HIRA = re.compile(r"[ぁ-ゖ]")
+
+
+def has_word(jp, term):
+    """term occurs in jp as a word: a katakana term not inside a longer katakana word (ミン in タイミング), a hiragana
+    term not right after other hiragana (くも in ぼくも; particles may follow)."""
+    for m in re.finditer(re.escape(term), jp):
+        before = jp[m.start() - 1:m.start()]
+        after = jp[m.end():m.end() + 1]
+        if KATA.match(term[0]) and (KATA.match(before or " ") or KATA.match(term[-1]) and KATA.match(after or " ")):
+            continue
+        if HIRA.match(term[0]) and HIRA.match(before or " "):
+            continue
+        return True
+    return False
+
+
 def read_out(name):
     out = {}
     for n, line in enumerate((DIR / f"{name}.out.tsv").read_text(encoding="utf-8").splitlines(), 1):
         if not line.strip():
             continue
-        if "\t" not in line:
-            raise ValueError(f"line {n}: no tab")
-        i, en = line.split("\t", 1)
+        i, _, en = line.partition("\t")  # an id alone = empty English (the Japanese line is empty too)
+        i = i.strip()
         if i in out:
             raise ValueError(f"line {n}: duplicate id {i}")
         out[i] = en
@@ -137,6 +154,8 @@ def check(name):
     for i, en in out.items():
         if i not in ents:
             continue
+        if not en and ents[i]["jp"]:
+            errs.append(f"{i}: no English")
         if not en.isascii() or "\\" in en or "\t" in en:
             errs.append(f"{i}: non-ASCII, backslash or tab (use {{n}} for breaks, plain ASCII)")
         e = dict(ents[i], **{text.LANG: en})
@@ -153,7 +172,7 @@ def check(name):
                 jps = []  # common nouns may become pronouns ("set them in..."): enforce proper nouns only
             for k, alt in enumerate(jps):
                 need = [forms[k]] if len(jps) == len(forms) else forms  # same count: alternatives pair up
-                if alt in e["jp"] and not any(x in en.lower() for x in need):
+                if has_word(e["jp"], alt) and not any(x in en.lower() for x in need):
                     errs.append(f"{i}: glossary: JP has {alt}, EN lacks '{' / '.join(need)}'")
                     break
             for av in avoid:
