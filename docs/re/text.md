@@ -24,3 +24,14 @@
 - FILEDATA **506**: RGCN 4bpp, 256 px wide (32 tiles), 1280 cells of 16x16 (2x2 tiles), cell index = code.
   Glyphs ~12x14 px with a 1 px outline. Pixel values 1-4 fill (shaded), E/F outline. 509 is another copy.
 - `tools/font.py` reads cells; `tools/font_sheet.py` makes labelled sheets.
+- Resident in RAM at 0x022687A8 (file header) on the entry-card screen.
+
+## Renderer (verified: font-read watch at the "new adventure" prompt, work/qa/fontread; guess for the details)
+- arm9 0x0204DC00-0x0204E004: one function draws a whole u16 string (buffer [sb+0x20], length [sb+0x24]) into a
+  bitmap, pixel by pixel through 0x0204E0AC (putpixel). Font base from 0x021DDF34 (+0x14 or +0x20: two fonts).
+- Per glyph: 64 iterations x 4 quadrant reads (+0, +0x20, +0x400, +0x420 = the 2x2 tiles), fill values 1-4 recoloured.
+- **Pen X is a pixel counter** ([sp+0x18]); after each glyph `ldr r1,[sb,#0x40]; add` at 0x0204DFCC advances by a
+  fixed pitch. `{sp}` (FFF4) advances by pitch/2 (0x0204DDAC). So a VWF = per-glyph width lookup at 0x0204DFCC.
+- Negative codes (FFF4-FFFF) go through a jump table at 0x0204DD14 (code+12).
+- 0x0204D9C4 is called with the remaining string to get the start X: likely a line-width (centering) function that
+  also counts fixed pitch; it must use the same widths.
