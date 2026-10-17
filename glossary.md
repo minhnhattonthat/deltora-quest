@@ -1,13 +1,13 @@
-# Glossary - <Game title>
+# Glossary - Deltora Quest: 7-tsu no Houseki
 
 Binding for every translator and reviewer. Agents propose additions in reports; only the controller edits this file.
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
-- Honorifics: <kept, hyphenated (Johannes-san) | dropped>. Name order: <JP | Western>.
-- Romanisation source: <official art / anime / Hepburn>.
-- Credits: <stay kanji | English>.
+- Honorifics: dropped. Name order: Western.
+- Name source: the English Deltora Quest novels (Emily Rodda); anime-only terms: English dub, then Hepburn.
+- Credits: English (names romanized, roles translated).
 - Register / flavour: <e.g. keep light JP flavour>. Sound effects: <*Slam!*>.
-- Abbreviations: <default: full names and terms everywhere, prefer engine changes over shortening>.
+- Abbreviations: none; full names and terms everywhere, prefer engine changes over shortening.
 
 ## Style rules
 - Punctuation map: 「」 -> "...", 『』 -> '...', ・・・ -> ..., ！？ -> !?, <more>.

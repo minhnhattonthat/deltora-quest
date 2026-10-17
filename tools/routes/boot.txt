@@ -1,0 +1,6 @@
+# Cold boot to the title menu: logos, intro movie (only a touch skips it), "touch the screen" prompt.
+900 -
+8 t128,96
+300 -
+8 t128,96
+300 -

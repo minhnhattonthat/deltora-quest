@@ -8,6 +8,7 @@ __pycache__/
 tools/*/
 !tools/routes/
 !tools/debug/
+!tools/emu-config/
 *.sfc
 *.smc
 *.gba
@@ -25,4 +26,6 @@ tools/*/
 *.mss
 *.sstate
 *.ppst
+*.dst
+*.dsv
 evidence/private/
