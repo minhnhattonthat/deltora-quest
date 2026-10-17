@@ -78,7 +78,7 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | トーラ族の人々 | the people of Tora | novel | | Toora tribe |
 | ファロー | Fallow | novel | Ol, Prandine's successor | Faroo, Pharaoh, Farrow |
 | トム | Tom | novel | shopkeeper; sign reads "TOM" | Tomu |
-| モキート | Mokito | game | Magic House master (モキート様 = Mokito) | Mokiito, Mosquito |
+| モキート | Mokito | game | Magic House master; his maid Mikita says モキート様 = "Master Mokito" | Mokiito, Mosquito |
 | ミキータ | Mikita | game | Mokito's maid | Mikiita |
 | ジャック | Jack | game | old farmer, Grand Farm | Jakku |
 | ララド族 | the Ralads | novel | | Rarado, Ralado |
@@ -166,6 +166,16 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | 王子 | (guide) Prince Endon / Your Highness | novel | (b000) | |
 | 城 | (guide) the palace | novel | Del's castle is "the palace" (b001) | Del Castle |
 | うば | (guide) nurse | novel | Endon's nurse Min (b001) | |
+| 【生】のカード / 【死】のカード | the Life card / the Death card | game | brackets dropped (b007) | |
+| 聖なる | (guide) holy | game | Noradz: holy kitchen / holy law / holy food / holy rules of eating (b007, b008) | sacred |
+| 赤い服 | (guide) red robes | novel | Noradz (b007) | |
+| 当番 | (guide) kitchen duty | game | (b007) | |
+| カン | (guide) instincts / a hunch | game | (b007) | |
+| たいくつしのぎ | (guide) a cure for boredom | game | Mokito (b004) | |
+| 3つのまちがい | 3 Mistakes | game | quiz title (b004) | |
+| デルトラの書 | the Book of Deltora | game | the booklet about the Belt (b006; 2188, 2199) | |
+| 王かん | (guide) crown | game | Reeah's crown (b008) | |
+| バルダおじさん | Uncle Barda | game | Jasmine teasing (b008) | |
 | ベルト / デルトラのベルト | the Belt / the Belt of Deltora | novel | | Deltora's belt |
 | 宝石 / 七つの宝石 | gem(s) / the seven gems | novel | | jewels |
 | トパーズ | topaz | novel | せいじつ = faithfulness (novel symbol) | Topazu |

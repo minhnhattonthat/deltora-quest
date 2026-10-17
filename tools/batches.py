@@ -61,6 +61,14 @@ def glossary_rows():
     return rows
 
 
+def glossary_exceptions():
+    """{(id, JP term)} the controller cleared after a false hit (glossary_exceptions.tsv: id<TAB>term<TAB>why)."""
+    path = ROOT / "glossary_exceptions.tsv"
+    if not path.exists():
+        return set()
+    return {tuple(l.split("\t")[:2]) for l in path.read_text(encoding="utf-8").splitlines() if l and not l.startswith("#")}
+
+
 def all_entries():
     return {e["id"]: e for rows in text.load_script().values() for e in rows}
 
@@ -150,7 +158,7 @@ def check(name):
     if missing or extra:
         errs.append(f"ids: missing {sorted(missing)[:5]} extra {sorted(extra)[:5]}")
     _, adv = fontgen.apply(text.rom_files()[fontgen.FONTS[0]])
-    t, gl = text.table("en"), glossary_rows()
+    t, gl, ok = text.table("en"), glossary_rows(), glossary_exceptions()
     for i, en in out.items():
         if i not in ents:
             continue
@@ -167,12 +175,13 @@ def check(name):
             # cells may list alternatives: "バルダ / バルダァ" | "Jin / Jod / Jin and Jod"
             forms = [re.sub(r"^(the|a|an) ", "", x.strip(), flags=re.I).replace("(s)", "").lower()
                      for x in gen.split("/")]
+            forms = [f[:-1] if f.endswith("s") and len(f) > 3 else f for f in forms]  # "Ralads" also accepts "Ralad"
             jps = [x.strip() for x in j.split(" / ")]
             if not re.sub(r"^(the|a|an) ", "", gen.strip(), flags=re.I)[:1].isupper():
                 jps = []  # common nouns may become pronouns ("set them in..."): enforce proper nouns only
             for k, alt in enumerate(jps):
                 need = [forms[k]] if len(jps) == len(forms) else forms  # same count: alternatives pair up
-                if has_word(e["jp"], alt) and not any(x in en.lower() for x in need):
+                if has_word(e["jp"], alt) and not any(x in en.lower() for x in need) and (i, alt) not in ok:
                     errs.append(f"{i}: glossary: JP has {alt}, EN lacks '{' / '.join(need)}'")
                     break
             for av in avoid:

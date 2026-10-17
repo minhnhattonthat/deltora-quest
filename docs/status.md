@@ -2,19 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 (engine spike done; width gate next). Phases 1-4 done except: graphics-text survey (phase 1) and
-  story/chapter warps (phase 2). Last build: `build/deltora_marker.nds` (2026-10-18), boots, smoke ok.
-- **Done:** repo + guardrails; LF2 archive + byte-identical ROM rebuild; text found (FILEDATA 2178-2200, 3,665
-  lines) with exact roundtrip; kanji table (684 used codes read from the font by eye + context review); route-based
-  scene warps + state regen; in-game text viewer (`tools/debug/show.py`); VWF in ITCM + project-drawn English font;
-  marker build (`tools/build.py --marker`).
+- **Phase:** 6 (translation). Pilot (mine + 3 agent batches b000-b002, 417 lines) reviewed, fixed, merged.
+  Wave 2 (b003-b008) dispatched 2026-10-18; batches b003-b031 split in work/batches (regenerate with
+  `tools/batches.py split` if work/ was lost: only untranslated lines are split).
+- **Done:** repo + guardrails; identity rebuild; text extraction + kanji table; debug tool (route scenes, stage and
+  event warps: chapters 1-8, tower, world map, smithy, cutscene; text viewer); VWF + English font; width gate
+  (portrait box 2 lines x 240 px; narration centred 240 px); lint; graphics survey (docs/re/graphics.md);
+  glossary (novel names), synopsis, briefs, style reference.
 - **Next:**
-  1. Width gate: measure each window type with the marker build / text viewer (portrait dialogue, narration over
-     pictures, top-screen prompts, title button, はじめから panel, name tags, menus, item lists) -> budgets in
-     docs/re/windows.md + a px-width lint using fontgen advances.
-  2. Graphics-text survey (docs/re/graphics.md): title logo subtitle 7つの宝石, (C) line, はい/いいえ labels,
-     book cover, chapter cards, menus seen in the marker build that stayed Japanese.
-  3. Story warps: map story-progress RAM / event dispatcher; add chapter, world map, shop, battle, ending entries.
-  4. Glossary from the novels (characters, places, gems, monsters), then translation batches.
-- **Open bugs:** text viewer leaves a garbage blob at bottom-right for a long injected line (2193_030), debug only.
-- **Waiting on the user:** none.
+  1. Translation waves b009-b031: dispatch "Read docs/translator-brief.md and follow it for batch bNNN", then
+     `tools/batches.py merge bNNN`, reviewer per batch (docs/reviewer-brief.md, sonnet), fix Critical/Important,
+     defer Minor to docs/polish-todo.md. Merge NEW TERMs into glossary.md between waves.
+  2. Graphics (phase 7/8): logo FILEDATA 465 (G1/G2), copyright line (G3), はい/いいえ (G4: check), speaker name
+     tags (G5). Find menus/shop/game over/staff roll scenes and survey them.
+  3. QA tours on the English build per chapter (warp scenes), visual-QA gate, then release tooling (xdelta).
+- **Open bugs / questions:**
+  - D7: game-renamed characters (ルーカス/スカール = Steven/Nevets?) provisionally given novel names: ask the user.
+  - Credits: company アウディオ English name and several staff-name readings unverified (docs/polish-todo.md).
+  - Unverified novel spellings in glossary rows marked `?` (Elstedd, ...).
+- **Waiting on the user:** D7.

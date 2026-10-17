@@ -3,1716 +3,1716 @@
   "id": "2183_000",
   "hdr": "00000500",
   "jp": "父さん、あぶなかったです。{n}{n}ララド族がとてもよくしてくれたので{n}ぼくたちは{sp}なかなか旅にもどる事が{n}できませんでした。",
-  "en": ""
+  "en": "Father, that was a close call.{n}{n}The Ralads were so kind to us{n}that we found it hard{n}to get back on the road."
  },
  {
   "id": "2183_001",
   "hdr": "00000500",
   "jp": "でも、少し時間がたってしまったけど{n}なんとかこうして旅にもどりました。{n}{n}次に目指すのは『ラットシティ』です。{n}どんなところなのでしょうか。{n}ララディンのようなところだと{n}いいんだけど……",
-  "en": ""
+  "en": "It took a while, but somehow{n}we are back on our journey.{n}{n}Next we head for the City of the Rats.{n}What kind of place will it be?{n}I hope it's somewhere{n}like Raladin..."
  },
  {
   "id": "2183_002",
   "hdr": "1103030C",
   "jp": "ねえ……わたしたちつけられてるみたい",
-  "en": ""
+  "en": "Hey... I think we're being followed."
  },
  {
   "id": "2183_003",
   "hdr": "09030208",
   "jp": "なんだ？{sp}また{sp}おとくいの{sp}カンか？",
-  "en": ""
+  "en": "What? Another one{n}of your famous hunches?"
  },
  {
   "id": "2183_004",
   "hdr": "01810104",
   "jp": "バルダ、ジャスミンのカンは当たるよ",
-  "en": ""
+  "en": "Barda, Jasmine's hunches{n}are always right."
  },
  {
   "id": "2183_005",
   "hdr": "0B030208",
   "jp": "わかっているが……{n}他人のカンにたよるのはどうも……",
-  "en": ""
+  "en": "I know, but... trusting someone{n}else's hunch doesn't sit well with me..."
  },
  {
   "id": "2183_006",
   "hdr": "1203030C",
   "jp": "あー、固い固い",
-  "en": ""
+  "en": "Ugh, you're so stiff!"
  },
  {
   "id": "2183_007",
   "hdr": "03810104",
   "jp": "もう行こうよ",
-  "en": ""
+  "en": "Come on, let's go."
  },
  {
   "id": "2183_008",
   "hdr": "1281030C",
   "jp": "こいつらよ！{n}わたしたちを{sp}つけていたのは！",
-  "en": ""
+  "en": "It's them!{n}They're the ones who were following us!"
  },
  {
   "id": "2183_009",
   "hdr": "0A810208",
   "jp": "そんな{sp}まどろっこしい事しないで{n}とっとと{sp}かかってきやがれ！",
-  "en": ""
+  "en": "Quit sneaking around{n}and come at us already!"
  },
  {
   "id": "2183_010",
   "hdr": "02810104",
   "jp": "バルダ！{sp}手強そうだよ！",
-  "en": ""
+  "en": "Barda! They look tough!"
  },
  {
   "id": "2183_011",
   "hdr": "1281030C",
   "jp": "うん、にげましょう！",
-  "en": ""
+  "en": "Yes, let's run!"
  },
  {
   "id": "2183_012",
   "hdr": "02810104",
   "jp": "バルダ、さあ！",
-  "en": ""
+  "en": "Barda, come on!"
  },
  {
   "id": "2183_013",
   "hdr": "09810208",
   "jp": "な？{sp}にげられない{sp}うんめいさ",
-  "en": ""
+  "en": "See? We were never{n}meant to run away."
  },
  {
   "id": "2183_014",
   "hdr": "02030104",
   "jp": "まだ{sp}たくさんいるぞ！",
-  "en": ""
+  "en": "There are lots more of them!"
  },
  {
   "id": "2183_015",
   "hdr": "0A810208",
   "jp": "しかたがない、にげるぞ！",
-  "en": ""
+  "en": "No choice. Run!"
  },
  {
   "id": "2183_016",
   "hdr": "03030104",
   "jp": "(かってな事を……)",
-  "en": ""
+  "en": "(Now he says that...)"
  },
  {
   "id": "2183_017",
   "hdr": "1281030C",
   "jp": "あっち！",
-  "en": ""
+  "en": "That way!"
  },
  {
   "id": "2183_018",
   "hdr": "03030104",
   "jp": "行き止まりだ……",
-  "en": ""
+  "en": "It's a dead end..."
  },
  {
   "id": "2183_019",
   "hdr": "09810208",
   "jp": "こっちへ{sp}にげろと言ったのは{n}だれだったかな？",
-  "en": ""
+  "en": "And who was it{n}that said to run this way?"
  },
  {
   "id": "2183_020",
   "hdr": "1203030C",
   "jp": "とりあえず{sp}にげられたじゃない",
-  "en": ""
+  "en": "Well, we got away, didn't we?"
  },
  {
   "id": "2183_021",
   "hdr": "03810104",
   "jp": "そうでもないみたい",
-  "en": ""
+  "en": "Not really, it looks like."
  },
  {
   "id": "2183_022",
   "hdr": "05810104",
   "jp": "うわーーーー！",
-  "en": ""
+  "en": "Waaaaaah!"
  },
  {
   "id": "2183_023",
   "hdr": "00000000",
   "jp": "気を失うと出会いがある。{n}そんな気がします。{n}いい出会いでありますように……",
-  "en": ""
+  "en": "Whenever I pass out,{n}I seem to meet someone new.{n}I hope this one is a good meeting..."
  },
  {
   "id": "2183_024",
   "hdr": "09810208",
   "jp": "……というわけで{sp}わたしたちは{n}ぐうぜん{sp}ここへ来てしまったのです{p}おさわがせして{sp}もうしわけありません{p}このむすめ、世間知らずゆえ{n}たいへんなしつれいをいたしました{p}どうか{sp}おゆるしください",
-  "en": ""
+  "en": "...And so, quite by accident,{n}we found ourselves here.{p}We are very sorry{n}for all the trouble.{p}The girl knows nothing of the world,{n}and she has been terribly rude.{p}Please forgive her."
  },
  {
   "id": "2183_025",
   "hdr": "0A810208",
   "jp": "ほら、ジャスミン！{n}おまえも{sp}あやまれ！",
-  "en": ""
+  "en": "Come on, Jasmine!{n}You say sorry too!"
  },
  {
   "id": "2183_026",
   "hdr": "1303030C",
   "jp": "……ごめんなさい",
-  "en": ""
+  "en": "...I'm sorry."
  },
  {
   "id": "2183_027",
   "hdr": "2801078C",
   "jp": "ふむ……世間知らずでは{n}しかたがないか……",
-  "en": ""
+  "en": "Hmm... If she knows nothing{n}of the world, it cannot be helped..."
  },
  {
   "id": "2183_028",
   "hdr": "0B810208",
   "jp": "ありがとうございます！",
-  "en": ""
+  "en": "Thank you, sir!"
  },
  {
   "id": "2183_029",
   "hdr": "09810208",
   "jp": "さて、われわれは{n}しつれいしなくては……",
-  "en": ""
+  "en": "Well, we must be{n}taking our leave..."
  },
  {
   "id": "2183_030",
   "hdr": "2801078C",
   "jp": "食事の用意ができている。{n}食べて行くがよい{p}食べものをムダにする事は{n}ゆるされないのだ",
-  "en": ""
+  "en": "A meal has been prepared.{n}Eat before you go.{p}Wasting food{n}is not permitted."
  },
  {
   "id": "2183_031",
   "hdr": "2801078C",
   "jp": "クリーン•チュルナイ！",
-  "en": ""
+  "en": "Clean Noradz!"
  },
  {
   "id": "2183_032",
   "hdr": "01810104",
   "jp": "ジャスミン、何をしたんだい？",
-  "en": ""
+  "en": "Jasmine, what did you do?"
  },
  {
   "id": "2183_033",
   "hdr": "1203030C",
   "jp": "おれいをしようと近づいたら{n}きたないから{sp}近よるなって言われたの",
-  "en": ""
+  "en": "I went up to thank him, and he said{n}I was dirty and not to come near!"
  },
  {
   "id": "2183_034",
   "hdr": "09810208",
   "jp": "ここのれんちゅうは……おかしい。{n}おそろしいほどの{sp}きれい好きのようだ",
-  "en": ""
+  "en": "The people here are... odd.{n}They're terribly fussy about being clean."
  },
  {
   "id": "2183_035",
   "hdr": "01810104",
   "jp": "さっさと{sp}ここを出た方が{n}よさそうだね",
-  "en": ""
+  "en": "We'd better get out{n}of here quickly."
  },
  {
   "id": "2183_036",
   "hdr": "09810208",
   "jp": "食事はどうする？",
-  "en": ""
+  "en": "What about the meal?"
  },
  {
   "id": "2183_037",
   "hdr": "1203030C",
   "jp": "もう、ここはイヤ。{n}こっそり出発よ！",
-  "en": ""
+  "en": "I hate it here.{n}Let's sneak out!"
  },
  {
   "id": "2183_038",
   "hdr": "2801078C",
   "jp": "さあ、食事の用意ができたぞ。{n}クリーン•チュルナイ！",
-  "en": ""
+  "en": "Now, your meal is ready.{n}Clean Noradz!"
  },
  {
   "id": "2183_039",
   "hdr": "09810208",
   "jp": "たしかに{sp}いごこちは良くないが……{n}しかたない、ごちそうになるか",
-  "en": ""
+  "en": "It's not exactly comfortable, but...{n}oh well, let's enjoy the feast."
  },
  {
   "id": "2183_040",
   "hdr": "01810104",
   "jp": "すごいごちそうだ……",
-  "en": ""
+  "en": "What a feast..."
  },
  {
   "id": "2183_041",
   "hdr": "09030208",
   "jp": "ああ、本当だ{p}こんなのは{sp}ずいぶんむかし……{p}そう、城の兵士だったころに{n}食べたきりだぞ",
-  "en": ""
+  "en": "It truly is.{p}I haven't eaten like this{n}in a long, long time...{p}not since I was{n}a soldier at the palace."
  },
  {
   "id": "2183_042",
   "hdr": "28010000",
   "jp": "ガッシャーン！",
-  "en": ""
+  "en": "*CRASH!*"
  },
  {
   "id": "2183_043",
   "hdr": "1103030C",
   "jp": "な、なに！？",
-  "en": ""
+  "en": "Wh-what?!"
  },
  {
   "id": "2183_044",
   "hdr": "30810848",
   "jp": "ご、ごめんなさい！{n}手がすべってしまって……",
-  "en": ""
+  "en": "I-I'm sorry!{n}My hand slipped..."
  },
  {
   "id": "2183_045",
   "hdr": "28010790",
   "jp": "ティラが皿をおとした。{p}料理をムダにし、皿をわり、{n}床をよごした{p}これは死刑(しけい)にあたいする",
-  "en": ""
+  "en": "Tira has dropped a plate.{p}She has wasted food, broken a plate{n}and soiled the floor.{p}For this, the penalty is death."
  },
  {
   "id": "2183_046",
   "hdr": "1203030C",
   "jp": "ひどいわ！",
-  "en": ""
+  "en": "That's cruel!"
  },
  {
   "id": "2183_047",
   "hdr": "02810104",
   "jp": "(そうだよ、そんなバカな！)",
-  "en": ""
+  "en": "(Exactly! That's absurd!)"
  },
  {
   "id": "2183_048",
   "hdr": "28010790",
   "jp": "われわれの{sp}聖なる法に{n}ケチをつけるのは{sp}だれだ？",
-  "en": ""
+  "en": "Who dares find fault{n}with our holy law?"
  },
  {
   "id": "2183_049",
   "hdr": "09030208",
   "jp": "いや、そんなつもりは……",
-  "en": ""
+  "en": "No, we didn't mean..."
  },
  {
   "id": "2183_050",
   "hdr": "02810104",
   "jp": "ケチをつけてるんじゃない。{n}まちがいを正しているだけだ",
-  "en": ""
+  "en": "I'm not finding fault.{n}I'm only correcting a mistake."
  },
  {
   "id": "2183_051",
   "hdr": "02810104",
   "jp": "皿をわったのはぼく。{n}ティラじゃない",
-  "en": ""
+  "en": "I'm the one who broke the plate.{n}Not Tira."
  },
  {
   "id": "2183_052",
   "hdr": "1103030C",
   "jp": "リーフ！？",
-  "en": ""
+  "en": "Lief?!"
  },
  {
   "id": "2183_053",
   "hdr": "28010790",
   "jp": "ティラ、そうなのか？",
-  "en": ""
+  "en": "Tira, is this so?"
  },
  {
   "id": "2183_054",
   "hdr": "30810848",
   "jp": "……あの……",
-  "en": ""
+  "en": "...Um..."
  },
  {
   "id": "2183_055",
   "hdr": "02810104",
   "jp": "ぼくが{sp}やったと言ってるじゃないか！",
-  "en": ""
+  "en": "I'm telling you, I did it!"
  },
  {
   "id": "2183_056",
   "hdr": "28010790",
   "jp": "ほう……",
-  "en": ""
+  "en": "Well, well..."
  },
  {
   "id": "2183_057",
   "hdr": "28010790",
   "jp": "われわれ{sp}チュルナイせいじょういいん会は{n}この{sp}さわぎは{sp}おまえ……",
-  "en": ""
+  "en": "We, the Noradz Purity Committee,{n}find that this disturbance is your..."
  },
  {
   "id": "2183_058",
   "hdr": "02810104",
   "jp": "リーフだ",
-  "en": ""
+  "en": "It's Lief."
  },
  {
   "id": "2183_059",
   "hdr": "28010790",
   "jp": "リーフと仲間たちの{n}つみであるとみとめる",
-  "en": ""
+  "en": "...the crime of Lief and his companions."
  },
  {
   "id": "2183_060",
   "hdr": "02810104",
   "jp": "バルダたちは{sp}かんけいない！",
-  "en": ""
+  "en": "Barda and the others have{n}nothing to do with it!"
  },
  {
   "id": "2183_061",
   "hdr": "0A030208",
   "jp": "いったいどうするつもりだ！",
-  "en": ""
+  "en": "What are you going to do with us?!"
  },
  {
   "id": "2183_062",
   "hdr": "28010790",
   "jp": "おまえたちは{sp}よそ者{p}われわれは{sp}よそ者を{sp}そのまま{n}しょけいするほど{sp}きびしくはない{p}自分の未来は{sp}自分で{sp}きめるがよい",
-  "en": ""
+  "en": "You are outsiders.{p}We are not so harsh that we put{n}outsiders to death without a chance.{p}You may decide your own fate."
  },
  {
   "id": "2183_063",
   "hdr": "28010790",
   "jp": "ここにカードが2枚ある{p}【生】のカードを引けば一生ろう屋。{n}【死】のカードを引けば……",
-  "en": ""
+  "en": "Here are two cards.{p}Draw the Life card: prison for life.{n}Draw the Death card, and..."
  },
  {
   "id": "2183_064",
   "hdr": "01810104",
   "jp": "わかった",
-  "en": ""
+  "en": "All right."
  },
  {
   "id": "2183_065",
   "hdr": "09030208",
   "jp": "おい、リーフ",
-  "en": ""
+  "en": "Hey, Lief."
  },
  {
   "id": "2183_066",
   "hdr": "1203030C",
   "jp": "わたしがやるわ！{p}一生ろう屋ぐらしか{sp}死刑よ？{n}わたしのカンを信じなさい！",
-  "en": ""
+  "en": "I'll do it!{p}It's life in prison or death, right?{n}Trust my instincts!"
  },
  {
   "id": "2183_067",
   "hdr": "02810104",
   "jp": "ジャスミン！",
-  "en": ""
+  "en": "Jasmine!"
  },
  {
   "id": "2183_068",
   "hdr": "1203030C",
   "jp": "だまってて！",
-  "en": ""
+  "en": "Be quiet!"
  },
  {
   "id": "2183_069",
   "hdr": "30810848",
   "jp": "(わたしのせいで……ごめんなさい)",
-  "en": ""
+  "en": "(This is all my fault... I'm sorry.)"
  },
  {
   "id": "2183_070",
   "hdr": "01810104",
   "jp": "(しかたがないよ。{n}今は{sp}ジャスミンのカンを信じるしかない)",
-  "en": ""
+  "en": "(It can't be helped. All we can do{n}now is trust Jasmine's instincts.)"
  },
  {
   "id": "2183_071",
   "hdr": "30810848",
   "jp": "(ちがうの。{n}カードは2枚とも【死】なの)",
-  "en": ""
+  "en": "(That's not it.{n}Both cards say Death.)"
  },
  {
   "id": "2183_072",
   "hdr": "02810104",
   "jp": "(なんだって！？)",
-  "en": ""
+  "en": "(What?!)"
  },
  {
   "id": "2183_073",
   "hdr": "00000000",
   "jp": "父さん、どうしよう。{n}どっちのカードを引いても{n}ぼくたちは死刑になってしまう……",
-  "en": ""
+  "en": "Father, what can I do?{n}Whichever card we draw,{n}we will be put to death..."
  },
  {
   "id": "2183_074",
   "hdr": "00000000",
   "jp": "2枚とも死……2枚とも死のカード……",
-  "en": ""
+  "en": "Both Death... Both cards are Death..."
  },
  {
   "id": "2183_075",
   "hdr": "28010790",
   "jp": "さっきのいきおいはどうした。{n}早くカードを引くんだ{p}うんめいを{sp}きめるカード。{n}1枚は【生】、1枚は【死】",
-  "en": ""
+  "en": "What happened to all that fire?{n}Hurry up and draw a card.{p}The card that decides your fate.{n}One is Life, one is Death."
  },
  {
   "id": "2183_076",
   "hdr": "01810104",
   "jp": "(そうか！)",
-  "en": ""
+  "en": "(That's it!)"
  },
  {
   "id": "2183_077",
   "hdr": "02810104",
   "jp": "やっぱりぼくが引く！",
-  "en": ""
+  "en": "On second thought, I'll draw!"
  },
  {
   "id": "2183_078",
   "hdr": "1203030C",
   "jp": "なにするのよ！",
-  "en": ""
+  "en": "What are you doing?!"
  },
  {
   "id": "2183_079",
   "hdr": "02810104",
   "jp": "まかせてくれ！",
-  "en": ""
+  "en": "Leave it to me!"
  },
  {
   "id": "2183_080",
   "hdr": "1203030C",
   "jp": "やめてよ！",
-  "en": ""
+  "en": "Stop it!"
  },
  {
   "id": "2183_081",
   "hdr": "28010600",
   "jp": "あっ！",
-  "en": ""
+  "en": "Ah!"
  },
  {
   "id": "2183_082",
   "hdr": "28010790",
   "jp": "なんという事を！",
-  "en": ""
+  "en": "What have you done?!"
  },
  {
   "id": "2183_083",
   "hdr": "01810104",
   "jp": "だいじょうぶです{p}中に残っているカードを見れば{n}ぼくが引いたカードがわかります",
-  "en": ""
+  "en": "It's all right.{p}Just look at the card left inside,{n}and you'll know which one I drew."
  },
  {
   "id": "2183_084",
   "hdr": "01810104",
   "jp": "【死】のカードです{p}つまりぼくが引いたのは……",
-  "en": ""
+  "en": "It's the Death card.{p}Which means the one I drew was..."
  },
  {
   "id": "2183_085",
   "hdr": "1103030C",
   "jp": "【生】のカードね",
-  "en": ""
+  "en": "The Life card!"
  },
  {
   "id": "2183_086",
   "hdr": "09810208",
   "jp": "なんとか死刑はのがれたな。{n}リーフのうんも{sp}たいしたものだ",
-  "en": ""
+  "en": "We escaped the death sentence somehow.{n}That's quite some luck, Lief."
  },
  {
   "id": "2183_087",
   "hdr": "1281030C",
   "jp": "わたしだって【生】を引けたはずよ",
-  "en": ""
+  "en": "I could have drawn Life too, you know."
  },
  {
   "id": "2183_088",
   "hdr": "01030104",
   "jp": "ちがうんだ。{n}カードは2枚とも【死】だった",
-  "en": ""
+  "en": "No, that's not it.{n}Both cards were Death."
  },
  {
   "id": "2183_089",
   "hdr": "1181030C",
   "jp": "え！？",
-  "en": ""
+  "en": "What?!"
  },
  {
   "id": "2183_090",
   "hdr": "01030104",
   "jp": "あいつらは{sp}ぼくたちを{n}死刑にするつもりだった{p}でも公平に見せかけるために{n}あんなものを用意したのさ",
-  "en": ""
+  "en": "They meant to put us to death{n}all along.{p}But to make it look fair,{n}they set up that trick."
  },
  {
   "id": "2183_091",
   "hdr": "0B810208",
   "jp": "なんと……",
-  "en": ""
+  "en": "Unbelievable..."
  },
  {
   "id": "2183_092",
   "hdr": "01030104",
   "jp": "このままじゃすまないだろうな",
-  "en": ""
+  "en": "They won't let this go, though."
  },
  {
   "id": "2183_093",
   "hdr": "30810848",
   "jp": "さあ、にげて",
-  "en": ""
+  "en": "Now, run."
  },
  {
   "id": "2183_094",
   "hdr": "0C030208",
   "jp": "助けてくれるのか！？",
-  "en": ""
+  "en": "You're helping us?!"
  },
  {
   "id": "2183_095",
   "hdr": "1281030C",
   "jp": "悪いけど……とうぜんよ",
-  "en": ""
+  "en": "Sorry, but... it's the least you can do."
  },
  {
   "id": "2183_096",
   "hdr": "03030104",
   "jp": "ジャスミン……",
-  "en": ""
+  "en": "Jasmine..."
  },
  {
   "id": "2183_097",
   "hdr": "30810848",
   "jp": "いいんです。そのとおりです",
-  "en": ""
+  "en": "It's all right. She's right."
  },
  {
   "id": "2183_098",
   "hdr": "30810848",
   "jp": "キャッ！{sp}ネズミ！",
-  "en": ""
+  "en": "Eek! A rat!"
  },
  {
   "id": "2183_099",
   "hdr": "1281030C",
   "jp": "しつれいね！{n}フィリはネズミなんかじゃないわよ！",
-  "en": ""
+  "en": "How rude!{n}Filli is NOT a rat!"
  },
  {
   "id": "2183_100",
   "hdr": "09030208",
   "jp": "なるほど……{n}これは使えるかもしれないぞ{p}ここのれんちゅうは度をすぎた{n}きれい好きだ{p}ネズミを見ればこんなふうに……",
-  "en": ""
+  "en": "I see...{n}This could be useful.{p}The folk here are far too fond{n}of cleanliness.{p}One look at a rat, and they act{n}just like this..."
  },
  {
   "id": "2183_101",
   "hdr": "1281030C",
   "jp": "フィリはネズミじゃない！",
-  "en": ""
+  "en": "Filli is not a rat!"
  },
  {
   "id": "2183_102",
   "hdr": "09030208",
   "jp": "まあ、細かい事は気にするな",
-  "en": ""
+  "en": "Now, now, never mind the details."
  },
  {
   "id": "2183_103",
   "hdr": "09030208",
   "jp": "ほら、フィリもやる気のようだ",
-  "en": ""
+  "en": "Look, Filli seems keen to help."
  },
  {
   "id": "2183_104",
   "hdr": "28010100",
   "jp": "うわ！{sp}ネズミだ！",
-  "en": ""
+  "en": "Aaah! A rat!"
  },
  {
   "id": "2183_105",
   "hdr": "28010100",
   "jp": "つかまえろ！",
-  "en": ""
+  "en": "Catch it!"
  },
  {
   "id": "2183_106",
   "hdr": "28010100",
   "jp": "おまえが{sp}つかまえろ！{n}よごれて死にたくない！",
-  "en": ""
+  "en": "You catch it!{n}I don't want to die dirty!"
  },
  {
   "id": "2183_107",
   "hdr": "0B030208",
   "jp": "しかし、なぜネズミを{n}これほどおそれるのだろう{p}たしかに{sp}よごれてはいるが……",
-  "en": ""
+  "en": "But why are they so terribly{n}afraid of rats?{p}Rats are dirty, true, but..."
  },
  {
   "id": "2183_108",
   "hdr": "1281030C",
   "jp": "バルダ！{sp}フィリは{sp}きたなくない！",
-  "en": ""
+  "en": "Barda! Filli is NOT dirty!"
  },
  {
   "id": "2183_109",
   "hdr": "09030208",
   "jp": "ああ{sp}ネズミでもない。わかったわかった。{n}さあ、行こう",
-  "en": ""
+  "en": "Yes, and not a rat either. All right!{n}Come on, let's go."
  },
  {
   "id": "2183_110",
   "hdr": "01810104",
   "jp": "うん。でもその前に{n}ティラを{sp}ろう屋へ",
-  "en": ""
+  "en": "Right. But first,{n}let's put Tira in the cell."
  },
  {
   "id": "2183_111",
   "hdr": "01810104",
   "jp": "そうすれば{sp}ぼくたちを{sp}ワザと{n}にがしたとは思われないだろ？",
-  "en": ""
+  "en": "That way, nobody will think she{n}let us escape on purpose, right?"
  },
  {
   "id": "2183_112",
   "hdr": "02810104",
   "jp": "さあ、行こう！",
-  "en": ""
+  "en": "Come on, let's go!"
  },
  {
   "id": "2183_113",
   "hdr": "01810104",
   "jp": "やけに大きなだいどころだね{p}この町の住民はそれほど{n}多くはないと思うけど……",
-  "en": ""
+  "en": "What a huge kitchen.{p}I don't think this town has{n}all that many people..."
  },
  {
   "id": "2183_114",
   "hdr": "2801078C",
   "jp": "当番はいやなものだな",
-  "en": ""
+  "en": "I hate kitchen duty."
  },
  {
   "id": "2183_115",
   "hdr": "2801078C",
   "jp": "ああ、あの憲兵団の{n}ふけつなニオイと言ったら……",
-  "en": ""
+  "en": "Yes, and the filthy stench{n}of those Grey Guards..."
  },
  {
   "id": "2183_116",
   "hdr": "2801078C",
   "jp": "おまえたちは！？{n}どうやって{sp}にげ出した！？",
-  "en": ""
+  "en": "You?!{n}How did you escape?!"
  },
  {
   "id": "2183_117",
   "hdr": "2801078C",
   "jp": "しかもこの聖なるだいどころに{n}きたない格好で入りこんで！",
-  "en": ""
+  "en": "And you dare to enter this holy{n}kitchen in such filthy clothes!"
  },
  {
   "id": "2183_118",
   "hdr": "01810104",
   "jp": "聖なるだいどころ？",
-  "en": ""
+  "en": "Holy kitchen?"
  },
  {
   "id": "2183_119",
   "hdr": "2801078C",
   "jp": "ここは聖なる料理をつくるばしょだ！",
-  "en": ""
+  "en": "This is where the holy food is made!"
  },
  {
   "id": "2183_120",
   "hdr": "1203030C",
   "jp": "聖なる聖なるって{n}だれが食べるのよ！",
-  "en": ""
+  "en": "Holy this, holy that...{n}Who eats it, anyway?"
  },
  {
   "id": "2183_121",
   "hdr": "2801078C",
   "jp": "それは……世界を支配する{n}大いなる{sp}お方と{sp}その部下たちよ",
-  "en": ""
+  "en": "Why... the great one who rules{n}the world, and his servants."
  },
  {
   "id": "2183_122",
   "hdr": "28010790",
   "jp": "つまり、われわれが食べる。{n}住民は一生料理をつくり続ける",
-  "en": ""
+  "en": "In other words, we eat it.{n}The people cook for all their lives."
  },
  {
   "id": "2183_123",
   "hdr": "02810104",
   "jp": "おおぜいの人たちが{sp}おなかを{n}すかしているというのに！",
-  "en": ""
+  "en": "When so many people are{n}going hungry!"
  },
  {
   "id": "2183_124",
   "hdr": "28010790",
   "jp": "聖なる法に{sp}したがうのみ",
-  "en": ""
+  "en": "We only obey the holy law."
  },
  {
   "id": "2183_125",
   "hdr": "1203030C",
   "jp": "ただのかってなルールじゃない！",
-  "en": ""
+  "en": "That's just a selfish rule you made up!"
  },
  {
   "id": "2183_126",
   "hdr": "02810104",
   "jp": "そのとおり！{p}皿をおとしただけで死刑なんて{n}ありえない！",
-  "en": ""
+  "en": "Exactly!{p}Death just for dropping a plate?{n}That's crazy!"
  },
  {
   "id": "2183_127",
   "hdr": "28010790",
   "jp": "ここにはここの法がある。{n}ただそれだけの事！{p}その法によれば……{n}おまえたちは死刑だ",
-  "en": ""
+  "en": "Here, we have our own law.{n}That is all!{p}And by that law...{n}you die."
  },
  {
   "id": "2183_128",
   "hdr": "28010790",
   "jp": "さて、その処理穴に{n}入ってもらうか",
-  "en": ""
+  "en": "Now then, into the disposal pit{n}with you."
  },
  {
   "id": "2183_129",
   "hdr": "09810208",
   "jp": "処理穴？",
-  "en": ""
+  "en": "The disposal pit?"
  },
  {
   "id": "2183_130",
   "hdr": "28010790",
   "jp": "しっぱいした料理……{n}料理をしっぱいした料理人……{p}すべてを処理する穴だ",
-  "en": ""
+  "en": "Spoiled dishes... and the cooks{n}who spoiled them...{p}The pit disposes of them all."
  },
  {
   "id": "2183_131",
   "hdr": "1281030C",
   "jp": "そんな穴、ぜったいイヤ！",
-  "en": ""
+  "en": "No way am I going in that pit!"
  },
  {
   "id": "2183_132",
   "hdr": "28010790",
   "jp": "ふん、ネズミもろとも{n}死んでしまえ！",
-  "en": ""
+  "en": "Hmph! Die, and your rat with you!"
  },
  {
   "id": "2183_133",
   "hdr": "02810104",
   "jp": "へんだぞ！{p}なぜおまえはネズミを{n}おそれない！",
-  "en": ""
+  "en": "Something's wrong here!{p}Why aren't you afraid{n}of the rat?!"
  },
  {
   "id": "2183_134",
   "hdr": "28010790",
   "jp": "クリーン•チュルナイ！",
-  "en": ""
+  "en": "Clean Noradz!"
  },
  {
   "id": "2183_135",
   "hdr": "09030208",
   "jp": "どんな顔か見てやる",
-  "en": ""
+  "en": "Let's see what your face looks like."
  },
  {
   "id": "2183_136",
   "hdr": "01810104",
   "jp": "見て！",
-  "en": ""
+  "en": "Look!"
  },
  {
   "id": "2183_137",
   "hdr": "0A030208",
   "jp": "影の大王のしるし！？{n}……そうか！{sp}なるほど！",
-  "en": ""
+  "en": "The Shadow Lord's mark?!{n}...So that's it! Of course!"
  },
  {
   "id": "2183_138",
   "hdr": "09030208",
   "jp": "デルの城にいたころに食べていた{n}料理はここでつくられていたのだ{p}どうりで同じ味がしたはずだ",
-  "en": ""
+  "en": "The food I ate at the palace in Del{n}was cooked here.{p}No wonder it tasted the same."
  },
  {
   "id": "2183_139",
   "hdr": "01810104",
   "jp": "どういう意味？",
-  "en": ""
+  "en": "What do you mean?"
  },
  {
   "id": "2183_140",
   "hdr": "0B030208",
   "jp": "城の料理人をしんよう{n}できなかったんだろうな",
-  "en": ""
+  "en": "They couldn't trust the palace{n}cooks, I suppose."
  },
  {
   "id": "2183_141",
   "hdr": "01810104",
   "jp": "だれが？",
-  "en": ""
+  "en": "Who couldn't?"
  },
  {
   "id": "2183_142",
   "hdr": "1181030C",
   "jp": "世界を支配する{sp}大いなる{sp}お方と{n}その部下たち、ね",
-  "en": ""
+  "en": "\"The great one who rules the world,{n}and his servants.\" Right?"
  },
  {
   "id": "2183_143",
   "hdr": "09030208",
   "jp": "国王をだましていた一味だな",
-  "en": ""
+  "en": "The same gang who deceived the king."
  },
  {
   "id": "2183_144",
   "hdr": "03810104",
   "jp": "そうだったのか……",
-  "en": ""
+  "en": "So that's how it was..."
  },
  {
   "id": "2183_145",
   "hdr": "28010700",
   "jp": "せいじょういいんの皆様！{n}いらっしゃいますか！",
-  "en": ""
+  "en": "Members of the Purity Committee!{n}Are you there?"
  },
  {
   "id": "2183_146",
   "hdr": "1281030C",
   "jp": "話は後にして{sp}にげましょう！",
-  "en": ""
+  "en": "We can talk later. Let's run!"
  },
  {
   "id": "2183_147",
   "hdr": "02810104",
   "jp": "急いでこの赤い服を着るんだ！",
-  "en": ""
+  "en": "Quick, put on these red robes!"
  },
  {
   "id": "2183_148",
   "hdr": "09030208",
   "jp": "なぜ！？",
-  "en": ""
+  "en": "Why?!"
  },
  {
   "id": "2183_149",
   "hdr": "01810104",
   "jp": "カン！",
-  "en": ""
+  "en": "A hunch!"
  },
  {
   "id": "2183_150",
   "hdr": "28010700",
   "jp": "こちらでしたか。{n}ネズミはまだ見つかりません……",
-  "en": ""
+  "en": "Oh, there you are.{n}We still haven't found the rat..."
  },
  {
   "id": "2183_151",
   "hdr": "0A810208",
   "jp": "ここにもいない！{n}他を探すのだ！",
-  "en": ""
+  "en": "It isn't here either!{n}Search somewhere else!"
  },
  {
   "id": "2183_152",
   "hdr": "01030104",
   "jp": "さあ、行こう",
-  "en": ""
+  "en": "Come on, let's go."
  },
  {
   "id": "2183_153",
   "hdr": "09810208",
   "jp": "どこから？",
-  "en": ""
+  "en": "Out which way?"
  },
  {
   "id": "2183_154",
   "hdr": "01030104",
   "jp": "もちろん、処理穴さ",
-  "en": ""
+  "en": "Through the disposal pit, of course."
  },
  {
   "id": "2183_155",
   "hdr": "00000500",
   "jp": "父さん、思ったとおりでした。{n}ネズヌクたちは処理穴を使って{n}料理を外にはこび、憲兵団にわたします。{n}{n}処理穴は赤い服を着ていれば{n}とおりぬけられるのです。",
-  "en": ""
+  "en": "Father, I was right.{n}The Ra-Kacharz use the disposal pit{n}to carry food out to the Grey Guards.{n}{n}Anyone in red robes{n}can pass through the pit."
  },
  {
   "id": "2183_156",
   "hdr": "00000500",
   "jp": "赤い服をもっていない人たちは{n}一生ここでくらすしかない……{n}そう思うとむねが痛みます。",
-  "en": ""
+  "en": "Those who have no red robes{n}must live there all their lives...{n}It pains my heart to think of it."
  },
  {
   "id": "2183_157",
   "hdr": "03030104",
   "jp": "チュルナイへ{n}もどらなくていいのかな？",
-  "en": ""
+  "en": "Shouldn't we go back{n}to Noradz?"
  },
  {
   "id": "2183_158",
   "hdr": "09810208",
   "jp": "なぜだ？",
-  "en": ""
+  "en": "Why?"
  },
  {
   "id": "2183_159",
   "hdr": "03030104",
   "jp": "あそこの人たちは{sp}だまされている{p}本当の事を{n}教えてあげた方がいいと思うんだ",
-  "en": ""
+  "en": "The people there are being fooled.{p}I think we should tell them{n}the truth."
  },
  {
   "id": "2183_160",
   "hdr": "09810208",
   "jp": "それはそうだが、だます側は{n}オレたちが{sp}たおしてしまった",
-  "en": ""
+  "en": "True, but we have already beaten{n}the ones who were fooling them."
  },
  {
   "id": "2183_161",
   "hdr": "1181030C",
   "jp": "そうよ。{n}あとは{sp}あの人たちがきめる事よ",
-  "en": ""
+  "en": "That's right.{n}The rest is up to them."
  },
  {
   "id": "2183_162",
   "hdr": "09810208",
   "jp": "それよりも、あそこでは{n}もう料理はつくられないだろう",
-  "en": ""
+  "en": "Besides, I doubt any more food{n}will be cooked there now."
  },
  {
   "id": "2183_163",
   "hdr": "0B810208",
   "jp": "そうなるとデルの城のれんちゅうは{n}さわぎ出すだろうな",
-  "en": ""
+  "en": "And then the lot at the palace in Del{n}will start making a fuss."
  },
  {
   "id": "2183_164",
   "hdr": "01030104",
   "jp": "ぼくたちのしわざだと{sp}気づくかな……",
-  "en": ""
+  "en": "Will they realise it was us...?"
  },
  {
   "id": "2183_165",
   "hdr": "09810208",
   "jp": "ああ、いつかはな",
-  "en": ""
+  "en": "Yes, sooner or later."
  },
  {
   "id": "2183_166",
   "hdr": "1181030C",
   "jp": "そう{n}だから先を急ぎましょう{p}ほら……",
-  "en": ""
+  "en": "Yes.{n}So let's hurry on.{p}Look..."
  },
  {
   "id": "2183_167",
   "hdr": "09810208",
   "jp": "あれがラットシティか",
-  "en": ""
+  "en": "So that's the City of the Rats."
  },
  {
   "id": "2183_168",
   "hdr": "03030104",
   "jp": "この川を{sp}わたるの！？",
-  "en": ""
+  "en": "We have to cross this river?!"
  },
  {
   "id": "2183_169",
   "hdr": "1303030C",
   "jp": "無理。ぜったい無理",
-  "en": ""
+  "en": "No way. Absolutely no way."
  },
  {
   "id": "2183_170",
   "hdr": "0B810208",
   "jp": "……どっと{sp}つかれが出た",
-  "en": ""
+  "en": "...I'm suddenly worn out."
  },
  {
   "id": "2183_171",
   "hdr": "1203010C",
   "jp": "(またはじまった……)",
-  "en": ""
+  "en": "(Here we go again...)"
  },
  {
   "id": "2183_172",
   "hdr": "0B810208",
   "jp": "リーフ、何か食べるものはないのか？{n}つかれを取るには甘いものが……",
-  "en": ""
+  "en": "Lief, have you got anything to eat?{n}Something sweet is best when tired..."
  },
  {
   "id": "2183_173",
   "hdr": "03030104",
   "jp": "(もう……バルダ)",
-  "en": ""
+  "en": "(Honestly... Barda.)"
  },
  {
   "id": "2183_174",
   "hdr": "03030104",
   "jp": "これでも食べてなよ",
-  "en": ""
+  "en": "Here, eat this."
  },
  {
   "id": "2183_175",
   "hdr": "0C810208",
   "jp": "おう！{sp}では{sp}いただくとするか。{n}おまえたちも……",
-  "en": ""
+  "en": "Oh! Then I'll help myself.{n}You two should have some too..."
  },
  {
   "id": "2183_176",
   "hdr": "1103030C",
   "jp": "どうしたの？",
-  "en": ""
+  "en": "What's wrong?"
  },
  {
   "id": "2183_177",
   "hdr": "0A810208",
   "jp": "『{c2}水くい虫{/c}』？{n}オレに虫を食わせる気か！？",
-  "en": ""
+  "en": "{c2}Water-Eaters{/c}?{n}You want me to eat bugs?!"
  },
  {
   "id": "2183_178",
   "hdr": "03030104",
   "jp": "それしかないんだもの",
-  "en": ""
+  "en": "It's all we've got."
  },
  {
   "id": "2183_179",
   "hdr": "1103030C",
   "jp": "『{c2}水くい虫{/c}』って水を食べるの？",
-  "en": ""
+  "en": "{c2}Water-Eaters{/c}? They eat water?"
  },
  {
   "id": "2183_180",
   "hdr": "0A810208",
   "jp": "そんな虫はいない",
-  "en": ""
+  "en": "There's no such bug."
  },
  {
   "id": "2183_181",
   "hdr": "01030104",
   "jp": "……あけてみよう。{n}川の水を食べてくれるかも",
-  "en": ""
+  "en": "...Let's open it.{n}Maybe they'll eat the river water."
  },
  {
   "id": "2183_182",
   "hdr": "0B810208",
   "jp": "やれやれ、リーフまで……",
-  "en": ""
+  "en": "Good grief, now Lief too..."
  },
  {
   "id": "2183_183",
   "hdr": "09810208",
   "jp": "虫……というか、{n}とうめいな砂だな、これは",
-  "en": ""
+  "en": "These aren't bugs... They look more{n}like clear, see-through sand."
  },
  {
   "id": "2183_184",
   "hdr": "1203030C",
   "jp": "もう、なんでもいいから{n}川に入れてよ！",
-  "en": ""
+  "en": "Oh, who cares what they are!{n}Just put them in the river!"
  },
  {
   "id": "2183_185",
   "hdr": "0B810208",
   "jp": "……ほらよ",
-  "en": ""
+  "en": "...There you go."
  },
  {
   "id": "2183_186",
   "hdr": "09810208",
   "jp": "すごい……",
-  "en": ""
+  "en": "Amazing..."
  },
  {
   "id": "2183_187",
   "hdr": "02030104",
   "jp": "急ごう！{n}こうかは{sp}長く続かないらしい",
-  "en": ""
+  "en": "Hurry!{n}I hear it doesn't last long."
  },
  {
   "id": "2183_188",
   "hdr": "1381030C",
   "jp": "なんとか{sp}わたりきったわね",
-  "en": ""
+  "en": "We made it across, somehow."
  },
  {
   "id": "2183_189",
   "hdr": "0B030208",
   "jp": "ああ。{n}しかし、どっと{sp}つかれが……",
-  "en": ""
+  "en": "Yes. But now I'm suddenly{n}worn out..."
  },
  {
   "id": "2183_190",
   "hdr": "03810104",
   "jp": "そうも言ってられないみたい",
-  "en": ""
+  "en": "No time for that, by the look of it."
  },
  {
   "id": "2183_191",
   "hdr": "09030208",
   "jp": "なんだあれは！？",
-  "en": ""
+  "en": "What is that?!"
  },
  {
   "id": "2183_192",
   "hdr": "0B030208",
   "jp": "ふう……",
-  "en": ""
+  "en": "Phew..."
  },
  {
   "id": "2183_193",
   "hdr": "01810104",
   "jp": "つかれたかもしれないけど{n}一気に行こうよ",
-  "en": ""
+  "en": "I know you're tired, but{n}let's push on all the way."
  },
  {
   "id": "2183_194",
   "hdr": "1103030C",
   "jp": "そうそう",
-  "en": ""
+  "en": "That's right."
  },
  {
   "id": "2183_195",
   "hdr": "01810104",
   "jp": "あとでゆっくり休もう。{n}宝石を手に入れたらね",
-  "en": ""
+  "en": "We'll have a good rest later.{n}Once we have the gem."
  },
  {
   "id": "2183_196",
   "hdr": "09030208",
   "jp": "わかってるよ",
-  "en": ""
+  "en": "I know, I know."
  },
  {
   "id": "2183_197",
   "hdr": "01810104",
   "jp": "この町は{sp}ずいぶん長いあいだ{n}使われていないみたいだね",
-  "en": ""
+  "en": "Looks like nobody has lived in{n}this city for a very long time."
  },
  {
   "id": "2183_198",
   "hdr": "09030208",
   "jp": "ああ、影の大王のせいで{n}ネズミがふえて{sp}町を捨てたんだろう",
-  "en": ""
+  "en": "Yes. Thanks to the Shadow Lord,{n}the rats spread and the people left."
  },
  {
   "id": "2183_199",
   "hdr": "03810104",
   "jp": "うん、そうだね",
-  "en": ""
+  "en": "Yes, that must be it."
  },
  {
   "id": "2183_200",
   "hdr": "1203030C",
   "jp": "そうだねじゃないわよ！",
-  "en": ""
+  "en": "Don't just say \"that must be it\"!"
  },
  {
   "id": "2183_201",
   "hdr": "1203030C",
   "jp": "なんでも影の大王のせいなの？",
-  "en": ""
+  "en": "Is everything the Shadow Lord's fault?"
  },
  {
   "id": "2183_202",
   "hdr": "01810104",
   "jp": "どういう意味？",
-  "en": ""
+  "en": "What do you mean?"
  },
  {
   "id": "2183_203",
   "hdr": "1303030C",
   "jp": "影の大王が世界を支配したのは{n}たかだか16年前よ{p}この町が捨てられてから{n}もっとたっているでしょ？",
-  "en": ""
+  "en": "The Shadow Lord took over the land{n}only 16 years ago.{p}This city was abandoned{n}long before that, wasn't it?"
  },
  {
   "id": "2183_204",
   "hdr": "09810208",
   "jp": "何が言いたい？",
-  "en": ""
+  "en": "What are you getting at?"
  },
  {
   "id": "2183_205",
   "hdr": "1203030C",
   "jp": "国王は何をしていたの？{p}影の大王がじゃあくを世界に{n}ばらまいているあいだよ",
-  "en": ""
+  "en": "What was the king doing?{p}While the Shadow Lord was spreading{n}evil across the land?"
  },
  {
   "id": "2183_206",
   "hdr": "03810104",
   "jp": "それは……国王たちは{n}だまされていたんだから……",
-  "en": ""
+  "en": "Well... the kings{n}were tricked, so..."
  },
  {
   "id": "2183_207",
   "hdr": "1203030C",
   "jp": "しかたがない？{n}そう？{p}テーガンが{sp}なげきのみずうみあたりを{n}支配したのは100年くらい前{p}少なくとも国王一族は{n}100年はだまされていた{p}そんな事{sp}信じられる？",
-  "en": ""
+  "en": "So it couldn't be helped?{n}Is that it?{p}Thaegan took over the lands around{n}the Lake of Tears about 100 years ago.{p}So the royal family was tricked{n}for at least 100 years.{p}Can you believe that?"
  },
  {
   "id": "2183_208",
   "hdr": "0B810208",
   "jp": "信じようと、信じまいと、事実だ",
-  "en": ""
+  "en": "Believe it or not, it's the truth."
  },
  {
   "id": "2183_209",
   "hdr": "1203030C",
   "jp": "それじゃあ国王の一族は{sp}本当に{n}100年以上もだまされていたのね{p}そんなバカな一族のあとつぎを{n}助けるために{sp}こんな旅を？",
-  "en": ""
+  "en": "So the royal family really was{n}fooled for more than 100 years.{p}And we're making this whole journey{n}to help the heir of such fools?"
  },
  {
   "id": "2183_210",
   "hdr": "1303030C",
   "jp": "なんだか……むなしい",
-  "en": ""
+  "en": "It all feels... so pointless."
  },
  {
   "id": "2183_211",
   "hdr": "09810208",
   "jp": "言葉をつつしめ",
-  "en": ""
+  "en": "Watch your tongue."
  },
  {
   "id": "2183_212",
   "hdr": "01810104",
   "jp": "バルダ、いいじゃないか。{n}ジャスミンの気持ちはわかるよ",
-  "en": ""
+  "en": "Barda, it's all right.{n}I understand how Jasmine feels."
  },
  {
   "id": "2183_213",
   "hdr": "01810104",
   "jp": "でもね、ジャスミン{p}それでもぼくは{sp}国王のあとつぎに{n}ベルトをわたしたいんだ{p}それは王家のためじゃない{p}国民と、国土を影の大王から{n}かいほうするためなんだ{p}みんなの自由のためだ",
-  "en": ""
+  "en": "But Jasmine...{p}I still want to give the Belt{n}to the king's heir.{p}Not for the sake of the royal family.{p}It's to free the people and the land{n}from the Shadow Lord.{p}It's for everyone's freedom."
  },
  {
   "id": "2183_214",
   "hdr": "03810104",
   "jp": "ジャスミン……",
-  "en": ""
+  "en": "Jasmine..."
  },
  {
   "id": "2183_215",
   "hdr": "1303030C",
   "jp": "行きましょう、リーフ",
-  "en": ""
+  "en": "Let's go, Lief."
  },
  {
   "id": "2183_216",
   "hdr": "01810104",
   "jp": "わかってくれたのかい？",
-  "en": ""
+  "en": "You understand, then?"
  },
  {
   "id": "2183_217",
   "hdr": "1103030C",
   "jp": "今はね。{n}でも、また文句を言うかも",
-  "en": ""
+  "en": "For now.{n}But I might complain again."
  },
  {
   "id": "2183_218",
   "hdr": "01810104",
   "jp": "その時はバルダに言ってよ",
-  "en": ""
+  "en": "When you do, tell it to Barda."
  },
  {
   "id": "2183_219",
   "hdr": "09030208",
   "jp": "何か言ったか？",
-  "en": ""
+  "en": "Did you say something?"
  },
  {
   "id": "2183_220",
   "hdr": "28010B74",
   "jp": "<さあ、くるのだ、デルのリーフ>",
-  "en": ""
+  "en": "<Come, Lief of Del.>"
  },
  {
   "id": "2183_221",
   "hdr": "01810104",
   "jp": "だ、だれ？",
-  "en": ""
+  "en": "Wh-who's there?"
  },
  {
   "id": "2183_222",
   "hdr": "1103030C",
   "jp": "どうしたのリーフ",
-  "en": ""
+  "en": "What's wrong, Lief?"
  },
  {
   "id": "2183_223",
   "hdr": "28010B74",
   "jp": "<さあ、こい。わしはまっているぞ>",
-  "en": ""
+  "en": "<Come. I am waiting for you.>"
  },
  {
   "id": "2183_224",
   "hdr": "02810104",
   "jp": "だれだ！？",
-  "en": ""
+  "en": "Who are you?!"
  },
  {
   "id": "2183_225",
   "hdr": "28010B84",
   "jp": "<わしはここの番人、リアだ>",
-  "en": ""
+  "en": "<I am Reeah, the guardian of this place.>"
  },
  {
   "id": "2183_226",
   "hdr": "02810104",
   "jp": "オパールだ！",
-  "en": ""
+  "en": "The opal!"
  },
  {
   "id": "2183_227",
   "hdr": "28010B84",
   "jp": "<リーフ。よく来た。{n}さあ、ベルトをこちらへよこせ>",
-  "en": ""
+  "en": "<Lief. Welcome.{n}Now, hand the Belt over to me.>"
  },
  {
   "id": "2183_228",
   "hdr": "03810104",
   "jp": "(なんだって？{sp}……うっ！？)",
-  "en": ""
+  "en": "(What? ...Urgh!?)"
  },
  {
   "id": "2183_229",
   "hdr": "0A030208",
   "jp": "どうした、リーフ！？",
-  "en": ""
+  "en": "What's wrong, Lief?!"
  },
  {
   "id": "2183_230",
   "hdr": "03810104",
   "jp": "手、手が{sp}かってに！！",
-  "en": ""
+  "en": "M-my hands...{n}They're moving on their own!!"
  },
  {
   "id": "2183_231",
   "hdr": "0A030208",
   "jp": "宝石だ！{n}ベルトの宝石にさわるんだ！",
-  "en": ""
+  "en": "The gems!{n}Touch the gems on the Belt!"
  },
  {
   "id": "2183_232",
   "hdr": "01810104",
   "jp": "(ありがとう、バルダ){p}(トパーズのおかげで心がきよめられたよ)",
-  "en": ""
+  "en": "(Thank you, Barda.){p}(The topaz has cleared my mind.)"
  },
  {
   "id": "2183_233",
   "hdr": "1103030C",
   "jp": "ねえ、おかしいわ。{p}どうしてこのヘビは{n}おそってこないの？",
-  "en": ""
+  "en": "Hey, this is strange.{p}Why isn't this snake{n}attacking us?"
  },
  {
   "id": "2183_234",
   "hdr": "01810104",
   "jp": "それは{sp}ルビーのおかげさ",
-  "en": ""
+  "en": "That's thanks to the ruby."
  },
  {
   "id": "2183_235",
   "hdr": "00000501",
   "jp": "いだいなるルビーは{n}こうふくのシンボル{n}{n}しかし{sp}じゃあくが近い時{n}その赤は{sp}色あせる",
-  "en": ""
+  "en": "The great ruby,{n}symbol of happiness...{n}{n}But when evil is near,{n}its red grows pale."
  },
  {
   "id": "2183_236",
   "hdr": "02810104",
   "jp": "そして{sp}じゃあくをかわす力あり！",
-  "en": ""
+  "en": "And it has the power to ward off evil!"
  },
  {
   "id": "2183_237",
   "hdr": "28010B84",
   "jp": "それはどうかな？{p}わしの王かんの宝石には{n}未来を見通す力がある{p}それによると……",
-  "en": ""
+  "en": "Is that so?{p}The gem in my crown has{n}the power to see the future.{p}And it shows me..."
  },
  {
   "id": "2183_238",
   "hdr": "02810104",
   "jp": "言ってみろ",
-  "en": ""
+  "en": "Go on, say it."
  },
  {
   "id": "2183_239",
   "hdr": "28010B84",
   "jp": "死にかけた{sp}おまえが見える！",
-  "en": ""
+  "en": "I see you... at death's door!"
  },
  {
   "id": "2183_240",
   "hdr": "01810104",
   "jp": "オパールには未来を見通す力がある",
-  "en": ""
+  "en": "The opal has the power{n}to see the future."
  },
  {
   "id": "2183_241",
   "hdr": "02810104",
   "jp": "でも、オパールがおまえに見せたのは{n}にせものの未来だったのさ！",
-  "en": ""
+  "en": "But the future the opal showed you{n}was a false one!"
  },
  {
   "id": "2183_242",
   "hdr": "28010B84",
   "jp": "いいや、本物だ！",
-  "en": ""
+  "en": "No, it was true!"
  },
  {
   "id": "2183_243",
   "hdr": "03810104",
   "jp": "う……ぼくはどうなった……",
-  "en": ""
+  "en": "Ugh... What happened to me...?"
  },
  {
   "id": "2183_244",
   "hdr": "0B030208",
   "jp": "死にかけたんだ{p}ジャスミンがリアをたおさなかったら{n}くわれていただろう",
-  "en": ""
+  "en": "You nearly died.{p}If Jasmine hadn't killed Reeah,{n}you would have been eaten."
  },
  {
   "id": "2183_245",
   "hdr": "03810104",
   "jp": "そうか……リアが見た未来は{n}本当だったんだ{p}ジャスミン、ありがとう",
-  "en": ""
+  "en": "I see... So the future Reeah saw{n}was true after all.{p}Thank you, Jasmine."
  },
  {
   "id": "2183_246",
   "hdr": "1203030C",
   "jp": "たよりないわね！{n}そんな事でだいじょうぶ？",
-  "en": ""
+  "en": "You're hopeless!{n}Are you really going to be all right?"
  },
  {
   "id": "2183_247",
   "hdr": "01810104",
   "jp": "だいじょうぶさ。",
-  "en": ""
+  "en": "I'll be fine."
  },
  {
   "id": "2183_248",
   "hdr": "01810104",
   "jp": "きみとバルダが{sp}いっしょだもの",
-  "en": ""
+  "en": "I've got you and Barda with me."
  },
  {
   "id": "2183_249",
   "hdr": "1103030C",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2183_250",
   "hdr": "0C030208",
   "jp": "……てれるじゃないか",
-  "en": ""
+  "en": "...Now you're making me blush."
  },
  {
   "id": "2183_251",
   "hdr": "04810104",
   "jp": "ははは……イテテテテ",
-  "en": ""
+  "en": "Ha ha ha... Ow, ow, ow!"
  },
  {
   "id": "2183_252",
   "hdr": "09030208",
   "jp": "しかたがない。{n}ここで少し休もう{p}もうネズミも来ないだろう",
-  "en": ""
+  "en": "Can't be helped.{n}Let's rest here a while.{p}The rats shouldn't bother us now."
  },
  {
   "id": "2183_253",
   "hdr": "1103030C",
   "jp": "そう、それ、ネズミ！{p}この町と{sp}チュルナイは{n}かんけいがあるの？",
-  "en": ""
+  "en": "Yes, that's it -- rats!{p}Does this city have something{n}to do with Noradz?"
  },
  {
   "id": "2183_254",
   "hdr": "01810104",
   "jp": "おそらく……{p}チュルナイの人たちの先祖は{n}ここに住んでいたんじゃないかな",
-  "en": ""
+  "en": "Probably...{p}I think the Noradz people's ancestors{n}lived here once."
  },
  {
   "id": "2183_255",
   "hdr": "09030208",
   "jp": "そうだな{p}ネズミがふえたので{sp}にげたのだろう。{p}ネズミは病気をばらまく",
-  "en": ""
+  "en": "I'd say so.{p}They must have fled when{n}the rats multiplied.{p}Rats spread disease."
  },
  {
   "id": "2183_256",
   "hdr": "01810104",
   "jp": "ネズミへのきょうふ心を利用して{n}ネズヌクたちは{sp}町を支配したんだ{p}影の大王と手を組んでね",
-  "en": ""
+  "en": "The Ra-Kacharz used their fear of rats{n}to take control of the town.{p}Hand in hand with the Shadow Lord."
  },
  {
   "id": "2183_257",
   "hdr": "1303030C",
   "jp": "チュルナイの人たち……{n}これからどうするのかな？",
-  "en": ""
+  "en": "The Noradz people...{n}What will they do now, I wonder?"
  },
  {
   "id": "2183_258",
   "hdr": "01810104",
   "jp": "いつか様子を見に行こう{p}そして困っていたら力を貸す{p}その頃は{sp}この世界は平和に{n}なっているはずだ",
-  "en": ""
+  "en": "Someday let's go and see how they are.{p}And if they're in trouble, we'll help.{p}By then, the land should be{n}at peace."
  },
  {
   "id": "2183_259",
   "hdr": "09030208",
   "jp": "オパールが見せた未来か？",
-  "en": ""
+  "en": "Is that the future the opal showed you?"
  },
  {
   "id": "2183_260",
   "hdr": "01810104",
   "jp": "ぼくの{sp}そうぞうだよ",
-  "en": ""
+  "en": "No, it's just what I imagine."
  },
  {
   "id": "2183_261",
   "hdr": "1103030C",
   "jp": "その{sp}そうぞうの未来に{sp}わたしはいる？",
-  "en": ""
+  "en": "This future you imagine...{n}Am I in it?"
  },
  {
   "id": "2183_262",
   "hdr": "04810104",
   "jp": "もちろん！",
-  "en": ""
+  "en": "Of course!"
  },
  {
   "id": "2183_263",
   "hdr": "09030208",
   "jp": "オレはどうだ？",
-  "en": ""
+  "en": "What about me?"
  },
  {
   "id": "2183_264",
   "hdr": "03810104",
   "jp": "ええと……いるけど……",
-  "en": ""
+  "en": "Um... You're in it, but..."
  },
  {
   "id": "2183_265",
   "hdr": "09030208",
   "jp": "けど？",
-  "en": ""
+  "en": "But?"
  },
  {
   "id": "2183_266",
   "hdr": "04810104",
   "jp": "つかれた{sp}つかれたって言ってる",
-  "en": ""
+  "en": "You keep saying \"I'm tired, I'm tired.\""
  },
  {
   "id": "2183_267",
   "hdr": "1403030C",
   "jp": "がんばってね、バルダおじさん！",
-  "en": ""
+  "en": "Hang in there, Uncle Barda!"
  },
  {
   "id": "2183_268",
   "hdr": "0B030208",
   "jp": "ふん！{p}さあ、いつまでも{sp}しゃべってないで{n}休もうじゃないか{p}オレは{sp}つかれた……あ！？",
-  "en": ""
+  "en": "Hmph!{p}Now, enough of your chatter.{n}Let's get some rest.{p}I'm tired... Huh!?"
  },
  {
   "id": "2183_269",
   "hdr": "30810848",
   "jp": "うぅぅん……{n}ネズミ……",
-  "en": ""
+  "en": "Mmmnn...{n}Rats..."
  },
  {
   "id": "2183_270",
   "hdr": "30810848",
   "jp": "この前のネズミは？{p}フィリ？{n}ネズミじゃないの？{p}でもこわいわね",
-  "en": ""
+  "en": "Where's that rat from before?{p}Filli?{n}You're not a rat?{p}It's still scary, though."
  },
  {
   "id": "2183_271",
   "hdr": "28010600",
   "jp": "きれいにしないと{n}ネズヌク様にしかられてしまうんです",
-  "en": ""
+  "en": "We have to keep things clean,{n}or the Ra-Kacharz will scold us."
  },
  {
   "id": "2183_272",
   "hdr": "28010700",
   "jp": "ネズミはじゃあくな生き物です",
-  "en": ""
+  "en": "Rats are evil creatures."
  },
  {
   "id": "2183_273",
   "hdr": "28010600",
   "jp": "あっちもそうじしなきゃ",
-  "en": ""
+  "en": "I need to clean over there too."
  },
  {
   "id": "2183_274",
   "hdr": "28010700",
   "jp": "わたしたちは子どもの頃から{n}そうじをするように育てられてきました",
-  "en": ""
+  "en": "We have been raised to clean{n}ever since we were children."
  },
  {
   "id": "2183_275",
   "hdr": "28010600",
   "jp": "あなたたちは、どこから来たんですか？{p}へー、聞いた事ないですね。{n}わたしたち、ここから出た事がないんです",
-  "en": ""
+  "en": "Where have you come from?{p}Hmm, I've never heard of it.{n}We've never been outside of here."
  },
  {
   "id": "2183_276",
   "hdr": "28010700",
   "jp": "ふけつにしていると{n}じゃあくがわいてきます",
-  "en": ""
+  "en": "If you let things get dirty,{n}evil will breed."
  },
  {
   "id": "2183_277",
   "hdr": "28010600",
   "jp": "朝にそうじ{sp}昼にそうじ{sp}ねる前にそうじ。{n}これがきほんです",
-  "en": ""
+  "en": "Clean in the morning, clean at noon,{n}clean before bed. That's the basics."
  },
  {
   "id": "2183_278",
   "hdr": "28010700",
   "jp": "クリーン•チュルナイ！",
-  "en": ""
+  "en": "Clean Noradz!"
  },
  {
   "id": "2183_279",
   "hdr": "28010600",
   "jp": "子どもたちは、別室で食事をします。{n}聖なる食事法をマスターするためです",
-  "en": ""
+  "en": "Children eat in a separate room,{n}to master the holy rules of eating."
  },
  {
   "id": "2183_280",
   "hdr": "28010700",
   "jp": "けんさにしっかくすると{n}料理を捨てられてしまいます",
-  "en": ""
+  "en": "If your food fails inspection,{n}it gets thrown away."
  },
  {
   "id": "2183_281",
   "hdr": "28010600",
   "jp": "食材はいっぱいあるので{n}捨ててもだいじょうぶです",
-  "en": ""
+  "en": "There's plenty of food,{n}so it's fine to throw some away."
  },
  {
   "id": "2183_282",
   "hdr": "28010700",
   "jp": "ネズヌク様に気に入ってもらえる料理を{n}つくるのがわたしたちの仕事です",
-  "en": ""
+  "en": "Our job is to cook food{n}that pleases the Ra-Kacharz."
  },
  {
   "id": "2183_283",
   "hdr": "28010600",
   "jp": "ここで使われている食材は{n}『{c1}グランドファーム{/c}』のものです",
-  "en": ""
+  "en": "The food used here comes from{n}the {c1}Grand Farm{/c}."
  },
  {
   "id": "2183_284",
   "hdr": "00000000",
   "jp": "処理穴{n}{n}きのこには{sp}もうどくがある{n}よけて進め！",
-  "en": ""
+  "en": "The disposal pit{n}{n}The mushrooms are deadly poison.{n}Keep clear of them!"
  },
  {
   "id": "2183_285",
   "hdr": "00000000",
   "jp": "とびらはあかないようだ",
-  "en": ""
+  "en": "The door won't open."
  }
 ]
