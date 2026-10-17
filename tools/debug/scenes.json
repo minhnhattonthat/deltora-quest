@@ -1,0 +1,9 @@
+{
+ "_doc": "Scene list for tools/debug/warp.py. Each scene: a route from cold boot, optional touch-mash after it (mash frames), total frames, and what it shows. Route-based until story flags are mapped (docs/re/debug.md).",
+ "title": {"route": "tools/routes/boot.txt", "frames": 1500, "shows": "title menu, (C) line, ぼうけんをはじめる button"},
+ "entry_card": {"route": "tools/routes/new_game.txt", "frames": 1700, "shows": "signature screen: top prompt, はじめから panel, Entry card"},
+ "new_adventure": {"route": "tools/routes/new_game.txt", "frames": 2300, "shows": "あたらしいぼうけんをはじめます + はい/いいえ portraits"},
+ "book": {"route": "tools/routes/new_game.txt", "frames": 3000, "shows": "The Belt of Deltora book cover (graphic)"},
+ "dialogue": {"route": "tools/routes/new_game.txt", "frames": 4300, "mash": true, "shows": "just before the first narration + portrait dialogue in the castle library; text viewer base state"},
+ "prologue_end": {"route": "tools/routes/new_game.txt", "frames": 14000, "mash": true, "shows": "end of the touch-mashed opening"}
+}

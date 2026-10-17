@@ -1,0 +1,27 @@
+# Cold boot -> title -> "start adventure" -> sign the entry card -> door -> "new adventure? yes" -> opening.
+900 -
+8 t128,96
+300 -
+8 t128,96
+300 -
+# title: ぼうけんをはじめる
+8 t128,135
+600 -
+# signature stroke on the entry card
+3 t140,120
+3 t150,130
+3 t160,120
+3 t170,130
+3 t180,120
+3 t190,130
+3 t200,120
+3 t210,130
+3 t220,120
+3 t230,130
+60 -
+# door icon (appears once signed; bottom-right icon is the eraser)
+8 t134,176
+400 -
+# はい under Lief's portrait
+8 t145,165
+300 -
