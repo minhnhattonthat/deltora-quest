@@ -12,3 +12,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D4 | 2026-10-18 | Abbreviations | engine work first (default), abbreviate | Skill default, not asked separately: full names and terms; engine work (VWF, wider boxes) before shortening. |
 | D5 | 2026-10-18 | Graphics text left in Japanese | none (default), keep title logo JP | None: all tile-drawn text in scope. |
 | D6 | 2026-10-18 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through checkpoints, report at the end. |
+| D7 | 2026-10-18 | Characters the game renames (ルーカス/スカール = the novels' Steven/Nevets; チュルナイ = Noradz?) | novel names (follows D2), keep the game's names | Provisional, not asked yet: novel names, per D2. Ask the user. |

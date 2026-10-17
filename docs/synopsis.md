@@ -24,7 +24,7 @@ who is who, and the reveals translators must not spoil early.
 ## Chapters (message files)
 | Ch | Book / area | Message file | Notes |
 |---|---|---|---|
-| Prologue | Del castle (library, halls, king's chamber, smithy) | 2179 | the Belt's history (narration), Endon crowned, the Belt is shattered; Lief sets out with Barda |
+| Prologue | Del castle (library, halls, king's chamber, smithy) | 2179 | the novel's prologue: young **Jarred** (the player here) reads the Belt's history, Endon is crowned, Prandine turns Endon against Jarred, Jarred flees, marries Anna and runs the forge; letters between Jarred and Endon; the Belt is shattered. "16年後" (2179_244, 16 years later): Lief's story begins |
 | 1 | The Forest of Silence | 2180, 2181 | meet Jasmine; Wenbar, Gorl; topaz. 2181: game side story (Mokito's house: honesty quiz, Mikita) |
 | 2 | The Lake of Tears | 2182 | Thaegan the witch, Soldeen, Manus and the Ralads, Dor (the lost city); ruby |
 | 3 | City of the Rats | 2183 | Noradz / Tom's shop / Rithmere games; Reeah the snake; opal |

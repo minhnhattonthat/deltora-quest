@@ -12,8 +12,10 @@ Work only on the batch named in your dispatch. Do all translation yourself; do n
 
 ## Input: `work/batches/<batch>.tsv`
 `id<TAB>speaker<TAB>form<TAB>limit<TAB>Japanese`, in story order (use neighbours for context).
-- form: `dlg` (dialogue box with portrait; speaker Lief/Barda/Jasmine or NPC(pXX) = another character: work out who
-  from context), `narration` (no portrait: story narration, letters, prompts), `menu` (item/place names,
+- speaker: the portrait code (`p0118` = slot 01, variant 18) and a name hint. Slots are a per-chapter cast: in
+  Lief's chapters slot 01 is usually Lief, 02 Barda, 03 Jasmine (hints end in `?`); in 2179 (prologue) slot 01 is
+  young Jarred until "16年後" (2179_244), then Lief. Same code = same speaker within a scene. Confirm from context.
+- form: `dlg` (dialogue box with portrait), `narration` (no portrait: story narration, letters, prompts), `menu` (item/place names,
   descriptions, recipes), `system` (title, prompts, shop, tower, wireless).
 - Tokens in the Japanese: `{n}` line break inside a page, `{p}` new page (player taps), `{sp}` a small gap
   (Japanese word spacing: do NOT copy it; use normal spaces), `{var}` a number or name the game inserts, `{c1}`

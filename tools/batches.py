@@ -1,6 +1,6 @@
 """batches.py: translation batches for agents (docs/translator-brief.md).
 
-    python -X utf8 tools/batches.py split [--size 120]       # work/batches/bNNN.tsv + bNNN.terms.md for untranslated lines
+    python -X utf8 tools/batches.py split [--size 120 --chars 4500]  # work/batches/bNNN.tsv + .terms.md, untranslated lines
     python -X utf8 tools/batches.py fit "Some text{n}line two" [--portrait]   # px per line, as the lint counts
     python -X utf8 tools/batches.py check bNNN                # validate work/batches/bNNN.out.tsv; prints OK or errors
     python -X utf8 tools/batches.py merge bNNN                # check, then write `en` into script/*.json
@@ -18,7 +18,11 @@ import text
 
 ROOT = text.ROOT
 DIR = ROOT / "work/batches"
-SPEAKERS = {"01": "Lief", "02": "Barda", "03": "Jasmine", "05": "Narrator"}
+# Portrait = header word 2 (low byte character slot, high byte variant). Slots are a per-chapter cast; names here are
+# hints checked by reading lines, the translator confirms from context. Others: "pXXXX (who? from context)".
+SPEAKERS = {"01": "Lief?", "02": "Barda?", "03": "Jasmine?", "05": "Narrator"}
+SPEAKERS_BY_FILE = {"2179": {"0118": "young Jarred", "0370": "young Endon", "031C": "Anna", "0B24": "Prandine",
+                             "05": "Narrator"}}
 MENU_FILES = {"2191", "2196", "2197"}
 SYSTEM_FILES = {"2192", "2194", "2195", "2198", "2199", "2200"}
 
@@ -33,7 +37,10 @@ def form(e):
 def speaker(e):
     if e["hdr"][4:] == "0000":
         return "-"
-    return SPEAKERS.get(e["hdr"][4:6], f"NPC(p{e['hdr'][4:6]})")
+    w2 = e["hdr"][4:8]  # hex of the 2 bytes: slot, variant
+    cast = SPEAKERS_BY_FILE.get(e["id"][:4], SPEAKERS)
+    name = cast.get(w2) or cast.get(w2[:2])
+    return f"p{w2} {name}" if name else f"p{w2} (who? from context)"
 
 
 def limit(e):
@@ -58,14 +65,26 @@ def all_entries():
     return {e["id"]: e for rows in text.load_script().values() for e in rows}
 
 
-def split(size):
+def chunks(todo, size, chars):
+    """Story-order runs of at most `size` lines and about `chars` JP characters (one Read for the agent)."""
+    part, n = [], 0
+    for e in todo:
+        if part and (len(part) >= size or n + len(e["jp"]) > chars):
+            yield part
+            part, n = [], 0
+        part.append(e)
+        n += len(e["jp"])
+    if part:
+        yield part
+
+
+def split(size, chars):
     DIR.mkdir(parents=True, exist_ok=True)
     todo = [e for e in all_entries().values() if not e.get(text.LANG)]
     gl = glossary_rows()
-    n = len(list(DIR.glob("b*.tsv")))
-    for k in range(0, len(todo), size):
-        part = todo[k:k + size]
-        name = f"b{n + k // size:03d}"
+    n = len(list(DIR.glob("b[0-9]*.tsv")))
+    for k, part in enumerate(chunks(todo, size, chars)):
+        name = f"b{n + k:03d}"
         if (DIR / f"{name}.tsv").exists():
             sys.exit(f"{name}.tsv exists: batches are split once; delete work/batches to re-split")
         with open(DIR / f"{name}.tsv", "w", encoding="utf-8", newline="\n") as f:
@@ -124,8 +143,19 @@ def check(name):
         lerrs, _ = lint.check(e, adv, t)
         errs += [f"{i}: {x}" for x in lerrs]
         for j, gen, avoid in gl:
-            if j in e["jp"] and gen and gen.lower() not in en.lower() and not gen.startswith("("):
-                errs.append(f"{i}: glossary: JP has {j}, EN lacks '{gen}'")
+            if "?" in gen or gen.startswith("("):
+                continue
+            # cells may list alternatives: "バルダ / バルダァ" | "Jin / Jod / Jin and Jod"
+            forms = [re.sub(r"^(the|a|an) ", "", x.strip(), flags=re.I).replace("(s)", "").lower()
+                     for x in gen.split("/")]
+            jps = [x.strip() for x in j.split(" / ")]
+            if not re.sub(r"^(the|a|an) ", "", gen.strip(), flags=re.I)[:1].isupper():
+                jps = []  # common nouns may become pronouns ("set them in..."): enforce proper nouns only
+            for k, alt in enumerate(jps):
+                need = [forms[k]] if len(jps) == len(forms) else forms  # same count: alternatives pair up
+                if alt in e["jp"] and not any(x in en.lower() for x in need):
+                    errs.append(f"{i}: glossary: JP has {alt}, EN lacks '{' / '.join(need)}'")
+                    break
             for av in avoid:
                 if re.search(rf"\b{re.escape(av)}\b", en):
                     errs.append(f"{i}: glossary: avoid '{av}'")
@@ -155,10 +185,11 @@ if __name__ == "__main__":
     ap.add_argument("cmd", choices=["split", "fit", "check", "merge"])
     ap.add_argument("arg", nargs="?")
     ap.add_argument("--size", type=int, default=120)
+    ap.add_argument("--chars", type=int, default=4500, help="JP characters per batch, tokens included")
     ap.add_argument("--portrait", action="store_true")
     a = ap.parse_args()
     if a.cmd == "split":
-        split(a.size)
+        split(a.size, a.chars)
     elif a.cmd == "fit":
         fit(a.arg, a.portrait)
     elif a.cmd == "check":
