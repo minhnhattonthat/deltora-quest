@@ -158,6 +158,13 @@ One pass at the end, line by line (no bulk rewrites). Format: id - suggestion (f
   2193_003 "the moment you think it's strong, you've lost." / 2193_000 "Serving the Shadow Lord, of all things!" /
   2193_011 "Crawl, crawl, crawl..."
 
+## b021
+- 2188_209 "Ha ha ha ha ha!" (Fallow's laugh as in b020) / 195 "We're back in Del..." / 262 "The pursuers are
+  closing in..." / 265 "Lief, take out the Belt!" / 267 no stub "himself!" / 268 "N-no! That can't be!" /
+  303 "Yes! That's why..." / 302 "was never properly finished" / 309 "Where is the boy?!{p}He is nowhere to be
+  seen!" / 225 "Yeah." / 241 "See you later!" / 194/198 Jasmine less polite / 284 "ugly figures" / 208 "He's
+  planning to use the Belt as bait..." / 193 "You're one of Dain's men..."
+
 ## b022
 - 2189_000 "Synthesise, synthesise, photosynthesise!" (controller's call vs 合成 = infuse) / 2188_332 "Thanks to
   all that, I got my memory back{n}and found my daughter." / 334 "That decision is why we are here today." /

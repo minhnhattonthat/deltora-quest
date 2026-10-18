@@ -3,102 +3,102 @@
   "id": "2200_000",
   "hdr": "00000000",
   "jp": "つうしん中です…",
-  "en": ""
+  "en": "Connecting via wireless link..."
  },
  {
   "id": "2200_001",
   "hdr": "00000000",
   "jp": "つうしんエラーです",
-  "en": ""
+  "en": "Wireless link error."
  },
  {
   "id": "2200_002",
   "hdr": "00000000",
   "jp": "お友だちが来るのをまっています…",
-  "en": ""
+  "en": "Waiting for your friend..."
  },
  {
   "id": "2200_003",
   "hdr": "00000000",
   "jp": "こうかん部屋をひらいてます",
-  "en": ""
+  "en": "Opening a trade room..."
  },
  {
   "id": "2200_004",
   "hdr": "00000000",
   "jp": "こうかん部屋に入っています…",
-  "en": ""
+  "en": "Entering the trade room..."
  },
  {
   "id": "2200_005",
   "hdr": "00000000",
   "jp": "ワイヤレスつうしんをはじめます",
-  "en": ""
+  "en": "Starting the wireless link."
  },
  {
   "id": "2200_006",
   "hdr": "00000000",
   "jp": "こうかん部屋をひらく",
-  "en": ""
+  "en": "Open a trade room"
  },
  {
   "id": "2200_007",
   "hdr": "00000000",
   "jp": "こうかん部屋にさんかする",
-  "en": ""
+  "en": "Join a trade room"
  },
  {
   "id": "2200_008",
   "hdr": "00000000",
   "jp": "こうかん部屋をさがしています…",
-  "en": ""
+  "en": "Searching for trade rooms..."
  },
  {
   "id": "2200_009",
   "hdr": "00000000",
   "jp": "はじまるのをまっています…",
-  "en": ""
+  "en": "Waiting to start..."
  },
  {
   "id": "2200_010",
   "hdr": "00000000",
   "jp": "こうかんをはじめます",
-  "en": ""
+  "en": "Starting the trade."
  },
  {
   "id": "2200_011",
   "hdr": "00000000",
   "jp": "へやがまんいんではいれませんでした",
-  "en": ""
+  "en": "The room was full, so you couldn't join."
  },
  {
   "id": "2200_012",
   "hdr": "00000000",
   "jp": "こうかん部屋はすでにおわっています",
-  "en": ""
+  "en": "That trade room has already ended."
  },
  {
   "id": "2200_013",
   "hdr": "00000000",
   "jp": "こうかん部屋がなくなりました",
-  "en": ""
+  "en": "The trade room no longer exists."
  },
  {
   "id": "2200_014",
   "hdr": "00000000",
   "jp": "こうかんあいてがつうしんをきりました",
-  "en": ""
+  "en": "Your trade partner ended the wireless link."
  },
  {
   "id": "2200_015",
   "hdr": "00000000",
   "jp": "こうかんあいてが見つかりません",
-  "en": ""
+  "en": "Couldn't find a trade partner."
  },
  {
   "id": "2200_016",
   "hdr": "00000000",
   "jp": "つうしんにしっぱいしました",
-  "en": ""
+  "en": "The wireless link failed."
  }
 ]

@@ -201,636 +201,636 @@
   "id": "2199_033",
   "hdr": "28010600",
   "jp": "見つけたぞ、こぞう！",
-  "en": ""
+  "en": "Found you, boy!"
  },
  {
   "id": "2199_034",
   "hdr": "06810104",
   "jp": "ゆるさない！",
-  "en": ""
+  "en": "I won't let you get away with this!"
  },
  {
   "id": "2199_035",
   "hdr": "28010700",
   "jp": "げひひひひ！",
-  "en": ""
+  "en": "Heh heh heh heh!"
  },
  {
   "id": "2199_036",
   "hdr": "06810104",
   "jp": "(しまった……)",
-  "en": ""
+  "en": "(Oh no...)"
  },
  {
   "id": "2199_037",
   "hdr": "28010600",
   "jp": "さっきの{sp}いきおいはどうした！",
-  "en": ""
+  "en": "What happened to all that fight{n}you had a minute ago?!"
  },
  {
   "id": "2199_038",
   "hdr": "06810104",
   "jp": "バルダ！？",
-  "en": ""
+  "en": "Barda?!"
  },
  {
   "id": "2199_039",
   "hdr": "0E810208",
   "jp": "さあ、にげるぞ！",
-  "en": ""
+  "en": "Come on, run for it!"
  },
  {
   "id": "2199_040",
   "hdr": "28010600",
   "jp": "うわっ！",
-  "en": ""
+  "en": "Whoa!"
  },
  {
   "id": "2199_041",
   "hdr": "0E030208",
   "jp": "まったく……{p}夕方までに帰って来いと{n}言われていただろうに{p}オレがいなかったら{n}どうなっていた事やら",
-  "en": ""
+  "en": "Honestly...{p}Weren't you told to be home{n}by evening?{p}Who knows what would have happened{n}if I hadn't been there."
  },
  {
   "id": "2199_042",
   "hdr": "06030104",
   "jp": "だって……",
-  "en": ""
+  "en": "But..."
  },
  {
   "id": "2199_043",
   "hdr": "0E030208",
   "jp": "だってだってだってだって！{n}なさけないやつだ",
-  "en": ""
+  "en": "But, but, but, but!{n}You're pathetic."
  },
  {
   "id": "2199_044",
   "hdr": "06030104",
   "jp": "なさけない！？{p}バルダだって同じだよ！{n}いそうろうのくせに！",
-  "en": ""
+  "en": "Pathetic?!{p}Look who's talking, Barda!{n}You're just a freeloader!"
  },
  {
   "id": "2199_045",
   "hdr": "0E030208",
   "jp": "たしかにオレは{sp}ジャードと{n}アンナの世話になっている{p}つまりおまえと同じだ",
-  "en": ""
+  "en": "It's true that Jarred and Anna{n}look after me.{p}Which makes me just the same as you."
  },
  {
   "id": "2199_046",
   "hdr": "06030104",
   "jp": "ふん！",
-  "en": ""
+  "en": "Hmph!"
  },
  {
   "id": "2199_047",
   "hdr": "06030104",
   "jp": "まずいんだ{p}ぼくがここの家の子だって{n}憲兵団に知られてた",
-  "en": ""
+  "en": "I'm in trouble.{p}The Grey Guards found out{n}that this is my home."
  },
  {
   "id": "2199_048",
   "hdr": "0E030208",
   "jp": "それは……いい{sp}きっかけだな",
-  "en": ""
+  "en": "Well... that's a good opportunity."
  },
  {
   "id": "2199_049",
   "hdr": "06030104",
   "jp": "どういう意味？",
-  "en": ""
+  "en": "What do you mean?"
  },
  {
   "id": "2199_050",
   "hdr": "0E030208",
   "jp": "町を出たいんだろう？{p}さあ、中でジャードと話してこい。{n}旅の{sp}じゅんびは{sp}できているぞ",
-  "en": ""
+  "en": "You want to leave the city, don't you?{p}Now, go inside and talk to Jarred.{n}Everything's ready for your journey."
  },
  {
   "id": "2199_051",
   "hdr": "06030104",
   "jp": "(旅のじゅんび？)",
-  "en": ""
+  "en": "(Ready for my journey?)"
  },
  {
   "id": "2199_052",
   "hdr": "06030104",
   "jp": "父さん……おそくなってごめん。{n}でも、デルトラの書は{sp}かんべんして{p}もう、あんきするくらい{sp}読んだよ",
-  "en": ""
+  "en": "Father... Sorry I'm late.{n}But please, not the Book of Deltora.{p}I've read it so many times{n}I know it by heart!"
  },
  {
   "id": "2199_053",
   "hdr": "1B030618",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2199_054",
   "hdr": "1C03081C",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2199_055",
   "hdr": "06030104",
   "jp": "(よけいな事を言っちゃった。{n}これは{sp}長いおせっきょうに{sp}なるぞ……)",
-  "en": ""
+  "en": "(I shouldn't have said that.{n}Now I'm in for a long lecture...)"
  },
  {
   "id": "2199_056",
   "hdr": "1B030618",
   "jp": "…………",
-  "en": ""
+  "en": "......"
  },
  {
   "id": "2199_057",
   "hdr": "06030104",
   "jp": "(い、息がつまりそうだ。{n}なにかしゃべらないと……)",
-  "en": ""
+  "en": "(I-I can hardly breathe.{n}I have to say something...)"
  },
  {
   "id": "2199_058",
   "hdr": "06030104",
   "jp": "バルダが{sp}へんな事を言うんだ。{n}ぼくが旅に出るとかさ",
-  "en": ""
+  "en": "Barda's been saying weird things.{n}Like that I'm going on a journey."
  },
  {
   "id": "2199_059",
   "hdr": "1B030618",
   "jp": "ああ、それは本当だ。{n}しかも、とても{sp}きけんな旅だ",
-  "en": ""
+  "en": "Yes, that is true.{n}And it will be a very dangerous one."
  },
  {
   "id": "2199_060",
   "hdr": "1C03081C",
   "jp": "ことわってもいいのよ、リーフ",
-  "en": ""
+  "en": "You can say no, Lief."
  },
  {
   "id": "2199_061",
   "hdr": "1B030618",
   "jp": "わたしの話を聞いてから{n}自分で{sp}きめるんだ",
-  "en": ""
+  "en": "Hear what I have to say,{n}then decide for yourself."
  },
  {
   "id": "2199_062",
   "hdr": "06030104",
   "jp": "(な、なんだ！？)",
-  "en": ""
+  "en": "(Wh-what?!)"
  },
  {
   "id": "2199_063",
   "hdr": "1B030618",
   "jp": "これは……デルトラのベルトだ",
-  "en": ""
+  "en": "This... is the Belt of Deltora."
  },
  {
   "id": "2199_064",
   "hdr": "06030104",
   "jp": "え！？{sp}王家に伝わるベルトだよね？{n}どうしてこれがうちに！？",
-  "en": ""
+  "en": "What?! The royal family's Belt?{n}Why is it here in our house?!"
  },
  {
   "id": "2199_065",
   "hdr": "1B030618",
   "jp": "父さんは{sp}むかし、お城に{n}住んでいたんだ",
-  "en": ""
+  "en": "Long ago, your father{n}lived in the palace."
  },
  {
   "id": "2199_066",
   "hdr": "06030104",
   "jp": "本当に！？",
-  "en": ""
+  "en": "Really?!"
  },
  {
   "id": "2199_067",
   "hdr": "1B030618",
   "jp": "そして{sp}さいごのデルトラの王{n}エンドンの親友だった",
-  "en": ""
+  "en": "And I was the best friend of Endon,{n}the last king of Deltora."
  },
  {
   "id": "2199_068",
   "hdr": "06030104",
   "jp": "まぬけのエンドン王？",
-  "en": ""
+  "en": "That bumbling King Endon?"
  },
  {
   "id": "2199_069",
   "hdr": "1B030618",
   "jp": "そう……彼は世間知らずの{n}おろか者だった{p}今はどこで何を{n}しているのか……",
-  "en": ""
+  "en": "Yes... He was a fool who knew{n}nothing of the world.{p}Where he is now, and what{n}he is doing... who can say..."
  },
  {
   "id": "2199_070",
   "hdr": "06030104",
   "jp": "生きてるの？",
-  "en": ""
+  "en": "Is he alive?"
  },
  {
   "id": "2199_071",
   "hdr": "1B030618",
   "jp": "さあな{p}しかし彼の子ども……王家の{n}あとつぎは{sp}生きているはずだ{p}その{sp}あとつぎを{sp}おまえに{n}見つけだしてほしい{p}この国を影の大王から{n}すくうためだ",
-  "en": ""
+  "en": "Who knows.{p}But his child... the heir{n}to the throne must be alive.{p}I want you to find that heir.{p}It is the only way to save this land{n}from the Shadow Lord."
  },
  {
   "id": "2199_072",
   "hdr": "06030104",
   "jp": "(すごい話だな。でも……)",
-  "en": ""
+  "en": "(Wow, what a story. But...)"
  },
  {
   "id": "2199_073",
   "hdr": "06030104",
   "jp": "あとつぎがいたって{n}無理じゃないのかな……{p}だって、おろかなエンドン王の{n}子どもでしょ？",
-  "en": ""
+  "en": "Even if there is an heir,{n}isn't it hopeless...?{p}I mean, it's the child of{n}that foolish King Endon, right?"
  },
  {
   "id": "2199_074",
   "hdr": "1B030618",
   "jp": "このベルトがあれば{sp}だいじょうぶだ{p}まずベルトに7この{n}宝石をはめる{p}それを王家のあとつぎが{n}身につければ……",
-  "en": ""
+  "en": "With this Belt, all will be well.{p}First, the seven gems must be{n}set in the Belt.{p}Then, if the heir to the throne{n}wears it..."
  },
  {
   "id": "2199_075",
   "hdr": "06030104",
   "jp": "そうか、いつか{n}教えてくれた話だね？",
-  "en": ""
+  "en": "Oh, I know! It's the story{n}you told me once, isn't it?"
  },
  {
   "id": "2199_076",
   "hdr": "00000501",
   "jp": "アディンは{sp}七部族を{sp}せっとくして{n}宝石をあつめた{n}{n}七つの宝石を{sp}自分でつくった{n}ベルトにつけて{sp}こしにまいた{n}{n}すると{sp}ベルトはたいようのように{n}光り{sp}かがやいた",
-  "en": ""
+  "en": "Adin won over the seven tribes{n}and gathered the gems.{n}{n}He set the seven gems in the belt{n}he had made, and fastened it on.{n}{n}At once, the Belt blazed{n}like the sun."
  },
  {
   "id": "2199_077",
   "hdr": "00000501",
   "jp": "デルトラの七部族は{sp}その光の{n}もとで{sp}だんけつして{sp}たたかった{n}{n}こうして{sp}めでたく{sp}影の大王を{n}おいはらう事ができた",
-  "en": ""
+  "en": "United in its light,{n}the seven tribes of Deltora fought.{n}{n}And so, at last, they drove{n}the Shadow Lord away."
  },
  {
   "id": "2199_078",
   "hdr": "1B030618",
   "jp": "そう{p}そのベルトの力が昔と同じように{n}デルトラを{sp}すくってくれるはずだ",
-  "en": ""
+  "en": "Just so.{p}The power of the Belt should save{n}Deltora, just as it did long ago."
  },
  {
   "id": "2199_079",
   "hdr": "06030104",
   "jp": "でも、父さん{p}このベルトには宝石が{n}ついていない……",
-  "en": ""
+  "en": "But, Father...{p}There are no gems{n}in this Belt..."
  },
  {
   "id": "2199_080",
   "hdr": "06030104",
   "jp": "……宝石もさがすんだね？",
-  "en": ""
+  "en": "...So I have to find the gems too?"
  },
  {
   "id": "2199_081",
   "hdr": "1B030618",
   "jp": "そのとおり",
-  "en": ""
+  "en": "Exactly."
  },
  {
   "id": "2199_082",
   "hdr": "1C03081C",
   "jp": "リーフ、ことわってもいいのよ{p}無理に旅立たせるような{n}事はしないから{p}あなたはまだ16才なんだし",
-  "en": ""
+  "en": "Lief, you can say no.{p}We won't force you{n}to go on this journey.{p}You're still only sixteen, after all."
  },
  {
   "id": "2199_083",
   "hdr": "06030104",
   "jp": "母さん……{p}ぼくはもう16才だよ",
-  "en": ""
+  "en": "Mother...{p}I'm already sixteen!"
  },
  {
   "id": "2199_084",
   "hdr": "1C03081C",
   "jp": "リーフ……",
-  "en": ""
+  "en": "Lief..."
  },
  {
   "id": "2199_085",
   "hdr": "1B030618",
   "jp": "これは父さんからの{n}おくり物だ{p}父さんがつくった剣。{n}今までで{sp}さいこうのできばえだ",
-  "en": ""
+  "en": "This is a gift{n}from your father.{p}A sword I made. The finest work{n}I have ever done."
  },
  {
   "id": "2199_086",
   "hdr": "06030104",
   "jp": "ありがとう",
-  "en": ""
+  "en": "Thank you."
  },
  {
   "id": "2199_087",
   "hdr": "1B030618",
   "jp": "これは母さんからだ",
-  "en": ""
+  "en": "And this is from your mother."
  },
  {
   "id": "2199_088",
   "hdr": "1C03081C",
   "jp": "たくさんの思い出と{n}愛情をこめてつくったのよ",
-  "en": ""
+  "en": "I made it with so many memories{n}and all my love."
  },
  {
   "id": "2199_089",
   "hdr": "01030104",
   "jp": "母さん、ありがとう！",
-  "en": ""
+  "en": "Thank you, Mother!"
  },
  {
   "id": "2199_090",
   "hdr": "1C03081C",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2199_091",
   "hdr": "01030104",
   "jp": "心配しないで{p}この国をすくう力に{n}なれるんだから{p}ぼくは{sp}よろこんで旅に出るよ！",
-  "en": ""
+  "en": "Don't worry.{p}After all, I can help{n}save this land.{p}I'm glad to go on this journey!"
  },
  {
   "id": "2199_092",
   "hdr": "1B030618",
   "jp": "本当なら{sp}わたしが{n}行くつもりだったのだが……",
-  "en": ""
+  "en": "By rights, I meant{n}to go myself, but..."
  },
  {
   "id": "2199_093",
   "hdr": "01030104",
   "jp": "父さんは足がよくないんだもの。{n}わかっているから気にしないで",
-  "en": ""
+  "en": "Father, your leg isn't good.{n}I understand, so don't worry."
  },
  {
   "id": "2199_094",
   "hdr": "1C03081C",
   "jp": "いつ行くの？",
-  "en": ""
+  "en": "When will you leave?"
  },
  {
   "id": "2199_095",
   "hdr": "01030104",
   "jp": "今さ！",
-  "en": ""
+  "en": "Right now!"
  },
  {
   "id": "2199_096",
   "hdr": "0E030208",
   "jp": "リーフ、伝えなくていいのか？{n}影の憲兵団に{sp}おわれていると",
-  "en": ""
+  "en": "Lief, shouldn't you tell them{n}the Grey Guards are after you?"
  },
  {
   "id": "2199_097",
   "hdr": "1C03081C",
   "jp": "リーフ！？",
-  "en": ""
+  "en": "Lief?!"
  },
  {
   "id": "2199_098",
   "hdr": "03030104",
   "jp": "うん、ごめん……",
-  "en": ""
+  "en": "Yeah... sorry..."
  },
  {
   "id": "2199_099",
   "hdr": "1B030618",
   "jp": "忘れろ、リーフ",
-  "en": ""
+  "en": "Forget about it, Lief."
  },
  {
   "id": "2199_100",
   "hdr": "0E030208",
   "jp": "ジャード、おまえも{sp}きけんに{n}さらされるんだぞ",
-  "en": ""
+  "en": "Jarred, you'll be in danger too,{n}you know."
  },
  {
   "id": "2199_101",
   "hdr": "1B030618",
   "jp": "わたしの事は{n}心配するな{p}息子は家から{sp}おい出したとでも{n}言っておくさ",
-  "en": ""
+  "en": "Don't worry about me.{p}I'll just say I threw my son{n}out of the house."
  },
  {
   "id": "2199_102",
   "hdr": "0E030208",
   "jp": "うむ……",
-  "en": ""
+  "en": "Hmm..."
  },
  {
   "id": "2199_103",
   "hdr": "1B030618",
   "jp": "リーフ、おまえは{sp}町を{n}にげ出すんじゃない{p}世界を影の大王から{n}すくうために旅立つのだ",
-  "en": ""
+  "en": "Lief, you are not running away{n}from the city.{p}You are setting out to save the world{n}from the Shadow Lord."
  },
  {
   "id": "2199_104",
   "hdr": "03030104",
   "jp": "……はい",
-  "en": ""
+  "en": "...Yes."
  },
  {
   "id": "2199_105",
   "hdr": "1B030618",
   "jp": "気をつけてな",
-  "en": ""
+  "en": "Take care."
  },
  {
   "id": "2199_106",
   "hdr": "03810104",
   "jp": "いってきます……",
-  "en": ""
+  "en": "I'll be going, then..."
  },
  {
   "id": "2199_107",
   "hdr": "1B030618",
   "jp": "たよりない返事だな。{n}旅に出すのは早かったのか？",
-  "en": ""
+  "en": "What a feeble answer.{n}Was it too soon to send you off?"
  },
  {
   "id": "2199_108",
   "hdr": "03810104",
   "jp": "父さん……",
-  "en": ""
+  "en": "Father..."
  },
  {
   "id": "2199_109",
   "hdr": "1B030618",
   "jp": "もう何も言うな。行け、リーフ",
-  "en": ""
+  "en": "Say no more. Go, Lief."
  },
  {
   "id": "2199_110",
   "hdr": "03810104",
   "jp": "(ぼくは{sp}にげ出すんじゃない……)",
-  "en": ""
+  "en": "(I'm not running away...)"
  },
  {
   "id": "2199_111",
   "hdr": "01810104",
   "jp": "父さん、母さん、行ってきます！",
-  "en": ""
+  "en": "Father, Mother, I'm on my way!"
  },
  {
   "id": "2199_112",
   "hdr": "28010274",
   "jp": "おい、リーフ！{sp}待て！",
-  "en": ""
+  "en": "Hey, Lief! Wait!"
  },
  {
   "id": "2199_113",
   "hdr": "05810104",
   "jp": "バルダ！？",
-  "en": ""
+  "en": "Barda?!"
  },
  {
   "id": "2199_114",
   "hdr": "0E030208",
   "jp": "オレも{sp}いっしょに行く。{n}ジャードとの約束だ",
-  "en": ""
+  "en": "I'm coming with you.{n}I promised Jarred."
  },
  {
   "id": "2199_115",
   "hdr": "05810104",
   "jp": "(いっしょに？{n}なさけない{sp}いそうろうが！？)",
-  "en": ""
+  "en": "(With me?{n}That sorry freeloader?!)"
  },
  {
   "id": "2199_116",
   "hdr": "0E030208",
   "jp": "ここにいてくれ",
-  "en": ""
+  "en": "Stay right here."
  },
  {
   "id": "2199_117",
   "hdr": "05810104",
   "jp": "(バルダ！？{n}な、なんかかっこいい……)",
-  "en": ""
+  "en": "(Barda?!{n}H-he's actually kind of cool...)"
  },
  {
   "id": "2199_118",
   "hdr": "09030208",
   "jp": "元デル城の兵士バルダ。{n}よろしくな",
-  "en": ""
+  "en": "Barda, former guard{n}of the palace of Del. Good to meet you."
  },
  {
   "id": "2199_119",
   "hdr": "05810104",
   "jp": "元城の兵士！？",
-  "en": ""
+  "en": "A former palace guard?!"
  },
  {
   "id": "2199_120",
   "hdr": "09030208",
   "jp": "兵士といっても{sp}ただの兵士ではない{p}王の身を守る、とくべつな兵士だ",
-  "en": ""
+  "en": "And not just any guard.{p}A special guard, sworn to protect{n}the king himself."
  },
  {
   "id": "2199_121",
   "hdr": "01810104",
   "jp": "(じまんなのかな……)",
-  "en": ""
+  "en": "(Is he bragging...?)"
  },
  {
   "id": "2199_122",
   "hdr": "09030208",
   "jp": "さて、出発するか",
-  "en": ""
+  "en": "Well, shall we set out?"
  },
  {
   "id": "2199_123",
   "hdr": "01810104",
   "jp": "う、うん……でも、どこへ？",
-  "en": ""
+  "en": "Y-yeah... But where to?"
  },
  {
   "id": "2199_124",
   "hdr": "0B030208",
   "jp": "デルトラのベルトについていた{n}宝石は影の大王がかくしてしまった{p}7つの宝石を7つのばしょにな",
-  "en": ""
+  "en": "The Shadow Lord hid the gems{n}that were set in the Belt of Deltora.{p}Seven gems, in seven places."
  },
  {
   "id": "2199_125",
   "hdr": "09030208",
   "jp": "オレとジャードで{n}しらべたところによると……{p}宝石のひとつは{n}『ちんもくの森』にあるらしい",
-  "en": ""
+  "en": "From what Jarred and I{n}have found out...{p}one of the gems seems to be{n}in the Forests of Silence."
  },
  {
   "id": "2199_126",
   "hdr": "01810104",
   "jp": "ちんもくの森……",
-  "en": ""
+  "en": "The Forests of Silence..."
  },
  {
   "id": "2199_127",
   "hdr": "09030208",
   "jp": "あそこには{sp}おそろしい{sp}かいぶつが{n}すみついている{p}そのせいで影の憲兵団も{n}あまり近よらないそうだ",
-  "en": ""
+  "en": "Dreadful monsters make{n}their home there.{p}That's why even the Grey Guards{n}rarely go near them, they say."
  },
  {
   "id": "2199_128",
   "hdr": "01810104",
   "jp": "(おそろしい{sp}かいぶつ……)",
-  "en": ""
+  "en": "(Dreadful monsters...)"
  },
  {
   "id": "2199_129",
   "hdr": "0C030208",
   "jp": "おじけづいたか？",
-  "en": ""
+  "en": "Losing your nerve?"
  },
  {
   "id": "2199_130",
   "hdr": "02810104",
   "jp": "まさか！{p}憲兵団がいないなら{n}安心だと思ったんだ",
-  "en": ""
+  "en": "No way!{p}I just thought, no Grey Guards{n}means we'll be safe."
  },
  {
   "id": "2199_131",
   "hdr": "09030208",
   "jp": "だといいが……",
-  "en": ""
+  "en": "Let's hope so..."
  },
  {
   "id": "2199_132",
   "hdr": "01810104",
   "jp": "バルダは{sp}おじけづいたの？",
-  "en": ""
+  "en": "Are you losing your nerve, Barda?"
  },
  {
   "id": "2199_133",
   "hdr": "09030208",
   "jp": "ああ、こわいさ",
-  "en": ""
+  "en": "Oh yes, I'm scared."
  },
  {
   "id": "2199_134",
   "hdr": "01810104",
   "jp": "たよりないなあ",
-  "en": ""
+  "en": "Not very reassuring..."
  },
  {
   "id": "2199_135",
   "hdr": "0C030208",
   "jp": "ふん！{sp}おまえの無知が{n}うらやましいよ",
-  "en": ""
+  "en": "Hmph! I envy you{n}your ignorance."
  },
  {
   "id": "2199_136",
   "hdr": "02810104",
   "jp": "(やっぱりバルダは{sp}はらが立つな……)",
-  "en": ""
+  "en": "(Barda really does{n}get on my nerves...)"
  },
  {
   "id": "2199_137",
   "hdr": "0C030208",
   "jp": "どうした？{sp}怒ったか？",
-  "en": ""
+  "en": "What's wrong? Angry?"
  },
  {
   "id": "2199_138",
   "hdr": "00000001",
   "jp": "こうして少年リーフと{n}元デル城の兵士バルダの旅がはじまった。",
-  "en": ""
+  "en": "And so began the journey of young Lief{n}and Barda, once a guard at Del's palace."
  }
 ]
