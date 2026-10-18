@@ -339,6 +339,7 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | 上画面 / 下画面 | top screen / bottom screen | game UI | | |
 | ダッシュ / スライド / タメ / ジャンプ | dash / slide / charge / jump | game UI | controls | |
 | キャンプ / テント | Camp / Tent | game UI | | |
+| あたたかいキャンプ | The Cosy Camp | game | area title card (tools/cards.py) | Warm Camp |
 | ステータス | Status | game UI | | |
 | フロア | Floor | game UI | tower | |
 | スペシャルステージ | Special Stage | game UI | | |

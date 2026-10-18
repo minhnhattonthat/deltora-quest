@@ -23,7 +23,13 @@ SIZES = {0: [(8, 8), (16, 16), (32, 32), (64, 64)], 1: [(16, 8), (32, 8), (32, 1
          2: [(8, 16), (8, 32), (16, 32), (32, 64)]}
 
 
-def cells(recn, til, pal):
+def linear(rgcn):
+    """RGCN flag word bit 0: pixels stored row-major per sprite instead of as 8x8 tiles."""
+    _, b = nitro.section(rgcn, b"RAHC")
+    return struct.unpack_from("<I", b, 0x0C)[0] & 1
+
+
+def cells(recn, til, pal, lin=False):
     off = struct.unpack_from("<H", recn, 0x0C)[0]
     s = recn[off + 8:]
     n, attr, coff, mapping, vt = struct.unpack_from("<HHIII", s, 0)
@@ -56,7 +62,10 @@ def cells(recn, til, pal):
             k = np.arange(w * h // 64) + t
             if k[-1] >= len(til):
                 continue
-            px = til[k].reshape(h // 8, w // 8, 8, 8).transpose(0, 2, 1, 3).reshape(h, w)
+            if lin:
+                px = til.reshape(-1)[t * 64:t * 64 + w * h].reshape(h, w)
+            else:
+                px = til[k].reshape(h // 8, w // 8, 8, 8).transpose(0, 2, 1, 3).reshape(h, w)
             if hf:
                 px = px[:, ::-1]
             if vf:
@@ -67,29 +76,58 @@ def cells(recn, til, pal):
         yield i, img
 
 
+def need(recn):
+    """Bytes of tile data the cell bank's VRAM-transfer table reaches (0 = no table)."""
+    off = struct.unpack_from("<H", recn, 0x0C)[0]
+    s = recn[off + 8:]
+    n, vt = struct.unpack_from("<H", s, 0)[0], struct.unpack_from("<I", s, 16)[0]
+    if not vt:
+        return 0
+    tab = vt + struct.unpack_from("<I", s, vt + 4)[0]
+    return max(sum(struct.unpack_from("<II", s, tab + i * 8)) for i in range(n))
+
+
+def pick_chr(n, magic, sizes, recn):
+    """Nearest 4bpp RGCN within 6 files that holds all the tiles the bank needs (after the bank wins ties)."""
+    want = need(recn)
+    for k in sorted(range(n - 6, n + 7), key=lambda k: (abs(k - n), k < n)):
+        if magic.get(k) == b"RGCN" and sizes[k] >= want:
+            return k
+    return None
+
+
 def main():
     from PIL import Image, ImageDraw
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=str(ROOT / "work/qa/objsurvey"))
     ap.add_argument("--width", type=int, default=1600)
     ap.add_argument("--height", type=int, default=1000)
+    ap.add_argument("--only", help="comma-separated RECN numbers")
     a = ap.parse_args()
     d = ROOT / "work/fs/lf2"
     magic = {int(p.stem): p.read_bytes()[:4] for p in d.iterdir()}
+    sizes = {}
+    for k, m in magic.items():
+        if m == b"RGCN":
+            b = nitro.load(k)
+            off, s = nitro.section(b, b"RAHC")
+            sizes[k] = struct.unpack_from("<I", s, 0x10)[0]
+    only = set(map(int, a.only.split(","))) if a.only else None
     seen, items = set(), []
     for n in sorted(magic):
-        if magic[n] != b"RECN":
+        if magic[n] != b"RECN" or only and n not in only:
             continue
-        c = n + 1 if magic.get(n + 1) == b"RGCN" else next((k for k in range(n - 1, n - 6, -1) if magic.get(k) == b"RGCN"), None)
         p = next((k for k in range(n - 1, n - 8, -1) if magic.get(k) == b"RLCN"), None)
-        if c is None or p is None:
-            continue
         try:
+            c = pick_chr(n, magic, sizes, nitro.load(n))
+            if c is None or p is None:
+                print(f"skip {n}: no RGCN/RLCN near it")
+                continue
             til, bpp = nitro.tiles(nitro.load(c))
             if bpp != 4:
                 continue
             pal = nitro.palette(nitro.load(p))
-            for i, img in cells(nitro.load(n), til, pal):
+            for i, img in cells(nitro.load(n), til, pal, linear(nitro.load(c))):
                 h = hashlib.sha1(img.tobytes()).digest()
                 if h not in seen and (img != (255, 0, 255)).any():
                     seen.add(h)

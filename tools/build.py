@@ -9,6 +9,7 @@ from pathlib import Path
 import ndspy.rom
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import cards  # noqa: E402
 import check_rom  # noqa: E402
 import codepatch  # noqa: E402
 import fontgen  # noqa: E402
@@ -37,6 +38,7 @@ def build(orig, lang=None, marker=False):
         rom.arm9 = codepatch.apply(rom.arm9, bytes(widths))
         tags.apply(files)
         logo.apply(files)
+        cards.apply(files)
     rom.files[FILEDATA] = lf2.build(files, pads)
     out = bytearray(rom.save())
     out[0x1000:0x1004] = orig[0x1000:0x1004]  # ndspy writes a size word into this zero gap

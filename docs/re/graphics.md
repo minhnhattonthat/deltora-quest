@@ -28,17 +28,23 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
 
 | G6 | field menu labels | そうび / だいじ / そざい / カード / アイテム | field menu (bottom-right icon; scene `menu`) | 32x16 OBJ cells in sheet FILEDATA 5311 (3 copies each; objcell.py) | blocked: 32 px wide, fixed by the cell's 0x300 VRAM slot (icon + label); wording for the user |
 | G7 | item menu header | フィールドでつかうアイテム | scene `menu_item`, BG3 | BG screen 542 over chr 541 (pal 540) | todo |
-| G8 | chapter title cards | 第1章 沈黙の森 ... 最終章 帰還 デルへ (8) | chapter start | BG screens 1694 1701 1708 1715 1722 1729 1736 1743 (gfxsurvey) | todo |
-| G9 | area title cards | あたたかい キャンプ, TOMの店, ジャスミンの まぜまぜ部屋, スペシャルステージ モキートの館, ジャックの グランドファーム, エクストラステージ 夢幻の塔, ひみつの オーディオルーム | area entry | BG screens 1750 1757 1764 1771 1778 1785 1792 | todo |
-| G10 | game over line | リーフたちは力つきた… | game over (GAME OVER already English) | BG screen 425 | todo |
+| G8 | chapter title cards | 第1章 沈黙の森 ... 最終章 帰還 デルへ (8) | chapter start | BG screens 1694 1701 1708 1715 1722 1729 1736 1743 (gfxsurvey); chr = screen - 1 | imported (tools/cards.py, gfx/card_*.png); not seen in game yet: the warps skip the cards (story select / world map route needed) |
+| G9 | area title cards | あたたかい キャンプ, TOMの店, ジャスミンの まぜまぜ部屋, スペシャルステージ モキートの館, ジャックの グランドファーム, エクストラステージ 夢幻の塔, ひみつの オーディオルーム | area entry | BG screens 1750 1757 1764 1771 1778 1785 1792 | imported (tools/cards.py: "The Cosy / Camp", "Tom's Shop", ...); not seen in game yet |
+| G10 | game over line | リーフたちは力つきた… | game over (GAME OVER already English) | BG screen 425 over chr 424 | imported: "Lief's party has fallen..." (tools/cards.py OVER); not seen in game yet (no game-over scene) |
 | G11 | card trade headers | デルトラカードこうかん / こうかん中… | wireless card trade | BG screens 1675, 1678 | todo |
 | G12 | Emily Rodda letter | 親愛なるデルトラ・ファンのみなさまへ ... エミリー | letter screen, Japanese half under her English handwriting | BG screen 357 | todo: probably drop the JP half (English original above) |
 | G13 | demo leftovers? | 7つの宝石(仮) logo; 画面をタッチして次の人に...; ことし発売予定 | unknown; look like store-demo screens | BG 354, 374, 376 | check if retail shows them |
 | G14 | bitmap font sheet | A-Z a-z 0-9, kana | which screen draws with it? | chr in screen group 513/512/510 | find its user |
+| G15 | battle move-name banners | ファーストスラッシュ, フラッシュスラッシュ, スピニングカット, たすけて!クリー, フォレストダンス, てつだって!クリー, 王国衛兵式 烈火, 王国衛兵式 雷電 | special moves | sprite banks 5505 5509 5512 5526 5530 5533 5546 5549 (4 colour frames each) | todo: names need glossary |
+| G16 | battle HUD panel | のこりタイム / ぶきついかこうか | timer + weapon bonus box | sprite bank 5591 | todo |
+| G17 | save panel | セーブ | save point | sprite bank 5412 (4 frames) | todo |
+| -- | low priority | おじいさん scrawl on a portrait (3367:0, placeholder?), signpost scrawl 5026/5029, floor runes 4994 | | | check in game only if seen |
 
 ## Survey method (tools/debug/gfxsurvey.py, objsurvey.py)
 Every RCSN rendered with the RGCN/RLCN just before it (work/qa/gfxsurvey, 418 screens; read by 4 reviewer agents,
-all sheets) and every RECN cell bank with the RGCN after it (work/qa/objsurvey, 6330 unique cells; not read yet).
+all sheets) and every RECN cell bank with the nearest RGCN big enough for its VRAM-transfer table (work/qa/objsurvey
++ objsurvey2 re-render, ~6300 unique cells, all read by reviewer agents). Some RGCNs are "linear" (flag word bit 0:
+row-major pixels per sprite, not 8x8 tiles); rendering them as tiles gives stripes.
 The pairing is a guess: 1623 renders as a plausible second title layout over 1620's tiles but really is the bottom
 title screen's map over other tiles (VRAM dump work/qa/title_dump2). Confirm a pairing in VRAM before editing.
 

@@ -49,15 +49,20 @@ def derived(files, c, s, base, edited):
     return out
 
 
-def fill(a, box):
+def fill(a, box, bottom=False):
     """Background for box: diffused in from the background-coloured pixels on its top, left and right edges (the
-    bottom edge is lettering; the Q and the castle touch the sides), plus the grain of the same-sized block above."""
+    bottom edge is lettering; the Q and the castle touch the sides), plus the grain of the same-sized block above.
+    bottom=True: the whole ring around the box is background (text over plain art)."""
     x0, y0, x1, y1 = box
     p = a[y0 - 1:y1 + 1, x0 - 1:x1 + 1].copy()  # one ring around the box
     h, w = p.shape[:2]
     known = np.zeros((h, w), bool)
-    known[0], known[:-1, 0], known[:-1, -1] = True, True, True
-    known &= np.abs(p - np.median(p[0], 0)).sum(-1) < 60
+    known[0], known[:, 0], known[:, -1] = True, True, True
+    if bottom:
+        known[-1] = True
+    else:
+        known[-1] = False
+        known &= np.abs(p - np.median(p[0], 0)).sum(-1) < 60
     inner = np.zeros((h, w), bool)
     inner[1:-1, 1:-1] = True
     p[inner] = np.median(p[0], 0)
@@ -70,6 +75,8 @@ def fill(a, box):
             n += k
         p[inner] = acc[inner] / n[inner][:, None]
     p = p[:-1]
+    if bottom:
+        return p[1:, 1:-1].clip(0, 255)
     above = a[2 * y0 - y1:y0, x0:x1]
     blur = sum(np.roll(np.roll(above, dy, 0), dx, 1) for dy in (-1, 0, 1) for dx in (-1, 0, 1)) / 9
     return (p[1:, 1:-1] + above - blur).clip(0, 255)
