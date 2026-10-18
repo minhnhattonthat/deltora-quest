@@ -40,6 +40,14 @@ def test_banners_redraw_every_frame(files):
             assert (a != b).any() and set(np.unique(b)) <= set(np.unique(a)) | {0}, n  # changed, same colours
 
 
+def test_sprite_labels_change_only_their_tiles(files):
+    import sprites
+    f = list(files)
+    sprites.apply(f)  # asserts every label fits
+    for n, (c, _, _) in sprites.SPOTS.items():
+        assert f[c] != files[c] and len(f[c]) == len(files[c]) and f[c][:0x30] == files[c][:0x30]
+
+
 def test_menu_repack_is_consistent(files):
     f = list(files)
     menu.apply(f)

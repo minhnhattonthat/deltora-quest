@@ -39,16 +39,23 @@ def layout(cell, src_tiles, unit):
     return objs, max(o[0] + o[2] for o in objs), max(o[1] + o[3] for o in objs)
 
 
-def get(til, objs, W, H):
+def get(til, objs, W, H, linear=False):
+    """Cell picture (palette indices) from tiles; linear = the RGCN stores each sprite's pixels row-major."""
     img = np.zeros((H, W), np.uint8)
     for x, y, w, h, t in objs:
-        img[y:y + h, x:x + w] = til[t:t + w * h // 64].reshape(h // 8, w // 8, 8, 8).transpose(0, 2, 1, 3).reshape(h, w)
+        if linear:
+            img[y:y + h, x:x + w] = til.reshape(-1)[t * 64:t * 64 + w * h].reshape(h, w)
+        else:
+            img[y:y + h, x:x + w] = til[t:t + w * h // 64].reshape(h // 8, w // 8, 8, 8).transpose(0, 2, 1, 3).reshape(h, w)
     return img
 
 
-def put(til, objs, img):
+def put(til, objs, img, linear=False):
     for x, y, w, h, t in objs:
-        til[t:t + w * h // 64] = img[y:y + h, x:x + w].reshape(h // 8, 8, w // 8, 8).transpose(0, 2, 1, 3).reshape(-1, 8, 8)
+        if linear:
+            til.reshape(-1)[t * 64:t * 64 + w * h] = img[y:y + h, x:x + w].reshape(-1)
+        else:
+            til[t:t + w * h // 64] = img[y:y + h, x:x + w].reshape(h // 8, 8, w // 8, 8).transpose(0, 2, 1, 3).reshape(-1, 8, 8)
 
 
 def mask(text, size, width, height, italic=0.22):

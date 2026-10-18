@@ -36,8 +36,8 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
 | G13 | demo leftovers? | 7つの宝石(仮) logo; 画面をタッチして次の人に...; ことし発売予定 | unknown; look like store-demo screens | BG 354, 374, 376 | check if retail shows them |
 | G14 | bitmap font sheet | A-Z a-z 0-9, kana | which screen draws with it? | chr in screen group 513/512/510 | find its user |
 | G15 | battle move-name banners | ファーストスラッシュ, フラッシュスラッシュ, スピニングカット, たすけて!クリー, フォレストダンス, てつだって!クリー, 王国衛兵式 烈火, 王国衛兵式 雷電 | special moves | sprite banks 5505 5509 5512 5526 5530 5533 5546 5549 (4 colour frames each), tiled RGCN = bank + 1, no linear twin | imported (tools/banners.py, names D9); not seen in game yet (no battle scene with a special move) |
-| G16 | battle HUD panel | のこりタイム / ぶきついかこうか | timer + weapon bonus box | sprite bank 5591 | todo |
-| G17 | save panel | セーブ | save point | sprite bank 5412 (4 frames) | todo |
+| G16 | battle HUD panel | のこりタイム / ぶきついかこうか | timer + weapon bonus box | sprite bank 5591 over 5592 (tiled) | imported: "Time Left" / "Weapon Bonus" (tools/sprites.py); not seen in game yet |
+| G17 | save panel | セーブ | save point | sprite bank 5412 over 5411 (linear only) | imported: "SAVE" (tools/sprites.py); not seen in game yet |
 | -- | low priority | おじいさん scrawl on a portrait (3367:0, placeholder?), signpost scrawl 5026/5029, floor runes 4994 | | | check in game only if seen |
 
 ## Survey method (tools/debug/gfxsurvey.py, objsurvey.py)
