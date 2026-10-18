@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 
 import ndspy.rom
+import numpy as np
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,6 +24,20 @@ def test_every_cell_bank_roundtrips(files):
     for b in files:
         if b[:4] == b"RECN":
             assert nitro.build_recn(nitro.parse_recn(b)) == b
+
+
+def test_banners_redraw_every_frame(files):
+    import banners
+    f = list(files)
+    banners.apply(f)
+    for n in banners.BANNERS:
+        r = nitro.parse_recn(f[n])
+        new, _ = nitro.tiles(f[n + 1])
+        old, _ = nitro.tiles(files[n + 1])
+        for cell, (src, _) in zip(r["cells"], r["transfer"]):
+            objs, w, h = banners.layout(cell, src // 32, (32 << r["mapping"]) // 32)
+            a, b = banners.get(old, objs, w, h), banners.get(new, objs, w, h)
+            assert (a != b).any() and set(np.unique(b)) <= set(np.unique(a)) | {0}, n  # changed, same colours
 
 
 def test_menu_repack_is_consistent(files):
