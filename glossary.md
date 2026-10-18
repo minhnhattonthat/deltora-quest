@@ -344,6 +344,10 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | ファーストスラッシュ / フラッシュスラッシュ / スピニングカット | First Slash / Flash Slash / Spinning Cut | game | Lief's moves, battle banners (D9) | |
 | たすけて!クリー / フォレストダンス / てつだって!クリー | Help Me, Kree! / Forest Dance / Lend a Hand, Kree! | game | Jasmine's moves (D9) | |
 | 王国衛兵式 烈火 / 雷電 | Palace Guard Style: Blaze / Thunderclap | game | Barda's moves (D9) | Royal Guard Style |
+| ゼータ斬り / ファイナルスラッシュ | Zeta Slash / Final Slash | game | Lief's moves (D10) | |
+| ジャングルダンス / ナイフとクリーの舞 | Jungle Dance / Dance of Knife and Kree | game | Jasmine's moves (D10) | |
+| 王国衛兵式 疾風 / 山崩 / 王国衛兵式奥義 夢幻 | Palace Guard Style: Gale / Landslide; Palace Guard Secret Art: Phantasm | game | Barda's moves (D10) | |
+| れんぞくタッチ! | Tap Rapidly! | game | smithing / chase minigame prompt (sprite 5522); script says "Tap the bottom screen rapidly" | Keep Tapping! |
 | あたたかいキャンプ | The Cosy Camp | game | area title card (tools/cards.py) | Warm Camp |
 | ステータス | Status | game UI | | |
 | フロア | Floor | game UI | tower | |

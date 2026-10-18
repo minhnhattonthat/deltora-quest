@@ -20,7 +20,13 @@ BANNERS = {
     5505: ("First Slash", ""), 5509: ("Flash Slash", ""), 5512: ("Spinning Cut", ""),
     5526: ("Help Me, Kree!", ""), 5530: ("Forest Dance", ""), 5533: ("Lend a Hand, Kree!", ""),
     5546: ("Blaze", "Palace Guard Style"), 5549: ("Thunderclap", "Palace Guard Style"),
+    # D10: banks the first sprite survey skipped (palette after the bank)
+    5515: ("Zeta Slash", ""), 5518: ("Final Slash", ""), 5536: ("Jungle Dance", ""),
+    5539: ("Dance of Knife and Kree", ""), 5542: ("Gale", "Palace Guard Style"),
+    5552: ("Landslide", "Palace Guard Style"), 5555: ("Phantasm", "Palace Guard Secret Art"),
+    5522: ("Tap Rapidly!", ""),  # smithing minigame prompt れんぞくタッチ! (3 frames, script: "Tap ... rapidly")
 }
+KEEP = {5522: 33}  # rows kept from the original frame: the pointer triangle above the prompt
 SIZES = {0: [(8, 8), (16, 16), (32, 32), (64, 64)], 1: [(16, 8), (32, 8), (32, 16), (64, 32)],
          2: [(8, 16), (8, 32), (16, 32), (32, 64)]}
 
@@ -113,17 +119,23 @@ def apply(files):
         assert bpp == 4 and not struct.unpack_from("<I", nitro.section(files[n + 1], b"RAHC")[1], 0x0C)[0] & 1
         til = til.copy()
         unit = (32 << r["mapping"]) // 32
+        keep = KEEP.get(n, 0)
         for cell, (src, _) in zip(r["cells"], r["transfer"]):
             objs, W, H = layout(cell, src // 32, unit)
             orig = get(til, objs, W, H)
+            h = H - keep
             if small:
                 s = pixel_mask(small)
-                m = mask(main, 22, W - 4, H - s.shape[0] - 5)
+                m = mask(main, 22, W - 4, h - s.shape[0] - 5)
                 lines = [(s, 0), (m, s.shape[0] + 2)]
             else:
-                m = mask(main, 22, W - 4, H - 6)
-                lines = [(m, (H - m.shape[0] - 2) // 2)]
-            put(til, objs, recolour(orig, lines))
+                m = mask(main, 28 if keep else 22, W - 4, h - 6)
+                if keep:  # centred under the pointer, as the Japanese
+                    m = np.pad(m, ((0, 0), ((W - 4 - m.shape[1]) // 2, 0)))
+                lines = [(m, (h - m.shape[0] - 2) // 2)]
+            new = orig.copy()
+            new[keep:] = recolour(orig[keep:], lines)
+            put(til, objs, new)
         files[n + 1] = nitro.with_tiles(files[n + 1], til)
 
 
@@ -139,7 +151,7 @@ def main():
     for n in BANNERS:
         r = nitro.parse_recn(files[n])
         til, _ = nitro.tiles(files[n + 1])
-        pal = nitro.palette(files[next(k for k in range(n - 1, n - 8, -1) if files[k][:4] == b"RLCN")])
+        pal = nitro.palette(files[next(k for k in [n + 2, *range(n - 1, n - 20, -1)] if files[k][:4] == b"RLCN")])
         imgs = []
         for cell, (src, _) in zip(r["cells"], r["transfer"]):
             objs, W, H = layout(cell, src // 32, (32 << r["mapping"]) // 32)
@@ -147,7 +159,8 @@ def main():
             im = pal[(p + get(til, objs, W, H)) % len(pal)]
             im[get(til, objs, W, H) == 0] = (60, 60, 60)
             imgs.append(np.pad(im, ((0, 2), (0, 230 - W), (0, 0))))
-        rows.append(np.concatenate(imgs, 1))
+        hmax = max(x.shape[0] for x in imgs)  # the prompt's frames differ in height
+        rows.append(np.concatenate([np.pad(x, ((0, hmax - x.shape[0]), (0, 0), (0, 0))) for x in imgs], 1))
     sheet = np.concatenate([np.pad(r, ((0, 0), (0, max(x.shape[1] for x in rows) - r.shape[1]), (0, 0))) for r in rows])
     Image.fromarray(sheet).resize((sheet.shape[1] * 2, sheet.shape[0] * 2), Image.NEAREST).save(sys.argv[1])
     print(sys.argv[1])

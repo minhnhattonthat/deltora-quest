@@ -14,13 +14,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   2. Graphics text (docs/re/graphics.md G1-G17): whole-FILEDATA survey done (every BG screen and sprite cell,
      tools/debug/gfxsurvey.py + objsurvey.py, read by reviewer agents) and every row handled: logo.py, tags.py,
      cards.py, menu.py (D8, engine re-pack), banners.py (D9), sprites.py. Seen in game: logo, tags, Yes/No, field
-     menu, item header, game over (scenes boss_ch1 + game_over, 2026-10-18). Imported but NOT seen in game:
-     chapter/area cards, move banners, battle HUD, Save panel, Emily letter, card trade, demo screens (low risk:
-     same import paths as the items seen; sprite edits are pixel-only, no twins). Left: G14 font sheet's user
-     (probably debug menu), 354 working-title logo (no reference found).
-     Tried and failed (docs/re/debug.md "Dead ends"): world map warp freezes, 1798 recap goes black before its
-     SavePoint, no special move by mashing. Next way in: tap-walk from ch1 / boss_ch1, or find the HP address for
-     a Lua no-damage hook. work/states/menu_card.dst hangs on load: regenerate it, or go via `menu`.
+     menu, item header, game over, "First Slash" banner, SAVE panel (scenes boss_ch1, game_over, camp; hook
+     tools/debug/nodamage.lua; 2026-10-18). Imported but NOT seen in game: chapter/area cards (only the world map
+     script shows them, and its warp freezes), battle HUD (needs a timed weapon bonus), Emily letter, card trade,
+     demo screens (low risk: same import paths as items seen; sprite edits are pixel-only, no twins). Left: G14
+     font sheet's user (probably debug menu), 354 working-title logo (no reference found). Dead ends and field
+     controls: docs/re/debug.md. Next way to the cards: play ch1 to its end from boss_ch1 with nodamage + taps.
+     Savestates go stale after every rebuild (cached file offsets): a stale dialogue.dst froze the emulator under
+     --debugger. Run `warp.py --all` after each build before using states.
   3. Polish pass over docs/polish-todo.md (line by line, no bulk rewrites); whole-project sampled review.
   4. In-game checks noted by reviewers: hideout song puzzle (2188_136), smithing icons Circle/Arrow (2196_012),
      speakers 2184_248 / 2188_365 / 2199_116, 2197_216 context.

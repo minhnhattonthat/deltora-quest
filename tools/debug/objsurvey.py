@@ -1,4 +1,5 @@
-"""objsurvey.py: render every sprite cell in FILEDATA (RECN cell banks with the RGCN after them and the RLCN before)
+"""objsurvey.py: render every sprite cell in FILEDATA (RECN cell banks with the RGCN after them and the RLCN before,
+or after when none is before: e.g. 5522 + 5523 + 5524, the smithing prompt, was skipped before 2026-10-18)
 into packed contact sheets, to find text drawn as sprites without reaching each screen (docs/re/graphics.md).
 
     python -X utf8 tools/debug/objsurvey.py [--out work/qa/objsurvey]
@@ -117,16 +118,17 @@ def main():
     for n in sorted(magic):
         if magic[n] != b"RECN" or only and n not in only:
             continue
-        p = next((k for k in range(n - 1, n - 8, -1) if magic.get(k) == b"RLCN"), None)
+        p = next((k for k in [*range(n - 1, n - 8, -1), *range(n + 1, n + 5)] if magic.get(k) == b"RLCN"), None)
         try:
             c = pick_chr(n, magic, sizes, nitro.load(n))
-            if c is None or p is None:
-                print(f"skip {n}: no RGCN/RLCN near it")
+            if c is None:
+                print(f"skip {n}: no RGCN near it")
                 continue
             til, bpp = nitro.tiles(nitro.load(c))
             if bpp != 4:
                 continue
-            pal = nitro.palette(nitro.load(p))
+            # no palette near it (shared from elsewhere): a grey ramp still shows any lettering
+            pal = nitro.palette(nitro.load(p)) if p else np.tile(np.arange(16, dtype=np.uint8)[:, None] * 17, (16, 3))
             for i, img in cells(nitro.load(n), til, pal, linear(nitro.load(c))):
                 h = hashlib.sha1(img.tobytes()).digest()
                 if h not in seen and (img != (255, 0, 255)).any():

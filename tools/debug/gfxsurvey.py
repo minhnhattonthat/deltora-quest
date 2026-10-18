@@ -31,7 +31,8 @@ def main():
             continue
         c = next((k for k in range(n - 1, n - 8, -1) if magic.get(k) == b"RGCN"), None)
         p = next((k for k in range(c - 1, c - 8, -1) if magic.get(k) == b"RLCN"), None) if c else None
-        if p is None:
+        if p is None:  # 202 205 504 1403 (2026-10-18; looked at by hand, no text)
+            print(f"skip {n}: no RGCN/RLCN near it")
             continue
         try:
             til, bpp = nitro.tiles(nitro.load(c))
