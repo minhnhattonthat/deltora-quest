@@ -42,6 +42,10 @@ LABELS = {
     542: (541, 540, "Items for Use in the Field", (56, 8, 204, 21), "bright", True),
     1675: (1674, 1673, "Deltora Card Trade", (56, 7, 206, 21), "bright", False),  # G11, wireless card trade
     1678: (1677, 1676, "Trading Deltora Cards...", (56, 7, 206, 21), "bright", False),
+    # G13, store-demo screens (script 1927 loads 376's tiles, so maybe reachable)
+    374: (373, 372, "Tap the screen and tag the next player!", (4, 97, 252, 120), "red", True),
+    376: (375, 372, "Deltora Quest is coming this year.\nLook forward to the rest of it...", (10, 134, 246, 181),
+          "bright", True),
 }
 # Japanese removed, nothing drawn: screen: (chr, palette, box). G12: the Japanese translation under Emily Rodda's
 # handwritten English letter (the English original stays).
@@ -109,8 +113,9 @@ def generate(img, top, main):
 
 
 def relabel(img, text, box, colour, centre):
-    """Replace an outlined one-line label inside box (plain background around it) with text in the dialogue font.
-    colour: "red" = the letters are the reddest pixels, "bright" = the brightest; outline = the darkest pixel."""
+    """Replace an outlined label inside box (plain background around it) with text in the dialogue font; "\\n"
+    stacks lines. colour: "red" = the letters are the reddest pixels, "bright" = the brightest; outline = the
+    darkest pixel."""
     import fontgen
     import logo
     import tags
@@ -123,20 +128,24 @@ def relabel(img, text, box, colour, centre):
     ink = reg.reshape(-1, 3)[reg.sum(-1).argmin()]
     a = img.astype(float)
     a[y0:y1, x0:x1] = logo.fill(a, box, bottom=True)
-    m = tags.line(text, fontgen.glyphs(), fontgen.SPACE)
-    h, w = m.shape
-    full = np.zeros((h + 2, w + 2), bool)
-    full[1:-1, 1:-1] = m
-    ring = np.zeros_like(full)
-    for dy in (-1, 0, 1):
-        for dx in (-1, 0, 1):
-            ring |= np.roll(np.roll(full, dy, 0), dx, 1)
-    assert w + 2 <= x1 - x0, f"{text!r}: {w + 2} px, box is {x1 - x0}"
-    y = y0 + (y1 - y0 - h - 2) // 2 + 1
-    x = x0 + (x1 - x0 - w - 2) // 2 if centre else x0 + 2
-    region = a[y:y + h + 2, x:x + w + 2]
-    region[ring & ~full] = ink
-    region[full] = fill
+    lines = text.split("\n")
+    pitch = 13  # 11 glyph rows + outline
+    y = y0 + (y1 - y0 - pitch * len(lines)) // 2 + 1
+    for line in lines:
+        m = tags.line(line, fontgen.glyphs(), fontgen.SPACE)
+        h, w = m.shape
+        full = np.zeros((h + 2, w + 2), bool)
+        full[1:-1, 1:-1] = m
+        ring = np.zeros_like(full)
+        for dy in (-1, 0, 1):
+            for dx in (-1, 0, 1):
+                ring |= np.roll(np.roll(full, dy, 0), dx, 1)
+        assert w + 2 <= x1 - x0, f"{line!r}: {w + 2} px, box is {x1 - x0}"
+        x = x0 + (x1 - x0 - w - 2) // 2 if centre else x0 + 2
+        region = a[y:y + h + 2, x:x + w + 2]
+        region[ring & ~full] = ink
+        region[full] = fill
+        y += pitch
     return a.round().astype(np.uint8)
 
 
