@@ -149,9 +149,31 @@ One pass at the end, line by line (no bulk rewrites). Format: id - suggestion (f
   175 "The heir to the throne is nearby." / 181 "Get this off me!" / 2188_136 puzzle: check in-game that "against
   the wind, straight ahead" matches the answer
 
-## b024 (translator notes)
-- 2192_008 "Saving..." (forced to "Save in progress" by the term check) / 2192_055-062 "By the Palace Window"
-  (forced "Palace of Del") / 2191_085 item descriptions mapped by list order: verify in the item menu
+## b024 (translator notes + review)
+- 2192_008 "Saving..." (forced to "Save in progress" by the term check: add an exception) / 2192_055-062 "By the
+  Palace Window" (forced "Palace of Del") / 2191_085 item descriptions mapped by list order: verify in the item menu
+- 2192_011/012 "Game Card" everywhere / 2191_116 "Pretty cool, isn't it? Don't you want one?" / 081 "your tummy
+  will be stuffed!" / 086 "Critical hits possible for a while" / 092 "It looks awful at first glance." /
+  104 "pretend you're eating a lot" / 110 "transforms its target into..." / 2193_001 heading "Wenn" /
+  2193_003 "the moment you think it's strong, you've lost." / 2193_000 "Serving the Shadow Lord, of all things!" /
+  2193_011 "Crawl, crawl, crawl..."
+
+## b022
+- 2189_000 "Synthesise, synthesise, photosynthesise!" (controller's call vs 合成 = infuse) / 2188_332 "Thanks to
+  all that, I got my memory back{n}and found my daughter." / 334 "That decision is why we are here today." /
+  335 "the king's best friend" / 322 "Could it be...?!" / 364 "I treated him, but he's still asleep.{p}No wonder,
+  with that wound from Ichabod,{n}and him pushing himself so hard..." / 365 speaker check (Barda?) /
+  351 "Endon?" option / 387 "Goodness, whatever is going on?"
+
+## b025
+- 2193_017 "Change where a bug lives and its colour changes too." / 057 "How dare you do that to my parents!" /
+  042 "Strangely, it almost feels nostalgic now." / 070 "Brisk and lively." / 073 vs 064 orchard lady vs Queen of
+  the Bees: harmonise
+
+## b026
+- 2193_089 "Beat the horse and he's just a Grey Guard." / 076 "bulging with muscle" / 083 "mysteries and
+  wonders" / 2194_001 "Inexperienced climbers, keep away."; the Dream vs Tower of Dreams consistency /
+  2196_014 add "for a while" if it fits / 2196_012 Circle/Arrow: check the minigame icons
 
 ## b005
 - 2182_025 - Lief する！: "Then I will!" (not "We will!")

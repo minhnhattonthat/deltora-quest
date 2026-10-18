@@ -3,199 +3,199 @@
   "id": "2199_000",
   "hdr": "00000001",
   "jp": "{f9}下画面をタッチしてください",
-  "en": ""
+  "en": "{f9}Tap the bottom screen"
  },
  {
   "id": "2199_001",
   "hdr": "00000001",
   "jp": "{f9}ぼうけんをはじめる",
-  "en": ""
+  "en": "{f9}Start your adventure"
  },
  {
   "id": "2199_002",
   "hdr": "00000001",
   "jp": "{f9}ワイヤレスつうしん",
-  "en": ""
+  "en": "{f9}Wireless Link"
  },
  {
   "id": "2199_003",
   "hdr": "00000000",
   "jp": "the　original　author{n}Emily　Rodda",
-  "en": ""
+  "en": "the original author{n}Emily Rodda"
  },
  {
   "id": "2199_004",
   "hdr": "00000000",
   "jp": "publisher{n}BANDAI　CO．，LTD．{n}BEC　CO．，LTD．{n}{n}developer{n}audio　inc．",
-  "en": ""
+  "en": "publisher{n}BANDAI CO., LTD.{n}BEC CO., LTD.{n}{n}developer{n}audio inc."
  },
  {
   "id": "2199_005",
   "hdr": "00000000",
   "jp": "supervisor{n}Yuuri　Shibamura",
-  "en": ""
+  "en": "supervisor{n}Yuuri Shibamura"
  },
  {
   "id": "2199_006",
   "hdr": "00000000",
   "jp": "scenario{n}Kazunari　Nojima",
-  "en": ""
+  "en": "scenario{n}Kazunari Nojima"
  },
  {
   "id": "2199_007",
   "hdr": "00000000",
   "jp": "art　works{n}Yocky",
-  "en": ""
+  "en": "art works{n}Yocky"
  },
  {
   "id": "2199_008",
   "hdr": "00000000",
   "jp": "music{n}Hitoshi　Sakimoto",
-  "en": ""
+  "en": "music{n}Hitoshi Sakimoto"
  },
  {
   "id": "2199_009",
   "hdr": "00000001",
   "jp": "{f9}せいじつのしょうちょうトパーズは{n}{f9}目もくらむ黄金色",
-  "en": ""
+  "en": "{f9}The topaz, symbol of faithfulness,{n}{f9}a dazzling gold."
  },
  {
   "id": "2199_010",
   "hdr": "00000001",
   "jp": "{f9}しんじつをみちびくアメジストは{n}{f9}気高いむらさき",
-  "en": ""
+  "en": "{f9}The amethyst, guide to the truth,{n}{f9}a noble purple."
  },
  {
   "id": "2199_011",
   "hdr": "00000001",
   "jp": "{f9}力とじゅんけつのしょうちょう{n}{f9}ダイアモンドは冷たくかがやく",
-  "en": ""
+  "en": "{f9}The diamond, symbol of strength{n}{f9}and purity, shines cold."
  },
  {
   "id": "2199_012",
   "hdr": "00000001",
   "jp": "{f9}めいよのあかしのエメラルドは{n}{f9}つややかなみどり色",
-  "en": ""
+  "en": "{f9}The emerald, sign of honour,{n}{f9}a gleaming green."
  },
  {
   "id": "2199_013",
   "hdr": "00000001",
   "jp": "{f9}神に通じるラピスラズリは{n}{f9}ぐんじょうの夜にちった星",
-  "en": ""
+  "en": "{f9}The lapis lazuli, the heavenly stone,{n}{f9}stars scattered on a deep blue night."
  },
  {
   "id": "2199_014",
   "hdr": "00000001",
   "jp": "{f9}こうふくのしょうちょうルビーは{n}{f9}したたるような赤",
-  "en": ""
+  "en": "{f9}The ruby, symbol of happiness,{n}{f9}a deep red, as if dripping."
  },
  {
   "id": "2199_015",
   "hdr": "00000001",
   "jp": "{f9}希望をもたらすオパールは{n}{f9}にじのごとく7色に",
-  "en": ""
+  "en": "{f9}The opal, bringer of hope,{n}{f9}glows with the rainbow's seven colours."
  },
  {
   "id": "2199_016",
   "hdr": "00000000",
   "jp": "『デルトラ王国{sp}デルの町』",
-  "en": ""
+  "en": "Kingdom of Deltora -- City of Del"
  },
  {
   "id": "2199_017",
   "hdr": "06030104",
   "jp": "こんな町……早く出たいよ",
-  "en": ""
+  "en": "This town... I can't wait{n}to get out of here."
  },
  {
   "id": "2199_018",
   "hdr": "06030104",
   "jp": "影の大王のしるしが{sp}ないところなら{n}どこだっていいや",
-  "en": ""
+  "en": "Anywhere would do, as long as{n}it doesn't bear the Shadow Lord's mark."
  },
  {
   "id": "2199_019",
   "hdr": "06030104",
   "jp": "まずいぞ……{n}影の憲兵団(けんぺいだん)だ……{p}見つからないようにしなくちゃ",
-  "en": ""
+  "en": "Uh-oh...{n}Grey Guards...{p}I'd better not let them see me."
  },
  {
   "id": "2199_020",
   "hdr": "28010600",
   "jp": "おい！{sp}こんな時間になにしてる！",
-  "en": ""
+  "en": "Hey! What are you doing{n}out at this hour?!"
  },
  {
   "id": "2199_021",
   "hdr": "06030104",
   "jp": "(やばい{sp}にげろ！)",
-  "en": ""
+  "en": "(Uh-oh! Run!)"
  },
  {
   "id": "2199_022",
   "hdr": "06030104",
   "jp": "(あぶなかった…{n}憲兵につかまったらたいへんだ)",
-  "en": ""
+  "en": "(That was close...{n}I can't let the Grey Guards catch me.)"
  },
  {
   "id": "2199_023",
   "hdr": "06810104",
   "jp": "(夕方までに帰るって{n}約束したのに……){p}(母さん、心配してるだろうな……)",
-  "en": ""
+  "en": "(I promised I'd be home{n}by evening...){p}(Mother must be worried...)"
  },
  {
   "id": "2199_024",
   "hdr": "28010600",
   "jp": "あのこぞう、どこへ行った？",
-  "en": ""
+  "en": "Where did that brat go?"
  },
  {
   "id": "2199_025",
   "hdr": "28010700",
   "jp": "あれは{sp}かじ屋の息子だぞ",
-  "en": ""
+  "en": "That was the blacksmith's son."
  },
  {
   "id": "2199_026",
   "hdr": "06810104",
   "jp": "(ばれてる！？)",
-  "en": ""
+  "en": "(They know who I am?!)"
  },
  {
   "id": "2199_027",
   "hdr": "28010600",
   "jp": "それじゃあ、オヤジを{n}いためつけてやるか",
-  "en": ""
+  "en": "Then how about we rough up{n}his old man instead?"
  },
  {
   "id": "2199_028",
   "hdr": "28010700",
   "jp": "いや、やめとけ。{n}あのかじ屋、うではいいんだ{p}すばらしい剣を安く{n}つくらせる事ができる",
-  "en": ""
+  "en": "No, leave him be.{n}That blacksmith is good at his trade.{p}We can make him forge us{n}fine swords for cheap."
  },
  {
   "id": "2199_029",
   "hdr": "28010600",
   "jp": "安い？{sp}いくらだ？",
-  "en": ""
+  "en": "Cheap? How cheap?"
  },
  {
   "id": "2199_030",
   "hdr": "28010700",
   "jp": "そりゃおまえ、タダ！",
-  "en": ""
+  "en": "Why, for nothing, of course!"
  },
  {
   "id": "2199_031",
   "hdr": "28010600",
   "jp": "わははは、そりゃいい！{p}かじ屋のくやしそうな顔が{n}目にうかぶぜ！",
-  "en": ""
+  "en": "Ha ha ha! That's a good one!{p}I can just picture that blacksmith's{n}face, sick with frustration!"
  },
  {
   "id": "2199_032",
   "hdr": "06810104",
   "jp": "(ゆるせない……)",
-  "en": ""
+  "en": "(I'll never forgive them...)"
  },
  {
   "id": "2199_033",

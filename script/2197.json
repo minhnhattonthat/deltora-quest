@@ -69,1921 +69,1921 @@
   "id": "2197_011",
   "hdr": "00000000",
   "jp": "{c1}モキートのやかた",
-  "en": ""
+  "en": "{c1}Mokito's Mansion"
  },
  {
   "id": "2197_012",
   "hdr": "00000000",
   "jp": "{c1}TOMの店",
-  "en": ""
+  "en": "{c1}Tom's Shop"
  },
  {
   "id": "2197_013",
   "hdr": "00000000",
   "jp": "{c1}テント",
-  "en": ""
+  "en": "{c1}Tent"
  },
  {
   "id": "2197_014",
   "hdr": "00000000",
   "jp": "{c1}グランドファーム",
-  "en": ""
+  "en": "{c1}Grand Farm"
  },
  {
   "id": "2197_015",
   "hdr": "00000000",
   "jp": "{c1}むげんの塔",
-  "en": ""
+  "en": "{c1}Tower of Dreams"
  },
  {
   "id": "2197_016",
   "hdr": "00000000",
   "jp": "{c1}ひみつのオーディオルーム",
-  "en": ""
+  "en": "{c1}Secret Audio Room"
  },
  {
   "id": "2197_017",
   "hdr": "00000000",
   "jp": "1章　ちんもくの森",
-  "en": ""
+  "en": "Chapter 1: The Forests of Silence"
  },
  {
   "id": "2197_018",
   "hdr": "00000000",
   "jp": "2章　なげきのみずうみ",
-  "en": ""
+  "en": "Chapter 2: The Lake of Tears"
  },
  {
   "id": "2197_019",
   "hdr": "00000000",
   "jp": "3章　ラット•シティ",
-  "en": ""
+  "en": "Chapter 3: The City of the Rats"
  },
  {
   "id": "2197_020",
   "hdr": "00000000",
   "jp": "4章　うごめく砂",
-  "en": ""
+  "en": "Chapter 4: The Shifting Sands"
  },
  {
   "id": "2197_021",
   "hdr": "00000000",
   "jp": "5章　きょうふの山",
-  "en": ""
+  "en": "Chapter 5: Dread Mountain"
  },
  {
   "id": "2197_022",
   "hdr": "00000000",
   "jp": "6章　まもののどうくつ",
-  "en": ""
+  "en": "Chapter 6: The Maze of the Beast"
  },
  {
   "id": "2197_023",
   "hdr": "00000000",
   "jp": "7章　いましめの谷",
-  "en": ""
+  "en": "Chapter 7: The Valley of the Lost"
  },
  {
   "id": "2197_024",
   "hdr": "00000000",
   "jp": "最終章　きかん",
-  "en": ""
+  "en": "Final Chapter: Return to Del"
  },
  {
   "id": "2197_025",
   "hdr": "00000000",
   "jp": "STAGE　　　　　　　　　　　　{n}STAGE2　　　　　　　　　　　{n}SOUND　　　　　　　　　　　　{n}EVENT　　　　　　　　　　　　{n}スタッフロール　　　　　　　　　　{n}OPENING　　　　　　　　　　{n}ENDING　　　　　　　　　　　{n}ワールドマップ　　　　　　　　　　{n}BOSS　　　　　　　　　　　　　{n}雑魚　　　　　　　　　　　　　　　{n}宝石　　　　　　　　　　　　　　　{n}ワイヤレス　　　　　　　　　　　　",
-  "en": ""
+  "en": "STAGE{n}STAGE2{n}SOUND{n}EVENT{n}Credits{n}OPENING{n}ENDING{n}World Map{n}BOSS{n}Small Fry{n}Gems{n}Wireless"
  },
  {
   "id": "2197_026",
   "hdr": "00000000",
   "jp": "{c1}第1章　{/c}沈黙の森　　　　　　　　　{n}{c2}第2章　{/c}嘆きの湖　　　　　　　　　{n}{c1}第3章　{/c}ラット•シティ　　　　　　{n}{c2}第4章　{/c}うごめく砂　　　　　　　　{n}{c1}第5章{/c}　恐怖の山　　　　　　　　　{n}{c2}第6章{/c}　魔物の洞窟　　　　　　　　{n}{c1}第7章{/c}　いましめの谷　　　　　　　{n}{c2}最終章{/c}　帰還　　　　　　　　　　　{n}{c1}序　章{c2}　{/c}秘宝のベルト　　　　　　　",
-  "en": ""
+  "en": "{c1}Chapter 1 {/c}The Forests of Silence{n}{c2}Chapter 2 {/c}The Lake of Tears{n}{c1}Chapter 3 {/c}The City of the Rats{n}{c2}Chapter 4 {/c}The Shifting Sands{n}{c1}Chapter 5{/c} Dread Mountain{n}{c2}Chapter 6{/c} The Maze of the Beast{n}{c1}Chapter 7{/c} The Valley of the Lost{n}{c2}Final Chapter{/c} Return to Del{n}{c1}Prologue{c2} {/c}The Belt of Deltora"
  },
  {
   "id": "2197_027",
   "hdr": "00000000",
   "jp": "ジャスミンの家　　　　　　　　　　{n}マジックハウス　　　　　　　　　　{n}おそわれた畑　　　　　　　　　　　{n}夢幻の塔　　　　　　　　　　　　　{n}サウンドモード　　　　　　　　　　",
-  "en": ""
+  "en": "Jasmine's House{n}Magic House{n}Ravaged Farm{n}Tower of Dreams{n}Sound Mode"
  },
  {
   "id": "2197_028",
   "hdr": "00000000",
   "jp": "STREAM　　　　　　　　　　　{n}BGM　　　　　　　　　　　　　　{n}SE　　　　　　　　　　　　　　　",
-  "en": ""
+  "en": "STREAM{n}BGM{n}SE"
  },
  {
   "id": "2197_029",
   "hdr": "00000000",
   "jp": "図書室　　　　　　　　　　　　　　{n}ろうか　　　　　　　　　　　　　　{n}王の間　　　　　　　　　　　　　　{n}鍛冶屋(城)　　　　　　　　　　　{n}王のろうか　　　　　　　　　　　　{n}木の上　　　　　　　　　　　　　　{n}デルの町　　　　　　　　　　　　　{n}鍛冶屋(町)　　　　　　　　　　　{n}デル城中庭　　　　　　　　　　　　{n}デル城最上階　　　　　　　　　　　{n}鍛冶屋(16年後)　　　　　　　　{n}とびおりゲーム　　　　　　　　　　",
-  "en": ""
+  "en": "Library{n}Hallway{n}Throne Room{n}Forge (Palace){n}King's Hallway{n}Treetops{n}City of Del{n}Forge (City){n}Palace Courtyard{n}Palace Tower Top{n}Forge (16 Years Later){n}Jump-Down Game"
  },
  {
   "id": "2197_030",
   "hdr": "00000000",
   "jp": "森　　　　　　　　　　　　　　　　{n}木の上　　　　　　　　　　　　　　{n}街　　　　　　　　　　　　　　　　{n}ウェンバー　　　　　　　　　　　　{n}ゴール　　　　　　　　　　　　　　{n}新一章　　　　　　　　　　　　　　{n}家　　　　　　　　　　　　　　　　{n}オープニング　　　　　　　　　　　{n}木の上穴　　　　　　　　　　　　　{n}ウェンバー前　　　　　　　　　　　",
-  "en": ""
+  "en": "Forest{n}Treetops{n}Town{n}Wennbar{n}Gorl{n}New Chapter 1{n}House{n}Opening{n}Treetop Hole{n}Before Wennbar"
  },
  {
   "id": "2197_031",
   "hdr": "00000000",
   "jp": "草地1　　　　　　　　　　　　　　{n}草地2　　　　　　　　　　　　　　{n}川　　　　　　　　　　　　　　　　{n}沼地　　　　　　　　　　　　　　　{n}ソルディーン　　　　　　　　　　　{n}大木　　　　　　　　　　　　　　　{n}底なし沼　　　　　　　　　　　　　{n}ララディン　　　　　　　　　　　　{n}飛び石　　　　　　　　　　　　　　{n}老人の家　　　　　　　　　　　　　",
-  "en": ""
+  "en": "Meadow 1{n}Meadow 2{n}River{n}Marsh{n}Soldeen{n}Great Tree{n}Bottomless Bog{n}Raladin{n}Stepping Stones{n}Old Man's House"
  },
  {
   "id": "2197_032",
   "hdr": "00000000",
   "jp": "いばらのやぶ　　　　　　　　　　　{n}荒地　　　　　　　　　　　　　　　{n}チュルナイ　　　　　　　　　　　　{n}はばひろ川　　　　　　　　　　　　{n}ラット•シティ　　　　　　　　　　{n}リア　　　　　　　　　　　　　　　{n}処理穴　　　　　　　　　　　　　　{n}イカボッド　　　　　　　　　　　　{n}ねずみ　　　　　　　　　　　　　　{n}処理穴中　　　　　　　　　　　　　",
-  "en": ""
+  "en": "Thorn Thicket{n}Wastelands{n}Noradz{n}Broad River{n}City of the Rats{n}Reeah{n}Disposal Pit{n}Ichabod{n}Rats{n}Inside the Disposal Pit"
  },
  {
   "id": "2197_033",
   "hdr": "00000000",
   "jp": "はばひろ川　　　　　　　　　　　　{n}リスメアへの道　　　　　　　　　　{n}リスメア　　　　　　　　　　　　　{n}石ころだらけの平原　　　　　　　　{n}岩壁前　　　　　　　　　　　　　　{n}砂漠　　　　　　　　　　　　　　　{n}砂丘の怪物　　　　　　　　　　　　{n}闘技場　　　　　　　　　　　　　　{n}リンゴ圃　　　　　　　　　　　　　{n}砂漠3　　　　　　　　　　　　　　{n}宿屋チャンピオン　　　　　　　　　",
-  "en": ""
+  "en": "Broad River{n}Road to Rithmere{n}Rithmere{n}Stony Plain{n}Before the Rock Wall{n}Desert{n}Dune Beast{n}Arena{n}Apple Orchard{n}Desert 3{n}Champion Inn"
  },
  {
   "id": "2197_034",
   "hdr": "00000000",
   "jp": "荒野　　　　　　　　　　　　　　　{n}墓　　　　　　　　　　　　　　　　{n}若返りの泉　　　　　　　　　　　　{n}空　　　　　　　　　　　　　　　　{n}ブラール　　　　　　　　　　　　　{n}山道　　　　　　　　　　　　　　　{n}砦　　　　　　　　　　　　　　　　{n}養殖場　　　　　　　　　　　　　　{n}隠し通路　　　　　　　　　　　　　{n}ゲリック　　　　　　　　　　　　　",
-  "en": ""
+  "en": "Wilds{n}Grave{n}Spring of Youth{n}Sky{n}Vraal{n}Mountain Path{n}Gnomes' Stronghold{n}Breeding Grounds{n}Secret Passage{n}Gellick"
  },
  {
   "id": "2197_035",
   "hdr": "00000000",
   "jp": "トルへの道のり　　　　　　　　　　{n}トル川沿い1　　　　　　　　　　　{n}トル川沿い2　　　　　　　　　　　{n}リバークイーン号　　　　　　　　　{n}砂浜　　　　　　　　　　　　　　　{n}洞窟　　　　　　　　　　　　　　　{n}グルー　　　　　　　　　　　　　　{n}テーガン　　　　　　　　　　　　　",
-  "en": ""
+  "en": "Road to the Tor{n}Along the River Tor 1{n}Along the River Tor 2{n}River Queen{n}Beach{n}Cave{n}Glus{n}Thaegan"
  },
  {
   "id": "2197_036",
   "hdr": "00000000",
   "jp": "外　　　　　　　　　　　　　　　　{n}草原　　　　　　　　　　　　　　　{n}トーラ　　　　　　　　　　　　　　{n}谷へ向かう山道　　　　　　　　　　{n}ガラスの宮殿　　　　　　　　　　　{n}試練の洞窟1　　　　　　　　　　　{n}試練の洞窟2　　　　　　　　　　　{n}試練の洞窟3　　　　　　　　　　　{n}試練の洞窟4　　　　　　　　　　　{n}ガラスの宮殿2　　　　　　　　　　",
-  "en": ""
+  "en": "Outside{n}Grassland{n}Tora{n}Path to the Valley{n}Glass Palace{n}Cave of Trials 1{n}Cave of Trials 2{n}Cave of Trials 3{n}Cave of Trials 4{n}Glass Palace 2"
  },
  {
   "id": "2197_037",
   "hdr": "00000000",
   "jp": "小川のほとり　　　　　新城　　　　{n}ガブリ草原　　　　　　　　　　　　{n}ベタクサ村　　　　　　　　　　　　{n}デルへの道　　　　　　　　　　　　{n}デル城門　　　　　　　　　　　　　{n}じぶんち　　　　　　　　　　　　　{n}下水道　　　　　　　　　　　　　　{n}城内　　　　　　　　　　　　　　　{n}城内2　　　　　　　　　　　　　　{n}屋根　　　　　　　　　　　　　　　{n}ファロー　　　　　　　　　　　　　{n}城中庭　　　　　　　　　　　　　　",
-  "en": ""
+  "en": "By the Stream      New Palace{n}Snapgrass Plains{n}Withick Mire{n}Road to Del{n}Palace Gates{n}Home{n}Sewers{n}Inside the Palace{n}Inside the Palace 2{n}Roof{n}Fallow{n}Palace Courtyard"
  },
  {
   "id": "2197_038",
   "hdr": "00000000",
   "jp": "入り口　　　　　　　　食堂2　　　{n}ろうか　　　　　　　　ろうか2　　{n}食堂　　　　　　　　　ろうか3　　{n}つなわたり1　　　　　ろうか4　　{n}つなわたり2　　　　　　　　　　　{n}つなわたり3　　　　　　　　　　　{n}高速　　　　　　　　　　　　　　　{n}クイズ1　　　　　　　　　　　　　{n}クイズ2　　　　　　　　　　　　　{n}クイズ3　　　　　　　　　　　　　{n}まちがいさがし1　　　　　　　　　{n}まちがいさがし2　　　　　　　　　",
-  "en": ""
+  "en": "Entrance          Dining Hall 2{n}Hallway           Hallway 2{n}Dining Hall       Hallway 3{n}Tightrope 1       Hallway 4{n}Tightrope 2{n}Tightrope 3{n}High Speed{n}Quiz 1{n}Quiz 2{n}Quiz 3{n}Spot the Difference 1{n}Spot the Difference 2"
  },
  {
   "id": "2197_039",
   "hdr": "00000000",
   "jp": "BGM:{c2}{var}",
-  "en": ""
+  "en": "BGM:{c2}{var}"
  },
  {
   "id": "2197_040",
   "hdr": "00000000",
   "jp": "　　　　　　　　{f9}BGM:{var}",
-  "en": ""
+  "en": "        {f9}BGM:{var}"
  },
  {
   "id": "2197_041",
   "hdr": "00000000",
   "jp": "グループ:{c2}{f6}",
-  "en": ""
+  "en": "Group:{c2}{f6}"
  },
  {
   "id": "2197_042",
   "hdr": "00000000",
   "jp": "SE:{c2}{var}",
-  "en": ""
+  "en": "SE:{c2}{var}"
  },
  {
   "id": "2197_043",
   "hdr": "00000000",
   "jp": "読み込み　　　　　　　　　　　　　{n}COMMON　　　　　　　　　　　{n}SYSTEM　　　　　　　　　　　{n}STAGE　　　　　　　　　　　　{n}BOSS1　　　　　　　　　　　　{n}BOSS2　　　　　　　　　　　　{n}リーフ　　　　　　　　　　　　　　{n}バルダ　　　　　　　　　　　　　　{n}ジャスミン　　　　　　　　　　　　",
-  "en": ""
+  "en": "Load{n}COMMON{n}SYSTEM{n}STAGE{n}BOSS1{n}BOSS2{n}Lief{n}Barda{n}Jasmine"
  },
  {
   "id": "2197_044",
   "hdr": "00000000",
   "jp": "ST1　　　　　　　　　　　　　　{n}MAP　　　　　　　　　　　　　　{n}ST3　　　　　　　　　　　　　　{n}ST4　　　　　　　　　　　　　　{n}ST6　　　　　　　　　　　　　　",
-  "en": ""
+  "en": "ST1{n}MAP{n}ST3{n}ST4{n}ST6"
  },
  {
   "id": "2197_045",
   "hdr": "00000000",
   "jp": "ウェンバー　　　　　　　　　　　　{n}ゴール　　　　　　　　　　　　　　{n}ソルディーン　　　　　　　　　　　{n}リア　　　　　　　　　　　　　　　{n}ジョーカー　　　　　　　　　　　　{n}砂の怪物　　　　　　　　　　　　　{n}ブラール　　　　　　　　　　　　　{n}ゲリック　　　　　　　　　　　　　",
-  "en": ""
+  "en": "Wennbar{n}Gorl{n}Soldeen{n}Reeah{n}Doom{n}Dune Beast{n}Vraal{n}Gellick"
  },
  {
   "id": "2197_046",
   "hdr": "00000000",
   "jp": "グルー　　　　　　　　　　　　　　{n}テーガン　　　　　　　　　　　　　{n}ファーディープ　　　　　　　　　　{n}デイン　　　　　　　　　　　　　　{n}イカボッド　　　　　　　　　　　　{n}ファロー　　　　　　　　　　　　　",
-  "en": ""
+  "en": "Glus{n}Thaegan{n}Fardeep{n}Dain{n}Ichabod{n}Fallow"
  },
  {
   "id": "2197_047",
   "hdr": "00000000",
   "jp": "MAIN　　　　　　　　　　　　　{n}SUB　　　　　　　　　　　　　　",
-  "en": ""
+  "en": "MAIN{n}SUB"
  },
  {
   "id": "2197_048",
   "hdr": "00000000",
   "jp": "MONSTER　　　　　　　　　　{n}NPC　　　　　　　　　　　　　　{n}OBJ　　　　　　　　　　　　　　{n}VISIBLE　　　　　　　　　　",
-  "en": ""
+  "en": "MONSTER{n}NPC{n}OBJ{n}VISIBLE"
  },
  {
   "id": "2197_049",
   "hdr": "00000000",
   "jp": "CHARACTER　SELECT",
-  "en": ""
+  "en": "CHARACTER SELECT"
  },
  {
   "id": "2197_050",
   "hdr": "00000000",
   "jp": "MOTION　　　　　　　　　　　{n}ROTATE　　　　　　　　　　　{n}SCALE　　　　　　　　　　　　{n}PRIORITY　　　　　　　　　{n}MOVE　　　　　　　　　　　　　",
-  "en": ""
+  "en": "MOTION{n}ROTATE{n}SCALE{n}PRIORITY{n}MOVE"
  },
  {
   "id": "2197_051",
   "hdr": "00000000",
   "jp": "MOTION　NO．{c2}{var}",
-  "en": ""
+  "en": "MOTION No. {c2}{var}"
  },
  {
   "id": "2197_052",
   "hdr": "00000000",
   "jp": "POS　X:{c2}{var}",
-  "en": ""
+  "en": "POS X:{c2}{var}"
  },
  {
   "id": "2197_053",
   "hdr": "00000000",
   "jp": "POS　Y:{c2}{var}",
-  "en": ""
+  "en": "POS Y:{c2}{var}"
  },
  {
   "id": "2197_054",
   "hdr": "00000000",
   "jp": "MAPID:{c2}{var}",
-  "en": ""
+  "en": "MAPID:{c2}{var}"
  },
  {
   "id": "2197_055",
   "hdr": "00000000",
   "jp": "ROT　{c2}{var}",
-  "en": ""
+  "en": "ROT {c2}{var}"
  },
  {
   "id": "2197_056",
   "hdr": "00000000",
   "jp": "PRIORITY　{c2}{var}",
-  "en": ""
+  "en": "PRIORITY {c2}{var}"
  },
  {
   "id": "2197_057",
   "hdr": "00000000",
   "jp": "TIME={c2}{var}",
-  "en": ""
+  "en": "TIME={c2}{var}"
  },
  {
   "id": "2197_058",
   "hdr": "00000000",
   "jp": "第{c1}{var}{/c}章",
-  "en": ""
+  "en": "Chapter {c1}{var}{/c}"
  },
  {
   "id": "2197_059",
   "hdr": "00000000",
   "jp": "イベント:{c2}{var}",
-  "en": ""
+  "en": "Event:{c2}{var}"
  },
  {
   "id": "2197_060",
   "hdr": "00000000",
   "jp": "SCREEN:{c2}{var}",
-  "en": ""
+  "en": "SCREEN:{c2}{var}"
  },
  {
   "id": "2197_061",
   "hdr": "00000000",
   "jp": "ボスNo．{c2}{var}",
-  "en": ""
+  "en": "Boss No. {c2}{var}"
  },
  {
   "id": "2197_062",
   "hdr": "00000000",
   "jp": "HP={c1}{var}",
-  "en": ""
+  "en": "HP={c1}{var}"
  },
  {
   "id": "2197_063",
   "hdr": "00000000",
   "jp": "BG1:{f6}　　　　　　　　　　　　",
-  "en": ""
+  "en": "BG1:{f6}"
  },
  {
   "id": "2197_064",
   "hdr": "00000000",
   "jp": "BG2:{f6}　　　　　　　　　　　　",
-  "en": ""
+  "en": "BG2:{f6}"
  },
  {
   "id": "2197_065",
   "hdr": "00000000",
   "jp": "BG3:{f6}　　　　　　　　　　　　",
-  "en": ""
+  "en": "BG3:{f6}"
  },
  {
   "id": "2197_066",
   "hdr": "00000000",
   "jp": "S-SPRITE:{f6}　　　　　　　",
-  "en": ""
+  "en": "S-SPRITE:{f6}"
  },
  {
   "id": "2197_067",
   "hdr": "00000000",
   "jp": "H-SPRITE:{f6}　　　　　　　",
-  "en": ""
+  "en": "H-SPRITE:{f6}"
  },
  {
   "id": "2197_068",
   "hdr": "00000000",
   "jp": "{c2}ON{/c}　",
-  "en": ""
+  "en": "{c2}ON{/c}"
  },
  {
   "id": "2197_069",
   "hdr": "00000000",
   "jp": "{c1}OFF",
-  "en": ""
+  "en": "{c1}OFF"
  },
  {
   "id": "2197_070",
   "hdr": "00000000",
   "jp": "BATTLE:{f6}",
-  "en": ""
+  "en": "BATTLE:{f6}"
  },
  {
   "id": "2197_071",
   "hdr": "00000000",
   "jp": "EVENT:{f6}",
-  "en": ""
+  "en": "EVENT:{f6}"
  },
  {
   "id": "2197_072",
   "hdr": "00000000",
   "jp": "ぬのの服",
-  "en": ""
+  "en": "Cloth Tunic"
  },
  {
   "id": "2197_073",
   "hdr": "00000000",
   "jp": "レザーアーマー",
-  "en": ""
+  "en": "Leather Armour"
  },
  {
   "id": "2197_074",
   "hdr": "00000000",
   "jp": "うろこのよろい",
-  "en": ""
+  "en": "Scale Armour"
  },
  {
   "id": "2197_075",
   "hdr": "00000000",
   "jp": "チェインメイル",
-  "en": ""
+  "en": "Chain Mail"
  },
  {
   "id": "2197_076",
   "hdr": "00000000",
   "jp": "憲兵のよろい",
-  "en": ""
+  "en": "Grey Guard Armour"
  },
  {
   "id": "2197_077",
   "hdr": "00000000",
   "jp": "鉄のよろい",
-  "en": ""
+  "en": "Iron Armour"
  },
  {
   "id": "2197_078",
   "hdr": "00000000",
   "jp": "紫色のマント",
-  "en": ""
+  "en": "Purple Cloak"
  },
  {
   "id": "2197_079",
   "hdr": "00000000",
   "jp": "ゴールドアーマー",
-  "en": ""
+  "en": "Gold Armour"
  },
  {
   "id": "2197_080",
   "hdr": "00000000",
   "jp": "かぼちゃぱんつ",
-  "en": ""
+  "en": "Pumpkin Pants"
  },
  {
   "id": "2197_081",
   "hdr": "00000000",
   "jp": "とうぞくのよろい",
-  "en": ""
+  "en": "Bandit Armour"
  },
  {
   "id": "2197_082",
   "hdr": "00000000",
   "jp": "プレートメイル",
-  "en": ""
+  "en": "Plate Mail"
  },
  {
   "id": "2197_083",
   "hdr": "00000000",
   "jp": "ガーディアンアーマー",
-  "en": ""
+  "en": "Guardian Armour"
  },
  {
   "id": "2197_084",
   "hdr": "00000000",
   "jp": "デルのむね当て",
-  "en": ""
+  "en": "Del Breastplate"
  },
  {
   "id": "2197_085",
   "hdr": "00000000",
   "jp": "プリンセスローブ",
-  "en": ""
+  "en": "Princess Robe"
  },
  {
   "id": "2197_086",
   "hdr": "00000000",
   "jp": "ポンチョ",
-  "en": ""
+  "en": "Poncho"
  },
  {
   "id": "2197_087",
   "hdr": "00000000",
   "jp": "モキートアーマー",
-  "en": ""
+  "en": "Mokito Armour"
  },
  {
   "id": "2197_088",
   "hdr": "00000000",
   "jp": "靴ずれ防止靴下",
-  "en": ""
+  "en": "Anti-Blister Socks"
  },
  {
   "id": "2197_089",
   "hdr": "00000000",
   "jp": "黒っぽい毛糸のぼうし",
-  "en": ""
+  "en": "Dark Wool Cap"
  },
  {
   "id": "2197_090",
   "hdr": "00000000",
   "jp": "ブーロンの皮の盾",
-  "en": ""
+  "en": "Boolong-Skin Shield"
  },
  {
   "id": "2197_091",
   "hdr": "00000000",
   "jp": "まぼろしの首かざり",
-  "en": ""
+  "en": "Phantom Necklace"
  },
  {
   "id": "2197_092",
   "hdr": "00000000",
   "jp": "金色のうで輪",
-  "en": ""
+  "en": "Golden Bracelet"
  },
  {
   "id": "2197_093",
   "hdr": "00000000",
   "jp": "虫除けのお守り",
-  "en": ""
+  "en": "Bug-Ward Charm"
  },
  {
   "id": "2197_094",
   "hdr": "00000000",
   "jp": "こうらの盾",
-  "en": ""
+  "en": "Shell Shield"
  },
  {
   "id": "2197_095",
   "hdr": "00000000",
   "jp": "耐どくの手袋",
-  "en": ""
+  "en": "Poison-Proof Gloves"
  },
  {
   "id": "2197_096",
   "hdr": "00000000",
   "jp": "クリスタルリング",
-  "en": ""
+  "en": "Crystal Ring"
  },
  {
   "id": "2197_097",
   "hdr": "00000000",
   "jp": "うろこのベルト",
-  "en": ""
+  "en": "Scale Belt"
  },
  {
   "id": "2197_098",
   "hdr": "00000000",
   "jp": "花の首かざり",
-  "en": ""
+  "en": "Flower Lei"
  },
  {
   "id": "2197_099",
   "hdr": "00000000",
   "jp": "シルバーリング",
-  "en": ""
+  "en": "Silver Ring"
  },
  {
   "id": "2197_100",
   "hdr": "00000000",
   "jp": "ゴールドリング",
-  "en": ""
+  "en": "Gold Ring"
  },
  {
   "id": "2197_101",
   "hdr": "00000000",
   "jp": "とんがりぼうし",
-  "en": ""
+  "en": "Pointy Hat"
  },
  {
   "id": "2197_102",
   "hdr": "00000000",
   "jp": "かぼちゃのマスク",
-  "en": ""
+  "en": "Pumpkin Mask"
  },
  {
   "id": "2197_103",
   "hdr": "00000000",
   "jp": "デルのバッジ",
-  "en": ""
+  "en": "Badge of Del"
  },
  {
   "id": "2197_104",
   "hdr": "00000000",
   "jp": "鉄",
-  "en": ""
+  "en": "Iron"
  },
  {
   "id": "2197_105",
   "hdr": "00000000",
   "jp": "銀",
-  "en": ""
+  "en": "Silver"
  },
  {
   "id": "2197_106",
   "hdr": "00000000",
   "jp": "金",
-  "en": ""
+  "en": "Gold"
  },
  {
   "id": "2197_107",
   "hdr": "00000000",
   "jp": "水晶",
-  "en": ""
+  "en": "Crystal"
  },
  {
   "id": "2197_108",
   "hdr": "00000000",
   "jp": "小麦",
-  "en": ""
+  "en": "Wheat"
  },
  {
   "id": "2197_109",
   "hdr": "00000000",
   "jp": "かぼちゃ",
-  "en": ""
+  "en": "Pumpkin"
  },
  {
   "id": "2197_110",
   "hdr": "00000000",
   "jp": "ハイビスカス",
-  "en": ""
+  "en": "Hibiscus"
  },
  {
   "id": "2197_111",
   "hdr": "00000000",
   "jp": "きのこ",
-  "en": ""
+  "en": "Mushroom"
  },
  {
   "id": "2197_112",
   "hdr": "00000000",
   "jp": "うろこ",
-  "en": ""
+  "en": "Scales"
  },
  {
   "id": "2197_113",
   "hdr": "00000000",
   "jp": "虫のはね",
-  "en": ""
+  "en": "Insect Wing"
  },
  {
   "id": "2197_114",
   "hdr": "00000000",
   "jp": "蜘蛛の糸",
-  "en": ""
+  "en": "Spider Silk"
  },
  {
   "id": "2197_115",
   "hdr": "00000000",
   "jp": "ハチミツ",
-  "en": ""
+  "en": "Honey"
  },
  {
   "id": "2197_116",
   "hdr": "00000000",
   "jp": "青リンゴ",
-  "en": ""
+  "en": "Green Apple"
  },
  {
   "id": "2197_117",
   "hdr": "00000000",
   "jp": "緑のコケ",
-  "en": ""
+  "en": "Green Moss"
  },
  {
   "id": "2197_118",
   "hdr": "00000000",
   "jp": "紫のコケ",
-  "en": ""
+  "en": "Purple Moss"
  },
  {
   "id": "2197_119",
   "hdr": "00000000",
   "jp": "炭",
-  "en": ""
+  "en": "Charcoal"
  },
  {
   "id": "2197_120",
   "hdr": "00000000",
   "jp": "{icon2}アップルドリンク",
-  "en": ""
+  "en": "{icon2}Queen Bee juice"
  },
  {
   "id": "2197_121",
   "hdr": "00000000",
   "jp": "{icon2}パンプキンケーキ",
-  "en": ""
+  "en": "{icon2}Pumpkin Cake"
  },
  {
   "id": "2197_122",
   "hdr": "00000000",
   "jp": "{icon2}マジックブレッド",
-  "en": ""
+  "en": "{icon2}Magic Bread"
  },
  {
   "id": "2197_123",
   "hdr": "00000000",
   "jp": "{icon2}かぼちゃスープ",
-  "en": ""
+  "en": "{icon2}Pumpkin Soup"
  },
  {
   "id": "2197_124",
   "hdr": "00000000",
   "jp": "{icon2}どく消し薬",
-  "en": ""
+  "en": "{icon2}Antidote"
  },
  {
   "id": "2197_125",
   "hdr": "00000000",
   "jp": "{icon2}ポーション",
-  "en": ""
+  "en": "{icon2}Potion"
  },
  {
   "id": "2197_126",
   "hdr": "00000000",
   "jp": "{icon2}こうげき力薬",
-  "en": ""
+  "en": "{icon2}Power Potion"
  },
  {
   "id": "2197_127",
   "hdr": "00000000",
   "jp": "{icon2}スピード薬",
-  "en": ""
+  "en": "{icon2}Speed Potion"
  },
  {
   "id": "2197_128",
   "hdr": "00000000",
   "jp": "{icon2}火ぶくれ弾",
-  "en": ""
+  "en": "{icon2}Blister Bomb"
  },
  {
   "id": "2197_129",
   "hdr": "00000000",
   "jp": "{icon2}パープルボム",
-  "en": ""
+  "en": "{icon2}Purple Bomb"
  },
  {
   "id": "2197_130",
   "hdr": "00000000",
   "jp": "{icon2}うろこの鎧",
-  "en": ""
+  "en": "{icon2}Scale Armour"
  },
  {
   "id": "2197_131",
   "hdr": "00000000",
   "jp": "{icon2}鉄の鎧",
-  "en": ""
+  "en": "{icon2}Iron Armour"
  },
  {
   "id": "2197_132",
   "hdr": "00000000",
   "jp": "{icon2}かぼちゃぱんつ",
-  "en": ""
+  "en": "{icon2}Pumpkin Pants"
  },
  {
   "id": "2197_133",
   "hdr": "00000000",
   "jp": "{icon2}クリスタルリング",
-  "en": ""
+  "en": "{icon2}Crystal Ring"
  },
  {
   "id": "2197_134",
   "hdr": "00000000",
   "jp": "{icon2}シルバーリング",
-  "en": ""
+  "en": "{icon2}Silver Ring"
  },
  {
   "id": "2197_135",
   "hdr": "00000000",
   "jp": "{icon2}かぼちゃのマスク",
-  "en": ""
+  "en": "{icon2}Pumpkin Mask"
  },
  {
   "id": "2197_136",
   "hdr": "00000000",
   "jp": "デルトラのベルト",
-  "en": ""
+  "en": "Belt of Deltora"
  },
  {
   "id": "2197_137",
   "hdr": "00000000",
   "jp": "母がつくったマント",
-  "en": ""
+  "en": "Mother's Cloak"
  },
  {
   "id": "2197_138",
   "hdr": "00000000",
   "jp": "水くい虫",
-  "en": ""
+  "en": "Water-Eaters"
  },
  {
   "id": "2197_139",
   "hdr": "00000000",
   "jp": "光のシャボンパイプ",
-  "en": ""
+  "en": "Bubble Pipe of Light"
  },
  {
   "id": "2197_140",
   "hdr": "00000000",
   "jp": "けっしてさびないオノ",
-  "en": ""
+  "en": "Never-Rust Axe"
  },
  {
   "id": "2197_141",
   "hdr": "00000000",
   "jp": "自動巻取りロープ",
-  "en": ""
+  "en": "Self-Winding Rope"
  },
  {
   "id": "2197_142",
   "hdr": "00000000",
   "jp": "木彫りの小鳥",
-  "en": ""
+  "en": "Carved Wooden Bird"
  },
  {
   "id": "2197_143",
   "hdr": "00000000",
   "jp": "百合の蜜",
-  "en": ""
+  "en": "Nectar of the Lilies of Life"
  },
  {
   "id": "2197_144",
   "hdr": "00000000",
   "jp": "真っ黒石",
-  "en": ""
+  "en": "Pitch-Black Stone"
  },
  {
   "id": "2197_145",
   "hdr": "00000000",
   "jp": "にがおえ描きの筆",
-  "en": ""
+  "en": "Portrait Brush"
  },
  {
   "id": "2197_146",
   "hdr": "00000000",
   "jp": "かえるの水かき",
-  "en": ""
+  "en": "Frog Flippers"
  },
  {
   "id": "2197_147",
   "hdr": "00000000",
   "jp": "キンのはね",
-  "en": ""
+  "en": "Kin Feather"
  },
  {
   "id": "2197_148",
   "hdr": "00000000",
   "jp": "厚底靴",
-  "en": ""
+  "en": "Platform Shoes"
  },
  {
   "id": "2197_149",
   "hdr": "00000000",
   "jp": "ゴム長靴",
-  "en": ""
+  "en": "Rubber Boots"
  },
  {
   "id": "2197_150",
   "hdr": "00000000",
   "jp": "カギ",
-  "en": ""
+  "en": "Key"
  },
  {
   "id": "2197_151",
   "hdr": "00000000",
   "jp": "デルトラ全曲集",
-  "en": ""
+  "en": "Deltora Song Collection"
  },
  {
   "id": "2197_152",
   "hdr": "00000000",
   "jp": "アップルドリンク",
-  "en": ""
+  "en": "Queen Bee juice"
  },
  {
   "id": "2197_153",
   "hdr": "00000000",
   "jp": "パンプキンケーキ",
-  "en": ""
+  "en": "Pumpkin Cake"
  },
  {
   "id": "2197_154",
   "hdr": "00000000",
   "jp": "トロピカルジュース",
-  "en": ""
+  "en": "Tropical Juice"
  },
  {
   "id": "2197_155",
   "hdr": "00000000",
   "jp": "アップルパイ",
-  "en": ""
+  "en": "Apple Pie"
  },
  {
   "id": "2197_156",
   "hdr": "00000000",
   "jp": "健康ドリンク",
-  "en": ""
+  "en": "Health Drink"
  },
  {
   "id": "2197_157",
   "hdr": "00000000",
   "jp": "マジックブレッド",
-  "en": ""
+  "en": "Magic Bread"
  },
  {
   "id": "2197_158",
   "hdr": "00000000",
   "jp": "きのこのグリル",
-  "en": ""
+  "en": "Grilled Mushrooms"
  },
  {
   "id": "2197_159",
   "hdr": "00000000",
   "jp": "かぼちゃスープ",
-  "en": ""
+  "en": "Pumpkin Soup"
  },
  {
   "id": "2197_160",
   "hdr": "00000000",
   "jp": "どく消し薬",
-  "en": ""
+  "en": "Antidote"
  },
  {
   "id": "2197_161",
   "hdr": "00000000",
   "jp": "回復薬",
-  "en": ""
+  "en": "Healing Potion"
  },
  {
   "id": "2197_162",
   "hdr": "00000000",
   "jp": "回復薬大",
-  "en": ""
+  "en": "Big Healing Potion"
  },
  {
   "id": "2197_163",
   "hdr": "00000000",
   "jp": "パワー薬",
-  "en": ""
+  "en": "Power Potion"
  },
  {
   "id": "2197_164",
   "hdr": "00000000",
   "jp": "スピード薬",
-  "en": ""
+  "en": "Speed Potion"
  },
  {
   "id": "2197_165",
   "hdr": "00000000",
   "jp": "むてき薬",
-  "en": ""
+  "en": "Invincibility Potion"
  },
  {
   "id": "2197_166",
   "hdr": "00000000",
   "jp": "全快&どく薬",
-  "en": ""
+  "en": "Full-Heal & Poison Potions"
  },
  {
   "id": "2197_167",
   "hdr": "00000000",
   "jp": "ラッキー薬",
-  "en": ""
+  "en": "Lucky Potion"
  },
  {
   "id": "2197_168",
   "hdr": "00000000",
   "jp": "リンゴ",
-  "en": ""
+  "en": "Apple"
  },
  {
   "id": "2197_169",
   "hdr": "00000000",
   "jp": "ぶどう",
-  "en": ""
+  "en": "Grapes"
  },
  {
   "id": "2197_170",
   "hdr": "00000000",
   "jp": "スイカ",
-  "en": ""
+  "en": "Watermelon"
  },
  {
   "id": "2197_171",
   "hdr": "00000000",
   "jp": "さくらんぼ",
-  "en": ""
+  "en": "Cherries"
  },
  {
   "id": "2197_172",
   "hdr": "00000000",
   "jp": "バナナ",
-  "en": ""
+  "en": "Banana"
  },
  {
   "id": "2197_173",
   "hdr": "00000000",
   "jp": "原始肉",
-  "en": ""
+  "en": "Bone-in Meat"
  },
  {
   "id": "2197_174",
   "hdr": "00000000",
   "jp": "ステーキ",
-  "en": ""
+  "en": "Steak"
  },
  {
   "id": "2197_175",
   "hdr": "00000000",
   "jp": "チキン",
-  "en": ""
+  "en": "Chicken"
  },
  {
   "id": "2197_176",
   "hdr": "00000000",
   "jp": "ハム",
-  "en": ""
+  "en": "Ham"
  },
  {
   "id": "2197_177",
   "hdr": "00000000",
   "jp": "シシカバブ",
-  "en": ""
+  "en": "Shish Kebab"
  },
  {
   "id": "2197_178",
   "hdr": "00000000",
   "jp": "火ぶくれ弾",
-  "en": ""
+  "en": "Blister Bomb"
  },
  {
   "id": "2197_179",
   "hdr": "00000000",
   "jp": "火おこしビーズ",
-  "en": ""
+  "en": "Fire-Starter Beads"
  },
  {
   "id": "2197_180",
   "hdr": "00000000",
   "jp": "パープルボム",
-  "en": ""
+  "en": "Purple Bomb"
  },
  {
   "id": "2197_181",
   "hdr": "00000000",
   "jp": "光の矢",
-  "en": ""
+  "en": "Arrow of Light"
  },
  {
   "id": "2197_182",
   "hdr": "00000000",
   "jp": "へんしんボム",
-  "en": ""
+  "en": "Disguise Bomb"
  },
  {
   "id": "2197_183",
   "hdr": "00000000",
   "jp": "スタンボム",
-  "en": ""
+  "en": "Stun Bomb"
  },
  {
   "id": "2197_184",
   "hdr": "00000000",
   "jp": "『{c1}{f6}{/c}』に行きますか？",
-  "en": ""
+  "en": "Go to {c1}{f6}{/c}?"
  },
  {
   "id": "2197_185",
   "hdr": "00000000",
   "jp": "『{c1}{f6}{/c}』で買い物しますか？",
-  "en": ""
+  "en": "Shop at {c1}{f6}{/c}?"
  },
  {
   "id": "2197_186",
   "hdr": "00000000",
   "jp": "キャンプに入りますか？",
-  "en": ""
+  "en": "Enter the camp?"
  },
  {
   "id": "2197_187",
   "hdr": "00000000",
   "jp": "キャンプからでますか？",
-  "en": ""
+  "en": "Leave the camp?"
  },
  {
   "id": "2197_188",
   "hdr": "00000000",
   "jp": "セーブしますか？",
-  "en": ""
+  "en": "Save your game?"
  },
  {
   "id": "2197_189",
   "hdr": "00000000",
   "jp": "セーブしています…{n}でんげんを切ったりカードのぬきさしを{n}しないで下さい",
-  "en": ""
+  "en": "Save in progress...{n}Do not turn off the power{n}or remove the Game Card."
  },
  {
   "id": "2197_190",
   "hdr": "00000000",
   "jp": "セーブがおわりました",
-  "en": ""
+  "en": "Save complete."
  },
  {
   "id": "2197_191",
   "hdr": "00000000",
   "jp": "マドレットに乗って帰りますか？",
-  "en": ""
+  "en": "Ride the muddlet back?"
  },
  {
   "id": "2197_192",
   "hdr": "00000000",
   "jp": "かじをしますか？",
-  "en": ""
+  "en": "Do some smithing?"
  },
  {
   "id": "2197_193",
   "hdr": "05810104",
   "jp": "うわっ{n}まっくらだ",
-  "en": ""
+  "en": "Whoa!{n}It's so dark in here!"
  },
  {
   "id": "2197_194",
   "hdr": "05810104",
   "jp": "これじゃ先にすすめないぞ{p}引きかえそう！",
-  "en": ""
+  "en": "I can't go any further like this.{p}I'd better turn back!"
  },
  {
   "id": "2197_195",
   "hdr": "01810104",
   "jp": "そうだ、これを使おう！",
-  "en": ""
+  "en": "I know, I'll use this!"
  },
  {
   "id": "2197_196",
   "hdr": "00000000",
   "jp": "リーフは{n}『{c2}光のシャボンパイプ{/c}』をふいた",
-  "en": ""
+  "en": "Lief blew the{n}{c2}Bubble Pipe of Light{/c}."
  },
  {
   "id": "2197_197",
   "hdr": "00000000",
   "jp": "{c1}もうもてないよ",
-  "en": ""
+  "en": "{c1}You can't carry any more."
  },
  {
   "id": "2197_198",
   "hdr": "00000000",
   "jp": "{c1}カギがかかっている",
-  "en": ""
+  "en": "{c1}It's locked."
  },
  {
   "id": "2197_199",
   "hdr": "00000000",
   "jp": "『{c2}カギ{/c}』を使った",
-  "en": ""
+  "en": "You used the {c2}Key{/c}."
  },
  {
   "id": "2197_200",
   "hdr": "00000000",
   "jp": "『{c1}グランドファーム{/c}』に{n}行けるようになった！！",
-  "en": ""
+  "en": "You can now go to{n}{c1}the Grand Farm{/c}!!"
  },
  {
   "id": "2197_201",
   "hdr": "00000000",
   "jp": "ぼうけんの{sp}こころえ{n}{n}セーブアイコン:ぼうけんをきろくする{n}リーフたち:キャラクターをえらぶ{n}マドレット:ワールドマップへもどる",
-  "en": ""
+  "en": "Adventure Tips{n}{n}Save icon: Record your adventure{n}Lief's party: Choose a character{n}Muddlet: Return to the World Map"
  },
  {
   "id": "2197_202",
   "hdr": "00000000",
   "jp": "ぼうけんの{sp}こころえ{n}{n}セーブアイコン:ぼうけんをきろくする{n}リーフたち:キャラクターをえらぶ",
-  "en": ""
+  "en": "Adventure Tips{n}{n}Save icon: Record your adventure{n}Lief's party: Choose a character"
  },
  {
   "id": "2197_203",
   "hdr": "00000000",
   "jp": "ぼうけんの{sp}こころえ{n}{n}リーフたち:キャラクターをえらぶ",
-  "en": ""
+  "en": "Adventure Tips{n}{n}Lief's party: Choose a character"
  },
  {
   "id": "2197_204",
   "hdr": "00000000",
   "jp": "ぼうけんの{sp}こころえ{n}{n}リーフたち:キャラクターをえらぶ{n}マドレット:ワールドマップへもどる",
-  "en": ""
+  "en": "Adventure Tips{n}{n}Lief's party: Choose a character{n}Muddlet: Return to the World Map"
  },
  {
   "id": "2197_205",
   "hdr": "09810208",
   "jp": "リーフ、あれを見ろ",
-  "en": ""
+  "en": "Lief, look at that."
  },
  {
   "id": "2197_206",
   "hdr": "01810104",
   "jp": "TOM(トム)って書いてあるね{n}何のお店だろう",
-  "en": ""
+  "en": "It says \"TOM\".{n}I wonder what sort of shop it is."
  },
  {
   "id": "2197_207",
   "hdr": "1181030C",
   "jp": "お店ってなあに？",
-  "en": ""
+  "en": "What's a shop?"
  },
  {
   "id": "2197_208",
   "hdr": "01810104",
   "jp": "(ジャスミンはお店も知らないんだ……)",
-  "en": ""
+  "en": "(Jasmine doesn't even know{n}what a shop is...)"
  },
  {
   "id": "2197_209",
   "hdr": "09810208",
   "jp": "お店っていうのはな……{p}行ってみればわかるだろう",
-  "en": ""
+  "en": "A shop, you see, is...{p}Well, go and look, and you'll find out."
  },
  {
   "id": "2197_210",
   "hdr": "09810208",
   "jp": "これは……やしきのようだな。{n}行ってみるか？",
-  "en": ""
+  "en": "This... looks like a mansion.{n}Shall we go and see?"
  },
  {
   "id": "2197_211",
   "hdr": "01810104",
   "jp": "どうして？",
-  "en": ""
+  "en": "Why?"
  },
  {
   "id": "2197_212",
   "hdr": "09810208",
   "jp": "食べ物とベッドが{sp}あるかもしれん",
-  "en": ""
+  "en": "There might be food and beds."
  },
  {
   "id": "2197_213",
   "hdr": "1181030C",
   "jp": "何言ってるの？{n}旅の{sp}もくてきを忘れたの？",
-  "en": ""
+  "en": "What are you talking about?{n}Have you forgotten why we're travelling?"
  },
  {
   "id": "2197_214",
   "hdr": "0B810208",
   "jp": "オレは、おまえたちが{sp}すこしは{n}休めるようにと……",
-  "en": ""
+  "en": "I only thought you two{n}could get a little rest..."
  },
  {
   "id": "2197_215",
   "hdr": "1181030C",
   "jp": "ねえ、リーフ{p}こんな事{sp}言い出しましたけど",
-  "en": ""
+  "en": "Hey, Lief.{p}Did you hear what he just said?"
  },
  {
   "id": "2197_216",
   "hdr": "01810104",
   "jp": "3人そろってから行こう！",
-  "en": ""
+  "en": "Let's go once all three of us are together!"
  },
  {
   "id": "2197_217",
   "hdr": "00000001",
   "jp": "{f9}手にいれたデルトラカードは{n}{f9}メニューの『カード』でみる事ができます{n}{n}{f9}『デルトラカードこうかん』をおこなうと{n}{f9}おたがいのカードがミックスされます{n}{f9}友だちときょうりょくして{n}{f9}すべてのデルトラカードをゲットしよう！",
-  "en": ""
+  "en": "{f9}You can view the Deltora Cards you get{n}{f9}under 'Cards' in the Menu.{n}{n}{f9}Do a 'Deltora Card Trade' and{n}{f9}your cards will be mixed together.{n}{f9}Team up with your friends and{n}{f9}collect every Deltora Card!"
  },
  {
   "id": "2197_218",
   "hdr": "00000000",
   "jp": "{f9}デルトラカード{n}{f9}『{f6}』をゲット！",
-  "en": ""
+  "en": "{f9}You got the Deltora Card{n}{f9}'{f6}'!"
  },
  {
   "id": "2197_219",
   "hdr": "00000000",
   "jp": "{f9}影の憲兵",
-  "en": ""
+  "en": "{f9}Grey Guard"
  },
  {
   "id": "2197_220",
   "hdr": "00000000",
   "jp": "{f9}ウェン",
-  "en": ""
+  "en": "{f9}The Wenn"
  },
  {
   "id": "2197_221",
   "hdr": "00000000",
   "jp": "{f9}グリーンキャタピラ",
-  "en": ""
+  "en": "{f9}Green Caterpillar"
  },
  {
   "id": "2197_222",
   "hdr": "00000000",
   "jp": "{f9}パープルキャタピラ",
-  "en": ""
+  "en": "{f9}Purple Caterpillar"
  },
  {
   "id": "2197_223",
   "hdr": "00000000",
   "jp": "{f9}ハチ",
-  "en": ""
+  "en": "{f9}Bee"
  },
  {
   "id": "2197_224",
   "hdr": "00000000",
   "jp": "{f9}くも",
-  "en": ""
+  "en": "{f9}Spider"
  },
  {
   "id": "2197_225",
   "hdr": "00000000",
   "jp": "{f9}影のたて憲兵",
-  "en": ""
+  "en": "{f9}Shield Grey Guard"
  },
  {
   "id": "2197_226",
   "hdr": "00000000",
   "jp": "{f9}影のパワー憲兵",
-  "en": ""
+  "en": "{f9}Power Grey Guard"
  },
  {
   "id": "2197_227",
   "hdr": "00000000",
   "jp": "{f9}影のエリート憲兵",
-  "en": ""
+  "en": "{f9}Elite Grey Guard"
  },
  {
   "id": "2197_228",
   "hdr": "00000000",
   "jp": "{f9}ワニ",
-  "en": ""
+  "en": "{f9}Crocodile"
  },
  {
   "id": "2197_229",
   "hdr": "00000000",
   "jp": "{f9}水ヘビ",
-  "en": ""
+  "en": "{f9}Water Snake"
  },
  {
   "id": "2197_230",
   "hdr": "00000000",
   "jp": "{f9}きゅうけつ虫",
-  "en": ""
+  "en": "{f9}Bloodsucker"
  },
  {
   "id": "2197_231",
   "hdr": "00000000",
   "jp": "{f9}フロッグフィッシュ",
-  "en": ""
+  "en": "{f9}Frogfish"
  },
  {
   "id": "2197_232",
   "hdr": "00000000",
   "jp": "{f9}ネズミ",
-  "en": ""
+  "en": "{f9}Rat"
  },
  {
   "id": "2197_233",
   "hdr": "00000000",
   "jp": "{f9}オオカミもどき",
-  "en": ""
+  "en": "{f9}Mock Wolf"
  },
  {
   "id": "2197_234",
   "hdr": "00000000",
   "jp": "{f9}大さそり",
-  "en": ""
+  "en": "{f9}Giant Scorpion"
  },
  {
   "id": "2197_235",
   "hdr": "00000000",
   "jp": "{f9}サンドキャタピラ",
-  "en": ""
+  "en": "{f9}Sand Caterpillar"
  },
  {
   "id": "2197_236",
   "hdr": "00000000",
   "jp": "{f9}タランチュラ",
-  "en": ""
+  "en": "{f9}Tarantula"
  },
  {
   "id": "2197_237",
   "hdr": "00000000",
   "jp": "{f9}ウスバカゲロウ",
-  "en": ""
+  "en": "{f9}Antlion Fly"
  },
  {
   "id": "2197_238",
   "hdr": "00000000",
   "jp": "{f9}赤いはね虫",
-  "en": ""
+  "en": "{f9}Red Wingbug"
  },
  {
   "id": "2197_239",
   "hdr": "00000000",
   "jp": "{f9}青じた赤トカゲ",
-  "en": ""
+  "en": "{f9}Blue-Tongued Red Lizard"
  },
  {
   "id": "2197_240",
   "hdr": "00000000",
   "jp": "{f9}パイソン",
-  "en": ""
+  "en": "{f9}Python"
  },
  {
   "id": "2197_241",
   "hdr": "00000000",
   "jp": "{f9}くまんばち",
-  "en": ""
+  "en": "{f9}Hornet"
  },
  {
   "id": "2197_242",
   "hdr": "00000000",
   "jp": "{f9}山ぞく",
-  "en": ""
+  "en": "{f9}Mountain Bandit"
  },
  {
   "id": "2197_243",
   "hdr": "00000000",
   "jp": "{f9}グノメ族",
-  "en": ""
+  "en": "{f9}The Gnomes"
  },
  {
   "id": "2197_244",
   "hdr": "00000000",
   "jp": "{f9}デススコーピオン",
-  "en": ""
+  "en": "{f9}Death Scorpion"
  },
  {
   "id": "2197_245",
   "hdr": "00000000",
   "jp": "{f9}ハエ",
-  "en": ""
+  "en": "{f9}Fly"
  },
  {
   "id": "2197_246",
   "hdr": "00000000",
   "jp": "{f9}トカゲ",
-  "en": ""
+  "en": "{f9}Lizard"
  },
  {
   "id": "2197_247",
   "hdr": "00000000",
   "jp": "{f9}ロックダイル",
-  "en": ""
+  "en": "{f9}Rockodile"
  },
  {
   "id": "2197_248",
   "hdr": "00000000",
   "jp": "{f9}ワーム",
-  "en": ""
+  "en": "{f9}Worm"
  },
  {
   "id": "2197_249",
   "hdr": "00000000",
   "jp": "{f9}キネズミ",
-  "en": ""
+  "en": "{f9}Yellow Rat"
  },
  {
   "id": "2197_250",
   "hdr": "00000000",
   "jp": "{f9}きゅうけつどく虫",
-  "en": ""
+  "en": "{f9}Venom Bloodsucker"
  },
  {
   "id": "2197_251",
   "hdr": "00000000",
   "jp": "{f9}川とびバチ",
-  "en": ""
+  "en": "{f9}River Bee"
  },
  {
   "id": "2197_252",
   "hdr": "00000000",
   "jp": "{f9}リバーフィッシュ",
-  "en": ""
+  "en": "{f9}Riverfish"
  },
  {
   "id": "2197_253",
   "hdr": "00000000",
   "jp": "{f9}とうぞく",
-  "en": ""
+  "en": "{f9}Bandit"
  },
  {
   "id": "2197_254",
   "hdr": "00000000",
   "jp": "{f9}オル",
-  "en": ""
+  "en": "{f9}Ol"
  },
  {
   "id": "2197_255",
   "hdr": "00000000",
   "jp": "{f9}マリーとアイダ",
-  "en": ""
+  "en": "{f9}Marie and Ida"
  },
  {
   "id": "2197_256",
   "hdr": "00000000",
   "jp": "{f9}ピンクドレスの女",
-  "en": ""
+  "en": "{f9}Woman in Pink"
  },
  {
   "id": "2197_257",
   "hdr": "00000000",
   "jp": "{f9}ヤギ",
-  "en": ""
+  "en": "{f9}Goat"
  },
  {
   "id": "2197_258",
   "hdr": "00000000",
   "jp": "{f9}ぬまもうどくヘビ",
-  "en": ""
+  "en": "{f9}Swamp Viper"
  },
  {
   "id": "2197_259",
   "hdr": "00000000",
   "jp": "{f9}山あらしオオカミ",
-  "en": ""
+  "en": "{f9}Porcupine Wolf"
  },
  {
   "id": "2197_260",
   "hdr": "00000000",
   "jp": "{f9}グリーンワーム",
-  "en": ""
+  "en": "{f9}Green Worm"
  },
  {
   "id": "2197_261",
   "hdr": "00000000",
   "jp": "{f9}谷タランチュラ",
-  "en": ""
+  "en": "{f9}Valley Tarantula"
  },
  {
   "id": "2197_262",
   "hdr": "00000000",
   "jp": "{f9}おばけキノコ",
-  "en": ""
+  "en": "{f9}Spook Mushroom"
  },
  {
   "id": "2197_263",
   "hdr": "00000000",
   "jp": "{f9}ガブリ草",
-  "en": ""
+  "en": "{f9}Snapgrass"
  },
  {
   "id": "2197_264",
   "hdr": "00000000",
   "jp": "{f9}ダークモス",
-  "en": ""
+  "en": "{f9}Dark Moth"
  },
  {
   "id": "2197_265",
   "hdr": "00000000",
   "jp": "{f9}ウェンバー",
-  "en": ""
+  "en": "{f9}Wennbar"
  },
  {
   "id": "2197_266",
   "hdr": "00000000",
   "jp": "{f9}ゴール",
-  "en": ""
+  "en": "{f9}Gorl"
  },
  {
   "id": "2197_267",
   "hdr": "00000000",
   "jp": "{f9}ソルディーン",
-  "en": ""
+  "en": "{f9}Soldeen"
  },
  {
   "id": "2197_268",
   "hdr": "00000000",
   "jp": "{f9}だいじゃリア",
-  "en": ""
+  "en": "{f9}Reeah the Great Serpent"
  },
  {
   "id": "2197_269",
   "hdr": "00000000",
   "jp": "{f9}さきゅうのかいぶつ",
-  "en": ""
+  "en": "{f9}The Dune Beast"
  },
  {
   "id": "2197_270",
   "hdr": "00000000",
   "jp": "{f9}ブラール",
-  "en": ""
+  "en": "{f9}The Vraal"
  },
  {
   "id": "2197_271",
   "hdr": "00000000",
   "jp": "{f9}ゲリック",
-  "en": ""
+  "en": "{f9}Gellick"
  },
  {
   "id": "2197_272",
   "hdr": "00000000",
   "jp": "{f9}グルー",
-  "en": ""
+  "en": "{f9}The Glus"
  },
  {
   "id": "2197_273",
   "hdr": "00000000",
   "jp": "{f9}テーガン",
-  "en": ""
+  "en": "{f9}Thaegan"
  },
  {
   "id": "2197_274",
   "hdr": "00000000",
   "jp": "{f9}番人とかいぶつたち",
-  "en": ""
+  "en": "{f9}The Guardian and the Monsters"
  },
  {
   "id": "2197_275",
   "hdr": "00000000",
   "jp": "{f9}イカボッド",
-  "en": ""
+  "en": "{f9}Ichabod"
  },
  {
   "id": "2197_276",
   "hdr": "00000000",
   "jp": "{f9}ファロー",
-  "en": ""
+  "en": "{f9}Fallow"
  },
  {
   "id": "2197_277",
   "hdr": "00000000",
   "jp": "{f9}マナス",
-  "en": ""
+  "en": "{f9}Manus"
  },
  {
   "id": "2197_278",
   "hdr": "00000000",
   "jp": "{f9}ララド族",
-  "en": ""
+  "en": "{f9}The Ralads"
  },
  {
   "id": "2197_279",
   "hdr": "00000000",
   "jp": "{f9}ジニ&ジッド",
-  "en": ""
+  "en": "{f9}Jin and Jod"
  },
  {
   "id": "2197_280",
   "hdr": "00000000",
   "jp": "{f9}ネズヌク",
-  "en": ""
+  "en": "{f9}The Ra-Kacharz"
  },
  {
   "id": "2197_281",
   "hdr": "00000000",
   "jp": "{f9}ティラ",
-  "en": ""
+  "en": "{f9}Tira"
  },
  {
   "id": "2197_282",
   "hdr": "00000000",
   "jp": "{f9}チュルナイの人々",
-  "en": ""
+  "en": "{f9}The Noradz"
  },
  {
   "id": "2197_283",
   "hdr": "00000000",
   "jp": "{f9}リンゴえんのろうば",
-  "en": ""
+  "en": "{f9}The Queen of the Bees"
  },
  {
   "id": "2197_284",
   "hdr": "00000000",
   "jp": "{f9}マザーブライトリー",
-  "en": ""
+  "en": "{f9}Mother Brightly"
  },
  {
   "id": "2197_285",
   "hdr": "00000000",
   "jp": "{f9}ジョーカー",
-  "en": ""
+  "en": "{f9}Doom"
  },
  {
   "id": "2197_286",
   "hdr": "00000000",
   "jp": "{f9}フェルディナンド",
-  "en": ""
+  "en": "{f9}Ferdinand"
  },
  {
   "id": "2197_287",
   "hdr": "00000000",
   "jp": "{f9}プリン",
-  "en": ""
+  "en": "{f9}Prin"
  },
  {
   "id": "2197_288",
   "hdr": "00000000",
   "jp": "{f9}キン",
-  "en": ""
+  "en": "{f9}The Kin"
  },
  {
   "id": "2197_289",
   "hdr": "00000000",
   "jp": "{f9}グラ•ソン",
-  "en": ""
+  "en": "{f9}Gla-Thon"
  },
  {
   "id": "2197_290",
   "hdr": "00000000",
   "jp": "{f9}ファ•グリン",
-  "en": ""
+  "en": "{f9}Fa-Glin"
  },
  {
   "id": "2197_291",
   "hdr": "00000000",
   "jp": "{f9}デイン",
-  "en": ""
+  "en": "{f9}Dain"
  },
  {
   "id": "2197_292",
   "hdr": "00000000",
   "jp": "{f9}ルーカス",
-  "en": ""
+  "en": "{f9}Steven"
  },
  {
   "id": "2197_293",
   "hdr": "00000000",
   "jp": "{f9}船長とポリパン",
-  "en": ""
+  "en": "{f9}The Captain and Polypan"
  },
  {
   "id": "2197_294",
   "hdr": "00000000",
   "jp": "{f9}むらさきマントのこ",
-  "en": ""
+  "en": "{f9}Child in the Purple Cloak"
  },
  {
   "id": "2197_295",
   "hdr": "00000000",
   "jp": "{f9}グロック",
-  "en": ""
+  "en": "{f9}Glock"
  },
  {
   "id": "2197_296",
   "hdr": "00000000",
   "jp": "{f9}ゼアン",
-  "en": ""
+  "en": "{f9}Zeean"
  },
  {
   "id": "2197_297",
   "hdr": "00000000",
   "jp": "{f9}トーラ族の人々",
-  "en": ""
+  "en": "{f9}The people of Tora"
  },
  {
   "id": "2197_298",
   "hdr": "00000000",
   "jp": "{f9}ジャード",
-  "en": ""
+  "en": "{f9}Jarred"
  },
  {
   "id": "2197_299",
   "hdr": "00000000",
   "jp": "{f9}アンナ",
-  "en": ""
+  "en": "{f9}Anna"
  },
  {
   "id": "2197_300",
   "hdr": "00000000",
   "jp": "{f9}トム",
-  "en": ""
+  "en": "{f9}Tom"
  },
  {
   "id": "2197_301",
   "hdr": "00000000",
   "jp": "{f9}リーフとなかまたち",
-  "en": ""
+  "en": "{f9}Lief and Friends"
  },
  {
   "id": "2197_302",
   "hdr": "00000000",
   "jp": "{f9}火ぶくれマン",
-  "en": ""
+  "en": "{f9}Blister Man"
  },
  {
   "id": "2197_303",
   "hdr": "00000000",
   "jp": "{f9}ジンジャークッキー",
-  "en": ""
+  "en": "{f9}Gingerbread Cookie"
  },
  {
   "id": "2197_304",
   "hdr": "00000000",
   "jp": "{f9}タートルキャノン",
-  "en": ""
+  "en": "{f9}Turtle Cannon"
  },
  {
   "id": "2197_305",
   "hdr": "00000000",
   "jp": "{f9}ヘビーキャノン",
-  "en": ""
+  "en": "{f9}Heavy Cannon"
  },
  {
   "id": "2197_306",
   "hdr": "00000000",
   "jp": "{f9}フレイムホース",
-  "en": ""
+  "en": "{f9}Flame Horse"
  },
  {
   "id": "2197_307",
   "hdr": "00000000",
   "jp": "{f9}ナイトメア",
-  "en": ""
+  "en": "{f9}Nightmare"
  },
  {
   "id": "2197_308",
   "hdr": "00000000",
   "jp": "{f9}影の馬憲兵",
-  "en": ""
+  "en": "{f9}Mounted Grey Guard"
  },
  {
   "id": "2197_309",
   "hdr": "00000000",
   "jp": "{f9}影の合体憲兵",
-  "en": ""
+  "en": "{f9}Combined Grey Guard"
  },
  {
   "id": "2197_310",
   "hdr": "00000000",
   "jp": "{f9}ローパー",
-  "en": ""
+  "en": "{f9}Roper"
  },
  {
   "id": "2197_311",
   "hdr": "00000000",
   "jp": "{f9}サンドローパー",
-  "en": ""
+  "en": "{f9}Sand Roper"
  },
  {
   "id": "2197_312",
   "hdr": "00000000",
   "jp": "{f9}ドレッドローパー",
-  "en": ""
+  "en": "{f9}Dread Roper"
  },
  {
   "id": "2197_313",
   "hdr": "00000000",
   "jp": "{f9}ガンメンロック",
-  "en": ""
+  "en": "{f9}Face Rock"
  },
  {
   "id": "2197_314",
   "hdr": "00000000",
   "jp": "{f9}イエロードラゴン",
-  "en": ""
+  "en": "{f9}Yellow Dragon"
  },
  {
   "id": "2197_315",
   "hdr": "00000000",
   "jp": "{f9}レッドドラゴン",
-  "en": ""
+  "en": "{f9}Red Dragon"
  },
  {
   "id": "2197_316",
   "hdr": "00000000",
   "jp": "{f9}ダークドラゴン",
-  "en": ""
+  "en": "{f9}Dark Dragon"
  },
  {
   "id": "2197_317",
   "hdr": "00000000",
   "jp": "{f9}グリーンドラゴン",
-  "en": ""
+  "en": "{f9}Green Dragon"
  },
  {
   "id": "2197_318",
   "hdr": "00000000",
   "jp": "{f9}ブルードラゴン",
-  "en": ""
+  "en": "{f9}Blue Dragon"
  },
  {
   "id": "2197_319",
   "hdr": "00000000",
   "jp": "{f9}ミミック",
-  "en": ""
+  "en": "{f9}Mimic"
  },
  {
   "id": "2197_320",
   "hdr": "00000000",
   "jp": "{f9}ジェリー",
-  "en": ""
+  "en": "{f9}Jelly"
  },
  {
   "id": "2197_321",
   "hdr": "00000000",
   "jp": "{f9}グランドサーペント",
-  "en": ""
+  "en": "{f9}Grand Serpent"
  },
  {
   "id": "2197_322",
   "hdr": "00000000",
   "jp": "{f9}ジャック",
-  "en": ""
+  "en": "{f9}Jack"
  },
  {
   "id": "2197_323",
   "hdr": "00000000",
   "jp": "{f9}モキート",
-  "en": ""
+  "en": "{f9}Mokito"
  },
  {
   "id": "2197_324",
   "hdr": "00000000",
   "jp": "{f9}ミキータ",
-  "en": ""
+  "en": "{f9}Mikita"
  },
  {
   "id": "2197_325",
   "hdr": "00000000",
   "jp": "{f9}若き日のジャード",
-  "en": ""
+  "en": "{f9}Young Jarred"
  },
  {
   "id": "2197_326",
   "hdr": "00000000",
   "jp": "{f9}若き日のエンドン",
-  "en": ""
+  "en": "{f9}Young Endon"
  },
  {
   "id": "2197_327",
   "hdr": "00000000",
   "jp": "{f9}若き日のアンナ",
-  "en": ""
+  "en": "{f9}Young Anna"
  },
  {
   "id": "2197_328",
   "hdr": "00000000",
   "jp": "{f9}若き日のシャーン",
-  "en": ""
+  "en": "{f9}Young Sharn"
  },
  {
   "id": "2197_329",
   "hdr": "00000000",
   "jp": "{f9}クリアン",
-  "en": ""
+  "en": "{f9}Crian"
  },
  {
   "id": "2197_330",
   "hdr": "00000000",
   "jp": "{f9}プランディン",
-  "en": ""
+  "en": "{f9}Prandine"
  },
  {
   "id": "2197_331",
@@ -2001,12 +2001,12 @@
   "id": "2197_333",
   "hdr": "00000000",
   "jp": "Ver．　{c1}{f6}",
-  "en": ""
+  "en": "Ver. {c1}{f6}"
  },
  {
   "id": "2197_334",
   "hdr": "00000000",
   "jp": "2007/7/7　20:56",
-  "en": ""
+  "en": "2007/7/7 20:56"
  }
 ]
