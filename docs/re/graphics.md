@@ -6,11 +6,18 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
 
 | # | Element | Japanese | Where | Source guess | State |
 |---|---|---|---|---|---|
-| G1 | logo katakana above QUEST | デルトラクエスト | top screen (sub BG), title and every story screen | FILEDATA 465 (RGCN, 767 tiles; vramfind exact match at sub-BG VRAM 0x06200020, work/qa/tag) | todo: redraw or remove |
-| G2 | logo subtitle | 7つの宝石 | top screen, under DELTORA | FILEDATA 465 (same) | todo: "The Seven Gems" |
-| G3 | copyright line | (C)2006 デルトラクエスト製作委員会・テレビ愛知 (C)2007 NBGI | title, top | graphic (grey, antialiased) | todo: translate (legal line) |
+| G1 | logo katakana above QUEST | デルトラクエスト | top screen (sub BG), title and every story screen | FILEDATA 465 / 1620 / 1625 (below) | done: removed (tools/logo.py), cold-boot shots work/qa/logo_title, logo_story |
+| G2 | logo subtitle | 7つの宝石 | top screen, under DELTORA | same | done: "The Seven Gems" |
+| G3 | copyright line | (C)2006 デルトラクエスト製作委員会・テレビ愛知 (C)2007 NBGI | title, top | FILEDATA 1620 (part of the title logo screen) | done: 3 lines, "(C)2006 Deltora Quest Production Committee / TV Aichi / (C)2007 NBGI" |
 | G4 | yes / no labels | はい / いいえ | entry-card confirm, above the two Lief portraits | font-styled but no script string has them: sprite in the font's look? | check: VRAM/OAM dump |
 | G5 | speaker name tags | リーフ, バルダ, ジャード, ... | dialogue box top edge (cyan) | FILEDATA 4533+n (verified, below) | done: tools/tags.py; English in a cold-boot shot (work/qa/tags_cold) and via the text viewer |
+
+## G1-G3 logo screens (verified: rendered from the files with tools/nitro.py; English import shows in cold boot)
+- Three 256x192 4bpp BG screens, each an RLCN/RGCN/RCSN triple (palette, chr, screen): 464/465/466 dark story
+  background (vramfind match, work/qa/tag), 1621/1620/1622 title with the (C) lines (vramfind, work/qa/title_dump),
+  1624/1625/1626 light, no (C) (where shown: not seen yet). No byte-identical copies elsewhere.
+- 465 and 1625: one tile per cell; 1620 shares some tiles (128 ids free). 16 palettes per screen, index 0 unused.
+- `tools/logo.py` writes gfx/logo_<chr>.png once (Windows fonts); the build re-encodes only the changed 8x8 cells.
 
 ## G5 name tags (verified: vramfind exact match on OBJ-A VRAM 0x06402300, English redraw shows in-game)
 - Header word 2 low byte = n * 4 picks tag n (1..45 = 0x01..0x2D); tag n = FILEDATA 4533 + n, RGCN, 560 bytes:

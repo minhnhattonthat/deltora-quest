@@ -145,6 +145,7 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | ガラスの宮殿 | the Glass Palace | game | ? | |
 | 試練の洞窟 | the Cave of Trials | game | リーフのしれん = Lief's Trial | |
 | 帰還 / きかん ～デルへ～ | Return to Del | novel | final chapter title (最終章 = Final Chapter) | Homecoming |
+| 7つの宝石 | The Seven Gems | game | logo subtitle (tools/logo.py) | Seven Jewels |
 | 秘宝のベルト / ひほうのベルト | The Belt of Deltora | novel-derived | prologue (序章) title; ? literally "The Treasured Belt" | Hihou no Belt |
 | 小川のほとり | by the stream | game | | |
 | ガブリ草原 | the Snapgrass Plains | game | ガブリ = chomp; ? | Gaburi Plains |

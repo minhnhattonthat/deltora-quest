@@ -11,8 +11,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Next:**
   1. Visual QA gate: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` must pass; fix issues it finds.
      Shots are every 300 frames: add denser routes per chapter (text viewer `tools/debug/show.py` per scene).
-  2. Graphics text (docs/re/graphics.md): logo FILEDATA 465 (G1/G2), copyright line (G3), はい/いいえ (G4);
-     G5 name tags done (tools/tags.py, 45 tags; Kuren/Rai/Niji/Dodge are Hepburn guesses, glossary `?`).
+  2. Graphics text (docs/re/graphics.md): はい/いいえ (G4) left. Done: G5 name tags (tools/tags.py, 45 tags;
+     Kuren/Rai/Niji/Dodge are Hepburn guesses, glossary `?`), G1-G3 logo + (C) lines (tools/logo.py, gfx/).
      Survey menus/shop/game over/staff roll once scenes reach them.
   3. Polish pass over docs/polish-todo.md (line by line, no bulk rewrites); whole-project sampled review.
   4. In-game checks noted by reviewers: hideout song puzzle (2188_136), smithing icons Circle/Arrow (2196_012),
