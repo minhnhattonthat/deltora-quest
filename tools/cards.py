@@ -40,7 +40,12 @@ CARDS = {
 LABELS = {
     425: (424, 423, "Lief's party has fallen...", (6, 12, 154, 30), "red", False),
     542: (541, 540, "Items for Use in the Field", (56, 8, 204, 21), "bright", True),
+    1675: (1674, 1673, "Deltora Card Trade", (56, 7, 206, 21), "bright", False),  # G11, wireless card trade
+    1678: (1677, 1676, "Trading Deltora Cards...", (56, 7, 206, 21), "bright", False),
 }
+# Japanese removed, nothing drawn: screen: (chr, palette, box). G12: the Japanese translation under Emily Rodda's
+# handwritten English letter (the English original stays).
+ERASE = {357: (355, 356, (28, 113, 228, 183))}
 TOP_Y, MAIN_Y = 59, 110  # line centres, as in the Japanese cards
 TOP_SIZE, MAIN_SIZE, WIDTH = 15, 22, 240
 FILL, GLOW = np.array([248, 248, 248]), np.array([120, 120, 120])
@@ -135,8 +140,42 @@ def relabel(img, text, box, colour, centre):
     return a.round().astype(np.uint8)
 
 
+def erase(img, box):
+    """Dark lettering inside box -> the paper around it. Ink = 30 darker than its 9x9 neighbourhood (thin sharp
+    strokes; the vignette and the paper's mottling are smooth), plus a 2 px halo for the anti-aliased edges; filled by
+    diffusion from the pixels left."""
+    x0, y0, x1, y1 = box
+    a = img.astype(float)
+    lum = a.mean(-1)
+    local = sum(np.roll(np.roll(lum, dy, 0), dx, 1) for dy in range(-4, 5) for dx in range(-4, 5)) / 81
+    y0, x0, y1, x1 = y0 - 1, x0 - 1, y1 + 1, x1 + 1  # a known 1 px border, so the rolls below never wrap
+    reg = a[y0:y1, x0:x1]
+    m = (lum < local - 30)[y0:y1, x0:x1]
+    for _ in range(2):
+        g = m.copy()
+        g[1:] |= m[:-1]
+        g[:-1] |= m[1:]
+        g[:, 1:] |= m[:, :-1]
+        g[:, :-1] |= m[:, 1:]
+        m = g
+    m[0], m[-1], m[:, 0], m[:, -1] = False, False, False, False
+    known = ~m
+    cur = reg.copy()
+    for _ in range(200):
+        acc, n = np.zeros_like(cur), np.zeros(m.shape)
+        for dy, dx in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            k = np.roll(known, (dy, dx), (0, 1))
+            acc += np.roll(cur, (dy, dx), (0, 1)) * k[..., None]
+            n += k
+        grow = ~known & (n > 0)
+        cur[grow] = acc[grow] / n[grow][:, None]
+        known = known | grow
+    a[y0:y1, x0:x1] = cur
+    return a.round().astype(np.uint8)
+
+
 def original_label(files, s):
-    c, p = LABELS[s][:2]
+    c, p = (LABELS.get(s) or ERASE[s])[:2]
     til, bpp = nitro.tiles(files[c])
     return nitro.render(nitro.palette(files[p]), til, nitro.screen(files[s]), bpp)[:192]
 
@@ -144,7 +183,7 @@ def original_label(files, s):
 def apply(files):
     from PIL import Image
     magic = lambda k: files[k][:4] if 0 <= k < len(files) else None  # noqa: E731
-    for s, (c, p, *_) in list(CARDS.items()) + list(LABELS.items()):
+    for s, (c, p, *_) in list(CARDS.items()) + list(LABELS.items()) + list(ERASE.items()):
         screens = neighbours(magic, c)
         targets = [np.array(Image.open(GFX / f"card_{s}.png").convert("RGB")) if k == s else
                    nitro.render(nitro.palette(files[p]), nitro.tiles(files[c])[0], nitro.screen(files[k]), 4)
@@ -168,6 +207,10 @@ def main():
     for s, (_, _, text, box, colour, centre) in LABELS.items():
         out = GFX / f"card_{s}.png"
         Image.fromarray(relabel(original_label(files, s), text, box, colour, centre)).save(out)
+        print(out)
+    for s, (_, _, box) in ERASE.items():
+        out = GFX / f"card_{s}.png"
+        Image.fromarray(erase(original_label(files, s), box)).save(out)
         print(out)
 
 
