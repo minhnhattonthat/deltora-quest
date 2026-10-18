@@ -2,22 +2,23 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6 (translation). Pilot (mine + 3 agent batches b000-b002, 417 lines) reviewed, fixed, merged.
-  Wave 2 (b003-b008) dispatched 2026-10-18; batches b003-b031 split in work/batches (regenerate with
-  `tools/batches.py split` if work/ was lost: only untranslated lines are split).
-- **Done:** repo + guardrails; identity rebuild; text extraction + kanji table; debug tool (route scenes, stage and
-  event warps: chapters 1-8, tower, world map, smithy, cutscene; text viewer); VWF + English font; width gate
-  (portrait box 2 lines x 240 px; narration centred 240 px); lint; graphics survey (docs/re/graphics.md);
-  glossary (novel names), synopsis, briefs, style reference.
+- **Phase:** 6 done (whole script translated and reviewed), 8 started (visual QA of the English build).
+  Last build: `build/deltora_en.nds` (2026-10-18), all 19 scenes in tools/debug/scenes.json boot and reach their
+  screens (work/qa/tour_en). Lint: 3,655 lines, 0 errors.
+- **Done:** repo + guardrails; identity rebuild; extraction + kanji table; debug tool (stage/event warps, text
+  viewer); VWF + English font; width gate + lint; glossary (novel names); translation of all 32 batches with a
+  reviewer per batch (no Critical left; Important fixed); deferred Minor items in docs/polish-todo.md.
 - **Next:**
-  1. Translation waves b009-b031: dispatch "Read docs/translator-brief.md and follow it for batch bNNN", then
-     `tools/batches.py merge bNNN`, reviewer per batch (docs/reviewer-brief.md, sonnet), fix Critical/Important,
-     defer Minor to docs/polish-todo.md. Merge NEW TERMs into glossary.md between waves.
-  2. Graphics (phase 7/8): logo FILEDATA 465 (G1/G2), copyright line (G3), はい/いいえ (G4: check), speaker name
-     tags (G5). Find menus/shop/game over/staff roll scenes and survey them.
-  3. QA tours on the English build per chapter (warp scenes), visual-QA gate, then release tooling (xdelta).
-- **Open bugs / questions:**
-  - D7: game-renamed characters (ルーカス/スカール = Steven/Nevets?) provisionally given novel names: ask the user.
-  - Credits: company アウディオ English name and several staff-name readings unverified (docs/polish-todo.md).
-  - Unverified novel spellings in glossary rows marked `?` (Elstedd, ...).
+  1. Visual QA gate: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` must pass; fix issues it finds.
+     Shots are every 300 frames: add denser routes per chapter (text viewer `tools/debug/show.py` per scene).
+  2. Graphics text (docs/re/graphics.md): logo FILEDATA 465 (G1/G2), copyright line (G3), はい/いいえ (G4),
+     speaker name tags (G5, cyan, per speaker); survey menus/shop/game over/staff roll once scenes reach them.
+  3. Polish pass over docs/polish-todo.md (line by line, no bulk rewrites); whole-project sampled review.
+  4. In-game checks noted by reviewers: hideout song puzzle (2188_136), smithing icons Circle/Arrow (2196_012),
+     speakers 2184_248 / 2188_365 / 2199_116, 2197_216 context.
+  5. Release tooling: xdelta patch, README with base hashes, jp_left scan, debug tool off.
+- **Open questions:**
+  - D7: game-renamed characters (ルーカス/スカール) use the novel names Steven/Nevets - waiting on the user.
+  - Credits: company アウディオ English name, some staff-name readings unverified.
+  - Glossary rows marked `?` (Elstedd, ...) from memory.
 - **Waiting on the user:** D7.
