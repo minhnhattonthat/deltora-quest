@@ -16,7 +16,8 @@ SPOTS = {
     # bank: (rgcn, cells, [(box, text, fill, outline, clear, cap row, centred)])
     5591: (5592, [0, 1], [((27, 2, 84, 16), "Time Left", 9, 15, "clear", 4, False),
                           ((86, 2, 170, 16), "Weapon Bonus", 9, 15, "clear", 4, False)]),
-    5412: (5411, [0, 1, 2, 3], [((5, 10, 28, 21), "SAVE", 5, 1, "panel", 11, True)]),
+    # SAVE + outline is 25 px, the paper 25 (x 4-28): the outline lands on the paper's border, same colour
+    5412: (5411, [0, 1, 2, 3], [((3, 10, 29, 21), "SAVE", 5, 1, "panel", 11, False)]),
 }
 
 

@@ -45,7 +45,7 @@ def main():
     sys.exit(subprocess.call([sys.executable, "-X", "utf8", str(SKILL / "scripts/emu.py"), a.rom, "--out", str(out),
                               "--state-in", a.state, "--frames", str(a.frames), "--mash", a.mash, "--mash-key", "t128,96",
                               "--script", str(gen), "--script", str(ROOT / "tools/debug/textview.lua"),
-                              "--shot-every", "60", "--sheet", "--debugger"]))
+                              "--shot-every", "60", "--sheet", "--debugger", "--timeout", "900"]))
 
 
 if __name__ == "__main__":
