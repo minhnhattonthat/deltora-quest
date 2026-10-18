@@ -11,9 +11,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Next:**
   1. Visual QA gate: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` must pass; fix issues it finds.
      Shots are every 300 frames: add denser routes per chapter (text viewer `tools/debug/show.py` per scene).
-  2. Graphics text (docs/re/graphics.md): G1-G5 done (logo + (C) lines tools/logo.py; name tags + Yes/No
-     tools/tags.py; Kuren/Rai/Niji/Dodge are Hepburn guesses, glossary `?`). Next: survey menus, shop, game over,
-     staff roll, chapter-clear screens (need scenes in tools/debug/scenes.json first).
+  2. Graphics text (docs/re/graphics.md G1-G17): whole-FILEDATA survey done (every BG screen and sprite cell,
+     tools/debug/gfxsurvey.py + objsurvey.py, read by reviewer agents). Done: G1-G5, G7 (checked in game), G8-G10
+     (chapter/area cards + game over, tools/cards.py; imported but not seen in game: the warps skip them).
+     Left: G6 menu labels (32 px limit, user wording), G11 card trade headers, G12 Emily letter, G13 demo
+     leftovers?, G14 bitmap font user, G15 move banners (names need glossary), G16 battle HUD, G17 Save panel.
+     Scenes: field menu + 5 sub-menus added (`from` a state). Still unreached: story select / world map
+     (chapter cards), shop, game over, staff roll.
   3. Polish pass over docs/polish-todo.md (line by line, no bulk rewrites); whole-project sampled review.
   4. In-game checks noted by reviewers: hideout song puzzle (2188_136), smithing icons Circle/Arrow (2196_012),
      speakers 2184_248 / 2188_365 / 2199_116, 2197_216 context.
@@ -22,4 +26,4 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - D7: game-renamed characters (ルーカス/スカール) use the novel names Steven/Nevets - waiting on the user.
   - Credits: company アウディオ English name, some staff-name readings unverified.
   - Glossary rows marked `?` (Elstedd, ...) from memory.
-- **Waiting on the user:** D7.
+- **Waiting on the user:** D7; G6 menu-label wording; G15 move names.
