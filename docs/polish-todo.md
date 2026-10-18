@@ -165,6 +165,16 @@ One pass at the end, line by line (no bulk rewrites). Format: id - suggestion (f
   seen!" / 225 "Yeah." / 241 "See you later!" / 194/198 Jasmine less polite / 284 "ugly figures" / 208 "He's
   planning to use the Belt as bait..." / 193 "You're one of Dain's men..."
 
+## b027-b030 (all approved, minors only)
+- 2197_037/038/040 debug columns with ASCII spaces (cosmetic) / 025 "Small Fry" ok / 012 "Tom's Shop" label ok
+- 2197_189 + 2192_008 "Saving..." together / 209 "Well, go and see. You'll find out." / 210 "Want to take a look?" /
+  215 "Hey, Lief. Listen to what he's come up with now." / 217 "If you do a 'Deltora Card Trade',"
+- 2197_297 + 2193 header "The People of Tora" (both or neither) / glossary row "Reeah the Great Serpent" /
+  2199_031 "bitter, frustrated face"
+- 2199_071 "Only then can we save this land{n}from the Shadow Lord." / 067 "And he was the best friend of Endon" /
+  127 "rarely go near the place, they say" / 138 "Barda, a former guard of the palace of Del" / 078 "That's right." /
+  111 "I'm off!" / 2200_012 "That trade room has already closed." / 2199_116 speaker check
+
 ## b022
 - 2189_000 "Synthesise, synthesise, photosynthesise!" (controller's call vs 合成 = infuse) / 2188_332 "Thanks to
   all that, I got my memory back{n}and found my daughter." / 334 "That decision is why we are here today." /
