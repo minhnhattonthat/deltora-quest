@@ -14,12 +14,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   2. Graphics text (docs/re/graphics.md G1-G17): whole-FILEDATA survey done (every BG screen and sprite cell,
      tools/debug/gfxsurvey.py + objsurvey.py, read by reviewer agents) and every row handled: logo.py, tags.py,
      cards.py, menu.py (D8, engine re-pack), banners.py (D9), sprites.py. Seen in game: logo, tags, Yes/No, field
-     menu, item header. Imported but NOT seen in game yet (no scene reaches them): chapter/area cards, game over,
-     move banners, battle HUD, Save panel, Emily letter, card trade, demo screens. Left: G14 font sheet's user
+     menu, item header, game over (scenes boss_ch1 + game_over, 2026-10-18). Imported but NOT seen in game:
+     chapter/area cards, move banners, battle HUD, Save panel, Emily letter, card trade, demo screens (low risk:
+     same import paths as the items seen; sprite edits are pixel-only, no twins). Left: G14 font sheet's user
      (probably debug menu), 354 working-title logo (no reference found).
-     Next: scenes for story select / world map (chapter cards), a battle with special moves, game over, save
-     point, staff roll; then look at each imported item there. work/states/menu_card.dst hangs on load (made
-     from ch1 + route): regenerate it, or go via `menu`.
+     Tried and failed (docs/re/debug.md "Dead ends"): world map warp freezes, 1798 recap goes black before its
+     SavePoint, no special move by mashing. Next way in: tap-walk from ch1 / boss_ch1, or find the HP address for
+     a Lua no-damage hook. work/states/menu_card.dst hangs on load: regenerate it, or go via `menu`.
   3. Polish pass over docs/polish-todo.md (line by line, no bulk rewrites); whole-project sampled review.
   4. In-game checks noted by reviewers: hideout song puzzle (2188_136), smithing icons Circle/Arrow (2196_012),
      speakers 2184_248 / 2188_365 / 2199_116, 2197_216 context.
