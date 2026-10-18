@@ -78,6 +78,8 @@ def draw(name, fonts=None):
 # Every byte-identical copy: (FILEDATA, byte offset). The build checks each still holds the Japanese cell.
 LABELS = {"Yes": [(5373, 0x30), (5373, 0x930), (5373, 0x1230), (5378, 0x30), (5378, 0x5B0)],
           "No": [(5373, 0x1B30), (5373, 0x2430), (5373, 0x2D30), (5378, 0xB30), (5378, 0x10B0)]}
+# Each sheet ships twice: tiled (above) and a "linear" twin (RGCN flag bit 0, row-major pixels) at the same offsets.
+TWINS = {5373: 5371, 5378: 5376}
 
 
 def label(text, font):
@@ -104,8 +106,16 @@ def apply(files):
         jp = files[f0][o0:o0 + 256]
         new = label(text, fonts[0])
         for f, o in spots:
-            assert files[f][o:o + 256] == jp, f"FILEDATA {f} +{o:#x} is not the Japanese {text} cell"
-            files[f] = files[f][:o] + new + files[f][o + 256:]
+            for g, old, b in ((f, jp, new), (TWINS[f], linear(jp), linear(new))):
+                assert files[g][o:o + 256] == old, f"FILEDATA {g} +{o:#x} is not the Japanese {text} cell"
+                files[g] = files[g][:o] + b + files[g][o + 256:]
+
+
+def linear(cell):
+    """A 32x16 4bpp cell (4x2 tiles) as the row-major bytes its 'linear' twin RGCN stores."""
+    t = np.frombuffer(cell, np.uint8)
+    px = np.stack([t & 15, t >> 4], -1).reshape(2, 4, 8, 8).transpose(0, 2, 1, 3).reshape(16, 32)
+    return (px[:, 0::2] | (px[:, 1::2] << 4)).astype(np.uint8).tobytes()
 
 
 def main():
