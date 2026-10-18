@@ -64,9 +64,9 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | ブラール | the Vraal | novel | | Buraaru, Bural, Vral |
 | アクババ | the Ak-Baba | novel | | Akubaba, Akbaba |
 | グルー / グル | the Glus | novel | | Guruu, Glue, Glu |
-| ルーカス | Steven | novel | game renames him; merchant, Queen of the Bees' son, Plains rep (平原族代表); ? confirm rename | Lucas, Rukasu |
-| スカール | Nevets | novel | Steven's brother (アニキ); game rename; ? confirm | Skar, Sukaaru, Scar |
-| ルーカス&スカール | Steven and Nevets | novel | ? as above | |
+| ルーカス | Steven | novel | game renames him (D7: novel name); merchant, Queen of the Bees' son, Plains rep (平原族代表) | Lucas, Rukasu |
+| スカール | Nevets | novel | Steven's brother (アニキ); game rename (D7) | Skar, Sukaaru, Scar |
+| ルーカス&スカール | Steven and Nevets | novel | D7 | |
 | 船長 | the Captain | novel | River Queen captain | |
 | ポリパン | Polypan | novel? | River Queen thief; ? spelling | Poripan |
 | マリー / アイダ / マリーとアイダ | Marie / Ida / Marie and Ida | game? | Maze of the Beast NPCs; ? | Marii, Aida |
@@ -339,6 +339,11 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | 上画面 / 下画面 | top screen / bottom screen | game UI | | |
 | ダッシュ / スライド / タメ / ジャンプ | dash / slide / charge / jump | game UI | controls | |
 | キャンプ / テント | Camp / Tent | game UI | | |
+| そうび | Equipment | game UI | field menu label (D8) | Gear, Equip |
+| だいじ(なもの) | Key Items | game UI | field menu label (D8) | Valuables |
+| ファーストスラッシュ / フラッシュスラッシュ / スピニングカット | First Slash / Flash Slash / Spinning Cut | game | Lief's moves, battle banners (D9) | |
+| たすけて!クリー / フォレストダンス / てつだって!クリー | Help Me, Kree! / Forest Dance / Lend a Hand, Kree! | game | Jasmine's moves (D9) | |
+| 王国衛兵式 烈火 / 雷電 | Palace Guard Style: Blaze / Thunderclap | game | Barda's moves (D9) | Royal Guard Style |
 | あたたかいキャンプ | The Cosy Camp | game | area title card (tools/cards.py) | Warm Camp |
 | ステータス | Status | game UI | | |
 | フロア | Floor | game UI | tower | |
