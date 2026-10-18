@@ -3,102 +3,102 @@
   "id": "2190_000",
   "hdr": "28010764",
   "jp": "これは旅のお方。{n}よいところに来たのう{p}畑にモンスターが出はじめて{n}困っておるんじゃ{p}わしはこれから{sp}たねまきをするから{n}畑をモンスターから守ってほしいんじゃが…{p}ひきうけてくれるか？",
-  "en": ""
+  "en": "Ah, a traveller! You've come{n}at just the right time.{p}Monsters have started turning up{n}in my fields, and I'm in a fix.{p}I'm about to sow my seeds, so I'd like{n}you to guard the fields from monsters...{p}Will you take on the job?"
  },
  {
   "id": "2190_001",
   "hdr": "28010764",
   "jp": "ありがとう{n}じゃあまくぞ",
-  "en": ""
+  "en": "Thank you!{n}Right then, here I go, sowing!"
  },
  {
   "id": "2190_002",
   "hdr": "28010764",
   "jp": "いやか{p}いやだというのか{p}じゃあ{sp}たねまきはやめておこう",
-  "en": ""
+  "en": "No?{p}You're saying no?{p}Then I'll not bother sowing{n}any seeds after all."
  },
  {
   "id": "2190_003",
   "hdr": "28010764",
   "jp": "はやくめが出ろ{n}ほいパッパ{p}いちにちたったら{n}でるパッパ{p}今はなんじかおぼえとけっ{sp}ほい",
-  "en": ""
+  "en": "Sprout up quick, hey nonny-no!{n}Give it a day and up you'll go!{p}Now mark the time and keep it so!{n}Hup!"
  },
  {
   "id": "2190_004",
   "hdr": "28010764",
   "jp": "今日はいいてんきじゃな{p}……ん？{p}とくに変わった事はないぞい",
-  "en": ""
+  "en": "Lovely weather today.{p}...Hm?{p}Nothing out of the ordinary here."
  },
  {
   "id": "2190_005",
   "hdr": "28010764",
   "jp": "たいへんじゃ{sp}モンスターがあらわれた{p}はやくたいじしてくれないと{n}はたけが…{sp}は、はたけがっ！{p}おくの方にいる{n}さがしてくれ！",
-  "en": ""
+  "en": "Oh, no! Monsters have shown up!{p}If you don't get rid of them fast,{n}my fields... M-my fields!{p}They're further in.{n}Go and find them!"
  },
  {
   "id": "2190_006",
   "hdr": "28010764",
   "jp": "よくやってくれた{n}ケガはなかったかい？{p}これでわしのグランドファームも{n}よい実りをむかえるじゃろう",
-  "en": ""
+  "en": "Well done, well done!{n}You weren't hurt, were you?{p}Now my Grand Farm can look forward{n}to a fine harvest."
  },
  {
   "id": "2190_007",
   "hdr": "28010764",
   "jp": "わしの畑がダメになってしもうた{p}守ってくれると言ったではないか……",
-  "en": ""
+  "en": "My fields are ruined!{p}You said you'd protect them..."
  },
  {
   "id": "2190_008",
   "hdr": "28010764",
   "jp": "よくやってくれた{n}いつもありがとうよ{p}おかげで作物もほうさくじゃ！{p}おれいに{sp}これをあげよう",
-  "en": ""
+  "en": "Well done!{n}Thanks for always helping out.{p}Thanks to you, it's a bumper harvest!{p}Here, take this as my thanks."
  },
  {
   "id": "2190_009",
   "hdr": "28010000",
   "jp": "『{c2}こむぎ{/c}』を{c1}10{/c}こ手に入れた！！",
-  "en": ""
+  "en": "Got {c2}Wheat{/c} x{c1}10{/c}!"
  },
  {
   "id": "2190_010",
   "hdr": "28010000",
   "jp": "『{c2}かぼちゃ{/c}』を{c1}10{/c}こ手に入れた！！",
-  "en": ""
+  "en": "Got {c2}Pumpkin{/c} x{c1}10{/c}!"
  },
  {
   "id": "2190_011",
   "hdr": "28010000",
   "jp": "『{c2}ハイビスカス{/c}』を{c1}10{/c}こ手に入れた！！",
-  "en": ""
+  "en": "Got {c2}Hibiscus{/c} x{c1}10{/c}!"
  },
  {
   "id": "2190_012",
   "hdr": "28010764",
   "jp": "いやぁ{sp}いろいろと助かった{n}ホントに助かった{p}また今度もたのむよ",
-  "en": ""
+  "en": "Whew, you've helped me no end.{n}Truly, you've been a great help.{p}I'll be counting on you next time too."
  },
  {
   "id": "2190_013",
   "hdr": "28010000",
   "jp": "ワールドマップにもどりますか？",
-  "en": ""
+  "en": "Return to the World Map?"
  },
  {
   "id": "2190_014",
   "hdr": "28010000",
   "jp": "ステータス:{c1}{var}",
-  "en": ""
+  "en": "Status: {c1}{var}"
  },
  {
   "id": "2190_015",
   "hdr": "28010000",
   "jp": "残り:{c2}{var}",
-  "en": ""
+  "en": "Left: {c2}{var}"
  },
  {
   "id": "2190_016",
   "hdr": "28010A00",
   "jp": "ワンワン",
-  "en": ""
+  "en": "Woof woof!"
  }
 ]

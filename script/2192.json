@@ -3,384 +3,384 @@
   "id": "2192_000",
   "hdr": "00000000",
   "jp": "あたらしいぼうけんをはじめます",
-  "en": ""
+  "en": "Starting a new adventure."
  },
  {
   "id": "2192_001",
   "hdr": "00000000",
   "jp": "右の紙にタッチペンを使い{n}あなたの名前をサインしてください{n}{n}{n}とびら:けってい{n}けしゴム:サインをけす",
-  "en": ""
+  "en": "Use the stylus to sign your name{n}on the paper on the right.{n}{n}{n}Door: Confirm{n}Eraser: Erase signature"
  },
  {
   "id": "2192_002",
   "hdr": "00000000",
   "jp": "ぼうけんをさいかいしますか？{n}{n}{n}とびら:ぼうけんのさいかい{n}ごみばこ:ファイルをけす",
-  "en": ""
+  "en": "Continue your adventure?{n}{n}{n}Door: Continue{n}Trash Can: Delete file"
  },
  {
   "id": "2192_003",
   "hdr": "00000000",
   "jp": "このファイルではじめますか？",
-  "en": ""
+  "en": "Start with this file?"
  },
  {
   "id": "2192_004",
   "hdr": "00000000",
   "jp": "けすファイルをえらんでください",
-  "en": ""
+  "en": "Choose a file to delete."
  },
  {
   "id": "2192_005",
   "hdr": "00000000",
   "jp": "このファイルをけしますか？",
-  "en": ""
+  "en": "Delete this file?"
  },
  {
   "id": "2192_006",
   "hdr": "00000000",
   "jp": "本当にけしますか？",
-  "en": ""
+  "en": "Are you sure you want to delete it?"
  },
  {
   "id": "2192_007",
   "hdr": "00000000",
   "jp": "{c1}セーブデータをけしています",
-  "en": ""
+  "en": "{c1}Deleting save data..."
  },
  {
   "id": "2192_008",
   "hdr": "00000000",
   "jp": "セーブしています……{n}でんげんを切ったり{n}カードのぬきさしをしないでください",
-  "en": ""
+  "en": "Save in progress...{n}Do not turn off the power{n}or remove the Game Card."
  },
  {
   "id": "2192_009",
   "hdr": "00000000",
   "jp": "でんげんを切ったり{n}カードのぬきさしをしないでください",
-  "en": ""
+  "en": "Do not turn off the power{n}or remove the Game Card."
  },
  {
   "id": "2192_010",
   "hdr": "00000000",
   "jp": "セーブがおわりました",
-  "en": ""
+  "en": "Save complete."
  },
  {
   "id": "2192_011",
   "hdr": "00000000",
   "jp": "{c1}セーブにしっぱいしました{n}{c1}でんげんを切りカードをさし直してください",
-  "en": ""
+  "en": "{c1}Save failed.{n}{c1}Turn off the power and reinsert the Card."
  },
  {
   "id": "2192_012",
   "hdr": "00000000",
   "jp": "{c1}セーブデータをよめませんでした{n}{c1}でんげんを切りカードをさし直してください",
-  "en": ""
+  "en": "{c1}Could not read the save data.{n}{c1}Turn off the power and reinsert the Card."
  },
  {
   "id": "2192_013",
   "hdr": "00000000",
   "jp": "{c1}セーブにしっぱいしました{n}{c1}でんげんを切り{n}{c1}カードをさし直してください",
-  "en": ""
+  "en": "{c1}Save failed.{n}{c1}Turn off the power and{n}{c1}reinsert the Game Card."
  },
  {
   "id": "2192_014",
   "hdr": "00000000",
   "jp": "はじめから",
-  "en": ""
+  "en": "New Game"
  },
  {
   "id": "2192_015",
   "hdr": "00000000",
   "jp": "{c2}ワールドマップ",
-  "en": ""
+  "en": "{c2}World Map"
  },
  {
   "id": "2192_016",
   "hdr": "00000000",
   "jp": "{c2}第1章{n}{c2}　木の上",
-  "en": ""
+  "en": "{c2}Chapter 1{n}{c2}  The Treetops"
  },
  {
   "id": "2192_017",
   "hdr": "00000000",
   "jp": "{c2}第2章{n}{c2}　草地",
-  "en": ""
+  "en": "{c2}Chapter 2{n}{c2}  The Meadow"
  },
  {
   "id": "2192_018",
   "hdr": "00000000",
   "jp": "{c2}第2章{n}{c2}　湿地(しっち)",
-  "en": ""
+  "en": "{c2}Chapter 2{n}{c2}  The Marsh"
  },
  {
   "id": "2192_019",
   "hdr": "00000000",
   "jp": "{c2}第3章{n}{c2}　荒地(あれち)",
-  "en": ""
+  "en": "{c2}Chapter 3{n}{c2}  The Wastelands"
  },
  {
   "id": "2192_020",
   "hdr": "00000000",
   "jp": "{c2}第3章{n}{c2}　はばひろ川へ",
-  "en": ""
+  "en": "{c2}Chapter 3{n}{c2}  To the Broad River"
  },
  {
   "id": "2192_021",
   "hdr": "00000000",
   "jp": "{c2}第1章{n}{c2}　ちんもくの森",
-  "en": ""
+  "en": "{c2}Chapter 1{n}{c2}  The Forests of Silence"
  },
  {
   "id": "2192_022",
   "hdr": "00000000",
   "jp": "{c2}第2章{n}{c2}　川",
-  "en": ""
+  "en": "{c2}Chapter 2{n}{c2}  The River"
  },
  {
   "id": "2192_023",
   "hdr": "00000000",
   "jp": "{c2}第3章{n}{c2}　チュルナイ",
-  "en": ""
+  "en": "{c2}Chapter 3{n}{c2}  Noradz"
  },
  {
   "id": "2192_024",
   "hdr": "00000000",
   "jp": "{c2}第3章{n}{c2}　ラット•シティ{n}{c2}　　　　　　入口",
-  "en": ""
+  "en": "{c2}Chapter 3{n}{c2}  The City of the Rats{n}{c2}  Entrance"
  },
  {
   "id": "2192_025",
   "hdr": "00000000",
   "jp": "{c2}第3章{n}{c2}　ラット•シティ{n}{c2}　　　　　　2F",
-  "en": ""
+  "en": "{c2}Chapter 3{n}{c2}  The City of the Rats{n}{c2}  Floor 2"
  },
  {
   "id": "2192_026",
   "hdr": "00000000",
   "jp": "{c2}第4章{n}{c2}　リンゴえん",
-  "en": ""
+  "en": "{c2}Chapter 4{n}{c2}  The Apple Orchard"
  },
  {
   "id": "2192_027",
   "hdr": "00000000",
   "jp": "{c2}第4章{n}{c2}　リスメアへ",
-  "en": ""
+  "en": "{c2}Chapter 4{n}{c2}  To Rithmere"
  },
  {
   "id": "2192_028",
   "hdr": "00000000",
   "jp": "{c2}第4章{n}{c2}　リスメア",
-  "en": ""
+  "en": "{c2}Chapter 4{n}{c2}  Rithmere"
  },
  {
   "id": "2192_029",
   "hdr": "00000000",
   "jp": "{c2}第4章{n}{c2}　石ころ平原",
-  "en": ""
+  "en": "{c2}Chapter 4{n}{c2}  The Stony Plain"
  },
  {
   "id": "2192_030",
   "hdr": "00000000",
   "jp": "{c2}第4章{n}{c2}　岩壁(がんぺき)",
-  "en": ""
+  "en": "{c2}Chapter 4{n}{c2}  The Rock Wall"
  },
  {
   "id": "2192_031",
   "hdr": "00000000",
   "jp": "{c2}第4章{n}{c2}　砂漠(さばく)",
-  "en": ""
+  "en": "{c2}Chapter 4{n}{c2}  The Desert"
  },
  {
   "id": "2192_032",
   "hdr": "00000000",
   "jp": "{c2}第4章{n}{c2}　砂漠2",
-  "en": ""
+  "en": "{c2}Chapter 4{n}{c2}  The Desert 2"
  },
  {
   "id": "2192_033",
   "hdr": "00000000",
   "jp": "{c2}第5章{n}{c2}　荒野(こうや)",
-  "en": ""
+  "en": "{c2}Chapter 5{n}{c2}  The Wilds"
  },
  {
   "id": "2192_034",
   "hdr": "00000000",
   "jp": "{c2}第5章{n}{c2}　泉",
-  "en": ""
+  "en": "{c2}Chapter 5{n}{c2}  The Spring"
  },
  {
   "id": "2192_035",
   "hdr": "00000000",
   "jp": "{c2}第5章{n}{c2}　？？？",
-  "en": ""
+  "en": "{c2}Chapter 5{n}{c2}  ???"
  },
  {
   "id": "2192_036",
   "hdr": "00000000",
   "jp": "{c2}第5章{n}{c2}　山道",
-  "en": ""
+  "en": "{c2}Chapter 5{n}{c2}  The Mountain Path"
  },
  {
   "id": "2192_037",
   "hdr": "00000000",
   "jp": "{c2}第5章{n}{c2}{sp}グノメ族のとりで",
-  "en": ""
+  "en": "{c2}Chapter 5{n}{c2}  The Gnomes' Stronghold"
  },
  {
   "id": "2192_038",
   "hdr": "00000000",
   "jp": "{c2}第5章{n}{c2}{sp}ようしょくじょう",
-  "en": ""
+  "en": "{c2}Chapter 5{n}{c2}  The Breeding Grounds"
  },
  {
   "id": "2192_039",
   "hdr": "00000000",
   "jp": "{c2}スペシャルステージ{n}{c2}{sp}モキートのやかた",
-  "en": ""
+  "en": "{c2}Special Stage{n}{c2}  Mokito's Mansion"
  },
  {
   "id": "2192_040",
   "hdr": "00000000",
   "jp": "{c2}第6章{n}{c2}　トル川ぞい",
-  "en": ""
+  "en": "{c2}Chapter 6{n}{c2}  Along the River Tor"
  },
  {
   "id": "2192_041",
   "hdr": "00000000",
   "jp": "{c2}第6章{n}{c2}　トル川ぞい2",
-  "en": ""
+  "en": "{c2}Chapter 6{n}{c2}  Along the River Tor 2"
  },
  {
   "id": "2192_042",
   "hdr": "00000000",
   "jp": "{c2}第6章{n}{c2}　リバー•{n}{c2}　クイーン号",
-  "en": ""
+  "en": "{c2}Chapter 6{n}{c2}  Aboard the{n}{c2}  River Queen"
  },
  {
   "id": "2192_043",
   "hdr": "00000000",
   "jp": "{c2}第6章{n}{c2}　砂浜",
-  "en": ""
+  "en": "{c2}Chapter 6{n}{c2}  The Beach"
  },
  {
   "id": "2192_044",
   "hdr": "00000000",
   "jp": "{c2}第6章{n}{c2}　洞窟(どうくつ)",
-  "en": ""
+  "en": "{c2}Chapter 6{n}{c2}  The Cave"
  },
  {
   "id": "2192_045",
   "hdr": "00000000",
   "jp": "{c2}第7章{n}{c2}　トーラへ",
-  "en": ""
+  "en": "{c2}Chapter 7{n}{c2}  To Tora"
  },
  {
   "id": "2192_046",
   "hdr": "00000000",
   "jp": "{c2}第7章{n}{c2}　谷への道",
-  "en": ""
+  "en": "{c2}Chapter 7{n}{c2}  The Road to the Valley"
  },
  {
   "id": "2192_047",
   "hdr": "00000000",
   "jp": "{c2}第7章{n}{c2}　リーフのしれん",
-  "en": ""
+  "en": "{c2}Chapter 7{n}{c2}  Lief's Trial"
  },
  {
   "id": "2192_048",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　小川のほとり",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  By the Stream"
  },
  {
   "id": "2192_049",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　ガブリ草原入口",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  Snapgrass Plains Entrance"
  },
  {
   "id": "2192_050",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　ガブリ草原",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  The Snapgrass Plains"
  },
  {
   "id": "2192_051",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　デルへの道",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  The Road to Del"
  },
  {
   "id": "2192_052",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　デルの町",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  The City of Del"
  },
  {
   "id": "2192_053",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　下水道{n}{c2}(げすいどう)",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  The Sewers{n}{c2}"
  },
  {
   "id": "2192_054",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　下水道2",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  The Sewers 2"
  },
  {
   "id": "2192_055",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　デル城内{n}{c2}(じょうない)",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  Inside the Palace of Del{n}{c2}"
  },
  {
   "id": "2192_056",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　デル城内2",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  Inside the Palace of Del 2"
  },
  {
   "id": "2192_057",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　デル城内まどべ",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  Palace of Del: By the Window"
  },
  {
   "id": "2192_058",
   "hdr": "00000000",
   "jp": "{c2}セーブデータ43",
-  "en": ""
+  "en": "{c2}Save Data 43"
  },
  {
   "id": "2192_059",
   "hdr": "00000000",
   "jp": "{c2}セーブデータ44",
-  "en": ""
+  "en": "{c2}Save Data 44"
  },
  {
   "id": "2192_060",
   "hdr": "00000000",
   "jp": "{c2}セーブデータ45",
-  "en": ""
+  "en": "{c2}Save Data 45"
  },
  {
   "id": "2192_061",
   "hdr": "00000000",
   "jp": "{c2}オープニングから",
-  "en": ""
+  "en": "{c2}From the Opening"
  },
  {
   "id": "2192_062",
   "hdr": "00000000",
   "jp": "{c2}最終章{n}{c2}　デル城内まどべ",
-  "en": ""
+  "en": "{c2}Final Chapter{n}{c2}  Palace of Del: By the Window"
  },
  {
   "id": "2192_063",
   "hdr": "00000000",
   "jp": "このデータでつうしんを行いますか？",
-  "en": ""
+  "en": "Use this data for the wireless link?"
  }
 ]

@@ -58,6 +58,10 @@ def check(e, adv, t):
         errs.append(f"control codes {sorted(KEEP.findall(jp))} -> {sorted(KEEP.findall(en))}")
     if re.search(r"\{var\}(st|nd|rd|th)\b", en):
         errs.append("ordinal suffix after {var}")
+    if "!?" in en:
+        errs.append("'!?': the house style is '?!' (glossary punctuation map)")
+    if re.search(r"\b(Armor|armor|color|honor|traveler)\b", en):
+        errs.append("US spelling: the house style is British (Armour, colour, honour, traveller)")
     portrait = is_portrait(e["hdr"])
     jp_lines = max(len(p) for p in pages(jp))
     for pg in pages(en):

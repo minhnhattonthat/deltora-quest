@@ -3,672 +3,672 @@
   "id": "2193_000",
   "hdr": "00000000",
   "jp": "影の憲兵(かげのけんぺい){n}{n}本当にはらが立つやつらだ……{n}影の大王にしたがうなんてさ。{n}でも、けっこう強かったりするから{n}めんどうくさいんだ。",
-  "en": ""
+  "en": "Grey Guard{n}{n}They make me so angry...{n}Fancy obeying the Shadow Lord!{n}But they can be pretty tough,{n}which makes them a real pain."
  },
  {
   "id": "2193_001",
   "hdr": "00000000",
   "jp": "ウェン{n}{n}いきおいよく旅に出たけど{n}これから先もこういうのが{n}たくさんいるんだろうか。{n}父さん、気が重いよ……",
-  "en": ""
+  "en": "The Wenn{n}{n}I set off on my journey all fired up,{n}but will there be lots more{n}of these from now on?{n}Father, my heart feels heavy..."
  },
  {
   "id": "2193_002",
   "hdr": "00000000",
   "jp": "グリーンキャタピラ{n}{n}正直にいうと、こいつはにがて。{n}色もニオイもダメ。{n}さわるなんてとんでもない。{n}こっち来るな！",
-  "en": ""
+  "en": "Green Caterpillar{n}{n}To be honest, I can't stand these.{n}The colour, the smell -- no good.{n}Touch one? Not a chance.{n}Stay away from me!"
  },
  {
   "id": "2193_003",
   "hdr": "00000000",
   "jp": "パープルキャタピラ{n}{n}みどり色のより強いんだと思う。{n}いや、強いなんて思ったら負け。{n}だって、虫だよ、虫。{n}うーん、やっぱりキライだ。",
-  "en": ""
+  "en": "Purple Caterpillar{n}{n}I think it's stronger than the green ones.{n}No -- think it's strong and you've lost.{n}I mean, it's a bug. A bug!{n}Hmm... I still hate them."
  },
  {
   "id": "2193_004",
   "hdr": "00000000",
   "jp": "ハチ{n}{n}ぶんぶんうるさい虫。{n}虫だ。{n}虫だからそれほど強くない{n}はずなんだけど……{n}ハチミツおとしてくれないかな。",
-  "en": ""
+  "en": "Bee{n}{n}A noisy, buzzing bug.{n}A bug.{n}Being a bug, it shouldn't be{n}all that strong, but...{n}I wish it would drop some honey."
  },
  {
   "id": "2193_005",
   "hdr": "00000000",
   "jp": "くも{n}{n}くも。虫。かいぶつかもしれないけど{n}虫だと思う事。{n}そうすれば気持ちがおちつく。{n}おちついて戦えば{n}こわいモノナシ！",
-  "en": ""
+  "en": "Spider{n}{n}Spider. Bug. It might be a monster,{n}but think of it as a bug.{n}That way you'll stay calm.{n}Fight calmly, and{n}there's nothing to fear!"
  },
  {
   "id": "2193_006",
   "hdr": "00000000",
   "jp": "影のたて憲兵{n}{n}にくい影の憲兵団。{n}こいつはたてを持っているな。{n}やっかいだけど、れいせいに{n}後ろに回りこんで……{n}ぼくの方がずっと素早い。",
-  "en": ""
+  "en": "Shield Grey Guard{n}{n}Those hateful Grey Guards.{n}This one's carrying a shield.{n}Tricky, but keep cool and{n}circle around behind it...{n}I'm much quicker than it is."
  },
  {
   "id": "2193_007",
   "hdr": "00000000",
   "jp": "影のパワー憲兵{n}{n}影の憲兵団とは何度も戦った。{n}でも、こいつはデカイぞ。{n}いや、大きさなんて気にするな。{n}こっちは小さいけど{n}小回りはきくんだ。",
-  "en": ""
+  "en": "Power Grey Guard{n}{n}I've fought the Grey Guards many times.{n}But this one is huge!{n}No, never mind the size.{n}I may be small, but{n}I'm quick on my feet."
  },
  {
   "id": "2193_008",
   "hdr": "00000000",
   "jp": "影のエリート憲兵{n}{n}なんだこの他人を見下した感じ。{n}いやだな……{n}きっとぼくの事なんか{n}バカにしてるんだろうな。{n}そうはいくか！",
-  "en": ""
+  "en": "Elite Grey Guard{n}{n}What's with that look down its nose?{n}I don't like it...{n}I bet it thinks{n}I'm nothing but a joke.{n}Well, think again!"
  },
  {
   "id": "2193_009",
   "hdr": "00000000",
   "jp": "ワニ{n}{n}ワニだよ……ワニ。{n}本でしか見た事がなかった。{n}ちょっとカッコイイ動物。{n}いや、そんな事{n}言ってられない！",
-  "en": ""
+  "en": "Crocodile{n}{n}A crocodile... a real crocodile.{n}I'd only ever seen them in books.{n}Kind of a cool animal.{n}No, this is no time{n}to be saying that!"
  },
  {
   "id": "2193_010",
   "hdr": "00000000",
   "jp": "水ヘビ{n}{n}水の中はこわい。{n}何がいるかわからないから。{n}こんなヤツがいるんだと思うと{n}ゾゾゾ……だ。",
-  "en": ""
+  "en": "Water Snake{n}{n}The water is scary,{n}because you can't tell what's in it.{n}Knowing things like this are in there{n}gives me the shivers..."
  },
  {
   "id": "2193_011",
   "hdr": "00000000",
   "jp": "きゅうけつ虫{n}{n}からだにすい付いて血をすうやつら。{n}しかも{sp}むれになっている。{n}うわ……首すじがムズムズしてきた。{n}ザワザワザワ……",
-  "en": ""
+  "en": "Bloodsucker{n}{n}They latch on and suck your blood.{n}And they come in swarms, too.{n}Ugh... the back of my neck is itching.{n}Creep, creep, creep..."
  },
  {
   "id": "2193_012",
   "hdr": "00000000",
   "jp": "フロッグフィッシュ{n}{n}どうして魚なんかに{n}おそわれるんだ。{n}この世界も影の大王の{n}味方なんだろうか。{n}いや、まさか。",
-  "en": ""
+  "en": "Frogfish{n}{n}Why am I being attacked{n}by a fish, of all things?{n}Could this world be on the{n}Shadow Lord's side too?{n}No, surely not."
  },
  {
   "id": "2193_013",
   "hdr": "00000000",
   "jp": "ネズミ{n}{n}ただのネズミのはず。{n}デルの町にもネズミはいて{n}母さんはいつも大さわぎ。{n}でも、ここのネズミはふつうじゃない。{n}母さんがここにいなくて良かった。",
-  "en": ""
+  "en": "Rat{n}{n}Just rats, surely.{n}There are rats in the city of Del,{n}and Mother always makes a fuss.{n}But the rats here aren't normal.{n}Good thing Mother isn't here."
  },
  {
   "id": "2193_014",
   "hdr": "00000000",
   "jp": "オオカミもどき{n}{n}オオカミに見えるけど{n}これはモンスターだ。{n}オオカミだって{n}十分こわいっていうのに。",
-  "en": ""
+  "en": "Mock Wolf{n}{n}It looks like a wolf,{n}but it's a monster.{n}As if wolves weren't{n}scary enough already."
  },
  {
   "id": "2193_015",
   "hdr": "00000000",
   "jp": "大さそり{n}{n}いかにも{sp}てきって感じのやつ。{n}わるぎはないんだろうけど{n}おそってくるなら倒さないと。{n}虫……なのかな。{n}虫だと少しは気が楽。",
-  "en": ""
+  "en": "Giant Scorpion{n}{n}It looks like an enemy, all right.{n}It probably means no harm, but{n}if it attacks, I have to beat it.{n}Is it... a bug, I wonder?{n}If it's a bug, I feel a bit better."
  },
  {
   "id": "2193_016",
   "hdr": "00000000",
   "jp": "サンドキャタピラ{n}{n}苦手なイモムシ。{n}何かのよう虫なんだろう。{n}きっと成虫はもっとやっかいだ。{n}そう思っていまのうちにたおす！{n}うう……でもキライだ。",
-  "en": ""
+  "en": "Sand Caterpillar{n}{n}Caterpillars. I can't stand them.{n}It must be the young of something.{n}The grown-up kind must be worse.{n}So I'll beat it while I can!{n}Ugh... I still hate them."
  },
  {
   "id": "2193_017",
   "hdr": "00000000",
   "jp": "タランチュラ{n}{n}住んでいるばしょが変われば{n}虫の色も変わる。{n}この旅で学んだ事だ。{n}デルからはなれるほど{sp}てきが{n}強くなるのも、この旅で{n}学んだ事。",
-  "en": ""
+  "en": "Tarantula{n}{n}Where a bug lives{n}changes its colour.{n}This journey taught me that.{n}The farther from Del, the stronger{n}the enemies. This journey{n}taught me that too."
  },
  {
   "id": "2193_018",
   "hdr": "00000000",
   "jp": "ウスバカゲロウ{n}{n}あまくみるとこうかいする。{n}父さんが言ってた。{n}こういう相手と戦うと{n}その言葉の意味がよくわかる。{n}こんなのに負けたら{n}父さんにあわせる顔がない。",
-  "en": ""
+  "en": "Antlion Fly{n}{n}Underestimate it and you'll regret it.{n}Father used to say that.{n}Fighting something like this,{n}I really see what he meant.{n}If I lost to this thing, I could{n}never look Father in the face."
  },
  {
   "id": "2193_019",
   "hdr": "00000000",
   "jp": "赤いはね虫{n}{n}赤いはねの虫。{n}ただそれだけのやつ。{n}ただそれだけ……のはずなのに{n}命のきけんを感じてしまうのは{n}どういうわけだろう。",
-  "en": ""
+  "en": "Red Wingbug{n}{n}A bug with red wings.{n}That's all it is.{n}That's all... or it should be.{n}So why do I feel like{n}my life is in danger?"
  },
  {
   "id": "2193_020",
   "hdr": "00000000",
   "jp": "青じた赤トカゲ{n}{n}青いしたがチロチロと出たり入ったり。{n}あれは何をしているんだろう。{n}ぼくたちの事をしらべて{n}いるんだろうか。{n}マネしながら戦うと{sp}したを{n}かむから気をつけなくては！",
-  "en": ""
+  "en": "Blue-Tongued Red Lizard{n}{n}Its blue tongue flicks in and out.{n}What is it doing, I wonder?{n}Is it sizing us up?{n}If I copy it while I fight, I'll{n}bite my tongue. Better be careful!"
  },
  {
   "id": "2193_021",
   "hdr": "00000000",
   "jp": "パイソン{n}{n}はははは……{n}ははははは……{n}だから水の中はきらいなんだ。{n}こういうのがヌルっと{n}足をなでたりさ。",
-  "en": ""
+  "en": "Python{n}{n}Ha ha ha ha...{n}Ha ha ha ha ha...{n}This is why I hate the water.{n}Slimy things like this go{n}brushing past your legs."
  },
  {
   "id": "2193_022",
   "hdr": "00000000",
   "jp": "くまんばち{n}{n}ハチミツが手に入るかも！{sp}と{n}思うと戦わずにはいられない。{n}ブンブンブンブンブン……{n}おねがいだからささないで！",
-  "en": ""
+  "en": "Hornet{n}{n}I might get some honey! Thinking{n}that, I just can't help fighting.{n}Bzzz bzzz bzzz bzzz bzzz...{n}Please, please don't sting me!"
  },
  {
   "id": "2193_023",
   "hdr": "00000000",
   "jp": "山ぞく{n}{n}みんな苦労して{n}生きているというのに……{n}そんな人たちのものを{n}うばいとるなんて……{n}山ぞくめ！{sp}ぼくはゆるさないからな！",
-  "en": ""
+  "en": "Mountain Bandit{n}{n}Everyone works so hard{n}just to survive...{n}And they steal from{n}people like that...{n}Mountain bandits! I won't forgive you!"
  },
  {
   "id": "2193_024",
   "hdr": "00000000",
   "jp": "グノメ族{n}{n}好戦てきなしゅぞく……なのかな。{n}影の大王と手下たちいがいは{n}みんな仲間だったらいいのに。",
-  "en": ""
+  "en": "The Gnomes{n}{n}A warlike tribe... are they?{n}I wish everyone but the Shadow Lord{n}and his servants were on our side."
  },
  {
   "id": "2193_025",
   "hdr": "00000000",
   "jp": "デススコーピオン{n}{n}さされたくない……{n}さされるといたい……{n}さされたくない！",
-  "en": ""
+  "en": "Death Scorpion{n}{n}I don't want to get stung...{n}Getting stung would hurt...{n}I really don't want to get stung!"
  },
  {
   "id": "2193_026",
   "hdr": "00000000",
   "jp": "ハエ{n}{n}こういうてきと出会うと{n}やっぱり思う。{n}かいぶつなんだろうか。{n}それともただの虫なんだろうか。{n}ぼく、虫に負けましたなんて{n}そうとうカッコ悪いよね。",
-  "en": ""
+  "en": "Fly{n}{n}Meeting a foe like this{n}always makes me wonder.{n}Is it a monster?{n}Or is it just a bug?{n}\"I lost to a bug.\" That would be{n}pretty embarrassing, wouldn't it?"
  },
  {
   "id": "2193_027",
   "hdr": "00000000",
   "jp": "トカゲ{n}{n}トカゲって、かっこいい。{n}こういう時じゃなければ{n}そう思っただろうな。",
-  "en": ""
+  "en": "Lizard{n}{n}Lizards are pretty cool.{n}That's what I'd think, anyway,{n}if this weren't a fight."
  },
  {
   "id": "2193_028",
   "hdr": "00000000",
   "jp": "ロックダイル{n}{n}この世界には何しゅるいの{n}ワニがいるんだろうか。{n}いや、そんな事を{n}考えてるばあいじゃないから！",
-  "en": ""
+  "en": "Rockodile{n}{n}How many kinds of crocodile{n}are there in this world, I wonder?{n}No, wait! This is no time{n}to be thinking about that!"
  },
  {
   "id": "2193_029",
   "hdr": "00000000",
   "jp": "ワーム{n}{n}こういうしゅるいのてきはキライだ。{n}むにょっとしたやつ。{n}ぶにょっとしたやつ。{n}来るなっ！",
-  "en": ""
+  "en": "Worm{n}{n}I hate enemies like this.{n}Squishy ones.{n}Squelchy ones.{n}Stay away!"
  },
  {
   "id": "2193_030",
   "hdr": "00000000",
   "jp": "キネズミ{n}{n}このあたりのネズミは{n}ほかのばしょのやつらよりも{n}ずっと強いみたいだ。{n}ネズミなれしないように{n}注意しないと。",
-  "en": ""
+  "en": "Yellow Rat{n}{n}The rats around here seem{n}much stronger than the ones{n}in other places.{n}I mustn't get careless just{n}because I'm used to rats."
  },
  {
   "id": "2193_031",
   "hdr": "00000000",
   "jp": "きゅうけつどく虫{n}{n}ぼくの血は{sp}ほんの少しも{n}やらないからな！",
-  "en": ""
+  "en": "Venom Bloodsucker{n}{n}You're not getting a single{n}drop of my blood!"
  },
  {
   "id": "2193_032",
   "hdr": "00000000",
   "jp": "川とびバチ{n}{n}ハチミツおとせー！",
-  "en": ""
+  "en": "River Bee{n}{n}Drop that honey!"
  },
  {
   "id": "2193_033",
   "hdr": "00000000",
   "jp": "リバーフィッシュ{n}{n}川の生き物もぼくたちの{n}てきだなんて……{n}ぼくたちは世界をすくおうと{n}しているんだぞ！",
-  "en": ""
+  "en": "Riverfish{n}{n}Even river creatures are{n}our enemies...{n}We're trying to save the world,{n}you know!"
  },
  {
   "id": "2193_034",
   "hdr": "00000000",
   "jp": "とうぞく{n}{n}船長とグルになって{n}旅人をおそうらしい。{n}影の大王以外にも、こういう{n}やつらが人々を苦しめているんだ。{n}ゆるせない！",
-  "en": ""
+  "en": "Bandit{n}{n}They're in league with the Captain{n}and attack travellers, it seems.{n}Not only the Shadow Lord... people{n}like these make folk suffer too.{n}Unforgivable!"
  },
  {
   "id": "2193_035",
   "hdr": "00000000",
   "jp": "オル{n}{n}気持ち悪い……{n}それにしても人間や動物に{n}変身するなんて……{n}これは影の大王の手下の中でも{n}さいきょうかもしれない。",
-  "en": ""
+  "en": "Ol{n}{n}Creepy...{n}And to think they can change{n}into people and animals...{n}They may be the strongest of{n}all the Shadow Lord's servants."
  },
  {
   "id": "2193_036",
   "hdr": "00000000",
   "jp": "マリーとアイダ{n}{n}こんなところでいったい{n}何をしていたんだろう……",
-  "en": ""
+  "en": "Marie and Ida{n}{n}What on earth were they{n}doing in a place like this...?"
  },
  {
   "id": "2193_037",
   "hdr": "00000000",
   "jp": "ピンクドレスの女{n}{n}なんだか{sp}ばちがいな感じ……",
-  "en": ""
+  "en": "Woman in Pink{n}{n}She seems kind of out of place..."
  },
  {
   "id": "2193_038",
   "hdr": "00000000",
   "jp": "ヤギ{n}{n}ヤギだと思う。{n}もしかしたらオル？{n}いや、オルに思えてきた。{n}きっとオルだ。{n}もう何もかも信じられなく{n}なってくる。",
-  "en": ""
+  "en": "Goat{n}{n}I think it's a goat.{n}Or maybe an Ol?{n}No, it's starting to look like an Ol.{n}It must be an Ol.{n}Soon I won't be able to{n}believe in anything at all."
  },
  {
   "id": "2193_039",
   "hdr": "00000000",
   "jp": "ぬまもうどくヘビ{n}{n}いかにもどくもってるぞ！{n}という色だ。{n}……にげたい。",
-  "en": ""
+  "en": "Swamp Viper{n}{n}Its colours scream{n}\"I'm poisonous!\"{n}...I want to run."
  },
  {
   "id": "2193_040",
   "hdr": "00000000",
   "jp": "山あらしオオカミ{n}{n}戦いがいが{sp}あるてきだ。{n}って言えるほど、ぼくは成長したと{n}思いたい。",
-  "en": ""
+  "en": "Porcupine Wolf{n}{n}A foe worth fighting.{n}I'd like to think I've grown enough{n}to say that."
  },
  {
   "id": "2193_041",
   "hdr": "00000000",
   "jp": "グリーンワーム{n}{n}こんなに気持ち悪い{n}みどり色はないよね。{n}ダメダメ！{n}文句言わずに戦うぞ！",
-  "en": ""
+  "en": "Green Worm{n}{n}There's no green more{n}disgusting than this, is there?{n}No, no!{n}No complaining. Fight!"
  },
  {
   "id": "2193_042",
   "hdr": "00000000",
   "jp": "谷タランチュラ{n}{n}今となってはなつかしい感じがする。{n}もうタバになってかかってこい！{n}いや、やっぱりダメ！",
-  "en": ""
+  "en": "Valley Tarantula{n}{n}It almost feels like an old friend now.{n}Come on, all of you at once!{n}No, wait, I take that back!"
  },
  {
   "id": "2193_043",
   "hdr": "00000000",
   "jp": "おばけキノコ{n}{n}キノコと戦う事になるとは{n}旅に出るまで考えた事もなかった。{n}キノコはおいしいと思うけど{n}こいつはきっとマズイ。{n}たべないけど。",
-  "en": ""
+  "en": "Spook Mushroom{n}{n}I never thought I'd fight a mushroom{n}until I set out on this journey.{n}Mushrooms are tasty, I think,{n}but I bet this one tastes awful.{n}Not that I'll eat it."
  },
  {
   "id": "2193_044",
   "hdr": "00000000",
   "jp": "ガブリ草{n}{n}こいつにやられたら{n}かなりしんこくなことに{n}なりそうだぞ……",
-  "en": ""
+  "en": "Snapgrass{n}{n}If this thing gets me,{n}I could be in really{n}serious trouble..."
  },
  {
   "id": "2193_045",
   "hdr": "00000000",
   "jp": "ダークモス{n}{n}たくさん倒したイモムシが{n}成長した姿かも。{n}イモムシのうらみを{n}はらされちゃたまらない！",
-  "en": ""
+  "en": "Dark Moth{n}{n}Maybe it's what all those caterpillars{n}I beat grew up into.{n}I don't want the caterpillars{n}getting their revenge!"
  },
  {
   "id": "2193_046",
   "hdr": "00000000",
   "jp": "ウェンバー{n}{n}こいつは影の憲兵たちを食べて{n}こんなに大きくなったのかな。{n}モンスターに食べられるなんて{n}考えたくもない……",
-  "en": ""
+  "en": "Wennbar{n}{n}Did it grow this big from{n}eating Grey Guards?{n}Being eaten by a monster...{n}I don't even want to think about it..."
  },
  {
   "id": "2193_047",
   "hdr": "00000000",
   "jp": "ゴール{n}{n}なんだか{sp}じじょうがあるらしい。{n}でも、ぼくたちにはかんけいない。{n}かんけいあるのかもしれないけど{n}まだまだ旅ははじまったばかり。{n}気にしちゃいられない！",
-  "en": ""
+  "en": "Gorl{n}{n}There seems to be some story behind him.{n}But it has nothing to do with us.{n}Or maybe it does, but our journey{n}has only just begun.{n}I can't worry about it now!"
  },
  {
   "id": "2193_048",
   "hdr": "00000000",
   "jp": "ソルディーン{n}{n}これがララド族がおそれていた{n}ソルディーンだ。{n}こいつをたおせば宝石が手に入る。{n}そう……宝石の番人だ。",
-  "en": ""
+  "en": "Soldeen{n}{n}This is Soldeen, the monster{n}the Ralads feared.{n}Defeat it, and the gem is ours.{n}Yes... it's the gem's guardian."
  },
  {
   "id": "2193_049",
   "hdr": "00000000",
   "jp": "だいじゃリア{n}{n}宝石の番人。{n}ネズミを食べてこんなに大きく{n}なったんだろうな。{n}ぼくをあやつろうとしたり{n}未来を予言してみせたり……{n}だまされるものか！",
-  "en": ""
+  "en": "Reeah the Great Serpent{n}{n}Guardian of the gem.{n}It must have grown this big{n}from eating rats.{n}It tried to control me{n}and told me the future...{n}I won't be fooled!"
  },
  {
   "id": "2193_050",
   "hdr": "00000000",
   "jp": "さきゅうのかいぶつ{n}{n}砂の世界は見るからに{n}食べるものがなさそうだ。{n}そうか……こいつは{n}はらをすかせているのか……{n}食べられるのかと思うと{n}ゾッとする……",
-  "en": ""
+  "en": "The Dune Beast{n}{n}One look at these sands and you{n}can tell there's nothing to eat.{n}I see... That's why{n}it's so hungry...{n}The thought of being eaten{n}makes me shudder..."
  },
  {
   "id": "2193_051",
   "hdr": "00000000",
   "jp": "ブラール{n}{n}デカイ……{n}強そう……{n}でもあまり頭が回るようには{n}見えないな。",
-  "en": ""
+  "en": "The Vraal{n}{n}Huge...{n}Strong-looking...{n}But it doesn't look{n}very clever."
  },
  {
   "id": "2193_052",
   "hdr": "00000000",
   "jp": "ゲリック{n}{n}大きなカエル。{n}そう思えばこわくない。{n}いや、こわくたって倒さないと。{n}こいつが宝石を{n}持っているかぎり！",
-  "en": ""
+  "en": "Gellick{n}{n}A big toad.{n}Think of it that way and it's not scary.{n}No -- scary or not, I have to beat it.{n}As long as it has the gem!"
  },
  {
   "id": "2193_053",
   "hdr": "00000000",
   "jp": "グルー{n}{n}これまでの宝石の番人とは{n}ちょっとちがうな。{n}なんとか戦わずに{n}すませる事が……いや、無理か。",
-  "en": ""
+  "en": "The Glus{n}{n}A bit different from the{n}other gem guardians.{n}Could we get by without fighting{n}somehow... No, probably not."
  },
  {
   "id": "2193_054",
   "hdr": "00000000",
   "jp": "テーガン{n}{n}とても美しいと思う。{n}でも、冷たい目をしているんだ。{n}テーガンのしあわせってなんだろう……{n}わかっているのは……テーガンを{n}たおさないと{sp}ぼくたちはしあわせに{n}なれないって事。",
-  "en": ""
+  "en": "Thaegan{n}{n}She's very beautiful, I think.{n}But her eyes are cold.{n}What would make Thaegan happy...?{n}All I know is... unless we{n}defeat Thaegan, we can{n}never be happy."
  },
  {
   "id": "2193_055",
   "hdr": "00000000",
   "jp": "番人とかいぶつたち{n}{n}こいつらをたおせば{n}さいごの宝石が手に入るんだ。{n}ベルトが完成するんだ！{n}もう一息！",
-  "en": ""
+  "en": "The Guardian and the Monsters{n}{n}Beat them, and the last{n}gem is ours.{n}The Belt will be complete!{n}Almost there!"
  },
  {
   "id": "2193_056",
   "hdr": "00000000",
   "jp": "イカボッド{n}{n}むらさき色のしたがじまんらしい。{n}ぼくたちのあとをつけてきて{n}どうするつもりだったんだろう。{n}影の大王の命令だろうか。{n}いや、まじょテーガンかな。",
-  "en": ""
+  "en": "Ichabod{n}{n}He seems proud of his purple tongue.{n}What did he mean to do,{n}following us like that?{n}Was it the Shadow Lord's orders?{n}Or maybe the witch Thaegan's."
  },
  {
   "id": "2193_057",
   "hdr": "00000000",
   "jp": "ファロー{n}{n}よくも……よくも両親を！{n}いや、両親だけじゃない！{n}世界中のてきめ！",
-  "en": ""
+  "en": "Fallow{n}{n}How dare you... How dare you{n}hurt my parents! And not only them!{n}You're the enemy of the whole world!"
  },
  {
   "id": "2193_058",
   "hdr": "00000000",
   "jp": "マナス{n}{n}ララド族の人。{n}影の憲兵団にドレイにされていた。{n}バルダは反対したけど{n}ほうってはおけなかったんだ。{n}でも助けてよかった。{n}本当にそう思う。",
-  "en": ""
+  "en": "Manus{n}{n}A Ralad.{n}The Grey Guards had made him a slave.{n}Barda was against it, but{n}I couldn't just leave him.{n}I'm glad we saved him, though.{n}I really mean that."
  },
  {
   "id": "2193_059",
   "hdr": "00000000",
   "jp": "ララド族{n}{n}マナスを助けたぼくたちに{n}とても良くしてくれる。{n}ぼくたちもうれしい。{n}でも、そんなにやさしくしないで。{n}旅立ちが辛くなるから。",
-  "en": ""
+  "en": "The Ralads{n}{n}They've been so good to us{n}for saving Manus.{n}It makes us happy too.{n}But please don't be so kind,{n}or it'll be harder to leave."
  },
  {
   "id": "2193_060",
   "hdr": "00000000",
   "jp": "ジニ&ジッド{n}{n}ぼくたちをだまして{n}食べようとしたやつら。{n}ぼくやジャスミンはともかく{n}バルダを食べようなんて。{n}よっぽどいやしいんだろう。",
-  "en": ""
+  "en": "Jin and Jod{n}{n}They tricked us and tried{n}to eat us.{n}Eating me or Jasmine, maybe,{n}but Barda too?{n}They must be real gluttons."
  },
  {
   "id": "2193_061",
   "hdr": "00000000",
   "jp": "ネズヌク{n}{n}チュルナイの人たちに{n}きびしいおきてを{n}おしつけているやつら。{n}人に{sp}はんこうされた事なんて{n}ないんだろうな。{n}どんな気分だい？",
-  "en": ""
+  "en": "The Ra-Kacharz{n}{n}They force harsh laws{n}on the Noradz.{n}I bet no one has ever{n}stood up to them before.{n}How does it feel?"
  },
  {
   "id": "2193_062",
   "hdr": "00000000",
   "jp": "ティラ{n}{n}チュルナイの女の子。{n}助けたり助けられたり。{n}このばしょの生活をふつうだと{n}思っているらしいんだ。{n}外の世界を教えてあげたい。",
-  "en": ""
+  "en": "Tira{n}{n}A Noradz girl.{n}She's helped us, and we've helped her.{n}She seems to think life here{n}is normal.{n}I'd like to show her the world outside."
  },
  {
   "id": "2193_063",
   "hdr": "00000000",
   "jp": "チュルナイの人々{n}{n}ここの人たちは、外の世界とは{n}まったくちがうルールで{n}くらしているようだ。{n}とても{sp}きゅうくつじゃないかと{n}思うけど……よけいなお世話かな。",
-  "en": ""
+  "en": "The Noradz{n}{n}The people here seem to live{n}by rules completely different{n}from the outside world.{n}It must feel so cramped, I think...{n}but maybe that's none of my business."
  },
  {
   "id": "2193_064",
   "hdr": "00000000",
   "jp": "リンゴえんのろうば{n}{n}バルダがリンゴをぬすまなければ{n}こんなにしかられなくて{n}すんだのに……",
-  "en": ""
+  "en": "The Queen of the Bees{n}{n}If only Barda hadn't stolen her apples,{n}we wouldn't have been{n}scolded so badly..."
  },
  {
   "id": "2193_065",
   "hdr": "00000000",
   "jp": "マザーブライトリー{n}{n}やど屋チャンピオンのおかみさん。{n}いろいろしんせつにしてくれる。{n}でも、しんせつにされると{n}どうしてもうたがってしまう。{n}よくない考え方だとは{n}思うけど。",
-  "en": ""
+  "en": "Mother Brightly{n}{n}Landlady of the Champion Inn.{n}She's been kind to us in lots of ways.{n}But when people are kind,{n}I can't help being suspicious.{n}It's not a nice way to think,{n}I know."
  },
  {
   "id": "2193_066",
   "hdr": "00000000",
   "jp": "ジョーカー{n}{n}今までいろんな人に会ったけど{n}これほどあやしさプンプンの人は{n}いなかった。{n}でも、ただあやしいだけの{n}男ではなさそう……",
-  "en": ""
+  "en": "Doom{n}{n}I've met all sorts of people,{n}but never anyone as shady{n}as this man.{n}Still, there seems to be more{n}to him than that..."
  },
  {
   "id": "2193_067",
   "hdr": "00000000",
   "jp": "フェルディナンド{n}{n}見るからにインチキ男だ。{n}インチキ！{sp}インチキ！{n}でもインチキなんて{n}影の大王のしている事に{n}くらべたら、たいした事ない。",
-  "en": ""
+  "en": "Ferdinand{n}{n}A cheat, plain as day.{n}Cheat! Cheat!{n}But his cheating is nothing{n}compared to what{n}the Shadow Lord is doing."
  },
  {
   "id": "2193_068",
   "hdr": "00000000",
   "jp": "プリン{n}{n}子どもあつかいされる事に{n}はらを立てているキンの子ども。{n}はらを立てるのが{sp}子どものしょうこ。{n}って事はぼくも！？",
-  "en": ""
+  "en": "Prin{n}{n}A young Kin who gets cross{n}at being treated like a child.{n}Getting cross proves you're a child.{n}Wait, that means me too?!"
  },
  {
   "id": "2193_069",
   "hdr": "00000000",
   "jp": "キン{n}{n}小さなころにぬいぐるみを{n}持っていた事をおぼえている。{n}ずっと伝説の生き物だと思っていた。{n}こうして会えるなんてすごい事だ。{n}できれば、影の大王をたおしてから{n}また……",
-  "en": ""
+  "en": "The Kin{n}{n}I remember having a stuffed Kin{n}when I was little.{n}I always thought they were legends.{n}It's amazing to meet them like this.{n}If I can, after we beat the Shadow Lord,{n}I'll come again..."
  },
  {
   "id": "2193_070",
   "hdr": "00000000",
   "jp": "グラ•ソン{n}{n}女の人……だよね。{n}キビキビした人。{n}みかたにしたら心強いような{n}気がする。",
-  "en": ""
+  "en": "Gla-Thon{n}{n}She's a woman... right?{n}Brisk and businesslike.{n}I think she'd be a great{n}ally to have."
  },
  {
   "id": "2193_071",
   "hdr": "00000000",
   "jp": "ファ•グリン{n}{n}グノメ族の長老。{n}グノメ族にもいろいろな{n}じじょうがあるんだろうな。{n}やっぱり影の大王が{n}原因なんだろうか。{n}それならきっと仲間になれる！",
-  "en": ""
+  "en": "Fa-Glin{n}{n}Elder of the Gnomes.{n}The Gnomes must have their{n}own troubles too.{n}Is the Shadow Lord to blame{n}after all?{n}Then we can surely be friends!"
  },
  {
   "id": "2193_072",
   "hdr": "00000000",
   "jp": "デイン{n}{n}王家のあとつぎだって！？{n}信じていいのかな……って{n}信じられないよ、やっぱり。{n}でも、これまでに出会った人たちより{n}長いつきあいになりそう。{n}いいヤツでありますように！",
-  "en": ""
+  "en": "Dain{n}{n}Heir to the throne?!{n}Can I believe him...?{n}No, I can't, really.{n}But I think we'll know him longer{n}than anyone else we've met.{n}I hope he's a good guy!"
  },
  {
   "id": "2193_073",
   "hdr": "00000000",
   "jp": "ルーカス{n}{n}レジスタンスのきょうりょくしゃで{n}デインの知り合いで{n}バルダがリンゴをぬすんだ{n}かじゅえんのおばさんの息子。{n}うん、信用できそうだな。",
-  "en": ""
+  "en": "Steven{n}{n}He helps the Resistance,{n}knows Dain, and he's the son{n}of the orchard lady whose{n}apples Barda stole.{n}Yes, I think we can trust him."
  },
  {
   "id": "2193_074",
   "hdr": "00000000",
   "jp": "船長とポリパン{n}{n}正直に言うと、やっぱり{n}どうにもこうにも{sp}しんようできない。{n}あまりふかくかかわらない方が{n}いいにきまってる。{n}ポリパンは手クセが悪いらしい。{n}用心用心！",
-  "en": ""
+  "en": "The Captain and Polypan{n}{n}To be honest, I just can't{n}bring myself to trust them.{n}Better not to get too mixed up{n}with them, that's for sure.{n}Polypan has light fingers, I hear.{n}Watch out, watch out!"
  },
  {
   "id": "2193_075",
   "hdr": "00000000",
   "jp": "むらさきマントのこ{n}{n}上品そうな人だ……{n}ぼくと同い年くらいかな……",
-  "en": ""
+  "en": "Child in the Purple Cloak{n}{n}Seems like a very refined person...{n}About my age, maybe..."
  },
  {
   "id": "2193_076",
   "hdr": "00000000",
   "jp": "グロック{n}{n}それほど{sp}せは高くないけど{n}きんにくがボコボコのからだは{n}まるで岩のようだ。{n}ぼくはこっそり岩石(がんせき)男と{n}よぶ事にしよう。",
-  "en": ""
+  "en": "Glock{n}{n}He isn't all that tall, but his{n}body is so lumpy with muscle{n}he's just like a rock.{n}I'll secretly call him Boulder Man."
  },
  {
   "id": "2193_077",
   "hdr": "00000000",
   "jp": "ゼアン{n}{n}トーラ族の人。{n}エンドン国王のたのみを{n}むしした事をふかくはんせいしている。{n}もしこの人たちがちかいを{n}まもっていたら……いや、今さら{n}言ってもしかたがないよね。",
-  "en": ""
+  "en": "Zeean{n}{n}One of the people of Tora.{n}She deeply regrets ignoring{n}King Endon's plea for help.{n}If only they had kept their vow...{n}No, there's no use saying that now."
  },
  {
   "id": "2193_078",
   "hdr": "00000000",
   "jp": "トーラ族の人々{n}{n}かなしそうなかおをしている……{n}いったい何をもとめているんだろう……",
-  "en": ""
+  "en": "The people of Tora{n}{n}They look so sad...{n}What could they be longing for?"
  },
  {
   "id": "2193_079",
   "hdr": "00000000",
   "jp": "ジャード{n}{n}父さん……{n}かじ屋になりたい僕に{n}れきしや旅のちしきを{sp}まなばせたのは{n}この日のためだったんだね……",
-  "en": ""
+  "en": "Jarred{n}{n}Father...{n}I wanted to be a blacksmith, yet you{n}taught me history and travel lore.{n}It was all for this day, wasn't it..."
  },
  {
   "id": "2193_080",
   "hdr": "00000000",
   "jp": "アンナ{n}{n}母さん。{n}ぼくは母さんが大好きだよ。{n}それ以上のことばが{n}みつからないんだ。",
-  "en": ""
+  "en": "Anna{n}{n}Mother.{n}I love you so much, Mother.{n}I can't find any words{n}that say more than that."
  },
  {
   "id": "2193_081",
   "hdr": "00000000",
   "jp": "トム{n}{n}てきかみかたか……{n}売ってる商品は{n}信用できるんだけど……{n}影の憲兵団には売るなっ！",
-  "en": ""
+  "en": "Tom{n}{n}Friend or foe...?{n}The goods he sells{n}can be trusted, but...{n}Don't sell to the Grey Guards!"
  },
  {
   "id": "2193_082",
   "hdr": "00000000",
   "jp": "リーフとなかまたち{n}{n}影の大王に支配された国で{n}道をふみはずす事もなく{n}こんなにまっすぐ元気に育った。{n}頭だって悪くないし{n}ゆうきもある。{n}……と思いたい。",
-  "en": ""
+  "en": "Lief and Friends{n}{n}In a land ruled by the Shadow Lord,{n}I never strayed from the right path{n}and grew up honest and full of life.{n}I'm not stupid, either,{n}and I've got courage.{n}...Or so I'd like to think."
  },
  {
   "id": "2193_083",
   "hdr": "00000000",
   "jp": "火ぶくれマン{n}{n}なんと。{n}火ぶくれ弾に足がある。{n}この世界はナゾとフシギで{n}いっぱいだ。",
-  "en": ""
+  "en": "Blister Man{n}{n}Amazing.{n}A Blister Bomb with legs.{n}This world is full of{n}riddles and wonders."
  },
  {
   "id": "2193_084",
   "hdr": "00000000",
   "jp": "ジンジャークッキー{n}{n}こいつクッキー……だよね？{n}クッキーと戦うぼく。{n}父さん、信じてくれますか？{n}母さん、本当なんです。",
-  "en": ""
+  "en": "Gingerbread Cookie{n}{n}This thing is a cookie... right?{n}Me, fighting a cookie.{n}Father, will you believe me?{n}Mother, it's really true."
  },
  {
   "id": "2193_085",
   "hdr": "00000000",
   "jp": "タートルキャノン{n}{n}守りを固めてこうげきしてくる。{n}しかも、その守りは固い。{n}カメだもんなあ。{n}デカイし強い。{n}うごきまわらないのがせめてもの{n}なぐさめ。",
-  "en": ""
+  "en": "Turtle Cannon{n}{n}It shields itself, then attacks.{n}And that shield is tough.{n}Well, it is a turtle.{n}Huge, and strong.{n}At least it doesn't move around.{n}That's some comfort."
  },
  {
   "id": "2193_086",
   "hdr": "00000000",
   "jp": "ヘビーキャノン{n}{n}こいつはかなり大きい。{n}いったいどれだけ生きているんだ？{n}ずっとこんなふうに生きてきたのかな。{n}モンスターの生い立ちなんて{n}考えているばあいじゃないけど。",
-  "en": ""
+  "en": "Heavy Cannon{n}{n}This one's really big.{n}Just how long has it been alive?{n}Has it always lived like this?{n}Not that I've time to wonder{n}about a monster's life story."
  },
  {
   "id": "2193_087",
   "hdr": "00000000",
   "jp": "フレイムホース{n}{n}ウマは友だちだと思っていた。{n}友だちじゃなくても{sp}てきではないと{n}思っていた。{n}でも、こいつは……",
-  "en": ""
+  "en": "Flame Horse{n}{n}I always thought horses were friends.{n}Even if not friends, I thought{n}they weren't enemies.{n}But this one..."
  },
  {
   "id": "2193_088",
   "hdr": "00000000",
   "jp": "ナイトメア{n}{n}黒いモンスターと出会うとやみとか{n}影の事を考えてしまう。{n}つまり、あの大王の事を考えて{n}しまう。{n}それはぜんぜん楽しくない。{n}黒……カッコイイ色なのに。",
-  "en": ""
+  "en": "Nightmare{n}{n}Black monsters make me think{n}of darkness and shadows.{n}In other words, they make me{n}think of the Shadow Lord.{n}That's no fun at all.{n}Black... and it's such a cool colour."
  },
  {
   "id": "2193_089",
   "hdr": "00000000",
   "jp": "影の馬憲兵{n}{n}ウマをたおせばただの影の憲兵だ。{n}ウマも憲兵も手強いけれども{n}別々ならなんとかなる。{n}そう思えば少しは気が楽。",
-  "en": ""
+  "en": "Mounted Grey Guard{n}{n}Beat the horse: just a Grey Guard.{n}Horse and rider are both tough,{n}but apart, I can handle them.{n}Thinking that helps a little."
  },
  {
   "id": "2193_090",
   "hdr": "00000000",
   "jp": "影の合体憲兵{n}{n}影の憲兵なんだけど……{n}かなりフシギなやつらだ。{n}こういう戦い方の練習を{n}しているんだろうか。",
-  "en": ""
+  "en": "Combined Grey Guard{n}{n}They're Grey Guards, but...{n}a really strange bunch.{n}I wonder if they're practising{n}fighting like this."
  },
  {
   "id": "2193_091",
   "hdr": "00000000",
   "jp": "ローパー{n}{n}バルダはこういうモンスターが{n}きらいだと言う。{n}外見からでは、何をしてくるのか{n}ぜんぜんわからないやつら。{n}もちろん、ぼくもイヤだ。",
-  "en": ""
+  "en": "Roper{n}{n}Barda says he hates{n}monsters like these.{n}From the outside, you can't tell{n}at all what they'll do.{n}Of course, I hate them too."
  },
  {
   "id": "2193_092",
   "hdr": "00000000",
   "jp": "サンドローパー{n}{n}地下をいどうするやつら。{n}地下で何をしているか{n}わかったもんじゃない。{n}気がはってつかれるんだ。",
-  "en": ""
+  "en": "Sand Roper{n}{n}They move underground.{n}Who knows what they get up to{n}down there?{n}It keeps me on edge. So tiring."
  },
  {
   "id": "2193_093",
   "hdr": "00000000",
   "jp": "ドレッドローパー{n}{n}こいつは手強いんだよね。{n}ああ、またこいつかと思ったら{n}色がちがう。{n}そういう時は気をつけなくちゃ。{n}きけんな旅のきほんちしき。",
-  "en": ""
+  "en": "Dread Roper{n}{n}This one is tough, you know.{n}Just when you think \"Not again!\",{n}you see the colour is different.{n}That's when you must be careful.{n}Basic know-how for risky travels."
  },
  {
   "id": "2193_094",
   "hdr": "00000000",
   "jp": "ガンメンロック{n}{n}こいつが実は親切でやさしいと{n}言われても信じられないよね。{n}でも、安心。{n}こいつは見たとおりのてきだから。",
-  "en": ""
+  "en": "Face Rock{n}{n}If you heard it was really kind{n}and gentle, you'd never believe it.{n}But don't worry.{n}It's every bit the enemy it looks."
  },
  {
   "id": "2193_095",
   "hdr": "00000000",
   "jp": "イエロードラゴン{n}{n}ほんと、わかりやすい。{n}本で見たとおりのドラゴン。{n}ドラゴンと戦うのって、なんだか{n}ぼうけん物語の主人公になった{n}みたいで、ちょっとうれしい。{n}うれしいけど、辛い。",
-  "en": ""
+  "en": "Yellow Dragon{n}{n}Honestly, no surprises here.{n}A dragon just like in the books.{n}Fighting a dragon makes me feel{n}like the hero of an adventure{n}story, and I'm a bit happy.{n}Happy, but it's tough."
  },
  {
   "id": "2193_096",
   "hdr": "00000000",
   "jp": "レッドドラゴン{n}{n}赤いドラゴン……見たとおりに{n}きけんなやつ。{n}さわるとヤケドしそう。{n}さわるもんか！",
-  "en": ""
+  "en": "Red Dragon{n}{n}A red dragon... dangerous,{n}just as it looks.{n}Touch it and you'd get burned.{n}As if I'd touch it!"
  },
  {
   "id": "2193_097",
   "hdr": "00000000",
   "jp": "ダークドラゴン{n}{n}黒と言えば影。{n}そして強い。{n}ああ、ぼくはなんだか黒が{n}キライになってきたぞ。",
-  "en": ""
+  "en": "Dark Dragon{n}{n}Black means shadow.{n}And it's strong.{n}Ugh, I'm starting to{n}hate the colour black."
  },
  {
   "id": "2193_098",
   "hdr": "00000000",
   "jp": "グリーンドラゴン{n}{n}この色は、林や森で身をかくすため{n}なんだろうか。{n}身をかくして、ようすをうかがって{n}とつぜんおそいかかる気なのかな。{n}ドラゴンはせいせいどうどうと{n}戦ってほしいけど。",
-  "en": ""
+  "en": "Green Dragon{n}{n}Is this colour for hiding{n}in woods and forests?{n}Does it hide, watch closely and{n}then suddenly attack?{n}I wish dragons would fight{n}fair and square."
  },
  {
   "id": "2193_099",
   "hdr": "00000000",
   "jp": "ブルードラゴン{n}{n}青いやつ。{n}でも、青空のさわやかさや{n}川やみずうみのすずしさとは{n}まったくかんけいない。{n}ぼくをゆだんさせる作戦だな！",
-  "en": ""
+  "en": "Blue Dragon{n}{n}A blue one.{n}But it has nothing to do with{n}fresh blue skies or{n}cool rivers and lakes.{n}It's a trick to catch me off guard!"
  },
  {
   "id": "2193_100",
   "hdr": "00000000",
   "jp": "ミミック{n}{n}宝ばこはあけずにはいられない。{n}なのにこいつは……{n}ズルイ。{n}本当にズルイ。{n}ショックも大きい。",
-  "en": ""
+  "en": "Mimic{n}{n}I can't help opening treasure chests.{n}And yet this thing...{n}So unfair.{n}Really unfair.{n}And a nasty shock, too."
  },
  {
   "id": "2193_101",
   "hdr": "00000000",
   "jp": "ジェリー{n}{n}よわい。{n}戦うのがメンドウになるくらいよわい。{n}でも、そう思わせるのが{n}作戦なのかもしれない。{n}作戦なんて考えていなさそうだけど。",
-  "en": ""
+  "en": "Jelly{n}{n}Weak.{n}So weak that fighting it is a chore.{n}But maybe making me think that{n}is its plan.{n}Not that it looks like it plans."
  },
  {
   "id": "2193_102",
   "hdr": "00000000",
   "jp": "グランドサーペント{n}{n}これくらいモンスターらしいと{n}戦いがいが{sp}あるわねと{n}ジャスミンなら言うだろう。{n}じつはぼくもそう思う。",
-  "en": ""
+  "en": "Grand Serpent{n}{n}\"Now that's a proper monster.{n}It's worth fighting!\"{n}is what Jasmine would say.{n}Truth is, I think so too."
  },
  {
   "id": "2193_103",
   "hdr": "00000000",
   "jp": "ジャック{n}{n}なんとなく平和なおじいさん。{n}ぼくはおじいさんの平和を{n}守るために戦う。{n}ジャスミンは{sp}おれい目当てかも{n}しれないけど。",
-  "en": ""
+  "en": "Jack{n}{n}A rather peaceful old man.{n}I fight to protect{n}his peace.{n}Jasmine might be in it for{n}the reward, though."
  },
  {
   "id": "2193_104",
   "hdr": "00000000",
   "jp": "モキート{n}{n}友だちにはなれない気がする。{n}なんだか甘えたやつ。{n}世界が平和になったら{n}いやというほど{n}はたらいてもらいたい。",
-  "en": ""
+  "en": "Mokito{n}{n}I don't think we could be friends.{n}He's kind of spoiled.{n}Once the land is at peace,{n}I'd like to make him work{n}till he's sick of it."
  },
  {
   "id": "2193_105",
   "hdr": "00000000",
   "jp": "ミキータ{n}{n}モキートとのふしぎなかんけいは{n}ぼくにはよくわからない。{n}いや、そもそも、何を{n}考えているのか、よくわからない。",
-  "en": ""
+  "en": "Mikita{n}{n}Her strange bond with Mokito{n}is beyond me.{n}No, actually, I can't tell what{n}she's thinking at all."
  },
  {
   "id": "2193_106",
   "hdr": "00000000",
   "jp": "若き日のジャード{n}{n}父さんにも若いころがあったなんて{n}ついつい忘れてしまう。{n}でも、ぼくの思い出の中の父さんは{n}いつでもヒゲもじゃ。{n}ヒゲ無しで、おまけに若くて……{n}なんだかピンと来ないな。",
-  "en": ""
+  "en": "Young Jarred{n}{n}I keep forgetting that Father{n}was young once too.{n}But in my memories, Father{n}always has a bushy beard.{n}No beard, and young as well...{n}It just doesn't feel right."
  },
  {
   "id": "2193_107",
   "hdr": "00000000",
   "jp": "若き日のエンドン{n}{n}デルトラの王様だった人。{n}この王様がどれほどおろかだったか……{n}ぼくはずっとそれを聞かされて{n}育った。{n}本当はどうだったのかな……",
-  "en": ""
+  "en": "Young Endon{n}{n}He was once the king of Deltora.{n}How foolish this king was...{n}I grew up hearing that{n}all the time.{n}I wonder what he was really like..."
  },
  {
   "id": "2193_108",
   "hdr": "00000000",
   "jp": "若き日のアンナ{n}{n}ぼくの母さん。{n}今の母さんとはちょっと{n}ふんいきがちがう。{n}年をとるってそういう事……かな。",
-  "en": ""
+  "en": "Young Anna{n}{n}My mother.{n}She seems a bit different from{n}how Mother is now. Is that what{n}growing older does...?"
  },
  {
   "id": "2193_109",
   "hdr": "00000000",
   "jp": "若き日のシャーン{n}{n}エンドン王のお妃(きさき)様。{n}ぜんぜん知らない人……と{n}思ったけどそうでもないような。",
-  "en": ""
+  "en": "Young Sharn{n}{n}King Endon's queen.{n}Someone I don't know at all... or{n}so I thought, but maybe not."
  },
  {
   "id": "2193_110",
   "hdr": "00000000",
   "jp": "クリアン{n}{n}母さんのおじいさんで{n}ぼくのひいおじいさん。{n}父さんが若いころに{n}とてもお世話になった人。{n}会ってみたかったな……",
-  "en": ""
+  "en": "Crian{n}{n}Mother's grandfather,{n}my great-grandfather.{n}He helped Father a great deal{n}when Father was young.{n}I wish I could have met him..."
  },
  {
   "id": "2193_111",
   "hdr": "00000000",
   "jp": "プランディン{n}{n}エンドン王の時代の主席大臣。{n}主席大臣というのは、たくさんの{n}大臣の中で一番エライ人。{n}王様も言いなりだったそうだ。{n}なんか、それって、悪い人？",
-  "en": ""
+  "en": "Prandine{n}{n}Chief Advisor in King Endon's day.{n}The Chief Advisor is the highest{n}of all the advisors.{n}They say even the king obeyed him.{n}Hmm, doesn't that make him bad?"
  }
 ]

@@ -59,6 +59,9 @@ use it consistently, and report it.
 - Japanese written backwards (signs like 『！いなぶあ　！んけき』) = backwards English, keep it readable ("!regnaD").
 - Consistency decided so far: Mikita says "Master Mokito"; 聖なる = "holy" (never "sacred"); singular/plural of a
   glossary term are both fine ("a Ralad", "the Death card"); British spelling (armour, realise, travellers).
+- `?!` never `!?`; British spelling (Armour, colour) - the check rejects both. ♥ is a real glyph: keep it.
+- If the glossary check forces an unnatural wording (e.g. a common word), write the natural English and report
+  `UNSURE: id - false glossary hit <term>`; don't bend the line.
 - UI words: 下画面/上画面 = "the bottom screen"/"the top screen"; タッチ = "tap" (never "touch the lower screen").
   Full glossary names, no shortening ("the nectar of the Lilies of Life"; "the nectar" alone only on a repeat).
 - The portrait hint is only a hint: e.g. slot 01 in Noradz crowd scenes is townsfolk, not Lief. Decide from context.

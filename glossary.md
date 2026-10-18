@@ -207,7 +207,17 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | けんもん | (guide) checkpoint | game | (b020) | |
 | デル族 | (guide) the people of Del | game | (b020) | |
 | 馬車 | (guide) caravan | game | Steven's caravan (b019) | |
-| しましまロッキー | Stripy Rocky | game | passenger's nonsense song, rhymed (b017) | |
+| しましまロッキー | Stripy Rocky | game | passenger's nonsense song (b017) | |
+| 岩石男 | (guide) Boulder Man | game | Lief's private nickname for Glock (b026) | |
+| むげんをつかさどるもの | (guide) the keeper of the Dream | game | Endless Tower sign (b026) | |
+| 二重焼き印の上、死刑 | (guide) Brand them twice, then death! | game | execution chant (b021) | |
+| 足がおそくなる | (guide) Speed down | game | equipment effect (b023) | |
+| 回復 | (guide) Restores | game | "Restores ♥..." item effect (b024) | |
+| こうげきアイテム | (guide) Attack item | game | (b024) | |
+| 残り | (guide) Left: | game | counters (b023) | |
+| まる / やじるし | (guide) Circle / Arrow | game | smithing minigame icons (b026): check in-game | |
+| 木の上 / 草地 / 湿地 / 山道 / 砂浜 / 洞窟 | (guide) The Treetops / The Meadow / The Marsh / The Mountain Path / The Beach / The Cave | game | save-slot place labels (b024) | |
+| まどべ | (guide) By the Window | game | save-slot label (b024) | |
 | ハチミツ / 女王バチのハチミツ | honey / Queen Bee honey | novel | | |
 | 母がつくったマント / マント | Mother's Cloak / the cloak | novel | the cloak Anna made | |
 | マドレット | muddlet | novel | 3-legged mount, returns to World Map; ? spelling | Madoretto, Madlet |
@@ -227,21 +237,21 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | デルトラ全曲集 | Deltora Song Collection | game | record | |
 | デルのバッジ | Badge of Del | game | | |
 | ぬのの服 | Cloth Tunic | game | | |
-| レザーアーマー | Leather Armor | game | US spelling for UI items? keep consistent | |
-| うろこのよろい / うろこの鎧 | Scale Armor | game | | |
+| レザーアーマー | Leather Armour | game | US spelling for UI items? keep consistent | |
+| うろこのよろい / うろこの鎧 | Scale Armour | game | | |
 | チェインメイル | Chain Mail | game | | |
-| 憲兵のよろい | Grey Guard Armor | game | | |
-| 鉄のよろい / 鉄の鎧 | Iron Armor | game | | |
+| 憲兵のよろい | Grey Guard Armour | game | | |
+| 鉄のよろい / 鉄の鎧 | Iron Armour | game | | |
 | 紫色のマント | Purple Cloak | game | | |
-| ゴールドアーマー | Gold Armor | game | | |
+| ゴールドアーマー | Gold Armour | game | | |
 | かぼちゃぱんつ | Pumpkin Pants | game | | |
-| とうぞくのよろい | Bandit Armor | game | | |
+| とうぞくのよろい | Bandit Armour | game | | |
 | プレートメイル | Plate Mail | game | | |
-| ガーディアンアーマー | Guardian Armor | game | | |
+| ガーディアンアーマー | Guardian Armour | game | | |
 | デルのむね当て | Del Breastplate | game | | |
 | プリンセスローブ | Princess Robe | game | | |
 | ポンチョ | Poncho | game | | |
-| モキートアーマー | Mokito Armor | game | | |
+| モキートアーマー | Mokito Armour | game | | |
 | 靴ずれ防止靴下 | Anti-Blister Socks | game | | |
 | 黒っぽい毛糸のぼうし | Dark Wool Cap | game | | |
 | 金色のうで輪 | Golden Bracelet | game | | |

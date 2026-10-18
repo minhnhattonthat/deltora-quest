@@ -165,7 +165,7 @@ def check(name):
             continue
         if not en and ents[i]["jp"]:
             errs.append(f"{i}: no English")
-        if not en.isascii() or "\\" in en or "\t" in en:
+        if not all(c.isascii() or c in "♥•…" for c in en) or "\\" in en or "\t" in en:  # font glyphs in en.tbl
             errs.append(f"{i}: non-ASCII, backslash or tab (use {{n}} for breaks, plain ASCII)")
         e = dict(ents[i], **{text.LANG: en})
         lerrs, _ = lint.check(e, adv, t)

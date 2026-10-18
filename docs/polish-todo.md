@@ -113,6 +113,46 @@ One pass at the end, line by line (no bulk rewrites). Format: id - suggestion (f
   friend?! Hmph. He just freeloaded off us.)" / 2185_386 "precious companions" / 371 "Let me earn some glory!" /
   365 "Fine. But only if you beat me." / 380 "Of course we won't." / 354 drop "to keep"
 
+## b019
+- 2187_222 "Did you really say that much?" / 252 "Tora will be reborn.{p}It will be a city that never forgets{n}to
+  be thankful for each day's joys." / 2188_027 "Good to see you all in such fine health!" / 2188_069 "I don't think
+  they've stayed there all this time." + "where they are now" / 2187_243 "Who... what am I...?" (optional) /
+  2187_253 "I'll give it everything!" / Zeean "her" (2188_010): novel has Zeean as a woman, keep
+
+## b016
+- 2186_258 "You did it, Lief." (avoid echoing "Well done, Ol") / 232 "Our job is ambushing the folk who come{n}after
+  the treasure in the Maze." / 247 "useless-looking" / 202 "They're Ols!" / 216 "Your best friend..." /
+  218 "I bet he somehow swam to the bank..." / 219 "I'm sure he is!" / 228 "Yeah, just like that." /
+  234 "We help each other out." / 242 "Right, this is no time for celebrating." / 276 "Yeah." / 293 "back to Doom's
+  camp" / 204 "What's with that guy?"
+
+## b017
+- 2186_319 "a boy who doesn't look like much" / 326 "*blush* Oh dear.{n}Look, that grubby person is staring at
+  us..." / 328 sign without double quotes / 329 "Don't let the Glus catch you,{n}run for it!!" / 2187_003 "Do you
+  have somewhere in mind in Tora?" / 022 "anyone says" / 029 "I'm... going on ahead." / 051 "comes asking for
+  help" / 057 "being reunited with my parents" / 063 "one of the Shadow Lord's servants" / 073 "know you by your
+  hair" / 000 "a good guy" (optional)
+
+## b018
+- 2187_088 "They look lonely, but..." / 092 "Guardian" capitalised / 107 "Is it you this time?" / 109 "a certain
+  lord" / 111 "lost souls" (optional) / 127 "No. But we have no choice anyway." / 128 "Now, let us begin!" /
+  144 "(Come on... Illusion or not, this makes me mad.)" / 153 "(W-what... It's... an illusion...)" /
+  167 'Offer three {c2}Pitch-Black Stones{/c}...' (single quotes) / 190 "Is that the diamond's power?!" /
+  193 "slots"
+
+## b020
+- 2188_073 "Have you found the blacksmith's sons?" / 134 keep the blank line before "Hm?" / 082 "defeated" /
+  083 "Could he be an Ol?!" / 088 "But he's a tough one. Be careful." / 090 "I wonder if he means Dain?" /
+  097 "We must reach him soon." / 092 "Maybe... Dain means{n}to be a decoy..." / 130 "Doom and his people's
+  hideout" / 140 "you be their representative" / 141 "You came all this way,{n}but..." / 144 "A fake body, that
+  is." / 159 "(Oh, so that's it.)" / 171 "descendants of Adin" / 174 "The Belt is growing hot, I see." /
+  175 "The heir to the throne is nearby." / 181 "Get this off me!" / 2188_136 puzzle: check in-game that "against
+  the wind, straight ahead" matches the answer
+
+## b024 (translator notes)
+- 2192_008 "Saving..." (forced to "Save in progress" by the term check) / 2192_055-062 "By the Palace Window"
+  (forced "Palace of Del") / 2191_085 item descriptions mapped by list order: verify in the item menu
+
 ## b005
 - 2182_025 - Lief する！: "Then I will!" (not "We will!")
 - 2182_026 / 079 - Barda gruffer: "Tch." / "What...?" (not "Good grief" / "Good heavens")

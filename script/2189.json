@@ -3,234 +3,234 @@
   "id": "2189_000",
   "hdr": "00000000",
   "jp": "ごうせい{sp}ごうせい{n}こうごうせい",
-  "en": ""
+  "en": "Infuse, infuse,{n}photosynthesise!"
  },
  {
   "id": "2189_001",
   "hdr": "1181030C",
   "jp": "さあ{sp}はじめるわよ。{n}よういはいい？",
-  "en": ""
+  "en": "Right, let's begin.{n}Are you ready?"
  },
  {
   "id": "2189_002",
   "hdr": "01810104",
   "jp": "ジャスミンがいないと{n}合成できないね",
-  "en": ""
+  "en": "We can't infuse anything{n}without Jasmine."
  },
  {
   "id": "2189_003",
   "hdr": "00000000",
   "jp": "『そざい』はとびちってしまった",
-  "en": ""
+  "en": "The Materials went flying!"
  },
  {
   "id": "2189_004",
   "hdr": "00000000",
   "jp": "しっぱいして炭になった",
-  "en": ""
+  "en": "It failed and turned to Charcoal."
  },
  {
   "id": "2189_005",
   "hdr": "00000000",
   "jp": "せいこうした！！{n}『{c2}水晶(すいしょう){/c}』ができあがった！！",
-  "en": ""
+  "en": "Success!!{n}You made {c2}Crystal{/c}!!"
  },
  {
   "id": "2189_006",
   "hdr": "00000000",
   "jp": "『{c2}アップルドリンク{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Queen Bee Juice{/c}!!"
  },
  {
   "id": "2189_007",
   "hdr": "00000000",
   "jp": "『{c2}パンプキンケーキ{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Pumpkin Cake{/c}!!"
  },
  {
   "id": "2189_008",
   "hdr": "00000000",
   "jp": "『{c2}トロピカルジュース{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Tropical Juice{/c}!!"
  },
  {
   "id": "2189_009",
   "hdr": "00000000",
   "jp": "『{c2}アップルパイ{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Apple Pie{/c}!!"
  },
  {
   "id": "2189_010",
   "hdr": "00000000",
   "jp": "『{c2}けんこうドリンク{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Health Drink{/c}!!"
  },
  {
   "id": "2189_011",
   "hdr": "00000000",
   "jp": "『{c2}マジックブレッド{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Magic Bread{/c}!!"
  },
  {
   "id": "2189_012",
   "hdr": "00000000",
   "jp": "『{c2}きのこのグリル{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Grilled Mushrooms{/c}!!"
  },
  {
   "id": "2189_013",
   "hdr": "00000000",
   "jp": "『{c2}かぼちゃスープ{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Pumpkin Soup{/c}!!"
  },
  {
   "id": "2189_014",
   "hdr": "00000000",
   "jp": "『{c2}どくけしのくすり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Antidote{/c}!!"
  },
  {
   "id": "2189_015",
   "hdr": "00000000",
   "jp": "『{c2}かいふくのくすり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Healing Potion{/c}!!"
  },
  {
   "id": "2189_016",
   "hdr": "00000000",
   "jp": "『{c2}かいふくのくすり大{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Big Healing Potion{/c}!!"
  },
  {
   "id": "2189_017",
   "hdr": "00000000",
   "jp": "『{c2}むてきのくすり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Invincibility Potion{/c}!!"
  },
  {
   "id": "2189_018",
   "hdr": "00000000",
   "jp": "『{c2}パワーのくすり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Power Potion{/c}!!"
  },
  {
   "id": "2189_019",
   "hdr": "00000000",
   "jp": "『{c2}どくのくすり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Poison Potion{/c}!!"
  },
  {
   "id": "2189_020",
   "hdr": "00000000",
   "jp": "『{c2}まんたんのくすり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Full-Heal Potion{/c}!!"
  },
  {
   "id": "2189_021",
   "hdr": "00000000",
   "jp": "『{c2}ラッキーのくすり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Lucky Potion{/c}!!"
  },
  {
   "id": "2189_022",
   "hdr": "00000000",
   "jp": "『{c2}火ぶくれ弾{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Blister Bomb{/c}!!"
  },
  {
   "id": "2189_023",
   "hdr": "00000000",
   "jp": "『{c2}火おこしビーズ{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Fire-Starter Beads{/c}!!"
  },
  {
   "id": "2189_024",
   "hdr": "00000000",
   "jp": "『{c2}光の矢{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Arrow of Light{/c}!!"
  },
  {
   "id": "2189_025",
   "hdr": "00000000",
   "jp": "『{c2}うろこのよろい{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Scale Armour{/c}!!"
  },
  {
   "id": "2189_026",
   "hdr": "00000000",
   "jp": "『{c2}チェインメイル{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Chain Mail{/c}!!"
  },
  {
   "id": "2189_027",
   "hdr": "00000000",
   "jp": "『{c2}鉄のよろい{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Iron Armour{/c}!!"
  },
  {
   "id": "2189_028",
   "hdr": "00000000",
   "jp": "『{c2}ゴールドアーマー{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Gold Armour{/c}!!"
  },
  {
   "id": "2189_029",
   "hdr": "00000000",
   "jp": "『{c2}かぼちゃぱんつ{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Pumpkin Pants{/c}!!"
  },
  {
   "id": "2189_030",
   "hdr": "00000000",
   "jp": "『{c2}虫よけのお守り{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Bug-Ward Charm{/c}!!"
  },
  {
   "id": "2189_031",
   "hdr": "00000000",
   "jp": "『{c2}クリスタルリング{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Crystal Ring{/c}!!"
  },
  {
   "id": "2189_032",
   "hdr": "00000000",
   "jp": "『{c2}うろこのベルト{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Scale Belt{/c}!!"
  },
  {
   "id": "2189_033",
   "hdr": "00000000",
   "jp": "『{c2}花の首かざり{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Flower Lei{/c}!!"
  },
  {
   "id": "2189_034",
   "hdr": "00000000",
   "jp": "『{c2}シルバーリング{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Silver Ring{/c}!!"
  },
  {
   "id": "2189_035",
   "hdr": "00000000",
   "jp": "『{c2}ゴールドリング{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Gold Ring{/c}!!"
  },
  {
   "id": "2189_036",
   "hdr": "00000000",
   "jp": "『{c2}かぼちゃのマスク{/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Pumpkin Mask{/c}!!"
  },
  {
   "id": "2189_037",
   "hdr": "00000000",
   "jp": "『{c2}水晶(すいしょう){/c}』ができた！！",
-  "en": ""
+  "en": "You made {c2}Crystal{/c}!!"
  },
  {
   "id": "2189_038",
   "hdr": "28010000",
   "jp": "ワールドマップにもどりますか？",
-  "en": ""
+  "en": "Return to the World Map?"
  }
 ]

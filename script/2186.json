@@ -789,7 +789,7 @@
   "id": "2186_131",
   "hdr": "20810C14",
   "jp": "知ってるなら話は早い{p}でも、レジスタンスに協力している{n}事はナイショだよ",
-  "en": "If you know it, that saves explaining.{p}But keep it secret that{n}they help the Resistance."
+  "en": "If you know it, that saves explaining.{p}But don't tell anyone that Steven's family{n}helps the Resistance."
  },
  {
   "id": "2186_132",
@@ -987,7 +987,7 @@
   "id": "2186_164",
   "hdr": "09030208",
   "jp": "本当の事は{sp}オレが知っている。{n}そう思わせて{sp}ゆだんさせておけ",
-  "en": "I know the truth. Let them think that,{n}and they'll let their guard down."
+  "en": "I know what you're really made of.{n}Let them think so, and drop their guard."
  },
  {
   "id": "2186_165",
@@ -1875,7 +1875,7 @@
   "id": "2186_312",
   "hdr": "03030104",
   "jp": "ねえ、バルダ{p}手をつないで休む？{p}こうして再会できたんだもの。{n}もう、はなればなれに{sp}ならないように",
-  "en": "Hey, Barda...{p}Shall we hold hands while we rest?{p}Now that we're back together,{n}so we never get split up again."
+  "en": "Hey, Barda...{p}Shall we hold hands while we rest?{p}We've found each other again,{n}so let's never get split up again."
  },
  {
   "id": "2186_313",
@@ -1947,7 +1947,7 @@
   "id": "2186_324",
   "hdr": "28010600",
   "jp": "ヨッホッホ～！{p}ホヘッフ～！{p}しましまロッキーうたじょうず{p}えんそうじょうずの{sp}うたじょうず{p}しまし～ま{sp}じょうず～の{n}しまじょうず～{p}フォー！",
-  "en": "Yo-ho-ho!{p}Ho-heh-hoo!{p}Stripy Rocky, what a singer!{p}What a player, what a singer!{p}Stri-i-py, what a sta-ar,{n}stripy sta-ar!{p}Whoo!"
+  "en": "Yo-ho-ho!{p}Ho-heh-hoo!{p}Stripy Rocky sings so well!{p}Plays so well, he sings so well!{p}Stri-i-py, ski-illed, oh so{n}stri-i-py, skilled!{p}Whoo!"
  },
  {
   "id": "2186_325",

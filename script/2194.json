@@ -3,72 +3,72 @@
   "id": "2194_000",
   "hdr": "00000000",
   "jp": "フロア{var}",
-  "en": ""
+  "en": "Floor {var}"
  },
  {
   "id": "2194_001",
   "hdr": "28010000",
   "jp": "きけん！{sp}みじゅくものはちかづくな。{n}このとうは『むげん』にしはいされている{p}むやみに入ったものは{n}2どと帰ってはこられない{p}ただし{sp}登りつめたものには{n}天空へのとびらがひらかれる{p}日は登り{sp}またしずむ。{n}むげんのごとく",
-  "en": ""
+  "en": "Danger! The unskilled, keep away.{n}This tower is ruled by 'the Dream'.{p}Those who enter rashly{n}shall never return.{p}But for those who reach the top,{n}the door to the heavens shall open.{p}The sun rises and sets again,{n}endless as a dream."
  },
  {
   "id": "2194_002",
   "hdr": "00000000",
   "jp": "NEXT　{var}F",
-  "en": ""
+  "en": "NEXT: Floor {var}"
  },
  {
   "id": "2194_003",
   "hdr": "00000000",
   "jp": "わたしはむげんをつかさどるもの……",
-  "en": ""
+  "en": "I am the keeper of the Dream..."
  },
  {
   "id": "2194_004",
   "hdr": "00000000",
   "jp": "この『むげんのとう』は{n}あなたたちを{sp}ずっとまっていたのです",
-  "en": ""
+  "en": "This Tower of Dreams has{n}been waiting for you all along."
  },
  {
   "id": "2194_005",
   "hdr": "00000000",
   "jp": "リーフ{n}バルダ{n}ジャスミン",
-  "en": ""
+  "en": "Lief{n}Barda{n}Jasmine"
  },
  {
   "id": "2194_006",
   "hdr": "00000000",
   "jp": "あなたたちはここまで",
-  "en": ""
+  "en": "All this way you have come."
  },
  {
   "id": "2194_007",
   "hdr": "00000000",
   "jp": "よくがんばって{sp}登ってきました",
-  "en": ""
+  "en": "You did well to climb so high."
  },
  {
   "id": "2194_008",
   "hdr": "00000000",
   "jp": "たからものは{sp}ありましたか",
-  "en": ""
+  "en": "Did you find any treasure?"
  },
  {
   "id": "2194_009",
   "hdr": "00000000",
   "jp": "あなたたちはりっぱに{n}ここまで{sp}登りつめたのですから{n}あとは{sp}おりるのです",
-  "en": ""
+  "en": "You have nobly climbed{n}all the way to the top,{n}so now you must go down."
  },
  {
   "id": "2194_010",
   "hdr": "00000000",
   "jp": "わたしが下まで{n}おくってさしあげましょう",
-  "en": ""
+  "en": "I shall send you{n}back down to the bottom."
  },
  {
   "id": "2194_011",
   "hdr": "00000000",
   "jp": "さあ{sp}ゆきなさい",
-  "en": ""
+  "en": "Now, go."
  }
 ]

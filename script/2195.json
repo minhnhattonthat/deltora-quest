@@ -3,60 +3,60 @@
   "id": "2195_000",
   "hdr": "00000000",
   "jp": "買いますか？",
-  "en": ""
+  "en": "Buy this?"
  },
  {
   "id": "2195_001",
   "hdr": "28010700",
   "jp": "いらっしゃいませ～",
-  "en": ""
+  "en": "Welcome!"
  },
  {
   "id": "2195_002",
   "hdr": "28010700",
   "jp": "まいどあり～",
-  "en": ""
+  "en": "Thank you kindly!"
  },
  {
   "id": "2195_003",
   "hdr": "28010700",
   "jp": "いらっしゃいませ……{n}旅行用品なら{sp}なんでもござい……",
-  "en": ""
+  "en": "Welcome...{n}Travel goods of every kind, right here..."
  },
  {
   "id": "2195_004",
   "hdr": "28010700",
   "jp": "またのおこしを……",
-  "en": ""
+  "en": "Do come again..."
  },
  {
   "id": "2195_005",
   "hdr": "28010700",
   "jp": "またのおこしを……{p}そうそう、お客さんたちは{n}なかなか上客……の予感がしますな……{p}というわけで、これはおまけです。{n}『{c2}水くい虫{/c}』をどうぞ……フフフ{p}それから……{n}マドレットは{sp}いりませんかな？{p}馬よりも速くて強い生き物です。{n}ご存知ない？{p}旅の強い味方になりますよ。{n}どうぞためしに使ってみてください{p}こっちはおまけにはできませんが{n}そうですね……{p}お代は……まあ、そのうち……フフフ",
-  "en": ""
+  "en": "Do come again...{p}Oh yes, you folk strike me as{n}rather good customers... I sense it...{p}So here is a little extra.{n}Some {c2}Water-Eaters{/c}... Heh heh heh...{p}And also...{n}would you care for a muddlet?{p}A creature faster and stronger{n}than a horse. You've not heard of it?{p}It will be a great help on your travels.{n}Do try one out.{p}This one I can't give away free,{n}but let me see...{p}As for payment... well, some day...{n}Heh heh heh..."
  },
  {
   "id": "2195_006",
   "hdr": "00000000",
   "jp": "リーフは{n}『{c2}水くい虫{/c}』を手に入れた{p}3本足の生き物{n}マドレットに乗れるようになった",
-  "en": ""
+  "en": "Lief received{n}the {c2}Water-Eaters{/c}.{p}Lief can now ride muddlets,{n}the three-legged creatures."
  },
  {
   "id": "2195_007",
   "hdr": "28010600",
   "jp": "デインぼっちゃんのためにお安くしました",
-  "en": ""
+  "en": "A special price for Master Dain."
  },
  {
   "id": "2195_008",
   "hdr": "28010600",
   "jp": "まいどありがとうございます",
-  "en": ""
+  "en": "Thank you very much."
  },
  {
   "id": "2195_009",
   "hdr": "28010700",
   "jp": "あ、あなたも……なのですね……{p}ならばお安くしておきますよ",
-  "en": ""
+  "en": "Ah, so you too are... one of...{p}Then I'll give you a good price."
  }
 ]

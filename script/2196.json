@@ -3,132 +3,132 @@
   "id": "2196_000",
   "hdr": "00000000",
   "jp": "よーし{n}たたくぞー",
-  "en": ""
+  "en": "All right!{n}Time to hammer!"
  },
  {
   "id": "2196_001",
   "hdr": "00000000",
   "jp": "リーフはつかれたが{n}いい仕事をした",
-  "en": ""
+  "en": "Lief is tired,{n}but did good work."
  },
  {
   "id": "2196_002",
   "hdr": "00000000",
   "jp": "リーフの剣LVが{var}になった！！",
-  "en": ""
+  "en": "Lief's Sword LV is now {var}!"
  },
  {
   "id": "2196_003",
   "hdr": "00000000",
   "jp": "バルダの剣LVが{var}になった！！",
-  "en": ""
+  "en": "Barda's Sword LV is now {var}!"
  },
  {
   "id": "2196_004",
   "hdr": "00000000",
   "jp": "ジャスミンの剣LVが{var}になった！！",
-  "en": ""
+  "en": "Jasmine's Sword LV is now {var}!"
  },
  {
   "id": "2196_005",
   "hdr": "00000000",
   "jp": "鉄の合成により{n}一定時間『きぜつ』こうかをえた！",
-  "en": ""
+  "en": "Infused with iron:{n}Stun effect for a while!"
  },
  {
   "id": "2196_006",
   "hdr": "00000000",
   "jp": "銀の合成により{n}一定時間影のてきに大ダメージ！",
-  "en": ""
+  "en": "Infused with silver:{n}Big damage to Shadow foes for a while!"
  },
  {
   "id": "2196_007",
   "hdr": "00000000",
   "jp": "金の合成により{n}一定時間炎の追加ダメージ！",
-  "en": ""
+  "en": "Infused with gold:{n}Bonus fire damage for a while!"
  },
  {
   "id": "2196_008",
   "hdr": "00000000",
   "jp": "水晶の合成により{n}一定時間こうげきはんいが広がる！",
-  "en": ""
+  "en": "Infused with crystal:{n}Wider attack range for a while!"
  },
  {
   "id": "2196_009",
   "hdr": "00000000",
   "jp": "ジャードは少し{n}かじのコツをつかんだようだ",
-  "en": ""
+  "en": "Jarred seems to have got{n}the knack of smithing a little."
  },
  {
   "id": "2196_010",
   "hdr": "00000000",
   "jp": "かじのこころえ{n}{n}下画面をれんぞくタッチすると{n}リーフが剣をきたえます{n}メーターがたまると剣のLVがあがります",
-  "en": ""
+  "en": "Smithing Tips{n}{n}Tap the bottom screen rapidly{n}and Lief will forge the sword.{n}Fill the meter to raise Sword LV."
  },
  {
   "id": "2196_011",
   "hdr": "00000000",
   "jp": "かじのこころえ{n}{n}下画面をれんぞくタッチすると{n}ジャードが剣をきたえます{n}メーターがたまると剣のLVがあがります",
-  "en": ""
+  "en": "Smithing Tips{n}{n}Tap the bottom screen rapidly{n}and Jarred will forge the sword.{n}Fill the meter to raise Sword LV."
  },
  {
   "id": "2196_012",
   "hdr": "00000000",
   "jp": "リーフは『そざい』をもっています{n}{n}合成したい『そざい』をえらんでください{n}まる:けってい{n}やじるし:ごうせいしない",
-  "en": ""
+  "en": "Lief has Materials.{n}{n}Choose the Materials to infuse.{n}Circle: Confirm{n}Arrow: Don't infuse"
  },
  {
   "id": "2196_013",
   "hdr": "00000000",
   "jp": "　　　『{c2}鉄{/c}』　　　　　　　　　　　　　　{n}　　　　一定時間『きぜつ』こうかをえる　",
-  "en": ""
+  "en": "  {c2}Iron{/c}{n}    Stun effect for a while"
  },
  {
   "id": "2196_014",
   "hdr": "00000000",
   "jp": "　　　『{c2}銀{/c}』　　　　　　　　　　　　　　{n}　　　　一定時間影のてきに大ダメージ　　",
-  "en": ""
+  "en": "  {c2}Silver{/c}{n}    Big damage to Shadow foes"
  },
  {
   "id": "2196_015",
   "hdr": "00000000",
   "jp": "　　　『{c2}金{/c}』　　　　　　　　　　　　　　{n}　　　　一定時間炎の追加ダメージをえる　",
-  "en": ""
+  "en": "  {c2}Gold{/c}{n}    Bonus fire damage for a while"
  },
  {
   "id": "2196_016",
   "hdr": "00000000",
   "jp": "　　　『{c2}水晶(すいしょう){/c}』　　　　　　{n}　　　　一定時間こうげきはんいが広がる　",
-  "en": ""
+  "en": "  {c2}Crystal{/c}{n}    Wider attack range for a while"
  },
  {
   "id": "2196_017",
   "hdr": "00000000",
   "jp": "『{c2}デルのバッジ{/c}』がかがやいた！",
-  "en": ""
+  "en": "The {c2}Badge of Del{/c} shone!"
  },
  {
   "id": "2196_018",
   "hdr": "00000000",
   "jp": "『きぜつ』こうか",
-  "en": ""
+  "en": "Stun effect"
  },
  {
   "id": "2196_019",
   "hdr": "00000000",
   "jp": "影のてきに大ダメージ",
-  "en": ""
+  "en": "Big damage to Shadow foes"
  },
  {
   "id": "2196_020",
   "hdr": "00000000",
   "jp": "炎の追加ダメージ",
-  "en": ""
+  "en": "Bonus fire damage"
  },
  {
   "id": "2196_021",
   "hdr": "00000000",
   "jp": "こうげきはんいが広い",
-  "en": ""
+  "en": "Wide attack range"
  }
 ]
