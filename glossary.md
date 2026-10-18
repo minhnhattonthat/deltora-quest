@@ -81,6 +81,11 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | モキート | Mokito | game | Magic House master; his maid Mikita says モキート様 = "Master Mokito" | Mokiito, Mosquito |
 | ミキータ | Mikita | game | Mokito's maid | Mikiita |
 | ジャック | Jack | game | old farmer, Grand Farm | Jakku |
+| クレン | Kuren | game? | old Kin at Dread Mountain (name tag 0x14, 2185_059); ? Hepburn, not found in the novels | Kren |
+| ライ | Rai | game? | Noradz judge who sentences Tira (name tag 0x24, 2183_045); ? Hepburn | Rye, Lai |
+| ニジ / ドッジ | Niji / Dodge | game? | the hosts who speak an unknown language (name tags 0x29/0x2A, 2182_055); ? Hepburn | |
+| ろうば (name tag) | Old Woman | game | name tag 0x11 of the Queen of the Bees; "Old Woman" because the lines call her that before she is named | Granny |
+| せいれい | Spirit | game | name tag 0x2D; the topaz spirit (2180_158) | Fairy |
 | ララド族 | the Ralads | novel | | Rarado, Ralado |
 | リーフたち | Lief and co. / Lief's party | game UI | menu label: party select | |
 | リーフとなかまたち | Lief and Friends | game | card name | |

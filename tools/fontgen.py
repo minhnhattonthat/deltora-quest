@@ -25,9 +25,9 @@ def code_of(ch):
     return 0x6F if ch == "…" else 0x10 + ord(ch) - 0x20
 
 
-def glyphs():
+def glyphs(art=ART):
     out, cur = {}, None
-    for line in ART.read_text(encoding="utf-8").splitlines():
+    for line in art.read_text(encoding="utf-8").splitlines():
         if line.startswith("#") and cur is None or not line.strip():
             continue
         if line.startswith("== "):
