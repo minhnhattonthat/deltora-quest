@@ -26,7 +26,7 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
   are antialiased with that ramp, caps on rows 4-12. All 45 names and their English: `tools/tags.py` NAMES.
 - Tag sits top-left of the box when the portrait is on the left, top-right when on the right.
 
-| G6 | field menu labels | そうび / だいじ / そざい / カード / アイテム | field menu (bottom-right icon; scene `menu`) | 32x16 OBJ cells in sheet FILEDATA 5311 (3 copies each; objcell.py) | blocked: 32 px wide, fixed by the cell's 0x300 VRAM slot (icon + label); wording for the user |
+| G6 | field menu labels | そうび / だいじ / そざい / カード / アイテム | field menu (bottom-right icon; scene `menu`) | 32x16 OBJ cells in sheet FILEDATA 5311 (3 copies each; objcell.py) | done (D8): tools/menu.py re-packs bank 5310 (labels = two 32x16 sprites, slices 0x300 -> 0x400, top row up 6 px, middle row down 6); the game's VRAM allocator follows the bigger slices; checked in game with every sub-menu (work/qa/menus4) |
 | G7 | item menu header | フィールドでつかうアイテム | scene `menu_item`, BG3 | BG screen 542 over chr 541 (pal 540) | todo |
 | G8 | chapter title cards | 第1章 沈黙の森 ... 最終章 帰還 デルへ (8) | chapter start | BG screens 1694 1701 1708 1715 1722 1729 1736 1743 (gfxsurvey); chr = screen - 1 | imported (tools/cards.py, gfx/card_*.png); not seen in game yet: the warps skip the cards (story select / world map route needed) |
 | G9 | area title cards | あたたかい キャンプ, TOMの店, ジャスミンの まぜまぜ部屋, スペシャルステージ モキートの館, ジャックの グランドファーム, エクストラステージ 夢幻の塔, ひみつの オーディオルーム | area entry | BG screens 1750 1757 1764 1771 1778 1785 1792 | imported (tools/cards.py: "The Cosy / Camp", "Tom's Shop", ...); not seen in game yet |
@@ -44,7 +44,9 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
 Every RCSN rendered with the RGCN/RLCN just before it (work/qa/gfxsurvey, 418 screens; read by 4 reviewer agents,
 all sheets) and every RECN cell bank with the nearest RGCN big enough for its VRAM-transfer table (work/qa/objsurvey
 + objsurvey2 re-render, ~6300 unique cells, all read by reviewer agents). Some RGCNs are "linear" (flag word bit 0:
-row-major pixels per sprite, not 8x8 tiles); rendering them as tiles gives stripes.
+row-major pixels per sprite, not 8x8 tiles); rendering them as tiles gives stripes. Sprite sheets come in pairs
+around their cell bank: RGCN linear (before), RECN, RGCN tiled (after), same offsets; edit both (tags.py TWINS).
+Cell banks (RECN) decode/encode with nitro.parse_recn / build_recn (all 654 round-trip, tests/test_menu.py).
 The pairing is a guess: 1623 renders as a plausible second title layout over 1620's tiles but really is the bottom
 title screen's map over other tiles (VRAM dump work/qa/title_dump2). Confirm a pairing in VRAM before editing.
 

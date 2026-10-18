@@ -15,6 +15,7 @@ import codepatch  # noqa: E402
 import fontgen  # noqa: E402
 import lf2  # noqa: E402
 import logo  # noqa: E402
+import menu  # noqa: E402
 import tags  # noqa: E402
 import text  # noqa: E402
 
@@ -39,6 +40,7 @@ def build(orig, lang=None, marker=False):
         tags.apply(files)
         logo.apply(files)
         cards.apply(files)
+        menu.apply(files)
     rom.files[FILEDATA] = lf2.build(files, pads)
     out = bytearray(rom.save())
     out[0x1000:0x1004] = orig[0x1000:0x1004]  # ndspy writes a size word into this zero gap

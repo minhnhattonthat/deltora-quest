@@ -55,6 +55,58 @@ def with_tiles(rgcn, til):
     return rgcn[:start] + raw + rgcn[start + size:]
 
 
+def with_data(rgcn, raw):
+    """rgcn with its tile data replaced by raw bytes of any length (section and file sizes updated)."""
+    off, b = section(rgcn, b"RAHC")
+    size, doff = struct.unpack_from("<II", b, 0x10)
+    start = off + 8 + doff
+    out = bytearray(rgcn[:start] + raw + rgcn[start + size:])
+    struct.pack_into("<I", out, off + 8 + 0x10, len(raw))
+    struct.pack_into("<I", out, off + 4, struct.unpack_from("<I", rgcn, off + 4)[0] + len(raw) - size)
+    struct.pack_into("<I", out, 8, len(out))
+    return bytes(out)
+
+
+def parse_recn(recn):
+    """RECN cell bank -> dict: cells [{attr, objs [(a0, a1, a2)]}], mapping, transfer [(src, size)] or None,
+    max_transfer, rest (the KBEC fields kept as they are), tail (the sections after KBEC). 8-byte cell entries only."""
+    off = struct.unpack_from("<H", recn, 0x0C)[0]
+    assert recn[off:off + 4] == b"KBEC"
+    ksize = struct.unpack_from("<I", recn, off + 4)[0]
+    s = recn[off + 8:off + ksize]
+    n, attr, coff, mapping, vt, unk, ext = struct.unpack_from("<HHIIIII", s, 0)
+    assert attr & 1 == 0 and ext == 0 and coff == 0x18
+    oam0 = coff + n * 8
+    cells = []
+    for i in range(n):
+        nobj, cattr, ooff = struct.unpack_from("<HHI", s, coff + i * 8)
+        cells.append({"attr": cattr, "objs": [struct.unpack_from("<HHH", s, oam0 + ooff + k * 6) for k in range(nobj)]})
+    transfer, mx = None, 0
+    if vt:
+        mx, toff = struct.unpack_from("<II", s, vt)
+        transfer = [struct.unpack_from("<II", s, vt + toff + i * 8) for i in range(n)]
+    return {"head": recn[:off], "attr": attr, "mapping": mapping, "unk": unk, "cells": cells, "transfer": transfer,
+            "max_transfer": mx, "tail": recn[off + ksize:]}
+
+
+def build_recn(r):
+    n = len(r["cells"])
+    objs, entries, k = b"", b"", 0
+    for c in r["cells"]:
+        entries += struct.pack("<HHI", len(c["objs"]), c["attr"], k * 6)
+        objs += b"".join(struct.pack("<HHH", *o) for o in c["objs"])
+        k += len(c["objs"])
+    objs += b"\0" * (-len(objs) % 4)
+    vt = 0x18 + 8 * n + len(objs) if r["transfer"] is not None else 0
+    body = struct.pack("<HHIIIII", n, r["attr"], 0x18, r["mapping"], vt, r["unk"], 0) + entries + objs
+    if r["transfer"] is not None:
+        body += struct.pack("<II", r["max_transfer"], 8) + b"".join(struct.pack("<II", *t) for t in r["transfer"])
+    kbec = b"KBEC" + struct.pack("<I", 8 + len(body)) + body
+    out = bytearray(r["head"] + kbec + r["tail"])
+    struct.pack_into("<I", out, 8, len(out))
+    return bytes(out)
+
+
 def with_screen(rcsn, scr):
     off, b = section(rcsn, b"NRCS")
     size = struct.unpack_from("<I", b, 8)[0]
