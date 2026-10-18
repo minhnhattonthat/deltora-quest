@@ -747,7 +747,7 @@
   "id": "2180_124",
   "hdr": "01030104",
   "jp": "ぼくたちは{sp}ユリのミツなんて{n}いらないよ",
-  "en": "We don't want the nectar{n}of the Lilies!"
+  "en": "We don't want the nectar{n}of the Lilies of Life!"
  },
  {
   "id": "2180_125",
@@ -783,7 +783,7 @@
   "id": "2180_130",
   "hdr": "28010B78",
   "jp": "ユリのミツは{sp}わたさんぞ……",
-  "en": "You shall not have{n}the nectar of the Lilies..."
+  "en": "You shall not have{n}the nectar of the Lilies of Life..."
  },
  {
   "id": "2180_131",
@@ -855,13 +855,13 @@
   "id": "2180_142",
   "hdr": "1103030C",
   "jp": "のんで",
-  "en": "Make him drink it."
+  "en": "Drink it."
  },
  {
   "id": "2180_143",
   "hdr": "00000000",
   "jp": "父さん。{n}ユリのミツはすごいです。{n}バルダは{sp}あっというまに{n}元気になりました。",
-  "en": "Father,{n}the nectar of the Lilies is amazing.{n}In no time at all, Barda{n}was back on his feet."
+  "en": "Father,{n}the nectar is amazing.{n}In no time at all, Barda{n}was back on his feet."
  },
  {
   "id": "2180_144",

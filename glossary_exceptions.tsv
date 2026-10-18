@@ -1,3 +1,4 @@
 # Lines where a glossary term's JP appears but its EN form correctly does not (checked by the controller).
 # id	JP term	why
 2181_039	カギ	カギが…… = "it's locked", not the Key item
+2184_204	きのこ	生きのこって = "survive", not mushroom

@@ -3,349 +3,349 @@
   "id": "2186_000",
   "hdr": "0A030208",
   "jp": "リーフ！{n}グルーがきたぞ！！{p}にげろ！",
-  "en": ""
+  "en": "Lief!{n}The Glus are coming!!{p}Run!"
  },
  {
   "id": "2186_001",
   "hdr": "01030104",
   "jp": "よし{n}なんとかにげ切ったぞ！",
-  "en": ""
+  "en": "Right!{n}We managed to get away!"
  },
  {
   "id": "2186_002",
   "hdr": "00000100",
   "jp": "画面をたたけ！！",
-  "en": ""
+  "en": "Tap the screen!!"
  },
  {
   "id": "2186_003",
   "hdr": "00000000",
   "jp": "ジャードよ。{n}おまえが影の大王に{sp}つかまったと{n}聞いてから{sp}リーフは心ここにあらずだ。{n}{n}しかし、リーフを{sp}おまえのもとへ{n}帰すつもりはない。{n}それがおまえの望みだと信じている。{n}友よ。未来を見続けてくれ。",
-  "en": ""
+  "en": "Jarred,{n}ever since we heard the Shadow Lord{n}had captured you, Lief's mind{n}has been far away.{n}{n}But I will not send Lief back to you.{n}I believe that is what you would want.{n}My friend, keep looking to the future."
  },
  {
   "id": "2186_004",
   "hdr": "1103030C",
   "jp": "『まもののどうくつ』は本当に{n}こっちでいいの？",
-  "en": ""
+  "en": "Are you sure the Maze of the Beast{n}is really this way?"
  },
  {
   "id": "2186_005",
   "hdr": "09030208",
   "jp": "そのうちトル川に出るはずだ。{n}そして西海岸を目指して下る{p}キンの言葉をうたがう理由は{n}ないだろう",
-  "en": ""
+  "en": "We should reach the River Tor soon.{n}Then we follow it to the west coast.{p}There's no reason to doubt{n}what the Kin told us."
  },
  {
   "id": "2186_006",
   "hdr": "09030208",
   "jp": "なあ、リーフ？",
-  "en": ""
+  "en": "Right, Lief?"
  },
  {
   "id": "2186_007",
   "hdr": "03030104",
   "jp": "……うん",
-  "en": ""
+  "en": "...Yeah."
  },
  {
   "id": "2186_008",
   "hdr": "28010874",
   "jp": "キャッ！{sp}助けて！",
-  "en": ""
+  "en": "Eek! Help!"
  },
  {
   "id": "2186_009",
   "hdr": "28010894",
   "jp": "助けて～！",
-  "en": ""
+  "en": "Help me!"
  },
  {
   "id": "2186_010",
   "hdr": "28010998",
   "jp": "マリーが！{sp}マリーを助けて！",
-  "en": ""
+  "en": "It's Marie! Please, save Marie!"
  },
  {
   "id": "2186_011",
   "hdr": "09030208",
   "jp": "よし、オレが！",
-  "en": ""
+  "en": "Right, leave it to me!"
  },
  {
   "id": "2186_012",
   "hdr": "0D030208",
   "jp": "おい！{sp}どこだ！",
-  "en": ""
+  "en": "Hey! Where are you?"
  },
  {
   "id": "2186_013",
   "hdr": "0D030208",
   "jp": "どこだ！？{sp}見つからんぞ！",
-  "en": ""
+  "en": "Where?! I can't find anyone!"
  },
  {
   "id": "2186_014",
   "hdr": "02030104",
   "jp": "おい、何をする！",
-  "en": ""
+  "en": "Hey, what are you doing?!"
  },
  {
   "id": "2186_015",
   "hdr": "1E810C74",
   "jp": "うわっ！",
-  "en": ""
+  "en": "Argh!"
  },
  {
   "id": "2186_016",
   "hdr": "0A810208",
   "jp": "何者だ！",
-  "en": ""
+  "en": "Who are you?!"
  },
  {
   "id": "2186_017",
   "hdr": "1E810C74",
   "jp": "きみたちを{sp}守ろうとしたんだ！{n}それなのに……グフッ……",
-  "en": ""
+  "en": "I was trying to protect you!{n}And you... Ugh..."
  },
  {
   "id": "2186_018",
   "hdr": "02810104",
   "jp": "ウソをつくな！",
-  "en": ""
+  "en": "Liar!"
  },
  {
   "id": "2186_019",
   "hdr": "1E810C74",
   "jp": "ほら……あれを……",
-  "en": ""
+  "en": "Look... over there..."
  },
  {
   "id": "2186_020",
   "hdr": "1703030C",
   "jp": "キャッ！",
-  "en": ""
+  "en": "Ah!"
  },
  {
   "id": "2186_021",
   "hdr": "1E030C74",
   "jp": "オルだ……気を…つけて……",
-  "en": ""
+  "en": "It's an Ol... Be... careful..."
  },
  {
   "id": "2186_022",
   "hdr": "1E030C74",
   "jp": "……ほら、あれが{sp}オルの正体……",
-  "en": ""
+  "en": "...Look, that's what an Ol{n}really is..."
  },
  {
   "id": "2186_023",
   "hdr": "09030208",
   "jp": "こんな{sp}かいぶつがいるとは……",
-  "en": ""
+  "en": "I never knew such monsters existed..."
  },
  {
   "id": "2186_024",
   "hdr": "1303030C",
   "jp": "わたしたちを助けようと{n}してくれたのね",
-  "en": ""
+  "en": "He was trying{n}to help us."
  },
  {
   "id": "2186_025",
   "hdr": "1103030C",
   "jp": "リーフ、わからなかったの？",
-  "en": ""
+  "en": "Lief, couldn't you tell?"
  },
  {
   "id": "2186_026",
   "hdr": "03030104",
   "jp": "……とっさの事だったから",
-  "en": ""
+  "en": "...It all happened so fast."
  },
  {
   "id": "2186_027",
   "hdr": "1103030C",
   "jp": "それだけじゃないと思うけど？",
-  "en": ""
+  "en": "I don't think that's the only reason."
  },
  {
   "id": "2186_028",
   "hdr": "03030104",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2186_029",
   "hdr": "1103030C",
   "jp": "お父さんの事で{n}頭がいっぱいなんでしょ？",
-  "en": ""
+  "en": "Your head's full of{n}your father, isn't it?"
  },
  {
   "id": "2186_030",
   "hdr": "1203030C",
   "jp": "気持ちはわかるけど{n}そんなんじゃ旅なんかできないわ！",
-  "en": ""
+  "en": "I understand how you feel, but you{n}can't go on a journey like that!"
  },
  {
   "id": "2186_031",
   "hdr": "03030104",
   "jp": "(そのとおりだ……)",
-  "en": ""
+  "en": "(She's right...)"
  },
  {
   "id": "2186_032",
   "hdr": "01030104",
   "jp": "わかったよ……ぼくは帰る{p}父さんがひどい目にあっているのに{n}旅なんかしていられない",
-  "en": ""
+  "en": "All right... I'm going home.{p}I can't go on a journey{n}while Father is suffering."
  },
  {
   "id": "2186_033",
   "hdr": "0A030208",
   "jp": "そんなかっては{sp}ゆるさない",
-  "en": ""
+  "en": "I won't let you do as you please."
  },
  {
   "id": "2186_034",
   "hdr": "02030104",
   "jp": "ぼくが{sp}きめる事だ！",
-  "en": ""
+  "en": "It's my decision!"
  },
  {
   "id": "2186_035",
   "hdr": "09030208",
   "jp": "オレは……親友の息子を{n}あずかっている",
-  "en": ""
+  "en": "I... was trusted with{n}my dearest friend's son."
  },
  {
   "id": "2186_036",
   "hdr": "02030104",
   "jp": "(親友！？{n}ふん、いそうろうのくせに)",
-  "en": ""
+  "en": "(Dearest friend?!{n}Hmph. You were just a freeloader.)"
  },
  {
   "id": "2186_037",
   "hdr": "0B030208",
   "jp": "オレはジャードの{sp}かくごを知っている{p}リーフ{p}おまえが{sp}旅をやめたのが{n}自分のせいだとジャードが知ったら……",
-  "en": ""
+  "en": "I know what Jarred was ready to give.{p}Lief.{p}If Jarred learned you'd given up{n}the journey because of him..."
  },
  {
   "id": "2186_038",
   "hdr": "03030104",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2186_039",
   "hdr": "09030208",
   "jp": "よく考えてみるんだな。{n}父親から{sp}たくされた{sp}希望の重さを",
-  "en": ""
+  "en": "Think it over carefully.{n}The weight of the hope{p}your father placed in you."
  },
  {
   "id": "2186_040",
   "hdr": "03030104",
   "jp": "(父さん……重すぎるよ……)",
-  "en": ""
+  "en": "(Father... It's too heavy...)"
  },
  {
   "id": "2186_041",
   "hdr": "09030208",
   "jp": "さあ、ジャスミン。{n}この少年を手厚くほうむってやろう",
-  "en": ""
+  "en": "Now, Jasmine.{n}Let's give this boy a proper burial."
  },
  {
   "id": "2186_042",
   "hdr": "1E030C74",
   "jp": "死んでないって！",
-  "en": ""
+  "en": "I'm not dead!"
  },
  {
   "id": "2186_043",
   "hdr": "20030C74",
   "jp": "いやあ、ひどい目にあったよ",
-  "en": ""
+  "en": "Phew, that was rough."
  },
  {
   "id": "2186_044",
   "hdr": "03030104",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2186_045",
   "hdr": "1103030C",
   "jp": "リーフ？",
-  "en": ""
+  "en": "Lief?"
  },
  {
   "id": "2186_046",
   "hdr": "03030104",
   "jp": "……ごめん。{n}オルなんて初めてだったから……",
-  "en": ""
+  "en": "...Sorry.{n}I'd never seen an Ol before..."
  },
  {
   "id": "2186_047",
   "hdr": "1A030C74",
   "jp": "じゃあ、おぼえておくんだね{p}オルは影の王国から来たかいぶつ。{n}変身して相手をゆだんさせるんだ",
-  "en": ""
+  "en": "Then you'd better remember this.{p}Ols are monsters from the Shadowlands.{n}They change shape to trick you."
  },
  {
   "id": "2186_048",
   "hdr": "1103030C",
   "jp": "くわしいのね",
-  "en": ""
+  "en": "You know a lot about them."
  },
  {
   "id": "2186_049",
   "hdr": "1A030C74",
   "jp": "ジョーカーから聞いたんだ{p}レジスタンスのジョーカーは{n}知ってるよね？",
-  "en": ""
+  "en": "Doom told me.{p}You know Doom of the Resistance,{n}right?"
  },
  {
   "id": "2186_050",
   "hdr": "1203030C",
   "jp": "ジョーカー……",
-  "en": ""
+  "en": "Doom..."
  },
  {
   "id": "2186_051",
   "hdr": "20030C74",
   "jp": "気に入らないって顔だね。{n}実はぼくもさ",
-  "en": ""
+  "en": "You don't look like you like him.{n}Actually, neither do I."
  },
  {
   "id": "2186_052",
   "hdr": "1A030C74",
   "jp": "ジョーカーとは{n}ケンカ別れしてきたんだ",
-  "en": ""
+  "en": "Doom and I had a fight,{n}and I left."
  },
  {
   "id": "2186_053",
   "hdr": "09030208",
   "jp": "おまえはいったい{sp}だれだ？",
-  "en": ""
+  "en": "Just who are you?"
  },
  {
   "id": "2186_054",
   "hdr": "1A030C14",
   "jp": "ぼくはデイン{p}レジスタンスの一員で……{n}デルトラ王家の{sp}あとつぎさ",
-  "en": ""
+  "en": "I'm Dain.{p}A member of the Resistance...{n}and heir to the royal house of Deltora."
  },
  {
   "id": "2186_055",
   "hdr": "05030104",
   "jp": "なんだって！？",
-  "en": ""
+  "en": "What?!"
  },
  {
   "id": "2186_056",
   "hdr": "1F030C14",
   "jp": "……だれも信じてくれないけど",
-  "en": ""
+  "en": "...Not that anyone believes me."
  },
  {
   "id": "2186_057",
   "hdr": "01030104",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2186_058",

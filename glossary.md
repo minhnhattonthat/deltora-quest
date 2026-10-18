@@ -57,7 +57,7 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | フェルディナンド | Ferdinand | game? | Rithmere con man; ? not recalled from novel | Ferudinando |
 | グラ•ソン | Gla-Thon | novel | Gnome | Gurason, Gla Thon, Gura-Son |
 | ファ•グリン | Fa-Glin | novel | Gnome leader (長老 = elder) | Fagurin, Fa Glin |
-| グノメ / グノメ族 | the Gnomes / Gnomes of Dread Mountain | novel | short form "Gnomes" | Gunome, Gnome tribe |
+| グノメ / グノメ族 | the Gnomes | novel | long form "the Gnomes of Dread Mountain" where the JP stresses the tribe | Gunome, Gnome tribe |
 | ゲリック | Gellick | novel | giant toad | Gerikku, Gelick, Gellik |
 | キン | the Kin (pl) / a Kin | novel | | Kinn |
 | プリン | Prin | novel | young Kin | Purin, Pudding |
@@ -129,7 +129,7 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | 岩壁 | the rock wall | game | | |
 | 砂漠 | the desert | game | | |
 | きょうふの山 / 恐怖の山 | Dread Mountain | novel | ch.5 title | Mountain of Fear, Kyoufu |
-| 若返りの泉 / 泉 | the Spring of Youth | game | ? not the novel's Dreaming Spring | Fountain of Rejuvenation |
+| 若返りの泉 | the Spring of Youth | game | ? not the novel's Dreaming Spring | Fountain of Rejuvenation |
 | グノメ族のとりで / 砦 | the Gnomes' stronghold | novel-derived | | Gnome fort |
 | ようしょくじょう / 養殖場 | the breeding grounds | game | Gellick's toad farm | aquaculture |
 | まもののどうくつ / 魔物の洞窟 | the Maze of the Beast | novel | ch.6 title (JP novel title too) | Cave of Monsters, Demon Cave |
@@ -190,7 +190,13 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | ブーロンの皮の盾 | Boolong-Skin Shield | game | bare たて / 盾 = shield | |
 | 女王バチ | Queen Bee | novel | brand name | |
 | 女王バチのアップルドリンク | Queen Bee juice | novel | 立ち入り禁止 sign = "Queen Bee juice - Keep out" | apple drink |
-| アップルドリンク | Queen Bee Juice | novel | item-list name; ? could be plain "Apple Juice" for the mixable item | |
+| アップルドリンク | Queen Bee juice | novel | also the item-list name (same casing as the sign) | |
+| 長老 | (guide) the Elder | novel | Kin / Gnome elder (b011, b012) | |
+| キンのひこう | Kin Flight | game | minigame title (b012) | |
+| きょうぎ大会 | (guide) the Games | novel | the Rithmere Games (b009) | |
+| 金貨 / 銀貨 | (guide) gold coin(s) / silver coin(s) | game | (b009) | |
+| ルーレット | (guide) the wheel | game | "a spin of the wheel" (b009) | |
+| にがおえかき | (guide) portrait painter | game | (b011) | |
 | ハチミツ / 女王バチのハチミツ | honey / Queen Bee honey | novel | | |
 | 母がつくったマント / マント | Mother's Cloak / the cloak | novel | the cloak Anna made | |
 | マドレット | muddlet | novel | 3-legged mount, returns to World Map; ? spelling | Madoretto, Madlet |

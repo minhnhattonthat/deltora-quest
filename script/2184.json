@@ -63,1530 +63,1530 @@
   "id": "2184_010",
   "hdr": "1181030C",
   "jp": "その宝石のうちの3こを{n}リーフが取りもどした事よ",
-  "en": ""
+  "en": "That Lief has taken back{n}three of the gems."
  },
  {
   "id": "2184_011",
   "hdr": "01810104",
   "jp": "どうだろう……{n}でも、そう考えた方がいいよね",
-  "en": ""
+  "en": "Who knows...{n}But it's safer to think so, isn't it?"
  },
  {
   "id": "2184_012",
   "hdr": "0B810208",
   "jp": "うむ。{n}用心に{sp}こした事はない",
-  "en": ""
+  "en": "Mm.{n}You can never be too careful."
  },
  {
   "id": "2184_013",
   "hdr": "1281030C",
   "jp": "それじゃあ、こんなところで{n}ボーッとしてちゃダメじゃない！",
-  "en": ""
+  "en": "Then we shouldn't be standing{n}around here in a daze!"
  },
  {
   "id": "2184_014",
   "hdr": "09810208",
   "jp": "だれがボーッとしたんだ？",
-  "en": ""
+  "en": "Who's standing around in a daze?"
  },
  {
   "id": "2184_015",
   "hdr": "04810104",
   "jp": "一番さいしょに立ち止まった人さ！",
-  "en": ""
+  "en": "Whoever stopped first!"
  },
  {
   "id": "2184_016",
   "hdr": "0A810208",
   "jp": "？？？{sp}……おい！",
-  "en": ""
+  "en": "??? ...Hey!"
  },
  {
   "id": "2184_017",
   "hdr": "03030104",
   "jp": "もうダメだ……",
-  "en": ""
+  "en": "I can't go on..."
  },
  {
   "id": "2184_018",
   "hdr": "1281030C",
   "jp": "どうしたの？{sp}だらしないわよ！",
-  "en": ""
+  "en": "What's wrong? Don't be so feeble!"
  },
  {
   "id": "2184_019",
   "hdr": "03030104",
   "jp": "ごめん、でも……",
-  "en": ""
+  "en": "Sorry, but..."
  },
  {
   "id": "2184_020",
   "hdr": "09810208",
   "jp": "うーむ……しかたあるまい{p}リーフは{sp}こっぴどく{n}リアにやられたんだからな",
-  "en": ""
+  "en": "Hmm... It can't be helped.{p}Reeah gave Lief{n}a terrible beating, after all."
  },
  {
   "id": "2184_021",
   "hdr": "1303030C",
   "jp": "それも……そうね",
-  "en": ""
+  "en": "That's... true."
  },
  {
   "id": "2184_022",
   "hdr": "1103030C",
   "jp": "うん、ここは安全みたい",
-  "en": ""
+  "en": "Good, it looks safe here."
  },
  {
   "id": "2184_023",
   "hdr": "01810104",
   "jp": "ジャスミン！？",
-  "en": ""
+  "en": "Jasmine?!"
  },
  {
   "id": "2184_024",
   "hdr": "0B030208",
   "jp": "こいつ、もう{sp}ねむってるぞ",
-  "en": ""
+  "en": "She's already asleep."
  },
  {
   "id": "2184_025",
   "hdr": "01810104",
   "jp": "……ものすごい意地っぱりだね",
-  "en": ""
+  "en": "...She's so stubborn."
  },
  {
   "id": "2184_026",
   "hdr": "01810104",
   "jp": "あれ？{sp}バルダがいない",
-  "en": ""
+  "en": "Huh? Where's Barda?"
  },
  {
   "id": "2184_027",
   "hdr": "28010974",
   "jp": "どろぼー！",
-  "en": ""
+  "en": "Thief!"
  },
  {
   "id": "2184_028",
   "hdr": "2F810944",
   "jp": "おや、どろぼうの仲間だね",
-  "en": ""
+  "en": "Well, well. The thief's friends, eh?"
  },
  {
   "id": "2184_029",
   "hdr": "1203030C",
   "jp": "どろぼうだなんて、いいがかりよ！",
-  "en": ""
+  "en": "Thieves? That's a lie!"
  },
  {
   "id": "2184_030",
   "hdr": "2F810944",
   "jp": "その男に聞いてみな！",
-  "en": ""
+  "en": "Ask that man there!"
  },
  {
   "id": "2184_031",
   "hdr": "0B810208",
   "jp": "リンゴを……",
-  "en": ""
+  "en": "The apples..."
  },
  {
   "id": "2184_032",
   "hdr": "2F810944",
   "jp": "あたしの大事なリンゴさ！",
-  "en": ""
+  "en": "My precious apples!"
  },
  {
   "id": "2184_033",
   "hdr": "03030104",
   "jp": "(バルダ……なさけない……)",
-  "en": ""
+  "en": "(Barda... How pathetic...)"
  },
  {
   "id": "2184_034",
   "hdr": "09810208",
   "jp": "(おまえたちに食べさせようと……)",
-  "en": ""
+  "en": "(I only wanted to get you{n}something to eat...)"
  },
  {
   "id": "2184_035",
   "hdr": "2F810944",
   "jp": "おまえたち、どこから来たんだい？",
-  "en": ""
+  "en": "And where have you lot come from?"
  },
  {
   "id": "2184_036",
   "hdr": "01030104",
   "jp": "ラットシティです",
-  "en": ""
+  "en": "The City of the Rats."
  },
  {
   "id": "2184_037",
   "hdr": "1181030C",
   "jp": "はばひろ川を{sp}わたって来たのよ",
-  "en": ""
+  "en": "We crossed the Broad River."
  },
  {
   "id": "2184_038",
   "hdr": "2F810944",
   "jp": "あの町が{sp}もえているのは{n}おまえたちのしわざなんだね！？",
-  "en": ""
+  "en": "So that town burning over there{n}is your doing, is it?!"
  },
  {
   "id": "2184_039",
   "hdr": "2F810944",
   "jp": "そうなんだね！{n}なんて事だい！",
-  "en": ""
+  "en": "It is, isn't it!{n}Oh, my word!"
  },
  {
   "id": "2184_040",
   "hdr": "2F810944",
   "jp": "さっさとここから出て行きな！",
-  "en": ""
+  "en": "Get out of here, and be quick!"
  },
  {
   "id": "2184_041",
   "hdr": "09810208",
   "jp": "(見のがしてくれるようだ)",
-  "en": ""
+  "en": "(Looks like she'll let us go.)"
  },
  {
   "id": "2184_042",
   "hdr": "03030104",
   "jp": "(知り合いだと思われたくないからだよ)",
-  "en": ""
+  "en": "(Only because she doesn't want{n}anyone to think she knows us.)"
  },
  {
   "id": "2184_043",
   "hdr": "2F810944",
   "jp": "ごちゃごちゃ言ってないで{n}さっさと出て行きな！{p}いいかい、ここへ来た事は{n}だれにも言うんじゃないよ！{p}あたしまで{sp}まきこまれちゃ{n}かなわないからね！",
-  "en": ""
+  "en": "Stop your muttering and{n}get out of here, and be quick!{p}And mind you, don't tell anyone{n}you came here!{p}I won't be dragged{n}into your trouble!"
  },
  {
   "id": "2184_044",
   "hdr": "03030104",
   "jp": "(やっぱり)",
-  "en": ""
+  "en": "(Just as I thought.)"
  },
  {
   "id": "2184_045",
   "hdr": "01810104",
   "jp": "女王バチのアップルドリンク。{n}立ち入り禁止……だってさ",
-  "en": ""
+  "en": "\"Queen Bee juice. Keep out.\"{n}That's what it says."
  },
  {
   "id": "2184_046",
   "hdr": "0C810208",
   "jp": "おお！{p}あのアップルドリンクは{n}ここでつくっていたのか！{p}のめば{sp}かならず力がみなぎると{n}城の兵士のあいだでは有名だった",
-  "en": ""
+  "en": "Oh!{p}So this is where that{n}Queen Bee juice is made!{p}The palace guards all knew of it.{n}One drink, and you're full of strength!"
  },
  {
   "id": "2184_047",
   "hdr": "1281030C",
   "jp": "そんな話、しないでよ！{n}ノドがかわいてきたじゃない",
-  "en": ""
+  "en": "Don't talk about that!{n}Now I'm getting thirsty."
  },
  {
   "id": "2184_048",
   "hdr": "03810104",
   "jp": "うん、ぼくたちはリンゴを{n}食べていないからね",
-  "en": ""
+  "en": "Yeah. We didn't get to eat{n}any apples, after all."
  },
  {
   "id": "2184_049",
   "hdr": "0B810208",
   "jp": "……すまん",
-  "en": ""
+  "en": "...Sorry."
  },
  {
   "id": "2184_050",
   "hdr": "28010000",
   "jp": "『女王バチのアップルドリンク{n}立ち入り禁止』",
-  "en": ""
+  "en": "Queen Bee juice{n}KEEP OUT"
  },
  {
   "id": "2184_051",
   "hdr": "2B030974",
   "jp": "もうすぐリスメアだ",
-  "en": ""
+  "en": "Rithmere's not far now."
  },
  {
   "id": "2184_052",
   "hdr": "28010700",
   "jp": "ああ、今年こそやってやる！",
-  "en": ""
+  "en": "Yes! This year's my year!"
  },
  {
   "id": "2184_053",
   "hdr": "2B030974",
   "jp": "チャンピオンは{sp}オレだ！",
-  "en": ""
+  "en": "I'll be the champion!"
  },
  {
   "id": "2184_054",
   "hdr": "0C810208",
   "jp": "よろこべ、近くに{sp}町があるぞ",
-  "en": ""
+  "en": "Good news. There's a town nearby."
  },
  {
   "id": "2184_055",
   "hdr": "1403030C",
   "jp": "やった！",
-  "en": ""
+  "en": "Hooray!"
  },
  {
   "id": "2184_056",
   "hdr": "01030104",
   "jp": "きょうぎ大会って？",
-  "en": ""
+  "en": "Games? What games?"
  },
  {
   "id": "2184_057",
   "hdr": "09810208",
   "jp": "リスメアで毎年開かれる{n}きょうぎ大会のウワサは聞いている{p}大会のあいだ、町は{sp}祭りのように{n}にぎわうそうだ{p}しかも、大王の手下どもも{n}来ないらしい",
-  "en": ""
+  "en": "I've heard tell of the Games{n}held in Rithmere every year.{p}They say the town is as lively{n}as a festival while they're on.{p}What's more, they say the Shadow{n}Lord's servants keep away."
  },
  {
   "id": "2184_058",
   "hdr": "04030104",
   "jp": "すごい！",
-  "en": ""
+  "en": "Great!"
  },
  {
   "id": "2184_059",
   "hdr": "00000000",
   "jp": "かじ屋だ。{n}なつかしい気持ちがする",
-  "en": ""
+  "en": "A blacksmith's forge.{n}It makes me feel homesick."
  },
  {
   "id": "2184_060",
   "hdr": "280106AC",
   "jp": "もしもし{sp}そこゆく{n}ぼっちゃん{sp}じょーちゃん！{p}ルーレットをやらないかい？{p}お代は1回銀貨1枚！{p}出た目の数だけ{n}銀貨が{sp}ふえてもどってくる！{p}どうだい、すごいだろ！",
-  "en": ""
+  "en": "Hey there, young sir and young miss,{n}passing by!{p}How about a spin of the wheel?{p}Just one silver coin a go!{p}Your silver comes back multiplied{n}by the number that comes up!{p}How about it? Amazing, eh?"
  },
  {
   "id": "2184_061",
   "hdr": "1481030C",
   "jp": "本当！？",
-  "en": ""
+  "en": "Really?!"
  },
  {
   "id": "2184_062",
   "hdr": "1481060C",
   "jp": "はい、銀貨1枚！",
-  "en": ""
+  "en": "Here, one silver coin!"
  },
  {
   "id": "2184_063",
   "hdr": "0B810108",
   "jp": "ジャスミン……",
-  "en": ""
+  "en": "Jasmine..."
  },
  {
   "id": "2184_064",
   "hdr": "280106AC",
   "jp": "はいはいはい回しますよ！",
-  "en": ""
+  "en": "Right, right, right, round she goes!"
  },
  {
   "id": "2184_065",
   "hdr": "280106AC",
   "jp": "ざんねん！{p}でもガッカリする事はないよ。{n}ほら、ざんねん賞だ",
-  "en": ""
+  "en": "Too bad!{p}But don't be disappointed.{n}Here, a consolation prize."
  },
  {
   "id": "2184_066",
   "hdr": "09810208",
   "jp": "ほら、インチキだ",
-  "en": ""
+  "en": "See? It's a swindle."
  },
  {
   "id": "2184_067",
   "hdr": "03810104",
   "jp": "世間知らずなんだから……",
-  "en": ""
+  "en": "She doesn't know a thing about the world..."
  },
  {
   "id": "2184_068",
   "hdr": "1481030C",
   "jp": "あら、わたしはこれが{n}気に入ったわ",
-  "en": ""
+  "en": "Oh, but I like this one."
  },
  {
   "id": "2184_069",
   "hdr": "28010000",
   "jp": "なんのやくにも{sp}たたない{n}『{c2}木ぼりの小鳥{/c}』を手に入れた！",
-  "en": ""
+  "en": "Got a {c2}Carved Wooden Bird{/c},{n}good for absolutely nothing!"
  },
  {
   "id": "2184_070",
   "hdr": "03810104",
   "jp": "(銀貨1枚じゃ{sp}たかいよ……)",
-  "en": ""
+  "en": "(That's not worth a silver coin...)"
  },
  {
   "id": "2184_071",
   "hdr": "280106AC",
   "jp": "ほら、ぼっちゃん！{p}そんをしたと思ったら{n}取りかえさなくちゃ！",
-  "en": ""
+  "en": "Come on, young sir!{p}If you feel you've lost out,{n}you've got to win it back!"
  },
  {
   "id": "2184_072",
   "hdr": "01810104",
   "jp": "ここは宿屋だよね。とめてくれるかな？",
-  "en": ""
+  "en": "This is an inn, isn't it?{n}Do you think they'll let us stay?"
  },
  {
   "id": "2184_073",
   "hdr": "09030208",
   "jp": "部屋が空いていればいいが……",
-  "en": ""
+  "en": "I hope they have a room free..."
  },
  {
   "id": "2184_074",
   "hdr": "29810930",
   "jp": "ようこそ宿屋チャンピオンへ！",
-  "en": ""
+  "en": "Welcome to the Champion Inn!"
  },
  {
   "id": "2184_075",
   "hdr": "09810208",
   "jp": "部屋はありますか？",
-  "en": ""
+  "en": "Do you have any rooms?"
  },
  {
   "id": "2184_076",
   "hdr": "29810930",
   "jp": "もちろんですとも！{p}あなたたち、きょうぎ大会に{n}出るのよね？",
-  "en": ""
+  "en": "Of course we do!{p}You'll be competing in the Games,{n}won't you?"
  },
  {
   "id": "2184_077",
   "hdr": "03810104",
   "jp": "ええと……",
-  "en": ""
+  "en": "Um..."
  },
  {
   "id": "2184_078",
   "hdr": "0B810208",
   "jp": "どうしたものかと……",
-  "en": ""
+  "en": "We were just wondering..."
  },
  {
   "id": "2184_079",
   "hdr": "29810930",
   "jp": "出場者は食事と部屋代が{n}ただですよ",
-  "en": ""
+  "en": "Competitors get their meals{n}and rooms for free!"
  },
  {
   "id": "2184_080",
   "hdr": "0C810208",
   "jp": "出ます",
-  "en": ""
+  "en": "We're in."
  },
  {
   "id": "2184_081",
   "hdr": "09810208",
   "jp": "(いい考えがある。まかせてくれ)",
-  "en": ""
+  "en": "(I've got a good idea. Leave it to me.)"
  },
  {
   "id": "2184_082",
   "hdr": "04810104",
   "jp": "出ます",
-  "en": ""
+  "en": "We're in."
  },
  {
   "id": "2184_083",
   "hdr": "29810930",
   "jp": "そうでしょうとも！{p}さあさあ、食堂へ行って{n}たっぷり食べてくださいな",
-  "en": ""
+  "en": "Of course you are!{p}Now then, off to the dining hall{n}and eat your fill!"
  },
  {
   "id": "2184_084",
   "hdr": "01030104",
   "jp": "ねえ、バルダ{p}さっき言ってた『いい考え』ってなに？",
-  "en": ""
+  "en": "Hey, Barda...{p}What was that \"good idea\"{n}you mentioned?"
  },
  {
   "id": "2184_085",
   "hdr": "09810208",
   "jp": "チャンピオンになれば{n}金貨1000枚だそうだ{p}それを{sp}オレたちで{n}いただこうじゃないか",
-  "en": ""
+  "en": "They say the champion wins{n}a thousand gold coins.{p}I say we take that gold{n}for ourselves!"
  },
  {
   "id": "2184_086",
   "hdr": "1303030C",
   "jp": "いい考えって……",
-  "en": ""
+  "en": "Your good idea is..."
  },
  {
   "id": "2184_087",
   "hdr": "03810104",
   "jp": "それ？",
-  "en": ""
+  "en": "...that?"
  },
  {
   "id": "2184_088",
   "hdr": "0C030208",
   "jp": "ああ",
-  "en": ""
+  "en": "Yes."
  },
  {
   "id": "2184_089",
   "hdr": "0B030208",
   "jp": "オレたちは{sp}これまでたくさんの{n}かいぶつたちと戦ってきた",
-  "en": ""
+  "en": "We've fought a great many{n}monsters on our travels."
  },
  {
   "id": "2184_090",
   "hdr": "0C030208",
   "jp": "それにくらべたら、いなかの{n}うでじまんなんて相手じゃないさ！",
-  "en": ""
+  "en": "Next to them, a few country show-offs{n}are no match for us!"
  },
  {
   "id": "2184_091",
   "hdr": "1481030C",
   "jp": "それもそうね",
-  "en": ""
+  "en": "That's true."
  },
  {
   "id": "2184_092",
   "hdr": "03810104",
   "jp": "(そうかな……)",
-  "en": ""
+  "en": "(I wonder...)"
  },
  {
   "id": "2184_093",
   "hdr": "0C030208",
   "jp": "オレのパワー！{n}ジャスミンの身軽さ！{sp}リーフの……",
-  "en": ""
+  "en": "My strength! Jasmine's agility!{n}Lief's..."
  },
  {
   "id": "2184_094",
   "hdr": "01810104",
   "jp": "ぼくの？",
-  "en": ""
+  "en": "My...?"
  },
  {
   "id": "2184_095",
   "hdr": "0C030208",
   "jp": "……せいぎ感！",
-  "en": ""
+  "en": "...sense of justice!"
  },
  {
   "id": "2184_096",
   "hdr": "03810104",
   "jp": "(なんだよ、それ)",
-  "en": ""
+  "en": "(What's that supposed to mean?)"
  },
  {
   "id": "2184_097",
   "hdr": "1181030C",
   "jp": "リーフにはスピードがあるわよ",
-  "en": ""
+  "en": "Lief has speed."
  },
  {
   "id": "2184_098",
   "hdr": "0C030208",
   "jp": "そうだ、スピードだ！{p}スピードは{sp}おまえにたりないものを{n}ぜんぶ{sp}おぎなってくれるぞ！",
-  "en": ""
+  "en": "Yes, speed!{p}Speed will make up for everything{n}else you're lacking!"
  },
  {
   "id": "2184_099",
   "hdr": "02810104",
   "jp": "ひっかかる言い方だなぁ",
-  "en": ""
+  "en": "I don't like the way you put that..."
  },
  {
   "id": "2184_100",
   "hdr": "0C030208",
   "jp": "まあ、自信を持とうじゃないか",
-  "en": ""
+  "en": "Anyway, let's have a little confidence!"
  },
  {
   "id": "2184_101",
   "hdr": "00000500",
   "jp": "父さん、ぼくたちは{n}自信を持ちすぎました。",
-  "en": ""
+  "en": "Father, we were{n}far too confident."
  },
  {
   "id": "2184_102",
   "hdr": "00000000",
   "jp": "きょうぎ大会に出た{sp}ぼくたちは{n}あれよあれよと{sp}けっしょうへ……{n}{n}けっしょうに{sp}のこったのは{n}ぼくたち3人と見知らぬ男がひとり……",
-  "en": ""
+  "en": "We entered the Games and,{n}before we knew it, reached the final...{n}{n}Left in the final were the three{n}of us and one stranger..."
  },
  {
   "id": "2184_103",
   "hdr": "09810208",
   "jp": "(まず、あいつを{sp}たおそう)",
-  "en": ""
+  "en": "(First, let's take him down.)"
  },
  {
   "id": "2184_104",
   "hdr": "01030104",
   "jp": "(それから？)",
-  "en": ""
+  "en": "(And then?)"
  },
  {
   "id": "2184_105",
   "hdr": "1281030C",
   "jp": "(きまってるじゃない。インチキよ)",
-  "en": ""
+  "en": "(Isn't it obvious? We cheat.)"
  },
  {
   "id": "2184_106",
   "hdr": "1281030C",
   "jp": "(3人のうち、だれがかっても{n}金貨は手に入るのよ？)",
-  "en": ""
+  "en": "(Whichever of us three wins,{n}we get the gold, right?)"
  },
  {
   "id": "2184_107",
   "hdr": "02030104",
   "jp": "(ここまで来たんだから{n}正々堂々と戦おうよ){p}(ぼくたちが{sp}たおしてきた相手に{n}もうしわけないと思わない？)",
-  "en": ""
+  "en": "(We've come this far.{n}Let's fight fair and square.){p}(Don't you feel bad for{n}everyone we've beaten?)"
  },
  {
   "id": "2184_108",
   "hdr": "09810208",
   "jp": "(ケガでもしたらどうする？)",
-  "en": ""
+  "en": "(And what if you get hurt?)"
  },
  {
   "id": "2184_109",
   "hdr": "01030104",
   "jp": "(手かげんするよ)",
-  "en": ""
+  "en": "(I'll go easy on you.)"
  },
  {
   "id": "2184_110",
   "hdr": "1281030C",
   "jp": "(まるであなたが{sp}かつみたいな{n}言い方ね！)",
-  "en": ""
+  "en": "(You talk as if you're{n}the one who'll win!)"
  },
  {
   "id": "2184_111",
   "hdr": "03030104",
   "jp": "(そういうわけじゃないけど)",
-  "en": ""
+  "en": "(That's not what I meant...)"
  },
  {
   "id": "2184_112",
   "hdr": "19810710",
   "jp": "おい、試合中だぞ！",
-  "en": ""
+  "en": "Hey, we're in the middle of a match!"
  },
  {
   "id": "2184_113",
   "hdr": "1203030C",
   "jp": "わかってるわよ！",
-  "en": ""
+  "en": "I know that!"
  },
  {
   "id": "2184_114",
   "hdr": "00000000",
   "jp": "怒ったジャスミンは強いんです……{n}本当に。",
-  "en": ""
+  "en": "Jasmine is strong when she's angry...{n}Truly."
  },
  {
   "id": "2184_115",
   "hdr": "00000000",
   "jp": "ゆだんしていた{sp}ぼくとバルダは{n}ジャスミンに{sp}あっさりと……",
-  "en": ""
+  "en": "Barda and I let our guard down,{n}and Jasmine made short work of us..."
  },
  {
   "id": "2184_116",
   "hdr": "0A030208",
   "jp": "ジャスミン、ケガには気をつけろ！",
-  "en": ""
+  "en": "Jasmine, be careful not to get hurt!"
  },
  {
   "id": "2184_117",
   "hdr": "1281030C",
   "jp": "負けた人は{sp}だまってて！",
-  "en": ""
+  "en": "Losers, keep quiet!"
  },
  {
   "id": "2184_118",
   "hdr": "19030710",
   "jp": "どうした……オレはまだ立っているぞ",
-  "en": ""
+  "en": "What's wrong... I'm still standing."
  },
  {
   "id": "2184_119",
   "hdr": "1281030C",
   "jp": "ふん！{sp}おじさん、つかれて{n}フラフラのくせに",
-  "en": ""
+  "en": "Hmph! Look at you, mister.{n}You're so tired you can barely stand!"
  },
  {
   "id": "2184_120",
   "hdr": "19030710",
   "jp": "ふん、そう思うならトドメをさせ。{n}それとも……オレがこわいのか？{p}無理もない、おまえはまだ小むすめ。{n}本当なら母親のそばがお似合いだ{p}ほら、泣きながら家に帰れ",
-  "en": ""
+  "en": "Hmph. If you think so, finish me.{n}Or... are you afraid of me?{p}No wonder. You're only a girl.{n}You belong at your mother's side.{p}Go on, run home crying."
  },
  {
   "id": "2184_121",
   "hdr": "1281030C",
   "jp": "お母さんですって！？{n}家ですって！？",
-  "en": ""
+  "en": "My mother?!{n}Home?!"
  },
  {
   "id": "2184_122",
   "hdr": "1281030C",
   "jp": "わたしの事なんか{n}何も知らないくせに！",
-  "en": ""
+  "en": "You don't know{n}anything about me!"
  },
  {
   "id": "2184_123",
   "hdr": "02030104",
   "jp": "ジャスミン、やめろ！{n}しょうぶは{sp}きまった",
-  "en": ""
+  "en": "Jasmine, stop!{n}The match is over!"
  },
  {
   "id": "2184_124",
   "hdr": "29030930",
   "jp": "やりましたね！{sp}チャンピオンですよ！",
-  "en": ""
+  "en": "You did it! You're the champion!"
  },
  {
   "id": "2184_125",
   "hdr": "09810208",
   "jp": "どうした？",
-  "en": ""
+  "en": "What's wrong?"
  },
  {
   "id": "2184_126",
   "hdr": "1303030C",
   "jp": "わたし……お母さんの事を{n}言われてカッとなって……{p}そう、怒りに心をうばわれたの{p}もう{sp}しょうはいは{sp}きまっているのに{n}相手を{sp}せめつづけた……{p}しかも{sp}それを楽しんでいたのよ。{n}リーフが止めてくれなかったら……",
-  "en": ""
+  "en": "I... When he talked about my mother,{n}I just flew into a rage...{p}Yes, my anger took over my heart.{p}The match was already decided,{n}but I kept on attacking him...{p}And I was enjoying it.{n}If Lief hadn't stopped me..."
  },
  {
   "id": "2184_127",
   "hdr": "09810208",
   "jp": "忘れてしまえ{p}命がけの戦いで{sp}おまえはかった。{n}ただそれだけの事だ",
-  "en": ""
+  "en": "Forget it.{p}It was a fight for your life, and you won.{n}That is all there is to it."
  },
  {
   "id": "2184_128",
   "hdr": "29030930",
   "jp": "そうですよ！{n}ほら、金貨もこんなに！",
-  "en": ""
+  "en": "That's right!{n}And look at all this gold!"
  },
  {
   "id": "2184_129",
   "hdr": "1303030C",
   "jp": "受け取ってもいいのかしら……",
-  "en": ""
+  "en": "Should I really accept it...?"
  },
  {
   "id": "2184_130",
   "hdr": "09030208",
   "jp": "ジャスミン次第だ。{n}なあ、リーフ？",
-  "en": ""
+  "en": "It's up to Jasmine.{n}Right, Lief?"
  },
  {
   "id": "2184_131",
   "hdr": "01030104",
   "jp": "もちろん。{n}チャンピオンはジャスミンだからね",
-  "en": ""
+  "en": "Of course.{n}Jasmine is the champion, after all."
  },
  {
   "id": "2184_132",
   "hdr": "1103030C",
   "jp": "それじゃあ、もらうわ{p}このお金を使うたびに思い出すの。{n}われを{sp}忘れる{sp}おそろしさを",
-  "en": ""
+  "en": "Then I'll take it.{p}Every time I spend this money, I'll remember{n}how frightening it is to lose control."
  },
  {
   "id": "2184_133",
   "hdr": "0B030208",
   "jp": "そうだな。{n}オレたちも思い出すだろうよ",
-  "en": ""
+  "en": "Yes.{n}And we'll remember something too."
  },
  {
   "id": "2184_134",
   "hdr": "01030104",
   "jp": "ジャスミンを怒らせるな、ってね",
-  "en": ""
+  "en": "Never make Jasmine angry!"
  },
  {
   "id": "2184_135",
   "hdr": "1203030C",
   "jp": "もう！{sp}わたしはまじめに{n}言ってるのよ！",
-  "en": ""
+  "en": "Oh, stop it!{n}I'm being serious!"
  },
  {
   "id": "2184_136",
   "hdr": "00000500",
   "jp": "ぼくたちは宿屋のおかみさんの{n}マザー•ブライトリーが教えてくれた{n}うら道から{sp}町を出ました。",
-  "en": ""
+  "en": "We left town by a back road that{n}Mother Brightly, who keeps the inn,{n}had told us about."
  },
  {
   "id": "2184_137",
   "hdr": "00000500",
   "jp": "賞金目当ての{sp}ごうとうがいるから{n}表から出るのは{sp}きけんだと言われました。",
-  "en": ""
+  "en": "She said robbers after the prize money{n}made the front way too dangerous."
  },
  {
   "id": "2184_138",
   "hdr": "00000500",
   "jp": "でも父さん。{n}町を出たとたんになぐられて{n}ぼくたちは気を失ってしまいました。{n}{n}あの男が助けてくれなかったら{n}どうなっていた事か……",
-  "en": ""
+  "en": "But, Father,{n}the moment we left town{n}we were struck and knocked out.{n}{n}If that man hadn't saved us,{n}who knows what would have happened..."
  },
  {
   "id": "2184_139",
   "hdr": "19030710",
   "jp": "気がついたか？",
-  "en": ""
+  "en": "So, you're awake?"
  },
  {
   "id": "2184_140",
   "hdr": "1203030C",
   "jp": "あなたは……けっしょう戦の相手！？",
-  "en": ""
+  "en": "You... You're the one I fought{n}in the final?!"
  },
  {
   "id": "2184_141",
   "hdr": "19030710",
   "jp": "ふん……好きほうだいに{sp}やってくれたな",
-  "en": ""
+  "en": "Hmph... You certainly gave me{n}a beating."
  },
  {
   "id": "2184_142",
   "hdr": "0A030208",
   "jp": "オレたちを{sp}おそったのは{n}あんただな！",
-  "en": ""
+  "en": "So you're the one{n}who attacked us!"
  },
  {
   "id": "2184_143",
   "hdr": "19030710",
   "jp": "おそわれた{sp}おまえたちを助けたんだ。{n}すこしは{sp}かんしゃしてくれ",
-  "en": ""
+  "en": "You were attacked, and I saved you.{n}A little gratitude would be nice."
  },
  {
   "id": "2184_144",
   "hdr": "01030104",
   "jp": "あなたは……だれ？",
-  "en": ""
+  "en": "Who... are you?"
  },
  {
   "id": "2184_145",
   "hdr": "19030710",
   "jp": "オレはジョーカー。{n}レジスタンスのリーダーだ",
-  "en": ""
+  "en": "I am Doom.{n}Leader of the Resistance."
  },
  {
   "id": "2184_146",
   "hdr": "0A030208",
   "jp": "なんと！{n}影の大王と戦うレジスタンスの！？",
-  "en": ""
+  "en": "What?!{n}The Resistance that fights the Shadow Lord?!"
  },
  {
   "id": "2184_147",
   "hdr": "19030710",
   "jp": "ああ",
-  "en": ""
+  "en": "Yes."
  },
  {
   "id": "2184_148",
   "hdr": "1203030C",
   "jp": "そのリーダーが{sp}どうして{n}あんな大会に出たのよ",
-  "en": ""
+  "en": "Then why would its leader{n}enter a contest like that?"
  },
  {
   "id": "2184_149",
   "hdr": "19030710",
   "jp": "おまえたちが何者なのか{n}たしかめようと思ったのだ",
-  "en": ""
+  "en": "I wanted to find out{n}who you really are."
  },
  {
   "id": "2184_150",
   "hdr": "01030104",
   "jp": "……ぼくたちを？",
-  "en": ""
+  "en": "...Us?"
  },
  {
   "id": "2184_151",
   "hdr": "19030710",
   "jp": "おまえたちはウワサになっている{p}男と少年、野育ちの少女の3人組が{n}黒い鳥と旅をしている{p}その3人の行く先々で影の大王の{n}手下が{sp}たおされる……とな{p}さて……おまえたちは何者だ？{n}どんなもくてきで旅をしている？",
-  "en": ""
+  "en": "People are talking about you.{p}A man, a boy and a wild girl,{n}travelling with a black bird.{p}And wherever the three of them go,{n}the Shadow Lord's servants fall...{p}So... who are you?{n}And why are you travelling?"
  },
  {
   "id": "2184_152",
   "hdr": "01030104",
   "jp": "ぼくたちは……",
-  "en": ""
+  "en": "We're..."
  },
  {
   "id": "2184_153",
   "hdr": "0A030208",
   "jp": "リーフ、ダメだ！",
-  "en": ""
+  "en": "Lief, no!"
  },
  {
   "id": "2184_154",
   "hdr": "19030710",
   "jp": "なるほど……ひみつというわけか{p}なに、無理に聞き出しはしない。{n}オレたちは{sp}大王とはちがうからな",
-  "en": ""
+  "en": "I see... So it's a secret.{p}Never mind, I won't force it out of you.{n}We are not like the Shadow Lord."
  },
  {
   "id": "2184_155",
   "hdr": "1203030C",
   "jp": "もう行きましょう！",
-  "en": ""
+  "en": "Let's just go!"
  },
  {
   "id": "2184_156",
   "hdr": "19030710",
   "jp": "今、外は{sp}きけんだぞ。{n}影の憲兵団が{sp}おまえたちをさがしている",
-  "en": ""
+  "en": "It's dangerous out there now.{n}The Grey Guards are looking for you."
  },
  {
   "id": "2184_157",
   "hdr": "01030104",
   "jp": "どうして？",
-  "en": ""
+  "en": "Why?"
  },
  {
   "id": "2184_158",
   "hdr": "19030710",
   "jp": "おまえたちを{sp}おそったのは{n}憲兵団だからさ{p}マザー•ブライトリーの差し金だ",
-  "en": ""
+  "en": "Because the ones who attacked you{n}were Grey Guards.{p}And Mother Brightly sent them."
  },
  {
   "id": "2184_159",
   "hdr": "0A030208",
   "jp": "マザー•ブライトリーが！？",
-  "en": ""
+  "en": "Mother Brightly?!"
  },
  {
   "id": "2184_160",
   "hdr": "19030710",
   "jp": "そのとおり。{p}影の大王の{sp}やみのきょうぎ大会に{n}せんしゅを送りこむのが{sp}もくてきだ{p}ここの大会とはちがって、戦うのは{n}かいぶつばかり{p}つまり、めいよも賞金もない{n}ざんこくな見せ物に出されるんだ",
-  "en": ""
+  "en": "That's right.{p}Her aim is to send fighters{n}to the Shadow Lord's Shadow Arena.{p}Unlike the games here, the only{n}opponents there are monsters.{p}No honour, no prize money. Just{n}a cruel show for others to watch."
  },
  {
   "id": "2184_161",
   "hdr": "03030104",
   "jp": "……もう、だれを信じていいのか{n}わからないよ",
-  "en": ""
+  "en": "...I don't know who{n}we can trust any more."
  },
  {
   "id": "2184_162",
   "hdr": "19030710",
   "jp": "オレを信じてみてはどうだ？{p}レジスタンスのアジトで{n}好きなだけかくまってやるぞ",
-  "en": ""
+  "en": "Why not try trusting me?{p}At the Resistance hideout,{n}you can hide for as long as you like."
  },
  {
   "id": "2184_163",
   "hdr": "0A030208",
   "jp": "おりゃ！",
-  "en": ""
+  "en": "Hyah!"
  },
  {
   "id": "2184_164",
   "hdr": "19030710",
   "jp": "うっ！",
-  "en": ""
+  "en": "Ugh!"
  },
  {
   "id": "2184_165",
   "hdr": "01030104",
   "jp": "バルダ！？",
-  "en": ""
+  "en": "Barda?!"
  },
  {
   "id": "2184_166",
   "hdr": "09030208",
   "jp": "おまえの言うとおりだ。{n}だれも信用できない{p}この男も同じ事{p}アジトにつれこんで{sp}オレたちの{n}ひみつを聞き出すつもりかもしれん",
-  "en": ""
+  "en": "You said it yourself.{n}We can't trust anyone.{p}This man is no different.{p}He may want to get us into his hideout{n}and make us tell him our secret."
  },
  {
   "id": "2184_167",
   "hdr": "1103030C",
   "jp": "そうね。正体不明の男に{sp}だまされるより{n}憲兵団と戦うほうがマシよ",
-  "en": ""
+  "en": "Right. Better to fight the Grey Guards{n}than be tricked by a man we don't know."
  },
  {
   "id": "2184_168",
   "hdr": "00000500",
   "jp": "父さん……だれも信用できないなんて……{n}おそろしくて、さびしいです。",
-  "en": ""
+  "en": "Father... Not being able to trust anyone...{n}It's frightening, and lonely."
  },
  {
   "id": "2184_169",
   "hdr": "03810104",
   "jp": "どっちへ行けばいいんだろう",
-  "en": ""
+  "en": "Which way should we go?"
  },
  {
   "id": "2184_170",
   "hdr": "09030208",
   "jp": "オレたちが目指している{n}『うごめく砂』はそう遠くないはずだ",
-  "en": ""
+  "en": "The Shifting Sands, where we're{n}heading, can't be far from here."
  },
  {
   "id": "2184_171",
   "hdr": "1103030C",
   "jp": "クリー！",
-  "en": ""
+  "en": "Kree!"
  },
  {
   "id": "2184_172",
   "hdr": "1203030C",
   "jp": "ほら、あっちよ！{n}クリーを信じなさい！",
-  "en": ""
+  "en": "Look, that way!{n}Trust Kree!"
  },
  {
   "id": "2184_173",
   "hdr": "03810104",
   "jp": "ねえ、バルダ",
-  "en": ""
+  "en": "Hey, Barda."
  },
  {
   "id": "2184_174",
   "hdr": "09030208",
   "jp": "なんだ？",
-  "en": ""
+  "en": "What?"
  },
  {
   "id": "2184_175",
   "hdr": "01810104",
   "jp": "信用できる仲間がいて良かったよ",
-  "en": ""
+  "en": "I'm glad I have friends{n}I can trust."
  },
  {
   "id": "2184_176",
   "hdr": "0B030208",
   "jp": "……ああ。{n}しかし、オレも時にはまちがえるぞ",
-  "en": ""
+  "en": "...Yes.{n}But even I get things wrong sometimes."
  },
  {
   "id": "2184_177",
   "hdr": "04810104",
   "jp": "うん、よーく{sp}わかってる",
-  "en": ""
+  "en": "Yeah, I know that very well."
  },
  {
   "id": "2184_178",
   "hdr": "0A030208",
   "jp": "おい！",
-  "en": ""
+  "en": "Hey!"
  },
  {
   "id": "2184_179",
   "hdr": "09030208",
   "jp": "ジャード……いい息子を持ったな",
-  "en": ""
+  "en": "Jarred... You have a fine son."
  },
  {
   "id": "2184_180",
   "hdr": "01810104",
   "jp": "ここが『うごめく砂』だね",
-  "en": ""
+  "en": "So this is the Shifting Sands."
  },
  {
   "id": "2184_181",
   "hdr": "09030208",
   "jp": "そのようだな",
-  "en": ""
+  "en": "So it seems."
  },
  {
   "id": "2184_182",
   "hdr": "1203030C",
   "jp": "こんなところで宝石をさがすの！？",
-  "en": ""
+  "en": "We're supposed to find a gem{n}in a place like this?!"
  },
  {
   "id": "2184_183",
   "hdr": "01810104",
   "jp": "なんとかなるよ{p}今までの宝石と同じように{n}番人に守られてるはずだ{p}そして、その番人は{sp}ぼくたちが{n}来た事に気づいているはず",
-  "en": ""
+  "en": "We'll manage.{p}Like the other gems, it must{n}be protected by a guardian.{p}And that guardian must already{n}know that we're here."
  },
  {
   "id": "2184_184",
   "hdr": "09030208",
   "jp": "よし、かんげいしてもらおうか！",
-  "en": ""
+  "en": "Right, let's see what kind of welcome{n}we get!"
  },
  {
   "id": "2184_185",
   "hdr": "01810104",
   "jp": "うん！",
-  "en": ""
+  "en": "Yeah!"
  },
  {
   "id": "2184_186",
   "hdr": "1103030C",
   "jp": "ねえ、何か聞こえるでしょ？",
-  "en": ""
+  "en": "Hey, can you hear something?"
  },
  {
   "id": "2184_187",
   "hdr": "0B030208",
   "jp": "ブーンという音か？",
-  "en": ""
+  "en": "That buzzing sound?"
  },
  {
   "id": "2184_188",
   "hdr": "02810104",
   "jp": "何かがいるのは{sp}かくじつさ",
-  "en": ""
+  "en": "Something's out there, that's for sure."
  },
  {
   "id": "2184_189",
   "hdr": "09030208",
   "jp": "ブーンという音は{n}虫のはねの音だったようだな",
-  "en": ""
+  "en": "So that buzzing was the sound{n}of insect wings."
  },
  {
   "id": "2184_190",
   "hdr": "1103030C",
   "jp": "虫が宝石を守っているの？",
-  "en": ""
+  "en": "Insects guarding the gem?"
  },
  {
   "id": "2184_191",
   "hdr": "03810104",
   "jp": "いや……",
-  "en": ""
+  "en": "No..."
  },
  {
   "id": "2184_192",
   "hdr": "0A030208",
   "jp": "来るぞ！{n}今度こそ番人か！？",
-  "en": ""
+  "en": "Here it comes!{n}Is this the guardian at last?!"
  },
  {
   "id": "2184_193",
   "hdr": "1103030C",
   "jp": "宝石は？",
-  "en": ""
+  "en": "What about the gem?"
  },
  {
   "id": "2184_194",
   "hdr": "03810104",
   "jp": "それが……ベルトが反応しないんだ",
-  "en": ""
+  "en": "That's the thing...{n}The Belt isn't reacting."
  },
  {
   "id": "2184_195",
   "hdr": "0B030208",
   "jp": "やれやれ……",
-  "en": ""
+  "en": "Well, well..."
  },
  {
   "id": "2184_196",
   "hdr": "0B030208",
   "jp": "今のかいぶつは番人じゃなかったのか",
-  "en": ""
+  "en": "So that monster wasn't the guardian."
  },
  {
   "id": "2184_197",
   "hdr": "02810104",
   "jp": "うわっ！",
-  "en": ""
+  "en": "Whoa!"
  },
  {
   "id": "2184_198",
   "hdr": "0A030208",
   "jp": "リーフ！",
-  "en": ""
+  "en": "Lief!"
  },
  {
   "id": "2184_199",
   "hdr": "1203030C",
   "jp": "きゃっ！",
-  "en": ""
+  "en": "Eek!"
  },
  {
   "id": "2184_200",
   "hdr": "02810104",
   "jp": "バルダ、ベルトがあつい！{n}宝石があるよ！{p}わかった！{n}この砂が宝石の番人なんだ！",
-  "en": ""
+  "en": "Barda, the Belt is hot!{n}The gem is here!{p}I've got it!{n}The sand itself is the guardian!"
  },
  {
   "id": "2184_201",
   "hdr": "1203010C",
   "jp": "そんな事が{sp}わかっても{n}どうしようもないわよ！",
-  "en": ""
+  "en": "Knowing that doesn't help us{n}one bit!"
  },
  {
   "id": "2184_202",
   "hdr": "0A810108",
   "jp": "リーフ、ジャスミン！{n}生きろ！{sp}なんとしても生きろ！",
-  "en": ""
+  "en": "Lief, Jasmine!{n}Live! Whatever it takes, live!"
  },
  {
   "id": "2184_203",
   "hdr": "1203010C",
   "jp": "そうよ、せめてリーフだけでも！",
-  "en": ""
+  "en": "Yes, at least Lief must survive!"
  },
  {
   "id": "2184_204",
   "hdr": "00000000",
   "jp": "ぼくだけ生きのこって{n}旅を続けるなんて……{n}いや、それでも旅を続けないと……{n}宝石を取りもどすんだ……{n}{n}でも……ああ、バルダ、ジャスミン……",
-  "en": ""
+  "en": "Me, the only one left alive,{n}going on with the quest...{n}No, I have to go on even so...{n}I have to get the gems back...{n}{n}But... oh, Barda, Jasmine..."
  },
  {
   "id": "2184_205",
   "hdr": "00000000",
   "jp": "ん……息ができるぞ？",
-  "en": ""
+  "en": "Huh... I can breathe?"
  },
  {
   "id": "2184_206",
   "hdr": "01810104",
   "jp": "こ、これは！？",
-  "en": ""
+  "en": "Wh-what's this?!"
  },
  {
   "id": "2184_207",
   "hdr": "03810104",
   "jp": "そうか、砂にのみこまれた{n}旅人たちの{sp}おとし物がここに……",
-  "en": ""
+  "en": "I see. Everything dropped by travellers{n}the sand swallowed up ends up here..."
  },
  {
   "id": "2184_208",
   "hdr": "0A030208",
   "jp": "生きていたんだな、リーフ！",
-  "en": ""
+  "en": "You're alive, Lief!"
  },
  {
   "id": "2184_209",
   "hdr": "03810104",
   "jp": "バルダァ……",
-  "en": ""
+  "en": "Bardaaa..."
  },
  {
   "id": "2184_210",
   "hdr": "1403030C",
   "jp": "やーねー、今の{sp}なさけない声は{n}本当にリーフなの？",
-  "en": ""
+  "en": "Oh, please. Was that pathetic voice{n}really Lief?"
  },
  {
   "id": "2184_211",
   "hdr": "03810104",
   "jp": "ジャスミン……",
-  "en": ""
+  "en": "Jasmine..."
  },
  {
   "id": "2184_212",
   "hdr": "1103030C",
   "jp": "もしかして、泣いてる？",
-  "en": ""
+  "en": "Wait, are you crying?"
  },
  {
   "id": "2184_213",
   "hdr": "03810104",
   "jp": "ま、まさか……",
-  "en": ""
+  "en": "N-no way..."
  },
  {
   "id": "2184_214",
   "hdr": "09030208",
   "jp": "ほら、リーフ、しっかりしてくれ。{n}宝石はまだなんだろう？",
-  "en": ""
+  "en": "Come on, Lief, pull yourself together.{n}We still haven't found the gem, have we?"
  },
  {
   "id": "2184_215",
   "hdr": "1103030C",
   "jp": "……この塔、宝石だらけよ。{n}どれがベルトの宝石なの？",
-  "en": ""
+  "en": "...This tower is full of gems.{n}Which one is the gem for the Belt?"
  },
  {
   "id": "2184_216",
   "hdr": "03810104",
   "jp": "ええと……",
-  "en": ""
+  "en": "Um..."
  },
  {
   "id": "2184_217",
   "hdr": "09030208",
   "jp": "おい、リーフ。{n}ベルトの宝石が光っているぞ",
-  "en": ""
+  "en": "Look, Lief.{n}One of the gems in the Belt is glowing."
  },
  {
   "id": "2184_218",
   "hdr": "01810104",
   "jp": "光っているのは……オパールだ",
-  "en": ""
+  "en": "The one glowing is... the opal."
  },
  {
   "id": "2184_219",
   "hdr": "1103030C",
   "jp": "どういう事？",
-  "en": ""
+  "en": "What does that mean?"
  },
  {
   "id": "2184_220",
   "hdr": "03810104",
   "jp": "ええと……{p}オパールは希望の宝石……{p}未来をかいま見せる……{p}目が弱いものを助ける……{p}まだあったはず……",
-  "en": ""
+  "en": "Um...{p}The opal is the gem of hope...{p}It gives glimpses of the future...{p}It helps those with weak eyes...{p}There was something else..."
  },
  {
   "id": "2184_221",
   "hdr": "1203030C",
   "jp": "思い出して！",
-  "en": ""
+  "en": "Think!"
  },
  {
   "id": "2184_222",
   "hdr": "01810104",
   "jp": "そうだ！",
-  "en": ""
+  "en": "That's it!"
  },
  {
   "id": "2184_223",
   "hdr": "00000501",
   "jp": "オパールは神力の石{n}まよけにもなるラピスラズリと{n}強いつながりを持つ石",
-  "en": ""
+  "en": "The opal has a strong link{n}with the lapis lazuli, the heavenly{n}stone, which also wards off evil."
  },
  {
   "id": "2184_224",
   "hdr": "01810104",
   "jp": "ここにはラピスラズリがあるはずだ！{p}だから{sp}つながりを持つ{n}オパールが光っているんだ！",
-  "en": ""
+  "en": "The lapis lazuli must be here!{p}That's why the opal, which is{n}linked to it, is glowing!"
  },
  {
   "id": "2184_225",
   "hdr": "09030208",
   "jp": "なるほど！",
-  "en": ""
+  "en": "Of course!"
  },
  {
   "id": "2184_226",
   "hdr": "01810104",
   "jp": "どこに{sp}あるんだろう……",
-  "en": ""
+  "en": "Where could it be...?"
  },
  {
   "id": "2184_227",
   "hdr": "1203030C",
   "jp": "あれ！",
-  "en": ""
+  "en": "There!"
  },
  {
   "id": "2184_228",
   "hdr": "02810104",
   "jp": "よーし、行ってくる！",
-  "en": ""
+  "en": "All right, I'm going in!"
  },
  {
   "id": "2184_229",
   "hdr": "00000500",
   "jp": "父さん。{n}こうして{sp}ぼくたちはラピスラズリを{n}手に入れました。{n}{n}苦労や辛い事が{sp}多い旅だけど{n}なんとか生きています。{n}でも、気になる事があります。",
-  "en": ""
+  "en": "Father,{n}that is how we got{n}the lapis lazuli.{n}{n}It's a hard and painful journey,{n}but somehow we are still alive.{n}Still, one thing worries me."
  },
  {
   "id": "2184_230",
   "hdr": "00000500",
   "jp": "ぼくたちは{sp}あちらこちらで{n}ウワサになっているみたいなのです。{n}影の大王の耳にもとどいているのかな？",
-  "en": ""
+  "en": "It seems people all over{n}are talking about us.{n}Has it reached the Shadow Lord's ears?"
  },
  {
   "id": "2184_231",
   "hdr": "09810208",
   "jp": "岩で先に進めないぞ",
-  "en": ""
+  "en": "These rocks are blocking the way."
  },
  {
   "id": "2184_232",
   "hdr": "03020104",
   "jp": "どうしよう",
-  "en": ""
+  "en": "What do we do?"
  },
  {
   "id": "2184_233",
   "hdr": "1403030C",
   "jp": "あら、こんな岩くらい{n}かんたんに登れるじゃない",
-  "en": ""
+  "en": "Oh, come on. Rocks like these{n}are easy to climb."
  },
  {
   "id": "2184_234",
   "hdr": "03020104",
   "jp": "(ジャスミンならね……)",
-  "en": ""
+  "en": "(For Jasmine, maybe...)"
  },
  {
   "id": "2184_235",
   "hdr": "0B810208",
   "jp": "なにかロープのような物でもあればな……{n}『{c1}TOMの店{/c}』にでも行ってみるか",
-  "en": ""
+  "en": "If only we had something like a rope...{n}Shall we try {c1}Tom's shop{/c}?"
  },
  {
   "id": "2184_236",
   "hdr": "09810208",
   "jp": "そうだ！{n}この『{c2}じどうまき取りロープ{/c}』を使おう",
-  "en": ""
+  "en": "I know!{n}We'll use this {c2}Self-Winding Rope{/c}."
  },
  {
   "id": "2184_237",
   "hdr": "1103030C",
   "jp": "じゃあ{sp}私が先に行って{n}ロープをかけてくる",
-  "en": ""
+  "en": "Then I'll go up first{n}and tie the rope."
  },
  {
   "id": "2184_238",
   "hdr": "1103030C",
   "jp": "行くわよ！",
-  "en": ""
+  "en": "Here I go!"
  },
  {
   "id": "2184_239",
   "hdr": "01020104",
   "jp": "よし、これで登れるぞ！",
-  "en": ""
+  "en": "Right, now we can climb up!"
  },
  {
   "id": "2184_240",
   "hdr": "28010800",
   "jp": "ほいほいほい{p}あなたも玉に乗ってみない？{n}たまにはいいものよ",
-  "en": ""
+  "en": "Hup, hup, hup!{p}Why not try riding the ball too?{n}You'll have a ball!"
  },
  {
   "id": "2184_241",
   "hdr": "28010600",
   "jp": "すごいな～。{n}玉に乗るなんて",
-  "en": ""
+  "en": "Wow!{n}Riding on a ball!"
  },
  {
   "id": "2184_242",
   "hdr": "28010900",
   "jp": "まるで玉が生き物のようね",
-  "en": ""
+  "en": "It's as if the ball were alive."
  },
  {
   "id": "2184_243",
   "hdr": "28010700",
   "jp": "このクマ、なんか変",
-  "en": ""
+  "en": "This bear is kind of weird."
  },
  {
   "id": "2184_244",
   "hdr": "28010600",
   "jp": "ピッピッピ～ヒャララ",
-  "en": ""
+  "en": "Toodle-oodle-ooo!"
  },
  {
   "id": "2184_245",
   "hdr": "28010900",
   "jp": "ズンタカタ～{sp}ズンタカタ～",
-  "en": ""
+  "en": "Boom-ta-ta, boom-ta-ta!"
  },
  {
   "id": "2184_246",
   "hdr": "28010700",
   "jp": "たいこと笛のアンサンブル。{n}さいこうだ！",
-  "en": ""
+  "en": "A drum and flute duet.{n}Wonderful!"
  },
  {
   "id": "2184_247",
   "hdr": "28010800",
   "jp": "もう～、何してるのかしら。{n}おそいわね～",
-  "en": ""
+  "en": "Honestly, what is she doing?{n}She's taking so long..."
  },
  {
   "id": "2184_248",
   "hdr": "28010100",
   "jp": "あ！{sp}おかあさ……{p}んは、どこにいったのかなあ",
-  "en": ""
+  "en": "Oh! Mu--{p}--m... I wonder where she's gone."
  },
  {
   "id": "2184_249",
   "hdr": "28010900",
   "jp": "ワン",
-  "en": ""
+  "en": "Woof! ...One!"
  },
  {
   "id": "2184_250",
   "hdr": "28010900",
   "jp": "ツー",
-  "en": ""
+  "en": "Two!"
  },
  {
   "id": "2184_251",
   "hdr": "28010800",
   "jp": "スリー",
-  "en": ""
+  "en": "Three!"
  },
  {
   "id": "2184_252",
   "hdr": "28010600",
   "jp": "この木はすばらしいなー。{n}なんていう木なんだろう{p}気になるなー{p}おっ{p}いや、なんでもない",
-  "en": ""
+  "en": "What a wonderful tree this is.{n}I wonder what kind of tree it is.{p}I'd really like to know...{p}Oh!{p}No, never mind."
  },
  {
   "id": "2184_253",
   "hdr": "28010A00",
   "jp": "がおー{sp}がおー{p}がお、がはっがはっ{p}がおー{sp}がおー",
-  "en": ""
+  "en": "Rawr! Rawr!{p}Rawr... *hack* *hack*{p}Rawr! Rawr!"
  },
  {
   "id": "2184_254",
   "hdr": "28010A00",
   "jp": "ワンワン",
-  "en": ""
+  "en": "Woof woof!"
  },
  {
   "id": "2184_255",
   "hdr": "280106AC",
   "jp": "インチキいっさいありません！！",
-  "en": ""
+  "en": "Absolutely no tricks at all!!"
  },
  {
   "id": "2184_256",
   "hdr": "28010700",
   "jp": "まわりを見ても、たいした参加者もいない{p}優勝はまちがいなく、このオレだな",
-  "en": ""
+  "en": "Look around. Not one contestant{n}worth worrying about.{p}I'm sure to win this, no doubt."
  },
  {
   "id": "2184_257",
   "hdr": "28010900",
   "jp": "ふふふ。{n}けっしょうでまってるわよ",
-  "en": ""
+  "en": "Hee hee.{n}I'll be waiting for you in the final."
  },
  {
   "id": "2184_258",
   "hdr": "28010600",
   "jp": "ああ、どうしよう。{n}きんちょう{sp}してきた",
-  "en": ""
+  "en": "Oh, what am I going to do?{n}I'm getting nervous."
  },
  {
   "id": "2184_259",
   "hdr": "29810930",
   "jp": "あちらのテーブルに食事を用意しましたわ。{n}さめないうちにどうぞ",
-  "en": ""
+  "en": "I've laid out a meal on that table{n}over there. Do eat before it gets cold."
  },
  {
   "id": "2184_260",
   "hdr": "28010600",
   "jp": "わたしは町の{sp}にがおえかき。{n}そっくりにかくって{sp}ひょうばんなんです{p}でも、大事なふでを無くしちゃって{n}困っています{p}どこで無くしちゃったのかな",
-  "en": ""
+  "en": "I'm the town's portrait painter.{n}They say my portraits look just like you.{p}But I've lost my precious brush,{n}and I don't know what to do.{p}Where could I have lost it?"
  },
  {
   "id": "2184_261",
   "hdr": "28010600",
   "jp": "あ！{n}それはぼくのふでじゃないですか！{p}見つけてくれたんですね。{n}ありがとう{p}おれいに1枚かきましょう！",
-  "en": ""
+  "en": "Ah!{n}Isn't that my brush?!{p}You found it for me.{n}Thank you!{p}Let me paint you a portrait{n}to thank you!"
  },
  {
   "id": "2184_262",
   "hdr": "28010600",
   "jp": "大ひょうばんの{sp}にがおえどうですか～{p}あ、もう持ってますね",
-  "en": ""
+  "en": "Portraits! Famous portraits!{n}Would you like one?{p}Oh, you already have one."
  },
  {
   "id": "2184_263",
   "hdr": "28010944",
   "jp": "あんたたち、さっさと出てっておくれ！",
-  "en": ""
+  "en": "You lot, get out of here this instant!"
  },
  {
   "id": "2184_264",
   "hdr": "00000000",
   "jp": "『女王バチのアップルドリンク{n}立ち入り禁止』",
-  "en": ""
+  "en": "Queen Bee juice{n}Keep out"
  }
 ]

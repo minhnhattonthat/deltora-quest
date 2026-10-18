@@ -173,9 +173,11 @@ def check(name):
             if "?" in gen or gen.startswith("("):
                 continue
             # cells may list alternatives: "バルダ / バルダァ" | "Jin / Jod / Jin and Jod"
+            gen = re.sub(r"\s*\((?!s\))[^)]*\)", "", gen)  # notes in the EN cell: "Tom's shop (sign: TOM)"
             forms = [re.sub(r"^(the|a|an) ", "", x.strip(), flags=re.I).replace("(s)", "").lower()
                      for x in gen.split("/")]
             forms = [f[:-1] if f.endswith("s") and len(f) > 3 else f for f in forms]  # "Ralads" also accepts "Ralad"
+            forms = [f[:-1] if f.endswith("y") and len(f) > 2 else f for f in forms]  # "Fly" also accepts "Flies"
             jps = [x.strip() for x in j.split(" / ")]
             if not re.sub(r"^(the|a|an) ", "", gen.strip(), flags=re.I)[:1].isupper():
                 jps = []  # common nouns may become pronouns ("set them in..."): enforce proper nouns only

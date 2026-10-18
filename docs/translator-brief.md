@@ -57,6 +57,9 @@ use it consistently, and report it.
 - The glossary check matches whole words; if it still flags a false hit, report it as `UNSURE: id - false glossary
   hit <term>` and leave the line as is (the controller fixes the checker).
 - Japanese written backwards (signs like 『！いなぶあ　！んけき』) = backwards English, keep it readable ("!regnaD").
+- Consistency decided so far: Mikita says "Master Mokito"; 聖なる = "holy" (never "sacred"); singular/plural of a
+  glossary term are both fine ("a Ralad", "the Death card"); British spelling (armour, realise, travellers).
+- The portrait hint is only a hint: e.g. slot 01 in Noradz crowd scenes is townsfolk, not Lief. Decide from context.
 - Staff credits (2178): company names in their official English forms (e.g. "Bandai Namco Games Inc."); person
   names in Western order, readings you can't verify marked UNSURE.
 

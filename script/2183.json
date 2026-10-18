@@ -81,7 +81,7 @@
   "id": "2183_013",
   "hdr": "09810208",
   "jp": "な？{sp}にげられない{sp}うんめいさ",
-  "en": "See? We were never{n}meant to run away."
+  "en": "See? There's no getting away.{n}It's fate."
  },
  {
   "id": "2183_014",
@@ -639,7 +639,7 @@
   "id": "2183_106",
   "hdr": "28010100",
   "jp": "おまえが{sp}つかまえろ！{n}よごれて死にたくない！",
-  "en": "You catch it!{n}I don't want to die dirty!"
+  "en": "You catch it!{n}I don't want to get dirty and die!"
  },
  {
   "id": "2183_107",
@@ -1623,7 +1623,7 @@
   "id": "2183_270",
   "hdr": "30810848",
   "jp": "この前のネズミは？{p}フィリ？{n}ネズミじゃないの？{p}でもこわいわね",
-  "en": "Where's that rat from before?{p}Filli?{n}You're not a rat?{p}It's still scary, though."
+  "en": "Where's that rat from before?{p}Filli?{n}Isn't that a rat?{p}It's still scary, though."
  },
  {
   "id": "2183_271",
