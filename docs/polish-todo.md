@@ -75,6 +75,44 @@ One pass at the end, line by line (no bulk rewrites). Format: id - suggestion (f
   246 "You're so unreliable!" / 228 "Ugh!?" / 277 "Those are the basics." / 274 "We've been raised..." /
   275 "Oh, I've never heard of that." / 2184_001 ノロシ: "smoke signal" (rule on glossary) / ネズヌク様 singular
 
+## b009
+- 2184_060 "Hey, you two passing by!{n}Young sir, young miss!" / "You get back extra silver equal to{n}the number
+  that comes up!" / 045 vs 050 sign casing: "Queen Bee juice - Keep out" in both / 046 "It was famous among the
+  palace guards." / 108 "(What if somebody gets hurt?)" / 010 "those gems" / 024 "Look at her, she's already
+  asleep." / 029 "That's a false accusation!" / 016 "What?! ...Hey!" / 126 stub page (JP structure; optional)
+
+## b010
+- 2184_247 "Honestly, what's taking so long?" (no "she") / 248 speaker p0100: check in-game (warp ch4) /
+  134 "Don't make Jasmine angry, that's what!" (optional) / 140 "in the final match" / 139 "You're awake." /
+  151 "a girl raised in the wild", "And what is your purpose?" / 160 "his Shadow Arena" (optional) /
+  195 "Phew..." / 246 "ensemble"
+
+## b011
+- 2185_025 "Who was careless?" / 021 "We have no spit left." / 009 "had called me a traitor" / 066 "it turns him
+  into a tree" / 062 "Has anything strange happened to you?" / 087 "Oh, please! There must be a way!" /
+  038 "(He's dodging the question...)" / 2184_253 "Roar! Roar!{p}Roar... *cough* *cough*{p}Roar! Roar!" /
+  2184_262 "Popular portraits!" (optional)
+
+## b012
+- 2185_124 "I know what! To thank you for..." / 128 "is asking the Elder for it" / 157 "Gnome arrows are flying at
+  us!" / 158 "Be careful not to fall!{n}Tap the bottom screen at the right time!" / 159 "Heh." (p0654 boy) /
+  138 "He's stubborn{n}beyond all reason..." / 141 drop "all the way" / 185 "The very last of the saved nectar of
+  the Lilies of Life made Prin well." / 190 "What? What are you getting at?" / 198 "straightforwardness" /
+  204 "You're safe, so I'll let it go,{n}but..." / 177 "Same goes for us!" / 178 "Right, let's go." / 119 optional
+
+## b013
+- 2185_226/227 keep the blood-message writer genderless ("they") / 225 "That's how it sounds." / 246 "sided with" /
+  285 "my nose will shrivel up" / 308 "Forget the gems!" / 333 "...Probably." / 342 "But I saw the poison arrow hit
+  you with my own eyes!" / 336 optional / 241 "Come quick! There's something here!" / 330 drop "old" /
+  332 "elder of the Gnomes" / 251 "Lief and co." vs "Lief's party" (pick one for item notices)
+
+## b014
+- 2186_039 "Think it over carefully.{p}The weight of the hope{n}your father placed in you." / 2185_349 "Just who is
+  Gellick?" / 2186_010 "Marie's in danger! Please, save Marie!" / 2186_006 "Hey, Lief?" / 2186_051 "You look like
+  you can't stand him. Actually, me neither." / 2186_035/036 "I'm looking after my best friend's son." / "(Best
+  friend?! Hmph. He just freeloaded off us.)" / 2185_386 "precious companions" / 371 "Let me earn some glory!" /
+  365 "Fine. But only if you beat me." / 380 "Of course we won't." / 354 drop "to keep"
+
 ## b005
 - 2182_025 - Lief する！: "Then I will!" (not "We will!")
 - 2182_026 / 079 - Barda gruffer: "Tch." / "What...?" (not "Good grief" / "Good heavens")

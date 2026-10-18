@@ -197,6 +197,17 @@ Sources: novel = series 1 novels; anime = 2007 anime / English dub; game = coine
 | 金貨 / 銀貨 | (guide) gold coin(s) / silver coin(s) | game | (b009) | |
 | ルーレット | (guide) the wheel | game | "a spin of the wheel" (b009) | |
 | にがおえかき | (guide) portrait painter | game | (b011) | |
+| カラス | (guide) raven | novel | Kree is a raven; the Gnomes' wanted notice says カラス (b011, b013) | crow |
+| ハエ (farmed) | (guide) flies | game | lowercase for the Gnomes' farmed flies; the monster stays "Fly" | |
+| 川ヘビ | (guide) river snake(s) | game | (b015, b017) | |
+| ぼっちゃん | (guide) the young master / Master Dain | game | Steven to Dain (b015) | |
+| 番人 | (guide) the Guardian | novel | capitalised as a title (b018) | |
+| アジト | (guide) hideout | game | Doom's hideout (b020) | |
+| 国王の印 | (guide) the king's seal | game | (b020) | |
+| けんもん | (guide) checkpoint | game | (b020) | |
+| デル族 | (guide) the people of Del | game | (b020) | |
+| 馬車 | (guide) caravan | game | Steven's caravan (b019) | |
+| しましまロッキー | Stripy Rocky | game | passenger's nonsense song, rhymed (b017) | |
 | ハチミツ / 女王バチのハチミツ | honey / Queen Bee honey | novel | | |
 | 母がつくったマント / マント | Mother's Cloak / the cloak | novel | the cloak Anna made | |
 | マドレット | muddlet | novel | 3-legged mount, returns to World Map; ? spelling | Madoretto, Madlet |

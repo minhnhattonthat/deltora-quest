@@ -117,6 +117,7 @@ def fit(s, portrait):
 
 KATA = re.compile(r"[ァ-ヺー・•]")
 HIRA = re.compile(r"[ぁ-ゖ]")
+KANJI = re.compile(r"[一-鿿々]")
 
 
 def has_word(jp, term):
@@ -127,8 +128,8 @@ def has_word(jp, term):
         after = jp[m.end():m.end() + 1]
         if KATA.match(term[0]) and (KATA.match(before or " ") or KATA.match(term[-1]) and KATA.match(after or " ")):
             continue
-        if HIRA.match(term[0]) and HIRA.match(before or " "):
-            continue
+        if HIRA.match(term[0]) and (HIRA.match(before or " ") or KANJI.match(before or " ")):
+            continue  # okurigana: きのこ in 生きのこり
         return True
     return False
 

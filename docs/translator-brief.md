@@ -59,6 +59,8 @@ use it consistently, and report it.
 - Japanese written backwards (signs like 『！いなぶあ　！んけき』) = backwards English, keep it readable ("!regnaD").
 - Consistency decided so far: Mikita says "Master Mokito"; 聖なる = "holy" (never "sacred"); singular/plural of a
   glossary term are both fine ("a Ralad", "the Death card"); British spelling (armour, realise, travellers).
+- UI words: 下画面/上画面 = "the bottom screen"/"the top screen"; タッチ = "tap" (never "touch the lower screen").
+  Full glossary names, no shortening ("the nectar of the Lilies of Life"; "the nectar" alone only on a repeat).
 - The portrait hint is only a hint: e.g. slot 01 in Noradz crowd scenes is townsfolk, not Lief. Decide from context.
 - Staff credits (2178): company names in their official English forms (e.g. "Bandai Namco Games Inc."); person
   names in Western order, readings you can't verify marked UNSURE.

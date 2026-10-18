@@ -3,1536 +3,1536 @@
   "id": "2187_000",
   "hdr": "00000000",
   "jp": "父さん。{n}ぼくたちはトーラを目指しています。{n}デインは{sp}いいやつです。{n}{n}でも、何もかも話すわけにはいきません。{n}とりあえず、トーラへ送り届けて{n}そこで待っていてもらうつもりです。",
-  "en": ""
+  "en": "Father,{n}we are heading for Tora.{n}Dain is a good fellow.{n}{n}But I can't tell him everything.{n}For now, we plan to take him to Tora{n}and have him wait for us there."
  },
  {
   "id": "2187_001",
   "hdr": "09810208",
   "jp": "トーラだぞ、デイン",
-  "en": ""
+  "en": "Here's Tora, Dain."
  },
  {
   "id": "2187_002",
   "hdr": "1A030C14",
   "jp": "うん、ついに来たよ",
-  "en": ""
+  "en": "Yes, we're finally here."
  },
  {
   "id": "2187_003",
   "hdr": "01810104",
   "jp": "トーラには{sp}あてがあるの？",
-  "en": ""
+  "en": "Do you have anyone to go to in Tora?"
  },
  {
   "id": "2187_004",
   "hdr": "1A030C14",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2187_005",
   "hdr": "09810208",
   "jp": "本当の両親をさがしに来た。{n}そうなんだろう？",
-  "en": ""
+  "en": "You came to find your real parents.{n}That's it, isn't it?"
  },
  {
   "id": "2187_006",
   "hdr": "20030C14",
   "jp": "……うん",
-  "en": ""
+  "en": "...Yes."
  },
  {
   "id": "2187_007",
   "hdr": "01810104",
   "jp": "エンドン王とシャーン王妃が{n}いるかもしれないんだね",
-  "en": ""
+  "en": "So King Endon and Queen Sharn{n}might be here."
  },
  {
   "id": "2187_008",
   "hdr": "09810208",
   "jp": "トーラなら{sp}それも{sp}ふしぎではない",
-  "en": ""
+  "en": "In Tora, that wouldn't be{n}surprising at all."
  },
  {
   "id": "2187_009",
   "hdr": "1181030C",
   "jp": "きんちょうするわ",
-  "en": ""
+  "en": "I'm nervous."
  },
  {
   "id": "2187_010",
   "hdr": "09810208",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2187_011",
   "hdr": "01810104",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2187_012",
   "hdr": "20030C14",
   "jp": "行こう",
-  "en": ""
+  "en": "Let's go."
  },
  {
   "id": "2187_013",
   "hdr": "1A810C14",
   "jp": "気をつけて",
-  "en": ""
+  "en": "Be careful."
  },
  {
   "id": "2187_014",
   "hdr": "09030208",
   "jp": "ただのヤギだろう？",
-  "en": ""
+  "en": "It's only a goat, isn't it?"
  },
  {
   "id": "2187_015",
   "hdr": "01030104",
   "jp": "もしかして……オル？",
-  "en": ""
+  "en": "Could it be... an Ol?"
  },
  {
   "id": "2187_016",
   "hdr": "1A810C14",
   "jp": "うん。まちがいない",
-  "en": ""
+  "en": "Yes. No doubt about it."
  },
  {
   "id": "2187_017",
   "hdr": "09030208",
   "jp": "デイン、また{sp}おまえのおかげで{n}命びろいをしたよ",
-  "en": ""
+  "en": "Dain, you've saved our lives{n}once again."
  },
  {
   "id": "2187_018",
   "hdr": "1103030C",
   "jp": "うん、わたしたちだけじゃ{n}気づかなかったわね",
-  "en": ""
+  "en": "Yes, we'd never have noticed{n}on our own."
  },
  {
   "id": "2187_019",
   "hdr": "1A810C14",
   "jp": "たまたまだよ。{n}用心深い性格なんだ",
-  "en": ""
+  "en": "Just luck.{n}I'm a careful sort, that's all."
  },
  {
   "id": "2187_020",
   "hdr": "09030208",
   "jp": "それじゃあ{sp}オレたちが{n}まるで……",
-  "en": ""
+  "en": "Then that makes us sound{n}like..."
  },
  {
   "id": "2187_021",
   "hdr": "1A810C14",
   "jp": "そういう意味じゃないよ！",
-  "en": ""
+  "en": "That's not what I meant!"
  },
  {
   "id": "2187_022",
   "hdr": "1303030C",
   "jp": "もう、何を言われても{n}しかたないわ",
-  "en": ""
+  "en": "Oh well, we can't complain,{n}whatever you call us."
  },
  {
   "id": "2187_023",
   "hdr": "0B030208",
   "jp": "……そうだな",
-  "en": ""
+  "en": "...True enough."
  },
  {
   "id": "2187_024",
   "hdr": "20810C14",
   "jp": "よーし！{p}じゃあオルの事は{n}ぼくにまかせて！",
-  "en": ""
+  "en": "All right!{p}Then leave the Ols{n}to me!"
  },
  {
   "id": "2187_025",
   "hdr": "1403030C",
   "jp": "それじゃあ、出発！",
-  "en": ""
+  "en": "Off we go, then!"
  },
  {
   "id": "2187_026",
   "hdr": "00000000",
   "jp": "なんだろう、この気持ち。{n}仲間を取られたような……",
-  "en": ""
+  "en": "What is this feeling?{n}Like someone took my friends away..."
  },
  {
   "id": "2187_027",
   "hdr": "1A030C14",
   "jp": "リーフ、何してるの？{n}置いて行くぞ！",
-  "en": ""
+  "en": "Lief, what are you doing?{n}We'll leave you behind!"
  },
  {
   "id": "2187_028",
   "hdr": "1181030C",
   "jp": "しずかね……",
-  "en": ""
+  "en": "It's so quiet..."
  },
  {
   "id": "2187_029",
   "hdr": "1A030C14",
   "jp": "ぼく……行ってくるよ",
-  "en": ""
+  "en": "I'm... going to take a look."
  },
  {
   "id": "2187_030",
   "hdr": "1181030C",
   "jp": "わたしも！",
-  "en": ""
+  "en": "Me too!"
  },
  {
   "id": "2187_031",
   "hdr": "02030104",
   "jp": "ジャスミン！",
-  "en": ""
+  "en": "Jasmine!"
  },
  {
   "id": "2187_032",
   "hdr": "09810208",
   "jp": "なあ、リーフ。{n}この町は……{p}おい、リーフ、どうした？",
-  "en": ""
+  "en": "Say, Lief.{n}This town...{p}Hey, Lief, what's wrong?"
  },
  {
   "id": "2187_033",
   "hdr": "01030104",
   "jp": "……いや、なんでもないよ",
-  "en": ""
+  "en": "...No, it's nothing."
  },
  {
   "id": "2187_034",
   "hdr": "09810208",
   "jp": "ふたりの事なら放っておけ{p}ジャスミンが{sp}いっしょなら{n}デインも安全だろう",
-  "en": ""
+  "en": "Leave those two be.{p}With Jasmine along,{n}Dain will be safe enough."
  },
  {
   "id": "2187_035",
   "hdr": "03030104",
   "jp": "……うん{p}ねえ、バルダ。{n}エンドン国王はいると思う？",
-  "en": ""
+  "en": "...Yeah.{p}Hey, Barda.{n}Do you think King Endon is here?"
  },
  {
   "id": "2187_036",
   "hdr": "09810208",
   "jp": "……望みは{sp}うすいようだ{p}町の様子がおかしい事には{n}気づいたか？{p}人の気配がまったく無い{p}影の大王にやられたという{n}わけでもなさそうだ{p}トーラは強いまりょくに守られて{n}いるはずだが……{p}住人は{sp}そのまりょくで{n}すがたを消したのかもな",
-  "en": ""
+  "en": "...I doubt it.{p}Have you noticed something odd{n}about this town?{p}There's no sign of anyone at all.{p}But it doesn't look like{n}the Shadow Lord's work, either.{p}Tora is meant to be protected{n}by powerful magic...{p}Perhaps that magic made{n}the people vanish."
  },
  {
   "id": "2187_037",
   "hdr": "09030208",
   "jp": "どうしたんだ！？",
-  "en": ""
+  "en": "What's happened?!"
  },
  {
   "id": "2187_038",
   "hdr": "1303030C",
   "jp": "デインがとつぜん取り乱して……",
-  "en": ""
+  "en": "Dain suddenly fell to pieces..."
  },
  {
   "id": "2187_039",
   "hdr": "1F810C14",
   "jp": "ここには{sp}だれもいない。{n}父さんも母さんもいないんだ……",
-  "en": ""
+  "en": "There's no one here.{n}My father and mother aren't here..."
  },
  {
   "id": "2187_040",
   "hdr": "09030208",
   "jp": "デイン……辛いだろうが{n}元気を出せ",
-  "en": ""
+  "en": "Dain... I know it's hard,{n}but keep your spirits up."
  },
  {
   "id": "2187_041",
   "hdr": "1103030C",
   "jp": "そうよ、デイン。{n}どこか{sp}ほかのばしょにいるんだわ",
-  "en": ""
+  "en": "That's right, Dain.{n}They must be somewhere else."
  },
  {
   "id": "2187_042",
   "hdr": "1A810C14",
   "jp": "ジャスミン、バルダ、リーフ。{n}ありがとう{p}カッコ悪いところを{n}見せちゃったね……{p}でも、ジャスミンが言うとおりだ。{n}生きていればいつか会えるよね",
-  "en": ""
+  "en": "Jasmine, Barda, Lief.{n}Thank you.{p}Sorry you had to see me{n}like that...{p}But Jasmine's right. As long as{n}they're alive, I'll find them one day."
  },
  {
   "id": "2187_043",
   "hdr": "28010774",
   "jp": "ふん、こうなる事は{n}わかっていた",
-  "en": ""
+  "en": "Hmph. I knew it would{n}come to this."
  },
  {
   "id": "2187_044",
   "hdr": "09030208",
   "jp": "ジョーカー！",
-  "en": ""
+  "en": "Doom!"
  },
  {
   "id": "2187_045",
   "hdr": "19810710",
   "jp": "この町が無人になってから{n}もう、ずいぶん長い{p}そうだな。{n}16年というところか{p}町が{sp}美しいままなのは{n}まりょくのせいだ{p}同時に、町の住民を消したのも{n}そのまりょく……",
-  "en": ""
+  "en": "This town has stood empty{n}for a long time now.{p}Let me see.{n}Sixteen years or so.{p}The town stays beautiful{n}because of the magic.{p}And that same magic is what{n}made its people vanish..."
  },
  {
   "id": "2187_046",
   "hdr": "1A030C14",
   "jp": "どういう事？",
-  "en": ""
+  "en": "What do you mean?"
  },
  {
   "id": "2187_047",
   "hdr": "19810710",
   "jp": "大むかし……{p}トーラの住民たちは{sp}永遠のちかいを{n}たてたのだ{p}デルトラ王家に{n}ちゅうせいをつくすという{sp}ちかいだ{p}引きかえに、町の安全と{sp}豊かなくらしを{n}約束するまりょくがあたえられた",
-  "en": ""
+  "en": "Long, long ago...{p}the people of Tora swore{n}an eternal oath.{p}An oath of loyalty{n}to the royal house of Deltora.{p}In return they were given magic that{n}promised them safety and plenty."
  },
  {
   "id": "2187_048",
   "hdr": "1A030C14",
   "jp": "それじゃあ……ちかいは{sp}やぶられたの？",
-  "en": ""
+  "en": "So... the oath was broken?"
  },
  {
   "id": "2187_049",
   "hdr": "19810710",
   "jp": "そうだ{p}デルトラ王エンドンが{n}助けを{sp}もとめた時に……",
-  "en": ""
+  "en": "Yes.{p}When Endon, King of Deltora,{n}asked them for help..."
  },
  {
   "id": "2187_050",
   "hdr": "1A030C14",
   "jp": "やっぱり父はここへ？",
-  "en": ""
+  "en": "So my father did come here?"
  },
  {
   "id": "2187_051",
   "hdr": "19810710",
   "jp": "直接来たのか、手紙を出したのか……{p}どちらにしてもトーラの{n}住民はちかいを{sp}やぶった{p}ちかいを{sp}たてたのは{sp}大むかしの事だ。{n}人の気持ちは変わるものだ……{p}いや、オレはトーラの人々に{n}どうじょうする{p}この世界が影の大王に支配され{n}きょうふの世界に変わったのは……{p}そう、エンドン国王が{sp}あまりにも{n}おろかだったからだ{p}その国王が{sp}助けを{sp}もとめてきても{n}むかえる気にはならんだろう",
-  "en": ""
+  "en": "Whether he came himself{n}or sent a letter...{p}Either way, the people of Tora{n}broke their oath.{p}The oath was sworn long ago.{n}People's hearts change...{p}No -- I sympathise{n}with the people of Tora.{p}This land fell to the Shadow Lord{n}and became a land of fear...{p}Yes, all because King Endon{n}was such a fool.{p}When a king like that comes begging,{n}who would want to take him in?"
  },
  {
   "id": "2187_052",
   "hdr": "1E030C14",
   "jp": "父を悪く言うな！",
-  "en": ""
+  "en": "Don't speak ill of my father!"
  },
  {
   "id": "2187_053",
   "hdr": "19810710",
   "jp": "おまえがエンドン国王の息子？{n}そんな{sp}たわごとは信じられん{p}なぜなら……おまえには{n}知恵も勇気もある{p}どちらも国王のちすじには{n}ないものだ{p}どうだ、デイン。{n}レジスタンスにもどって来ないか？",
-  "en": ""
+  "en": "You, King Endon's son?{n}I don't believe such nonsense.{p}Because... you have both{n}wisdom and courage.{p}Neither one runs{n}in the king's blood.{p}Well, Dain?{n}Won't you come back to the Resistance?"
  },
  {
   "id": "2187_054",
   "hdr": "1A030C14",
   "jp": "………",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2187_055",
   "hdr": "19810710",
   "jp": "町の外で待っている",
-  "en": ""
+  "en": "I'll be waiting outside the town."
  },
  {
   "id": "2187_056",
   "hdr": "1103030C",
   "jp": "デイン！！",
-  "en": ""
+  "en": "Dain!!"
  },
  {
   "id": "2187_057",
   "hdr": "1A810C14",
   "jp": "みんな、今まで{n}ありがとう{p}これ以上、みんなの旅の{n}じゃまはできないよ{p}ここへ来て、両親と{n}再会する事が{sp}ぼくのゆめだった{p}でも、今すぐには{sp}かなわないようだ{p}だから、ぼくも{sp}影の大王から{n}人々を助けるために戦うよ{p}両親をさがすのはそれからでも{n}おそくはない{p}ぼくはレジスタンスの{n}一員にもどる{p}これからはジョーカーに{n}したがうよ",
-  "en": ""
+  "en": "Everyone, thank you{n}for everything.{p}I can't get in the way{n}of your journey any longer.{p}Coming here and finding my parents{n}was my dream.{p}But it seems it can't come true{n}just yet.{p}So I'll fight too, to save people{n}from the Shadow Lord.{p}I can look for my parents after that.{n}It won't be too late.{p}I'm going back{n}to the Resistance.{p}From now on,{n}I'll follow Doom."
  },
  {
   "id": "2187_058",
   "hdr": "09030208",
   "jp": "それで……いいんだな？",
-  "en": ""
+  "en": "So... you're sure about this?"
  },
  {
   "id": "2187_059",
   "hdr": "1A810C14",
   "jp": "うん",
-  "en": ""
+  "en": "Yes."
  },
  {
   "id": "2187_060",
   "hdr": "1103030C",
   "jp": "ちょっと待ってよ！",
-  "en": ""
+  "en": "Wait a minute!"
  },
  {
   "id": "2187_061",
   "hdr": "1103030C",
   "jp": "みんな、どうしてジョーカーを{n}信じているの？",
-  "en": ""
+  "en": "Why does everyone{n}trust Doom?"
  },
  {
   "id": "2187_062",
   "hdr": "1103030C",
   "jp": "本物のジョーカーのおはかを{n}見たじゃない？",
-  "en": ""
+  "en": "We saw the real Doom's grave,{n}didn't we?"
  },
  {
   "id": "2187_063",
   "hdr": "1103030C",
   "jp": "この人はジョーカーのニセモノ。{n}そう、影の大王の手先かも！",
-  "en": ""
+  "en": "This man is a false Doom.{n}He could even be the Shadow Lord's spy!"
  },
  {
   "id": "2187_064",
   "hdr": "19810710",
   "jp": "……あの人のはかを見たのか？",
-  "en": ""
+  "en": "...You saw that man's grave?"
  },
  {
   "id": "2187_065",
   "hdr": "09030208",
   "jp": "ああ。きょうふの山でな",
-  "en": ""
+  "en": "Yes. On Dread Mountain."
  },
  {
   "id": "2187_066",
   "hdr": "19810710",
   "jp": "まあ、かくす必要もあるまい{p}オレは影の王国のとうぎじょうで{n}かいぶつと戦わされていた{p}ざんこくな見せ物さ{p}オレは{sp}そこから{sp}にげだして{n}デルトラの世界へやってきた",
-  "en": ""
+  "en": "Well, there's no need to hide it.{p}I was made to fight monsters{n}in an arena in the Shadowlands.{p}A cruel show.{p}I escaped from there{n}and came to Deltora."
  },
  {
   "id": "2187_067",
   "hdr": "1103030C",
   "jp": "やっぱり影の王国から来たのね！",
-  "en": ""
+  "en": "So you did come from the Shadowlands!"
  },
  {
   "id": "2187_068",
   "hdr": "19810710",
   "jp": "いや……{p}デルトラで過ごした日々の{n}きおくも多少はある",
-  "en": ""
+  "en": "No...{p}I have a few memories{n}of days spent in Deltora, too."
  },
  {
   "id": "2187_069",
   "hdr": "09030208",
   "jp": "多少？",
-  "en": ""
+  "en": "A few?"
  },
  {
   "id": "2187_070",
   "hdr": "19810710",
   "jp": "影の王国から{sp}にげたオレは{n}おってに囲まれて殺されかけた{p}おそらくその時だ。{n}ほとんどのきおくを無くしてしまった{p}おぼえているのは……{p}オレをかばい、そして世話をしてくれた{n}しんせつな男の、ジョーカーという名{p}オレは{sp}かんしゃのあかしとして{n}彼の名を引きついだのだ",
-  "en": ""
+  "en": "When I fled the Shadowlands, I was{n}surrounded and nearly killed.{p}That must have been when{n}I lost most of my memory.{p}All I remember is...{p}a kind man who shielded me and cared{n}for me, and his name: Doom.{p}I took his name{n}as a mark of my gratitude."
  },
  {
   "id": "2187_071",
   "hdr": "1103030C",
   "jp": "どうかしら……",
-  "en": ""
+  "en": "We'll see about that..."
  },
  {
   "id": "2187_072",
   "hdr": "19810710",
   "jp": "信じなくてもいいさ{p}これでもレジスタンスの仲間からは{n}信らいされている{p}オレは{sp}その信らいがあれば{n}戦っていけるからな",
-  "en": ""
+  "en": "You needn't believe me.{p}My comrades in the Resistance{n}trust me, at least.{p}As long as I have that trust,{n}I can keep on fighting."
  },
  {
   "id": "2187_073",
   "hdr": "19810710",
   "jp": "このぼうしを{sp}おまえにやろう{p}影の大王とその手下たちは{n}おまえのかみの毛を目印にしている{p}かみをかくせば{sp}おまえは少年そのものだ",
-  "en": ""
+  "en": "I'll give you this cap.{p}The Shadow Lord and his servants{n}are on the lookout for your hair.{p}Hide your hair, and you'll look{n}just like a boy."
  },
  {
   "id": "2187_074",
   "hdr": "1203030C",
   "jp": "しつれいね！",
-  "en": ""
+  "en": "How rude!"
  },
  {
   "id": "2187_075",
   "hdr": "04810104",
   "jp": "似合うと思うよ、ジャスミン",
-  "en": ""
+  "en": "I think it suits you, Jasmine."
  },
  {
   "id": "2187_076",
   "hdr": "1103030C",
   "jp": "……しかたないわね。{n}身の安全のためだもの……",
-  "en": ""
+  "en": "...Oh, all right.{n}It's for my own safety..."
  },
  {
   "id": "2187_077",
   "hdr": "28010000",
   "jp": "ジャスミンは{n}『{c2}黒っぽい毛糸のぼうし{/c}』を手に入れた",
-  "en": ""
+  "en": "Jasmine got the{n}{c2}Dark Wool Cap{/c}!"
  },
  {
   "id": "2187_078",
   "hdr": "19810710",
   "jp": "それじゃあ……な",
-  "en": ""
+  "en": "Well then... so long."
  },
  {
   "id": "2187_079",
   "hdr": "1103030C",
   "jp": "デイン、また会えるよね！",
-  "en": ""
+  "en": "Dain, we'll meet again, won't we?"
  },
  {
   "id": "2187_080",
   "hdr": "20810C14",
   "jp": "もちろんだよ、ジャスミン！{p}バルダ、リーフ。{n}気をつけて！",
-  "en": ""
+  "en": "Of course, Jasmine!{p}Barda, Lief.{n}Take care!"
  },
  {
   "id": "2187_081",
   "hdr": "1303030C",
   "jp": "……行っちゃった",
-  "en": ""
+  "en": "...He's gone."
  },
  {
   "id": "2187_082",
   "hdr": "09810208",
   "jp": "一生の別れというわけでは{n}ないだろう？{p}さあ、気持ちを入れかえるぞ{p}さいごの宝石を{n}取りかえしに行こうではないか！",
-  "en": ""
+  "en": "It's not as if we'll never{n}see him again, is it?{p}Now, let's put it behind us.{p}Let's go and win back{n}the last gem!"
  },
  {
   "id": "2187_083",
   "hdr": "01030104",
   "jp": "うん",
-  "en": ""
+  "en": "Right."
  },
  {
   "id": "2187_084",
   "hdr": "1103030C",
   "jp": "そうね",
-  "en": ""
+  "en": "Yes."
  },
  {
   "id": "2187_085",
   "hdr": "09810208",
   "jp": "『いましめの谷』……いいな？",
-  "en": ""
+  "en": "The Valley of the Lost... Ready?"
  },
  {
   "id": "2187_086",
   "hdr": "01030104",
   "jp": "うん、行こう",
-  "en": ""
+  "en": "Yes, let's go."
  },
  {
   "id": "2187_087",
   "hdr": "1181030C",
   "jp": "この人たちは{sp}なに？",
-  "en": ""
+  "en": "Who are these people?"
  },
  {
   "id": "2187_088",
   "hdr": "01030104",
   "jp": "さびしそうに見えるけど……",
-  "en": ""
+  "en": "They look so lonely..."
  },
  {
   "id": "2187_089",
   "hdr": "09810208",
   "jp": "てきではなさそうだ{p}宝石を手に入れてから{n}考える事にしよう",
-  "en": ""
+  "en": "They don't seem to be enemies.{p}Let's think about them{n}after we get the gem."
  },
  {
   "id": "2187_090",
   "hdr": "1103030C",
   "jp": "冷たいのね",
-  "en": ""
+  "en": "That's cold."
  },
  {
   "id": "2187_091",
   "hdr": "09810208",
   "jp": "いや、それが{sp}この人たちを{n}すくう事になる",
-  "en": ""
+  "en": "No. Getting the gem is what{n}will save these people."
  },
  {
   "id": "2187_092",
   "hdr": "01030104",
   "jp": "うん。そうだね{p}宝石を守っている番人が{n}いるはずだ{p}番人の回りには{sp}苦しんでいる{n}人たちがいる{p}これまで、ずっとそうだった",
-  "en": ""
+  "en": "Yeah. You're right.{p}There must be a guardian{n}protecting the gem.{p}And around the guardian,{n}there are people suffering.{p}It's been that way every time."
  },
  {
   "id": "2187_093",
   "hdr": "1303030C",
   "jp": "……そうだったわね",
-  "en": ""
+  "en": "...That's true."
  },
  {
   "id": "2187_094",
   "hdr": "09810208",
   "jp": "宝石を集める事こそが{n}すなわち、世界をすくう事だ{p}もう迷いはない",
-  "en": ""
+  "en": "Gathering the gems is the very{n}thing that will save the world.{p}I have no more doubts."
  },
  {
   "id": "2187_095",
   "hdr": "01030104",
   "jp": "え！？{sp}迷っていたの？",
-  "en": ""
+  "en": "What!? You had doubts?"
  },
  {
   "id": "2187_096",
   "hdr": "0B810208",
   "jp": "そりゃ……な",
-  "en": ""
+  "en": "Well... yes."
  },
  {
   "id": "2187_097",
   "hdr": "09810208",
   "jp": "宝石とおまえたち{p}どっちが大事だと問われれば{n}それはリーフとジャスミンだ{p}だが、ふたりとも、もう{n}オレの心配など無用",
-  "en": ""
+  "en": "The gems, or you two.{p}If I were asked which matters more,{n}I'd say Lief and Jasmine.{p}But neither of you needs{n}me worrying about you any more."
  },
  {
   "id": "2187_098",
   "hdr": "1103030C",
   "jp": "バルダ……",
-  "en": ""
+  "en": "Barda..."
  },
  {
   "id": "2187_099",
   "hdr": "09810208",
   "jp": "たよりになる{sp}旅の仲間だ",
-  "en": ""
+  "en": "You're travelling companions{n}I can rely on."
  },
  {
   "id": "2187_100",
   "hdr": "01030104",
   "jp": "バルダもね",
-  "en": ""
+  "en": "So are you, Barda."
  },
  {
   "id": "2187_101",
   "hdr": "09810208",
   "jp": "だから、もう迷いはない",
-  "en": ""
+  "en": "So I have no more doubts."
  },
  {
   "id": "2187_102",
   "hdr": "05810104",
   "jp": "これは！？",
-  "en": ""
+  "en": "What's this!?"
  },
  {
   "id": "2187_103",
   "hdr": "09030208",
   "jp": "リーフ、ベルトにふれてみろ",
-  "en": ""
+  "en": "Lief, touch the Belt."
  },
  {
   "id": "2187_104",
   "hdr": "01810104",
   "jp": "うん、あたたかい{p}宝石はここにあるよ。{n}7こ目の宝石ダイアモンド！",
-  "en": ""
+  "en": "Yeah, it's warm.{p}The gem is here.{n}The seventh gem, the diamond!"
  },
  {
   "id": "2187_105",
   "hdr": "00000501",
   "jp": "ダイアモンドは{sp}じゅんけつと力のシンボル{n}あらゆる人の心を{sp}みりょうする{n}{n}心正しき者{sp}この石を持てば{sp}勇気と力わき{n}災いをのがれ{sp}しんじつの愛を{sp}手にする",
-  "en": ""
+  "en": "The diamond, symbol of purity{n}and strength, wins every heart.{n}{n}To the true of heart it gives courage and{n}strength, shelter from harm, and true love."
  },
  {
   "id": "2187_106",
   "hdr": "00000501",
   "jp": "されど注意せよ{n}ダイアモンドは{sp}ぼう力と不正をきらう{n}{n}よくにかられ{sp}これをうばう者あらば{n}必ずや{sp}ふこうをもたらす",
-  "en": ""
+  "en": "But beware:{n}the diamond hates violence and foul play.{n}{n}Whoever takes it out of greed{n}is sure to meet misfortune."
  },
  {
   "id": "2187_107",
   "hdr": "28010774",
   "jp": "今度は{sp}おまえたちか？",
-  "en": ""
+  "en": "So now it is your turn?"
  },
  {
   "id": "2187_108",
   "hdr": "02810104",
   "jp": "だれだ！",
-  "en": ""
+  "en": "Who's there!"
  },
  {
   "id": "2187_109",
   "hdr": "2E030770",
   "jp": "わしはエンドン{p}ここで{sp}ある方の命令にしたがい{n}美しい宝石を守っている",
-  "en": ""
+  "en": "I am Endon.{p}On the orders of a certain master,{n}I guard a beautiful gem here."
  },
  {
   "id": "2187_110",
   "hdr": "05810104",
   "jp": "エンドン！？{sp}エンドン国王！？",
-  "en": ""
+  "en": "Endon!? King Endon!?"
  },
  {
   "id": "2187_111",
   "hdr": "2E030770",
   "jp": "国王……かつては{n}そう呼ばれた事もあった{p}しかし大臣たちのうら切りにあい{n}城を捨てて{sp}ほうろうの日々{p}くなんの末たどりついたこの谷で{n}影の大王様と出会ったのだ{p}影の大王様はわしに美しい宝と{n}おおぜいの民を下さった{p}谷をさまよう{sp}もうじゃどもを見たか？{n}一同、おまえたちを{sp}かんげいするぞ",
-  "en": ""
+  "en": "King... Yes, once{n}I was called that.{p}But my advisors betrayed me, and I{n}left the palace to wander the land.{p}After many hardships I came to this{n}valley, and here I met the Shadow Lord.{p}The Shadow Lord gave me beautiful{n}treasure and a great many subjects.{p}Did you see the dead wandering the{n}valley? All of them bid you welcome."
  },
  {
   "id": "2187_112",
   "hdr": "0B030208",
   "jp": "あなたがエンドン国王？{n}信じられない……",
-  "en": ""
+  "en": "You are King Endon?{n}I can't believe it..."
  },
  {
   "id": "2187_113",
   "hdr": "02810104",
   "jp": "そうだよ！{n}国王はそんな老人じゃない",
-  "en": ""
+  "en": "That's right!{n}The king isn't an old man like you!"
  },
  {
   "id": "2187_114",
   "hdr": "2E030770",
   "jp": "くなんの人生は老いを早める。{n}ただそれだけの事……",
-  "en": ""
+  "en": "A hard life ages a man quickly.{n}That is all..."
  },
  {
   "id": "2187_115",
   "hdr": "1281030C",
   "jp": "ねえ、あとつぎは？{n}国王には子どもがいるはずよ",
-  "en": ""
+  "en": "Hey, what about the heir?{n}The king should have a child."
  },
  {
   "id": "2187_116",
   "hdr": "2E030770",
   "jp": "……",
-  "en": ""
+  "en": "..."
  },
  {
   "id": "2187_117",
   "hdr": "02810104",
   "jp": "ぼくは信じないぞ！{n}あなたはエンドン国王じゃない！",
-  "en": ""
+  "en": "I don't believe it!{n}You're not King Endon!"
  },
  {
   "id": "2187_118",
   "hdr": "2E030770",
   "jp": "それよりも{sp}おまえたちは{n}宝石を取りに来たのだろう？{p}ならばゲームをしないか？{p}宝石が{sp}ほしければ{sp}ゲームに{n}参加しなくてはならない{p}それがこの谷のルールだ",
-  "en": ""
+  "en": "Never mind that. You came{n}here for the gem, did you not?{p}Then will you play a game?{p}If you want the gem, you must{n}take part in a game.{p}That is the rule of this valley."
  },
  {
   "id": "2187_119",
   "hdr": "05810104",
   "jp": "ゲームだって？",
-  "en": ""
+  "en": "A game?"
  },
  {
   "id": "2187_120",
   "hdr": "0B030208",
   "jp": "(リーフ、つきあう必要はない)",
-  "en": ""
+  "en": "(Lief, we don't have to play along.)"
  },
  {
   "id": "2187_121",
   "hdr": "1281030C",
   "jp": "(そうよ……{n}3人で力を合わせれば……)",
-  "en": ""
+  "en": "(That's right...{n}If the three of us work together...)"
  },
  {
   "id": "2187_122",
   "hdr": "01810104",
   "jp": "(うん……い、いやダメだ！{n}ダイアモンドは不正をきらうんだ){p}(ルールがあるなら{n}したがわなくちゃ)",
-  "en": ""
+  "en": "(Yeah... N-no, we can't!{n}The diamond hates foul play!){p}(If there are rules,{n}we have to follow them.)"
  },
  {
   "id": "2187_123",
   "hdr": "09030208",
   "jp": "うーむ……{n}それは、どのようなゲームかな？",
-  "en": ""
+  "en": "Hmm...{n}And what kind of game would that be?"
  },
  {
   "id": "2187_124",
   "hdr": "2E030770",
   "jp": "おまえたちに{sp}ふさわしいゲーム。{n}わしが心を読んで{sp}決めよう{p}かてば宝石を{n}手に入れる事ができる{p}負けても気にする事はない。{n}この谷で一生くらすがよい",
-  "en": ""
+  "en": "A game that suits you.{n}I shall read your hearts and choose.{p}Win, and the gem{n}will be yours.{p}And if you lose, do not fret.{n}You may live out your lives in this valley."
  },
  {
   "id": "2187_125",
   "hdr": "01810104",
   "jp": "………わかった",
-  "en": ""
+  "en": "...All right."
  },
  {
   "id": "2187_126",
   "hdr": "09030208",
   "jp": "リーフ、自信はあるのか？",
-  "en": ""
+  "en": "Lief, are you sure you can win?"
  },
  {
   "id": "2187_127",
   "hdr": "01810104",
   "jp": "ない。{n}でも、せんたくのよちもない",
-  "en": ""
+  "en": "No.{n}But we don't have a choice either."
  },
  {
   "id": "2187_128",
   "hdr": "2E030770",
   "jp": "きまったようだな{p}では、さっそくまほうで{n}ゲームを用意しよう{p}さあ、行くぞ！",
-  "en": ""
+  "en": "It seems you have decided.{p}Then I shall use my magic{n}to prepare the game at once.{p}Now, here we go!"
  },
  {
   "id": "2187_129",
   "hdr": "01030104",
   "jp": "なんだろう……",
-  "en": ""
+  "en": "What's going to happen..."
  },
  {
   "id": "2187_130",
   "hdr": "0D810208",
   "jp": "うわっ！",
-  "en": ""
+  "en": "Whoa!"
  },
  {
   "id": "2187_131",
   "hdr": "03810104",
   "jp": "なんとか……",
-  "en": ""
+  "en": "Somehow we..."
  },
  {
   "id": "2187_132",
   "hdr": "09030208",
   "jp": "やりとげたようだ",
-  "en": ""
+  "en": "...made it through, it seems."
  },
  {
   "id": "2187_133",
   "hdr": "2E030770",
   "jp": "ほほう……{p}次からはひとりずつだ。{n}まず……おまえから！",
-  "en": ""
+  "en": "Well, well...{p}From now on, one at a time.{n}First... you!"
  },
  {
   "id": "2187_134",
   "hdr": "01810104",
   "jp": "ああ、わかった",
-  "en": ""
+  "en": "Yeah, all right."
  },
  {
   "id": "2187_135",
   "hdr": "2E030770",
   "jp": "ふふふ……{p}おまえの心が{sp}手にとるように{n}見えるぞ……{p}おまえにふさわしいのは……{p}これだ！",
-  "en": ""
+  "en": "Heh heh heh...{p}I can see into your heart{n}as clear as day...{p}The game that suits you is...{p}this!"
  },
  {
   "id": "2187_136",
   "hdr": "05810104",
   "jp": "(ここはデルの町！？)",
-  "en": ""
+  "en": "(This is the city of Del!?)"
  },
  {
   "id": "2187_137",
   "hdr": "01810104",
   "jp": "(いや、これはまほうでつくられた{n}まぼろしだ)",
-  "en": ""
+  "en": "(No, this is an illusion{n}made by magic.)"
  },
  {
   "id": "2187_138",
   "hdr": "02810104",
   "jp": "(まどわされないぞ！)",
-  "en": ""
+  "en": "(I won't be fooled!)"
  },
  {
   "id": "2187_139",
   "hdr": "1701030C",
   "jp": "キャッ！",
-  "en": ""
+  "en": "Eek!"
  },
  {
   "id": "2187_140",
   "hdr": "1E030C14",
   "jp": "おい、きみ！{p}ケガをしたくなかったら{n}にげるんだ！",
-  "en": ""
+  "en": "Hey, you!{p}If you don't want to get hurt,{n}run!"
  },
  {
   "id": "2187_141",
   "hdr": "1401030C",
   "jp": "ありがとうデイン！",
-  "en": ""
+  "en": "Thank you, Dain!"
  },
  {
   "id": "2187_142",
   "hdr": "20810C14",
   "jp": "さあ、ジャスミン、行こう{p}ぼくのベルトがあれば{n}影の大王なんてこわくない！",
-  "en": ""
+  "en": "Come on, Jasmine, let's go.{p}With my Belt, I'm not afraid{n}of the Shadow Lord!"
  },
  {
   "id": "2187_143",
   "hdr": "1401030C",
   "jp": "うん、そうね！",
-  "en": ""
+  "en": "Yes, you're right!"
  },
  {
   "id": "2187_144",
   "hdr": "03810104",
   "jp": "(なんだよ……{n}まぼろしとはいえ、はらが立つな)",
-  "en": ""
+  "en": "(What the...{n}Illusion or not, this makes me mad.)"
  },
  {
   "id": "2187_145",
   "hdr": "1283030C",
   "jp": "キャッ！",
-  "en": ""
+  "en": "Eek!"
  },
  {
   "id": "2187_146",
   "hdr": "01030104",
   "jp": "(どうせまたデインが{n}来るんだ……)",
-  "en": ""
+  "en": "(I bet Dain's coming{n}to the rescue again...)"
  },
  {
   "id": "2187_147",
   "hdr": "0A810208",
   "jp": "おい、じゃまだ。{n}まきこまれてもしらんぞ！",
-  "en": ""
+  "en": "Hey, out of the way.{n}Don't blame me if you get caught up!"
  },
  {
   "id": "2187_148",
   "hdr": "09030208",
   "jp": "さあ、急ごう！",
-  "en": ""
+  "en": "Come on, hurry!"
  },
  {
   "id": "2187_149",
   "hdr": "19030710",
   "jp": "さあ、デイン。{n}旅は{sp}まもなく終わる{p}おまえが命をかけて{n}あつめた宝石……{p}まずさいしょに父親に{n}見せてやるんだ",
-  "en": ""
+  "en": "Well, Dain.{n}Your journey is nearly over.{p}The gems you risked your life{n}to gather...{p}Show them to your father first."
  },
  {
   "id": "2187_150",
   "hdr": "09810208",
   "jp": "さあ、デイン。{n}ジャードが待っているぞ！",
-  "en": ""
+  "en": "Come on, Dain.{n}Jarred is waiting!"
  },
  {
   "id": "2187_151",
   "hdr": "1481030C",
   "jp": "デインのお父様に{n}気に入ってもらえるかしら？",
-  "en": ""
+  "en": "Do you think your father{n}will like me, Dain?"
  },
  {
   "id": "2187_152",
   "hdr": "20030C14",
   "jp": "きみなら{sp}まちがいないよ、ジャスミン",
-  "en": ""
+  "en": "He's sure to, Jasmine."
  },
  {
   "id": "2187_153",
   "hdr": "03810104",
   "jp": "(ナ、ナンテ……マボロシダ……)",
-  "en": ""
+  "en": "(Wh-what... an awful...{n}illusion...)"
  },
  {
   "id": "2187_154",
   "hdr": "20810C14",
   "jp": "父さん、母さん！{n}宝石は全部そろったよ！{p}ぼく、やったよ！",
-  "en": ""
+  "en": "Father, Mother!{n}I've got all the gems!{p}I did it!"
  },
  {
   "id": "2187_155",
   "hdr": "1B030618",
   "jp": "よくやった、息子よ！",
-  "en": ""
+  "en": "Well done, my son!"
  },
  {
   "id": "2187_156",
   "hdr": "1C03081C",
   "jp": "わたしたちはゆめを見たのよ{p}息子がデインじゃなくて{n}リーフとかいう……{p}そう、たよりない子が{n}息子のゆめよ",
-  "en": ""
+  "en": "We had a dream, you know.{p}A dream that our son wasn't Dain,{n}but some boy called Lief...{p}Yes, a dream that we had{n}a hopeless boy for a son."
  },
  {
   "id": "2187_157",
   "hdr": "1B030618",
   "jp": "もう、そんなゆめの事なんか{n}忘れてしまおう！",
-  "en": ""
+  "en": "Come now, let's forget{n}all about that dream!"
  },
  {
   "id": "2187_158",
   "hdr": "1E030C14",
   "jp": "これは手強そうだ",
-  "en": ""
+  "en": "This one looks tough."
  },
  {
   "id": "2187_159",
   "hdr": "1E810C14",
   "jp": "そこのきみ！{p}ぼさーっと見てないで{n}力を貸してくれないか！？",
-  "en": ""
+  "en": "You there!{p}Don't just stand there gawping --{n}lend me a hand, will you!?"
  },
  {
   "id": "2187_160",
   "hdr": "1381030C",
   "jp": "あの子、おびえているわ。{n}まきこんじゃかわいそうよ……",
-  "en": ""
+  "en": "That boy is frightened.{n}It's not fair to drag him into this..."
  },
  {
   "id": "2187_161",
   "hdr": "1B030618",
   "jp": "きみ、あぶないから{n}家の中に入って{sp}かくれていなさい",
-  "en": ""
+  "en": "You there, it's dangerous.{n}Go inside the house and hide."
  },
  {
   "id": "2187_162",
   "hdr": "1C03081C",
   "jp": "そうよ、うちのデインは強いんだから{n}まかせていればいいのよ",
-  "en": ""
+  "en": "That's right. Our Dain is strong,{n}so just leave it to him."
  },
  {
   "id": "2187_163",
   "hdr": "02810104",
   "jp": "なんてまぼろしを見せるんだ！",
-  "en": ""
+  "en": "What a horrible illusion to show me!"
  },
  {
   "id": "2187_164",
   "hdr": "2E030770",
   "jp": "ほほう……打ちかったとな{p}では、次はおまえ。{n}ジャスミンとか言ったな",
-  "en": ""
+  "en": "Well, well... So you overcame it.{p}Then you are next.{n}Jasmine, was it?"
  },
  {
   "id": "2187_165",
   "hdr": "01810104",
   "jp": "だいじょうぶだよ、ジャスミン。{n}心を強く持って！",
-  "en": ""
+  "en": "It'll be all right, Jasmine.{n}Keep your heart strong!"
  },
  {
   "id": "2187_166",
   "hdr": "2E030770",
   "jp": "ふふふ……{n}おまえにふさわしいのは……",
-  "en": ""
+  "en": "Heh heh heh...{n}The game that suits you is..."
  },
  {
   "id": "2187_167",
   "hdr": "1181030C",
   "jp": "何か書いてある……{p}『{c2}真っ黒石{/c}』を3こささげよ……",
-  "en": ""
+  "en": "Something is written here...{p}\"Offer three {c2}Pitch-Black Stones{/c}...\""
  },
  {
   "id": "2187_168",
   "hdr": "1481030C",
   "jp": "かんたんじゃない！",
-  "en": ""
+  "en": "That's easy!"
  },
  {
   "id": "2187_169",
   "hdr": "1181030C",
   "jp": "『{c2}真っ黒石{/c}』を3つ集めてきたわ。{n}ここに置くわよ",
-  "en": ""
+  "en": "I've brought three {c2}Pitch-Black Stones{/c}.{n}I'll put them here."
  },
  {
   "id": "2187_170",
   "hdr": "28030A00",
   "jp": "ふん{p}『{c2}まぼろしの首かざり{/c}』を見つけてきたら{n}ここを{sp}とおしてやるぞ！",
-  "en": ""
+  "en": "Hmph.{p}Find the {c2}Phantom Necklace{/c},{n}and I'll let you through!"
  },
  {
   "id": "2187_171",
   "hdr": "1181030C",
   "jp": "『{c2}まぼろしの首かざり{/c}』ね？{n}わかったわ",
-  "en": ""
+  "en": "The {c2}Phantom Necklace{/c}?{n}All right."
  },
  {
   "id": "2187_172",
   "hdr": "28030A00",
   "jp": "みごとだ……{n}とおるがよい",
-  "en": ""
+  "en": "Splendid...{n}You may pass."
  },
  {
   "id": "2187_173",
   "hdr": "1181030C",
   "jp": "何か書いてある……{p}うごくな。心をしずめよ……",
-  "en": ""
+  "en": "Something is written here...{p}\"Do not move. Calm your heart...\""
  },
  {
   "id": "2187_174",
   "hdr": "1781030C",
   "jp": "あっ！{sp}とびらが！？",
-  "en": ""
+  "en": "Oh! The door!?"
  },
  {
   "id": "2187_175",
   "hdr": "1481030C",
   "jp": "やっぱり！{sp}思ったとおりだわ！",
-  "en": ""
+  "en": "I knew it! Just as I thought!"
  },
  {
   "id": "2187_176",
   "hdr": "1403030C",
   "jp": "わたしのかちね！",
-  "en": ""
+  "en": "I win!"
  },
  {
   "id": "2187_177",
   "hdr": "01810104",
   "jp": "あとはバルダ……",
-  "en": ""
+  "en": "Now there's only Barda..."
  },
  {
   "id": "2187_178",
   "hdr": "0A030208",
   "jp": "まかせておけ！",
-  "en": ""
+  "en": "Leave it to me!"
  },
  {
   "id": "2187_179",
   "hdr": "2E030770",
   "jp": "ふふふ……{n}おまえはどうかな？",
-  "en": ""
+  "en": "Heh heh heh...{n}And how will you fare?"
  },
  {
   "id": "2187_180",
   "hdr": "0A030208",
   "jp": "これがゲーム？{n}オレをバカにするな！",
-  "en": ""
+  "en": "This is a game?{n}Don't make a fool of me!"
  },
  {
   "id": "2187_181",
   "hdr": "28010700",
   "jp": "うぬぼれるなよ！",
-  "en": ""
+  "en": "Don't get cocky!"
  },
  {
   "id": "2187_182",
   "hdr": "09810208",
   "jp": "ふん……読めたぞ",
-  "en": ""
+  "en": "Hmph... I see through it."
  },
  {
   "id": "2187_183",
   "hdr": "0C030208",
   "jp": "リーフ！{sp}ジャスミン！{n}オレはやったぞ！",
-  "en": ""
+  "en": "Lief! Jasmine!{n}I did it!"
  },
  {
   "id": "2187_184",
   "hdr": "09810208",
   "jp": "さあ、番人よ{p}オレたちはゲームを{n}やりとげた！",
-  "en": ""
+  "en": "Now then, Guardian!{p}We have won{n}your games!"
  },
  {
   "id": "2187_185",
   "hdr": "01030104",
   "jp": "宝石を{sp}わたしてもらおう。{n}それがルールなんだろう？",
-  "en": ""
+  "en": "Hand over the gem.{n}That's the rule, isn't it?"
  },
  {
   "id": "2187_186",
   "hdr": "2E030770",
   "jp": "い、いや、ダメだ{p}この宝石はわしの宝だ！{n}これが無くなったら{sp}わしは……",
-  "en": ""
+  "en": "N-no, I won't!{p}This gem is my treasure!{n}Without it, I..."
  },
  {
   "id": "2187_187",
   "hdr": "01030104",
   "jp": "ダイアモンドは不正をきらう{p}素直にわたさないと{n}ダイアモンドのまりょくが……",
-  "en": ""
+  "en": "The diamond hates foul play.{p}If you don't hand it over freely,{n}the diamond's power will..."
  },
  {
   "id": "2187_188",
   "hdr": "2E030770",
   "jp": "ぐわっ！！",
-  "en": ""
+  "en": "Gwaaah!!"
  },
  {
   "id": "2187_189",
   "hdr": "1781030C",
   "jp": "どうしたの！？",
-  "en": ""
+  "en": "What's happening!?"
  },
  {
   "id": "2187_190",
   "hdr": "0A810208",
   "jp": "ダイアモンドの力か！？",
-  "en": ""
+  "en": "The diamond's power!?"
  },
  {
   "id": "2187_191",
   "hdr": "02030104",
   "jp": "うん！",
-  "en": ""
+  "en": "Yeah!"
  },
  {
   "id": "2187_192",
   "hdr": "04810104",
   "jp": "やった！",
-  "en": ""
+  "en": "We did it!"
  },
  {
   "id": "2187_193",
   "hdr": "00000000",
   "jp": "{f9}父さん。{n}{f9}ぼくたちはついにやりました。{n}{f9}7つのベルトの穴が{n}{f9}全部埋まりました！",
-  "en": ""
+  "en": "{f9}Father,{n}{f9}we have finally done it.{n}{f9}All seven places in the Belt{n}{f9}have been filled!"
  },
  {
   "id": "2187_194",
   "hdr": "09810208",
   "jp": "リーフ……ジャスミン……",
-  "en": ""
+  "en": "Lief... Jasmine..."
  },
  {
   "id": "2187_195",
   "hdr": "1403030C",
   "jp": "これでベルトは完成ね",
-  "en": ""
+  "en": "Now the Belt is complete."
  },
  {
   "id": "2187_196",
   "hdr": "05810104",
   "jp": "うわっ！？",
-  "en": ""
+  "en": "Whoa!?"
  },
  {
   "id": "2187_197",
   "hdr": "02810104",
   "jp": "これは！？",
-  "en": ""
+  "en": "What's this!?"
  },
  {
   "id": "2187_198",
   "hdr": "2C81063C",
   "jp": "わたしはトーラ族の{n}ゼアンと申します{p}あなたたちには{sp}なんと{n}おれいを言えば良いのか……",
-  "en": ""
+  "en": "I am Zeean, of the people of Tora.{p}How can we ever{n}thank you enough..."
  },
  {
   "id": "2187_199",
   "hdr": "09030208",
   "jp": "ゼアンよ{p}トーラの民は{sp}ちかいをやぶった。{n}その結果が……これだったのか？",
-  "en": ""
+  "en": "Zeean.{p}The people of Tora broke their vow.{n}Was this the result of it?"
  },
  {
   "id": "2187_200",
   "hdr": "2C81063C",
   "jp": "はい、はずかしながらそのとおり{p}トーラが栄えたのは{n}まりょくのおかげでした{p}それなのに{sp}わたしたちは……{p}そう、自分たちがかんぺきなのだと{n}考えたのです{p}ですから、エンドン王から{n}助けをもとめる手紙が来たとき……{p}わたしたちは{sp}大むかしのちかいなど{n}見向きもしなかったのです{p}しかし、ちかいは{sp}生きていました",
-  "en": ""
+  "en": "Yes. To our shame, that is so.{p}Tora prospered thanks{n}to its magic.{p}And yet we...{p}Yes, we believed that{n}we were perfect.{p}And so, when a letter came from{n}King Endon asking for help...{p}we paid no heed{n}to an ancient vow.{p}But the vow was still alive."
  },
  {
   "id": "2187_201",
   "hdr": "01810104",
   "jp": "エンドン国王は{sp}どうなったの？",
-  "en": ""
+  "en": "What happened to King Endon?"
  },
  {
   "id": "2187_202",
   "hdr": "2C81063C",
   "jp": "ざんねんながら{sp}わたしたちは{n}何も知らないのです……",
-  "en": ""
+  "en": "Sadly, we know{n}nothing at all..."
  },
  {
   "id": "2187_203",
   "hdr": "2D030740",
   "jp": "おかげで{n}目がさめました……",
-  "en": ""
+  "en": "Thanks to you,{n}I have come to my senses..."
  },
  {
   "id": "2187_204",
   "hdr": "01810104",
   "jp": "あなたは{sp}エンドン国王では{n}ないのですね？",
-  "en": ""
+  "en": "You aren't King Endon,{n}are you?"
  },
  {
   "id": "2187_205",
   "hdr": "2D030740",
   "jp": "はい。ちがいます{p}わしは{sp}リスメアという{sp}町で{n}宿屋を営んでいました",
-  "en": ""
+  "en": "No. I am not.{p}I used to run an inn{n}in a town called Rithmere."
  },
  {
   "id": "2187_206",
   "hdr": "09030208",
   "jp": "宿屋チャンピオンか！？",
-  "en": ""
+  "en": "The Champion Inn!?"
  },
  {
   "id": "2187_207",
   "hdr": "2D030740",
   "jp": "ご存知でしたか。{n}わしはあそこのていしゅでした{p}ところがとつぜん影の憲兵団に{n}宿がおそわれて……{p}わしは{sp}命からがら{n}この地まで{sp}にげてきたのです{p}そして{sp}怒りと{sp}ぜつぼうの中で{n}くらしていました",
-  "en": ""
+  "en": "So you know it.{n}I was its owner.{p}But then, all of a sudden,{n}Grey Guards attacked the inn...{p}I barely escaped with my life{n}and fled all the way here.{p}And here I lived on, in anger{n}and despair."
  },
  {
   "id": "2187_208",
   "hdr": "01810104",
   "jp": "そこを影の大王に{n}つけこまれたんですね？",
-  "en": ""
+  "en": "And the Shadow Lord took{n}advantage of that, didn't he?"
  },
  {
   "id": "2187_209",
   "hdr": "2D030740",
   "jp": "はい……",
-  "en": ""
+  "en": "Yes..."
  },
  {
   "id": "2187_210",
   "hdr": "09030208",
   "jp": "しかし、なぜエンドン国王を{n}名乗ったのだ？",
-  "en": ""
+  "en": "But why did you call yourself{n}King Endon?"
  },
  {
   "id": "2187_211",
   "hdr": "2D030740",
   "jp": "影の大王の命令です。{n}わしのすがたを見、言葉を聞けば……",
-  "en": ""
+  "en": "The Shadow Lord ordered it.{n}If people saw me and heard my words..."
  },
  {
   "id": "2187_212",
   "hdr": "01810104",
   "jp": "そうか！{p}だれも国王のために戦おうなんて{n}思わなくなる！",
-  "en": ""
+  "en": "I see!{p}Then no one would want to{n}fight for the king anymore!"
  },
  {
   "id": "2187_213",
   "hdr": "2D030740",
   "jp": "そうです{p}かつて、ひとりだけゲームに{n}しょうりした方がいました{p}その方は宝石を受け取ろうと{n}せず……{p}ただ、国王には失望したと{n}言いのこして{sp}この地を去りました…",
-  "en": ""
+  "en": "Just so.{p}Once, there was one man{n}who won the games.{p}He would not take the gem...{p}He only said he was disappointed{n}in the king, and left this land..."
  },
  {
   "id": "2187_214",
   "hdr": "09030208",
   "jp": "それは、だれだ！？",
-  "en": ""
+  "en": "Who was he?!"
  },
  {
   "id": "2187_215",
   "hdr": "2D030740",
   "jp": "たしか……ジョーカーという{n}名の男だったかと",
-  "en": ""
+  "en": "If I remember rightly...{n}he was a man named Doom."
  },
  {
   "id": "2187_216",
   "hdr": "01810104",
   "jp": "だからジョーカーは……",
-  "en": ""
+  "en": "So that's why Doom..."
  },
  {
   "id": "2187_217",
   "hdr": "09030208",
   "jp": "国王を悪く言うのだな",
-  "en": ""
+  "en": "...speaks ill of the king."
  },
  {
   "id": "2187_218",
   "hdr": "2D030740",
   "jp": "本当にもうしわけない事を{n}しました……",
-  "en": ""
+  "en": "I have done a truly{n}terrible thing..."
  },
  {
   "id": "2187_219",
   "hdr": "1181030C",
   "jp": "リーフ、ご苦労さま",
-  "en": ""
+  "en": "Lief, well done."
  },
  {
   "id": "2187_220",
   "hdr": "01030104",
   "jp": "きみと{sp}バルダのおかげだよ",
-  "en": ""
+  "en": "It's all thanks to you and Barda."
  },
  {
   "id": "2187_221",
   "hdr": "1181030C",
   "jp": "いろいろ、ひどい事言って{n}ごめんね",
-  "en": ""
+  "en": "I'm sorry I said so many{n}mean things to you."
  },
  {
   "id": "2187_222",
   "hdr": "01030104",
   "jp": "そんなに言われたかな？",
-  "en": ""
+  "en": "Did you say that many?"
  },
  {
   "id": "2187_223",
   "hdr": "1481030C",
   "jp": "なーんだ。{n}もっと、いじわるすれば良かったわ",
-  "en": ""
+  "en": "Oh, is that all?{n}Then I should have been meaner!"
  },
  {
   "id": "2187_224",
   "hdr": "02030104",
   "jp": "ぼくは{sp}いじわるされていたの！？",
-  "en": ""
+  "en": "You were being mean to me?!"
  },
  {
   "id": "2187_225",
   "hdr": "09030208",
   "jp": "ジャスミン、リーフをからかうな",
-  "en": ""
+  "en": "Jasmine, stop teasing Lief."
  },
  {
   "id": "2187_226",
   "hdr": "1481030C",
   "jp": "そうね。{n}からかうならやっぱりバルダね",
-  "en": ""
+  "en": "You're right.{n}If I tease anyone, it should be Barda."
  },
  {
   "id": "2187_227",
   "hdr": "09030208",
   "jp": "おい！",
-  "en": ""
+  "en": "Hey!"
  },
  {
   "id": "2187_228",
   "hdr": "1181030C",
   "jp": "ねえ、リーフ{p}もう一度ベルトを見せて",
-  "en": ""
+  "en": "Hey, Lief.{p}Show me the Belt again."
  },
  {
   "id": "2187_229",
   "hdr": "09030208",
   "jp": "ダメだ。{n}周囲の目がある",
-  "en": ""
+  "en": "No.{n}People might be watching."
  },
  {
   "id": "2187_230",
   "hdr": "0B030208",
   "jp": "……いや、やはり、オレも見たい",
-  "en": ""
+  "en": "...No, wait. I want to see it too."
  },
  {
   "id": "2187_231",
   "hdr": "01030104",
   "jp": "ほら！",
-  "en": ""
+  "en": "Here!"
  },
  {
   "id": "2187_232",
   "hdr": "0C030208",
   "jp": "……ふはは",
-  "en": ""
+  "en": "...Heh heh."
  },
  {
   "id": "2187_233",
   "hdr": "1481030C",
   "jp": "あはははは！",
-  "en": ""
+  "en": "Ahahahaha!"
  },
  {
   "id": "2187_234",
   "hdr": "0C030208",
   "jp": "わはははは！",
-  "en": ""
+  "en": "Ha ha ha ha!"
  },
  {
   "id": "2187_235",
   "hdr": "04030104",
   "jp": "はははははは！{sp}やったー！",
-  "en": ""
+  "en": "Ha ha ha ha ha! We did it!"
  },
  {
   "id": "2187_236",
   "hdr": "00000000",
   "jp": "父さん。{n}こんなに笑ったのは久しぶりです。{n}{n}まだ、デルトラ王家のあとつぎを{n}さがさなくてはならないけど{n}あまり心配していません。",
-  "en": ""
+  "en": "Father,{n}I haven't laughed like this in a long time.{n}{n}We still have to find the heir{n}to the throne of Deltora,{n}but I'm not very worried."
  },
  {
   "id": "2187_237",
   "hdr": "00000000",
   "jp": "ぼくたちには道しるべがあります。{n}{n}このデルトラのベルトが{n}ぼくたちをみちびいてくれる。{n}そんな気がしています。",
-  "en": ""
+  "en": "We have something to guide us.{n}{n}I have a feeling that this,{n}the Belt of Deltora,{n}will show us the way."
  },
  {
   "id": "2187_238",
   "hdr": "28010800",
   "jp": "助けてくれて、ありがとう！{n}うふふ……思わず笑顔になっちゃう！",
-  "en": ""
+  "en": "Thank you for saving us!{n}Hee hee... I can't stop smiling!"
  },
  {
   "id": "2187_239",
   "hdr": "28010800",
   "jp": "王とのちかいをやぶってしまった事が{n}はずかしいわ。約束は守らなくっちゃ！",
-  "en": ""
+  "en": "I'm so ashamed we broke our vow{n}to the king. Promises must be kept!"
  },
  {
   "id": "2187_240",
   "hdr": "28010900",
   "jp": "地に足をつけて歩けるの！{n}これって、とっても大切な事よ！",
-  "en": ""
+  "en": "I can walk with my feet on the ground!{n}That's so important, you know!"
  },
  {
   "id": "2187_241",
   "hdr": "28010900",
   "jp": "谷をさまよってる間、生きた心地が{n}しなかったわ。本当にありがとう！",
-  "en": ""
+  "en": "Wandering in that valley, I felt more{n}dead than alive. Thank you so much!"
  },
  {
   "id": "2187_242",
   "hdr": "2C81063C",
   "jp": "ありがとう……{p}あなた方には{sp}してもしきれないほど{n}かんしゃしています",
-  "en": ""
+  "en": "Thank you...{p}We are more grateful to you{n}than we can ever say."
  },
  {
   "id": "2187_243",
   "hdr": "2D030740",
   "jp": "ううう……{n}わたしは……いったい……？",
-  "en": ""
+  "en": "Ohh...{n}What... What have I...?"
  },
  {
   "id": "2187_244",
   "hdr": "2D030740",
   "jp": "これからは、つみをつぐなうため{n}人のためにはたらこうと思います……",
-  "en": ""
+  "en": "From now on, I will work for others{n}to make up for what I have done..."
  },
  {
   "id": "2187_245",
   "hdr": "1103030C",
   "jp": "よしよし。むずかしい話は{n}リーフとバルダにまかせようね{sp}クリー",
-  "en": ""
+  "en": "There, there. Let's leave the hard{n}talk to Lief and Barda, Kree."
  },
  {
   "id": "2187_246",
   "hdr": "28010600",
   "jp": "また{sp}この町で{sp}くらせるのは{n}あなたたちの{sp}おかげです{p}本当に{sp}ありがとうございます",
-  "en": ""
+  "en": "It's thanks to you that we can{n}live in this city again.{p}Thank you so much."
  },
  {
   "id": "2187_247",
   "hdr": "28010700",
   "jp": "われわれの{sp}思い上がりが{sp}王と{n}世界を苦しめたのだ……{p}つみほろぼしの方法を{n}考えねば……",
-  "en": ""
+  "en": "Our pride brought suffering{n}to the king and the whole land...{p}We must find a way{n}to make up for it..."
  },
  {
   "id": "2187_248",
   "hdr": "28010900",
   "jp": "また、家族で{sp}いっしょに{n}すごせるなんて{sp}ゆめのようです！",
-  "en": ""
+  "en": "To be together with my family{n}again... It's like a dream!"
  },
  {
   "id": "2187_249",
   "hdr": "28010700",
   "jp": "ありがとう！{n}本当にありがとう！",
-  "en": ""
+  "en": "Thank you!{n}Thank you so much!"
  },
  {
   "id": "2187_250",
   "hdr": "28010800",
   "jp": "わたし、おとうとがほしいよ！",
-  "en": ""
+  "en": "I want a little brother!"
  },
  {
   "id": "2187_251",
   "hdr": "28010900",
   "jp": "この町で{sp}なやみながら{n}生きてきました……{p}でも、あの谷で{sp}もうじゃとして{n}さまようより{sp}ずっと{sp}マシです！",
-  "en": ""
+  "en": "I've lived in this city with{n}so many worries...{p}But it beats wandering that valley{n}as a lost soul by a mile!"
  },
  {
   "id": "2187_252",
   "hdr": "28010800",
   "jp": "トーラは{sp}生まれ変わります{p}日々のしあわせへの{sp}かんしゃを{n}忘れない町に",
-  "en": ""
+  "en": "Tora will be born anew,{p}as a city that never forgets{n}to be thankful for each day's joys."
  },
  {
   "id": "2187_253",
   "hdr": "28010600",
   "jp": "人生これからっす！{n}がんばるっす！",
-  "en": ""
+  "en": "My life's only just starting!{n}Gonna give it everything!"
  },
  {
   "id": "2187_254",
   "hdr": "28010800",
   "jp": "リーフさん、ありがとうございます。{n}あなたの事は{sp}一生忘れません",
-  "en": ""
+  "en": "Thank you, Lief.{n}I will never forget you as long as I live."
  },
  {
   "id": "2187_255",
   "hdr": "28010700",
   "jp": "トーラは{sp}もう{sp}2度と{n}ちかいを{sp}やぶったりはしません！",
-  "en": ""
+  "en": "Tora will never, ever{n}break its vow again!"
  }
 ]

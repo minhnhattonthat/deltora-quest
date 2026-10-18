@@ -75,7 +75,7 @@
   "id": "2185_012",
   "hdr": "1D030B20",
   "jp": "国のあちらこちらで{sp}影の大王様への{n}うら切りが{sp}ほうこくされている{p}ちゅうじつな{sp}しもべたちが{sp}たおされ{n}大切な宝がぬすみ出された{p}それを行っているのは少年と大人。{n}そしてカラスをつれた小むすめ",
-  "en": "All over the land, treachery against{n}the Shadow Lord is being reported.{p}His loyal servants have been struck down{n}and precious treasures stolen.{p}It is the work of a boy and a man.{n}And a little girl with a crow."
+  "en": "All over the land, treachery against{n}the Shadow Lord is being reported.{p}His loyal servants have been struck down{n}and precious treasures stolen.{p}It is the work of a boy and a man.{n}And a little girl with a raven."
  },
  {
   "id": "2185_013",
@@ -633,7 +633,7 @@
   "id": "2185_105",
   "hdr": "01030104",
   "jp": "どうしてそうしないの？",
-  "en": "Then why don't you go back?"
+  "en": "Then why don't you do it?"
  },
  {
   "id": "2185_106",
@@ -1317,7 +1317,7 @@
   "id": "2185_219",
   "hdr": "1203030C",
   "jp": "バルダったら！{p}わたしたちにも、あんな言葉を{n}かけてくれればいいのに！",
-  "en": "Oh, Barda!{p}I wish he'd say something like that{n}to us, too!"
+  "en": "Honestly, that Barda!{p}I wish he'd say something like that{n}to us, too!"
  },
  {
   "id": "2185_220",
@@ -1407,7 +1407,7 @@
   "id": "2185_234",
   "hdr": "1103030C",
   "jp": "……グノメ族ね",
-  "en": "...Gnomes of Dread Mountain."
+  "en": "...They're Gnomes."
  },
  {
   "id": "2185_235",
@@ -1569,7 +1569,7 @@
   "id": "2185_261",
   "hdr": "28010600",
   "jp": "カラスじゃなくてネズミじゃないか！",
-  "en": "That's not a crow, it's a rat!"
+  "en": "That's not a raven, it's a rat!"
  },
  {
   "id": "2185_262",
@@ -1599,19 +1599,19 @@
   "id": "2185_266",
   "hdr": "28010700",
   "jp": "ハエのエサにしてやる！",
-  "en": "We'll make you Fly food!"
+  "en": "We'll feed you to the flies!"
  },
  {
   "id": "2185_267",
   "hdr": "09810208",
   "jp": "よりによって{sp}ハエのエサとは……{p}しかしおまえたち、われわれを{n}だれだと思ったんだ？",
-  "en": "Fly food, of all things...{p}But tell me, who did you{n}take us for?"
+  "en": "Food for the flies, of all things...{p}But tell me, who did you{n}take us for?"
  },
  {
   "id": "2185_268",
   "hdr": "28010600",
   "jp": "男女のガキとおとながひとり。{n}カラスをつれて旅をしてる{p}影の大王様のだいじな物を{n}うばいながらな{p}そいつらを見つけて差し出せば{n}たんまり{sp}ほうびをもらえるのさ",
-  "en": "Two brats, a boy and a girl, and{n}one grown-up, travelling with a crow.{p}Stealing the Shadow Lord's{n}precious treasures as they go.{p}Find them and hand them over,{n}and there's a fat reward."
+  "en": "Two brats, a boy and a girl, and{n}one grown-up, travelling with a raven.{p}Stealing the Shadow Lord's{n}precious treasures as they go.{p}Find them and hand them over,{n}and there's a fat reward."
  },
  {
   "id": "2185_269",
@@ -1623,7 +1623,7 @@
   "id": "2185_270",
   "hdr": "01030104",
   "jp": "(ねえ、バルダ、おかしいよ){p}(どうしてやつらはフィリが{n}カラスじゃないってわかったの？)",
-  "en": "(Hey, Barda, something's odd.){p}(How did they know Filli{n}wasn't a crow?)"
+  "en": "(Hey, Barda, something's odd.){p}(How did they know Filli{n}wasn't a raven?)"
  },
  {
   "id": "2185_271",
@@ -1683,7 +1683,7 @@
   "id": "2185_280",
   "hdr": "01030104",
   "jp": "ハエを育てているんだな",
-  "en": "They're breeding Flies."
+  "en": "They're breeding flies."
  },
  {
   "id": "2185_281",
@@ -1707,7 +1707,7 @@
   "id": "2185_284",
   "hdr": "28010700",
   "jp": "おまえたちは{sp}そのハエの{n}エサになるというわけだ！",
-  "en": "And now you lot{n}will be Fly food!"
+  "en": "And now you lot{n}will be food for those flies!"
  },
  {
   "id": "2185_285",
