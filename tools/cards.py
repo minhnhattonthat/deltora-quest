@@ -35,8 +35,12 @@ CARDS = {
     1785: (1784, 1780, "Extra Stage", "The Tower of Dreams"),
     1792: (1791, 1787, "The Secret", "Audio Room"),
 }
-# Game over (G10): screen: (chr, palette, text, box of the Japanese line); red dialogue-font text with dark outline
-OVER = {425: (424, 423, "Lief's party has fallen...", (6, 12, 154, 30))}
+# One-line outlined labels redrawn in the dialogue font: screen: (chr, palette, text, box of the Japanese line,
+# letter colour "red"/"bright", centred). G10 game over, G7 item menu header.
+LABELS = {
+    425: (424, 423, "Lief's party has fallen...", (6, 12, 154, 30), "red", False),
+    542: (541, 540, "Items for Use in the Field", (56, 8, 204, 21), "bright", True),
+}
 TOP_Y, MAIN_Y = 59, 110  # line centres, as in the Japanese cards
 TOP_SIZE, MAIN_SIZE, WIDTH = 15, 22, 240
 FILL, GLOW = np.array([248, 248, 248]), np.array([120, 120, 120])
@@ -99,15 +103,19 @@ def generate(img, top, main):
     return out.round().astype(np.uint8)
 
 
-def game_over(img, text, box):
+def relabel(img, text, box, colour, centre):
+    """Replace an outlined one-line label inside box (plain background around it) with text in the dialogue font.
+    colour: "red" = the letters are the reddest pixels, "bright" = the brightest; outline = the darkest pixel."""
     import fontgen
     import logo
     import tags
     x0, y0, x1, y1 = box
     reg = img[y0:y1, x0:x1].astype(int)
-    red = reg[..., 0] - reg[..., 1:].max(-1)
-    fill = np.median(reg[red > 80], 0)  # the letters' red
-    ink = reg.reshape(-1, 3)[reg.sum(-1).argmin()]  # their outline
+    if colour == "red":
+        fill = np.median(reg[reg[..., 0] - reg[..., 1:].max(-1) > 80], 0)
+    else:
+        fill = reg.reshape(-1, 3)[reg.sum(-1).argmax()]
+    ink = reg.reshape(-1, 3)[reg.sum(-1).argmin()]
     a = img.astype(float)
     a[y0:y1, x0:x1] = logo.fill(a, box, bottom=True)
     m = tags.line(text, fontgen.glyphs(), fontgen.SPACE)
@@ -118,15 +126,17 @@ def game_over(img, text, box):
     for dy in (-1, 0, 1):
         for dx in (-1, 0, 1):
             ring |= np.roll(np.roll(full, dy, 0), dx, 1)
-    y, x = y0 + (y1 - y0 - h - 2) // 2 + 1, x0 + 2
+    assert w + 2 <= x1 - x0, f"{text!r}: {w + 2} px, box is {x1 - x0}"
+    y = y0 + (y1 - y0 - h - 2) // 2 + 1
+    x = x0 + (x1 - x0 - w - 2) // 2 if centre else x0 + 2
     region = a[y:y + h + 2, x:x + w + 2]
     region[ring & ~full] = ink
     region[full] = fill
     return a.round().astype(np.uint8)
 
 
-def original_over(files, s):
-    c, p = OVER[s][:2]
+def original_label(files, s):
+    c, p = LABELS[s][:2]
     til, bpp = nitro.tiles(files[c])
     return nitro.render(nitro.palette(files[p]), til, nitro.screen(files[s]), bpp)[:192]
 
@@ -134,7 +144,7 @@ def original_over(files, s):
 def apply(files):
     from PIL import Image
     magic = lambda k: files[k][:4] if 0 <= k < len(files) else None  # noqa: E731
-    for s, (c, p, *_) in list(CARDS.items()) + list(OVER.items()):
+    for s, (c, p, *_) in list(CARDS.items()) + list(LABELS.items()):
         screens = neighbours(magic, c)
         targets = [np.array(Image.open(GFX / f"card_{s}.png").convert("RGB")) if k == s else
                    nitro.render(nitro.palette(files[p]), nitro.tiles(files[c])[0], nitro.screen(files[k]), 4)
@@ -155,9 +165,9 @@ def main():
         out = GFX / f"card_{s}.png"
         Image.fromarray(generate(original(files, s), top, main_)).save(out)
         print(out)
-    for s, (_, _, text, box) in OVER.items():
+    for s, (_, _, text, box, colour, centre) in LABELS.items():
         out = GFX / f"card_{s}.png"
-        Image.fromarray(game_over(original_over(files, s), text, box)).save(out)
+        Image.fromarray(relabel(original_label(files, s), text, box, colour, centre)).save(out)
         print(out)
 
 

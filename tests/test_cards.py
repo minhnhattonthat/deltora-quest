@@ -21,6 +21,6 @@ def test_card_import_matches_png():
     for s in cards.CARDS:
         want = np.array(Image.open(cards.GFX / f"card_{s}.png")).astype(int)
         assert np.abs(cards.original(f2, s).astype(int) - want).mean() < 1.0, s
-    for s in cards.OVER:
+    for s in cards.LABELS:
         want = np.array(Image.open(cards.GFX / f"card_{s}.png")).astype(int)
-        assert np.abs(cards.original_over(f2, s).astype(int) - want).mean() < 1.5, s
+        assert np.abs(cards.original_label(f2, s).astype(int) - want).mean() < 1.5, s
