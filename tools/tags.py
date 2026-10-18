@@ -74,10 +74,38 @@ def draw(name, fonts=None):
     return img
 
 
+# はい / いいえ (G4): 32x16 OBJ cells (4x2 tiles, 1D) in the confirm sprite sheets, fill 2, outline 1, rows 4-14.
+# Every byte-identical copy: (FILEDATA, byte offset). The build checks each still holds the Japanese cell.
+LABELS = {"Yes": [(5373, 0x30), (5373, 0x930), (5373, 0x1230), (5378, 0x30), (5378, 0x5B0)],
+          "No": [(5373, 0x1B30), (5373, 0x2430), (5373, 0x2D30), (5378, 0xB30), (5378, 0x10B0)]}
+
+
+def label(text, font):
+    m = line(text, font, fontgen.SPACE)
+    h, w = m.shape
+    full = np.zeros((16, 32), bool)
+    x = (32 - w) // 2
+    full[5:5 + h, x:x + w] = m
+    ring = np.zeros_like(full)
+    for dy in (-1, 0, 1):
+        for dx in (-1, 0, 1):
+            ring |= np.roll(np.roll(full, dy, 0), dx, 1)
+    img = np.where(full, 2, np.where(ring, 1, 0)).astype(np.uint8)
+    t = img.reshape(2, 8, 4, 8).transpose(0, 2, 1, 3).reshape(8, 8, 8)  # tile k = row k // 4, column k % 4
+    return (t[..., 0::2] | (t[..., 1::2] << 4)).tobytes()
+
+
 def apply(files):
     fonts = fontgen.glyphs(), fontgen.glyphs(SMALL)
     for n, name in NAMES.items():
         files[BASE + n] = encode(draw(name, fonts), files[BASE + n])
+    for text, spots in LABELS.items():
+        f0, o0 = spots[0]
+        jp = files[f0][o0:o0 + 256]
+        new = label(text, fonts[0])
+        for f, o in spots:
+            assert files[f][o:o + 256] == jp, f"FILEDATA {f} +{o:#x} is not the Japanese {text} cell"
+            files[f] = files[f][:o] + new + files[f][o + 256:]
 
 
 def main():

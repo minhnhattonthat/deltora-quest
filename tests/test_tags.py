@@ -23,3 +23,4 @@ def test_tag_codec_roundtrips():
         f = files[tags.BASE + n]
         assert f[:4] == b"RGCN" and len(f) == tags.HDR + tags.W * tags.H // 2
         assert tags.encode(tags.decode(f), f) == f
+    tags.apply(files)  # asserts every Yes/No spot still holds the Japanese cell

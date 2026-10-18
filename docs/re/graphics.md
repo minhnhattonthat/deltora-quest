@@ -9,7 +9,7 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
 | G1 | logo katakana above QUEST | デルトラクエスト | top screen (sub BG), title and every story screen | FILEDATA 465 / 1620 / 1625 (below) | done: removed (tools/logo.py), cold-boot shots work/qa/logo_title, logo_story |
 | G2 | logo subtitle | 7つの宝石 | top screen, under DELTORA | same | done: "The Seven Gems" |
 | G3 | copyright line | (C)2006 デルトラクエスト製作委員会・テレビ愛知 (C)2007 NBGI | title, top | FILEDATA 1620 (part of the title logo screen) | done: 3 lines, "(C)2006 Deltora Quest Production Committee / TV Aichi / (C)2007 NBGI" |
-| G4 | yes / no labels | はい / いいえ | entry-card confirm, above the two Lief portraits | font-styled but no script string has them: sprite in the font's look? | check: VRAM/OAM dump |
+| G4 | yes / no labels | はい / いいえ | entry-card confirm, above the two Lief portraits | OBJ cells in sprite sheets FILEDATA 5373 (3 copies) and 5378 (2; screen not seen yet), vramfind on OBJ-A 0x06401380 / 0x06401C80 (work/qa/yesno) | done: tools/tags.py LABELS, cold-boot shot work/qa/yesno_cold |
 | G5 | speaker name tags | リーフ, バルダ, ジャード, ... | dialogue box top edge (cyan) | FILEDATA 4533+n (verified, below) | done: tools/tags.py; English in a cold-boot shot (work/qa/tags_cold) and via the text viewer |
 
 ## G1-G3 logo screens (verified: rendered from the files with tools/nitro.py; English import shows in cold boot)
