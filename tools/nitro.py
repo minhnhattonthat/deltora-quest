@@ -63,6 +63,59 @@ def with_screen(rcsn, scr):
     return rcsn[:off + 20] + raw + rcsn[off + 20 + size:]
 
 
+def import_screens(rgcn, rlcn, rcsns, targets):
+    """Re-encode the 8x8 cells of 4bpp screens rcsns (all using tiles rgcn, palette rlcn) whose pixels in targets
+    (RGB arrays, same order, at least the screen's visible rows) differ from the original render. Each changed cell
+    gets the palette of the 16 that fits it best (index 0 left unused). Cells that end up identical share one tile; a
+    tile is rewritten in place only when every cell that uses it, on any of the screens, changes to the same thing;
+    otherwise the cell gets a tile no screen uses. -> (rgcn, [rcsn, ...])"""
+    pal, (til, bpp) = palette(rlcn), tiles(rgcn)
+    assert bpp == 4
+    scrs = [screen(s).copy() for s in rcsns]
+    pals = pal.astype(int).reshape(16, 16, 3)[:, 1:]
+    refs = {}
+    for k, scr in enumerate(scrs):
+        for (r, c), e in np.ndenumerate(scr):
+            if (e & 0x3FF) < len(til):
+                refs.setdefault(int(e) & 0x3FF, set()).add((k, r, c))
+    groups = {}  # (palette, tile bytes) -> cells
+    for k, (scr, tgt) in enumerate(zip(scrs, targets)):
+        old = render(pal, til, scr, 4).astype(int)
+        new = np.asarray(tgt).astype(int)
+        for r in range(min(len(new), len(old)) // 8):
+            for c in range(scr.shape[1]):
+                cell = new[r * 8:r * 8 + 8, c * 8:c * 8 + 8]
+                if (cell == old[r * 8:r * 8 + 8, c * 8:c * 8 + 8]).all():
+                    continue
+                d = ((cell[None, :, :, None, :] - pals[:, None, None, :, :]) ** 2).sum(-1)  # (16, 8, 8, 15)
+                best = int(d.min(-1).sum((1, 2)).argmin())
+                px = (d[best].argmin(-1) + 1).astype(np.uint8)
+                groups.setdefault((best, px.tobytes()), set()).add((k, r, c))
+    changed = set().union(*groups.values()) if groups else set()
+    til = til.copy()
+    used = {t for t, cs in refs.items() if not cs <= changed}  # still shown somewhere unchanged
+    todo = []
+    for key, cells in groups.items():
+        olds = sorted({int(scrs[k][r, c]) & 0x3FF for k, r, c in cells})
+        own = [t for t in olds if refs.get(t, set()) <= cells and t not in used]
+        if own:
+            used.add(own[0])
+            todo.append((key, cells, own[0]))
+        else:
+            todo.append((key, cells, None))
+    owned = {x[2] for x in todo}
+    free = (t for t in range(len(til)) if t not in used and t not in owned)
+    for key, cells, t in todo:
+        if t is None:
+            t = next(free)  # StopIteration here = out of tiles: shrink the edit or dedupe more
+            used.add(t)
+        best, raw = key
+        til[t] = np.frombuffer(raw, np.uint8).reshape(8, 8)
+        for k, r, c in cells:
+            scrs[k][r, c] = t | (best << 12)  # pixels are as displayed, so no flip bits
+    return with_tiles(rgcn, til), [with_screen(s, scr) for s, scr in zip(rcsns, scrs)]
+
+
 def render(pal, til, scr, bpp):
     rows, cols = scr.shape
     img = np.zeros((rows * 8, cols * 8, 3), np.uint8)

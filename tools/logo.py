@@ -1,8 +1,7 @@
 """logo.py: English title logo (docs/re/graphics.md G1/G2) on the three logo screens.
 
 The katakana デルトラクエスト above QUEST is removed (background copied down from the rows above it) and 7つの宝石
-becomes "The Seven Gems". The build imports gfx/logo_<chr>.png: only 8x8 cells that differ from the original are
-re-encoded, each with the one of the screen's 16 palettes that fits it best (index 0 unused, as in the original).
+becomes "The Seven Gems". The build imports gfx/logo_<screen>.png with nitro.import_screens (only changed cells).
 
     python -X utf8 tools/logo.py    # regenerate gfx/logo_*.png (needs the Windows fonts typeset.py names)
 """
@@ -16,25 +15,38 @@ import nitro
 ROOT = Path(__file__).resolve().parents[1]
 GFX = ROOT / "gfx"
 SKILL = Path("C:/Users/Nathan/.claude/plugins/cache/retro-translation/translate-retro-game/d6945f695321/skills/translate-retro-game")
-SCREENS = {465: (464, 466), 1620: (1621, 1622), 1625: (1624, 1626)}  # chr: (pal, scr); 465 story, 1620 title
+# chr: (pal, screens); 465 story, 1620 title, 1625 light (intro). 1623 is not a 1620 screen: it is the bottom title
+# screen's map over other tiles (VRAM dump work/qa/title_dump2); rendering it with 1620 only looks plausible.
+SCREENS = {465: (464, [466]), 1620: (1621, [1622]), 1625: (1624, [1626])}
 KATA = (156, 70, 208, 81)  # x0, y0, x1, y1 (exclusive): the katakana, above QUEST's top outline (row 81)
 SUB = (96, 100, 160, 116)  # the 7つの宝石 subtitle, on plain background
 SUBTITLE, SUB_Y, SUB_CX = "The Seven Gems", 101, 116  # text, top row, centre x (the castle base starts at x 168)
-COPY = (0, 158, 256, 184)  # title screen (1620) only: the (C) lines (G3), on plain background
+COPY = (0, 156, 256, 184)  # title screen (1620) only: the (C) lines (G3), on plain background
 COPY_LINES = "(C)2006 Deltora Quest Production Committee\nTV Aichi\n(C)2007 NBGI"
 OUTLINE = (64, 24, 8)
 RAMP = [(160, 24, 16), (208, 64, 16), (240, 128, 32), (248, 200, 64)]  # top -> bottom, like the subtitle's red-gold
 
 
-def unpack(files, c):
-    p, s = SCREENS[c]
+def original(files, c, s):
     til, bpp = nitro.tiles(files[c])
-    return nitro.palette(files[p]), til, nitro.screen(files[s]), bpp
+    return nitro.render(nitro.palette(files[SCREENS[c][0]]), til, nitro.screen(files[s]), bpp)[:192]
 
 
-def original(files, c):
-    pal, til, scr, bpp = unpack(files, c)
-    return nitro.render(pal, til, scr, bpp)[:192]
+def derived(files, c, s, base, edited):
+    """Target for screen s that reuses rows of screen base (1623 = 1622's lower rows moved up): each of its cells
+    that shows the same tile as the matching base row takes that base cell's edit."""
+    a, b = nitro.screen(files[base]) & 0x3FF, nitro.screen(files[s]) & 0x3FF
+    old_base = original(files, c, base)
+    out = original(files, c, s).copy()
+    for r in range(min(24, len(b))):
+        hits, k = max((int((b[r] == a[k]).sum()), k) for k in range(24))
+        if hits < 16:
+            continue
+        for col in np.nonzero(b[r] == a[k])[0]:
+            cell = np.s_[k * 8:k * 8 + 8, col * 8:col * 8 + 8]
+            if (edited[cell] != old_base[cell]).any():
+                out[r * 8:r * 8 + 8, col * 8:col * 8 + 8] = edited[cell]
+    return out
 
 
 def fill(a, box):
@@ -101,36 +113,19 @@ def generate(img, c):
     return a
 
 
-def import_png(files, c, png):
-    """Re-encode the cells of FILEDATA c whose pixels differ from the original render."""
+def import_pngs(files, c, pngs):
+    """-> new files[c] and files[s] for each screen s of chr c, from the target PNGs (same order as SCREENS[c][1])."""
     from PIL import Image
-    pal, til, scr, bpp = unpack(files, c)
-    assert bpp == 4
-    new = np.array(Image.open(png).convert("RGB")).astype(int)
-    old = nitro.render(pal, til, scr, bpp)[:192].astype(int)
-    til, scr = til.copy(), scr.copy()
-    ids = (scr & 0x3FF).reshape(-1).tolist()
-    free = sorted(set(range(len(til))) - set(ids))
-    pals = pal.astype(int).reshape(16, 16, 3)[:, 1:]  # index 0 never used in these screens
-    for r in range(24):
-        for col in range(32):
-            cell = new[r * 8:r * 8 + 8, col * 8:col * 8 + 8]
-            if (cell == old[r * 8:r * 8 + 8, col * 8:col * 8 + 8]).all():
-                continue
-            d = ((cell[None, :, :, None, :] - pals[:, None, None, :, :]) ** 2).sum(-1)  # (16, 8, 8, 15)
-            best = int(d.min(-1).sum((1, 2)).argmin())
-            e = int(scr[r, col])
-            t = e & 0x3FF
-            if ids.count(t) > 1:
-                t = free.pop(0)  # shared tile: give this cell its own copy
-            til[t] = d[best].argmin(-1) + 1
-            scr[r, col] = (e & 0x0C00) | t | (best << 12)
-    return nitro.with_tiles(files[c], til), nitro.with_screen(files[SCREENS[c][1]], scr)
+    p, ss = SCREENS[c]
+    targets = [np.array(Image.open(png).convert("RGB")) for png in pngs]
+    return nitro.import_screens(files[c], files[p], [files[s] for s in ss], targets)
 
 
 def apply(files):
-    for c in SCREENS:
-        files[c], files[SCREENS[c][1]] = import_png(files, c, GFX / f"logo_{c}.png")
+    for c, (_, ss) in SCREENS.items():
+        files[c], new = import_pngs(files, c, [GFX / f"logo_{s}.png" for s in ss])
+        for s, b in zip(ss, new):
+            files[s] = b
 
 
 def main():
@@ -141,10 +136,13 @@ def main():
     import build
     files = lf2.read(ndspy.rom.NintendoDSRom(build.ROM.read_bytes()).files[build.FILEDATA], [])
     GFX.mkdir(exist_ok=True)
-    for c in SCREENS:
-        out = GFX / f"logo_{c}.png"
-        Image.fromarray(generate(original(files, c), c).round().astype(np.uint8)).save(out)
-        print(out)
+    for c, (_, ss) in SCREENS.items():
+        edited = generate(original(files, c, ss[0]), c).round().astype(np.uint8)
+        for s in ss:
+            out = GFX / f"logo_{s}.png"
+            img = edited if s == ss[0] else derived(files, c, s, ss[0], edited)
+            Image.fromarray(img).save(out)
+            print(out)
 
 
 if __name__ == "__main__":

@@ -26,6 +26,22 @@ Source = first guess until confirmed by VRAM dump + corrupt-and-boot.
   are antialiased with that ramp, caps on rows 4-12. All 45 names and their English: `tools/tags.py` NAMES.
 - Tag sits top-left of the box when the portrait is on the left, top-right when on the right.
 
+| G6 | field menu labels | そうび / だいじ / そざい / カード / アイテム | field menu (bottom-right icon; scene `menu`) | 32x16 OBJ cells in sheet FILEDATA 5311 (3 copies each; objcell.py) | blocked: 32 px wide, fixed by the cell's 0x300 VRAM slot (icon + label); wording for the user |
+| G7 | item menu header | フィールドでつかうアイテム | scene `menu_item`, BG3 | BG screen 542 over chr 541 (pal 540) | todo |
+| G8 | chapter title cards | 第1章 沈黙の森 ... 最終章 帰還 デルへ (8) | chapter start | BG screens 1694 1701 1708 1715 1722 1729 1736 1743 (gfxsurvey) | todo |
+| G9 | area title cards | あたたかい キャンプ, TOMの店, ジャスミンの まぜまぜ部屋, スペシャルステージ モキートの館, ジャックの グランドファーム, エクストラステージ 夢幻の塔, ひみつの オーディオルーム | area entry | BG screens 1750 1757 1764 1771 1778 1785 1792 | todo |
+| G10 | game over line | リーフたちは力つきた… | game over (GAME OVER already English) | BG screen 425 | todo |
+| G11 | card trade headers | デルトラカードこうかん / こうかん中… | wireless card trade | BG screens 1675, 1678 | todo |
+| G12 | Emily Rodda letter | 親愛なるデルトラ・ファンのみなさまへ ... エミリー | letter screen, Japanese half under her English handwriting | BG screen 357 | todo: probably drop the JP half (English original above) |
+| G13 | demo leftovers? | 7つの宝石(仮) logo; 画面をタッチして次の人に...; ことし発売予定 | unknown; look like store-demo screens | BG 354, 374, 376 | check if retail shows them |
+| G14 | bitmap font sheet | A-Z a-z 0-9, kana | which screen draws with it? | chr in screen group 513/512/510 | find its user |
+
+## Survey method (tools/debug/gfxsurvey.py, objsurvey.py)
+Every RCSN rendered with the RGCN/RLCN just before it (work/qa/gfxsurvey, 418 screens; read by 4 reviewer agents,
+all sheets) and every RECN cell bank with the RGCN after it (work/qa/objsurvey, 6330 unique cells; not read yet).
+The pairing is a guess: 1623 renders as a plausible second title layout over 1620's tiles but really is the bottom
+title screen's map over other tiles (VRAM dump work/qa/title_dump2). Confirm a pairing in VRAM before editing.
+
 Already English in the original: Bandai Namco splash, entry card, book cover, map scroll labels, HUD icons.
 Not surveyed yet (no scene reaches them): in-game menu (items, equipment, recipes), shop, mixing room, smithing
 minigame, game over, staff roll, chapter-clear screens. Add scenes for them, then extend this table.

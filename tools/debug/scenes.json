@@ -18,5 +18,11 @@
  "worldmap": {"route": "tools/routes/new_game.txt", "frames": 4000, "mash": true, "warp": [0, 2], "event": [2609, 1], "shows": "world map (event script 2609: also CallShop/CallCamp)"},
  "smithy": {"route": "tools/routes/new_game.txt", "frames": 4500, "mash": true, "warp": [0, 2], "event": [1814, 1], "shows": "castle smithy event (script 1814, CallSmith)"},
  "paint": {"route": "tools/routes/new_game.txt", "frames": 3700, "mash": true, "warp": [0, 2], "event": [1817, 1], "shows": "portrait dialogue then parchment screen (script 1817, CallPaint)"},
- "cutscene_1798": {"route": "tools/routes/new_game.txt", "frames": 6000, "mash": true, "warp": [9, 1], "event": [1798, 1], "shows": "cinematic dialogue layout: scene on top, centred text + portrait on black bottom screen"}
+ "menu": {"from": "ch1", "route": "30 -;6 t240,173;200 -", "frames": 236, "shows": "field menu (bottom-right icon): そうび/だいじ/そざい/カード/アイテム labels"},
+ "menu_equip": {"from": "ch1", "route": "30 -;6 t240,173;120 -;6 t104,63;200 -", "frames": 362, "shows": "menu > そうび (equipment)"},
+ "menu_key": {"from": "ch1", "route": "30 -;6 t240,173;120 -;6 t152,63;200 -", "frames": 362, "shows": "menu > だいじ (key items)"},
+ "menu_material": {"from": "ch1", "route": "30 -;6 t240,173;120 -;6 t72,95;200 -", "frames": 362, "shows": "menu > そざい (materials)"},
+ "menu_card": {"from": "ch1", "route": "30 -;6 t240,173;120 -;6 t184,95;200 -", "frames": 362, "shows": "menu > カード (cards)"},
+ "menu_item": {"from": "ch1", "route": "30 -;6 t240,173;120 -;6 t128,128;200 -", "frames": 362, "shows": "menu > アイテム (items)"},
+ "cutscene_1798":{"route": "tools/routes/new_game.txt", "frames": 6000, "mash": true, "warp": [9, 1], "event": [1798, 1], "shows": "cinematic dialogue layout: scene on top, centred text + portrait on black bottom screen"}
 }

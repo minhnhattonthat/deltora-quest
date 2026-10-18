@@ -18,8 +18,11 @@ ORIG = ROOT / "rom/1415 - Deltora Quest - 7-tsu no Houseki (J)(Caravan).nds"
 
 def warp(name, scene, rom, out):
     cmd = [sys.executable, "-X", "utf8", str(SKILL / "scripts/emu.py"), str(rom), "--out", str(out),
-           "--route", str(ROOT / scene["route"]), "--frames", str(scene["frames"]),
-           "--shot-every", "300", "--sheet", "--smoke", "--state-out", str(ROOT / f"work/states/{name}.dst")]
+           "--frames", str(scene["frames"]), "--sheet", "--smoke", "--state-out", str(ROOT / f"work/states/{name}.dst")]
+    if "from" in scene:  # continue from another scene's state (made earlier in the same --all run)
+        return subprocess.call(cmd + ["--state-in", str(ROOT / f"work/states/{scene['from']}.dst"),
+                                      "--route-str", scene["route"], "--shot-every", "30"])
+    cmd += ["--route", str(ROOT / scene["route"]), "--shot-every", "300"]
     if scene.get("mash"):
         cmd += ["--mash", "45", "--mash-key", "t128,96"]
     if "warp" in scene:  # [chapter, area]: New Game starts in that stage (tools/debug/warp.lua)
@@ -42,8 +45,11 @@ def main():
     scenes = {k: v for k, v in json.loads((ROOT / "tools/debug/scenes.json").read_text(encoding="utf-8")).items()
               if not k.startswith("_")}
     names = list(scenes) if a.all else [a.scene]
-    with ThreadPoolExecutor(a.jobs) as pool:  # each run is its own emulator process and --out dir
-        rcs = list(pool.map(lambda n: warp(n, scenes[n], a.rom, Path(a.out) / n), names))
+    rcs = []
+    for wave in ([n for n in names if "from" not in scenes[n]], [n for n in names if "from" in scenes[n]]):
+        with ThreadPoolExecutor(a.jobs) as pool:  # each run is its own emulator process and --out dir
+            rcs += list(pool.map(lambda n: warp(n, scenes[n], a.rom, Path(a.out) / n), wave))
+    names = [n for n in names if "from" not in scenes[n]] + [n for n in names if "from" in scenes[n]]
     bad = [n for n, rc in zip(names, rcs) if rc]
     if bad:
         sys.exit(f"failed: {bad}")
