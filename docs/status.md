@@ -27,7 +27,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   4. In-game checks noted by reviewers: seen in the text viewer 2026-10-18 and fine: 2188_136 (song line; the
      puzzle answer itself not played), 2184_248, 2188_365 (Barda), 2199_116 (Barda). Left: smithing icons
      Circle/Arrow (2196_012: the materials window after forging, smithy scene + taps), 2197_216 context.
-  5. Release tooling: xdelta patch, README with base hashes, jp_left scan, debug tool off.
+  5. Release: `tools/release.py --version X.Y` (fresh build, smoke, jp_left on text files + arm9, qa_gate, xdelta
+     re-apply check, README from docs/release-readme.txt, zip). v0.9 published 2026-10-19 as a GitHub release
+     (repo is private, so the release is too). Debug tool is Lua/savestate only, nothing in the ROM.
+     Update the README's known issues before each release.
 - **Open questions:**
   - Credits: company アウディオ English name, some staff-name readings unverified.
   - Glossary rows marked `?` (Elstedd, ...) from memory.
