@@ -5,7 +5,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 6 done (whole script translated and reviewed), 8 started (visual QA of the English build).
   Last build: `build/deltora_en.nds` (2026-10-18), all 19 scenes in tools/debug/scenes.json boot and reach their
   screens (work/qa/tour_en). Lint: 3,655 lines, 0 errors.
-- **Done:** repo + guardrails; identity rebuild; extraction + kanji table; debug tool (stage/event warps, text
+- **Done:** repo + guardrails (fan-translation-template layout, 2026-10-25, D11); identity rebuild; extraction + kanji table; debug tool (stage/event warps, text
   viewer); VWF + English font; width gate + lint; glossary (novel names); translation of all 32 batches with a
   reviewer per batch (no Critical left; Important fixed); deferred Minor items in docs/polish-todo.md.
 - **Next:**

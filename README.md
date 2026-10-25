@@ -6,6 +6,9 @@ that build the patch.
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
 no game data you can play; you need your own dump of the Japanese game.
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 ## What's here
 
 | Path | What it is |
@@ -18,6 +21,7 @@ no game data you can play; you need your own dump of the Japanese game.
 | `docs/decisions.md`, `docs/status.md` | Rulings with their reasons; current progress and open bugs. |
 | `docs/fonts.md` | Fonts used and their licences. |
 | `AGENTS.md` | Instructions for coding agents (`CLAUDE.md` points to it). |
+| `.claude/agents/` | Subagent types (translator, reviewer, visual QA, playtester) with only the tools each needs. |
 
 ## Build your own patched ROM
 
