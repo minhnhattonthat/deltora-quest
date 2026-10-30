@@ -9,6 +9,19 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Dialogue / story | Translated |
+| Menus, items, cards | Translated |
+| Logo, name tags, field menu, special-move banners, game over, Save panel, minigame prompts | Translated |
+| Chapter/area title cards, battle "Time Left / Weapon Bonus" panel, Emily Rodda's letter, card trade, store-demo screens | Not checked in play (translated, not yet seen in game) |
+| Staff credits | Translated (some staff-name readings and one company name unverified) |
+
+Known issues: a few minor wording polish items remain (`docs/polish-todo.md`); tested in DeSmuME only;
+[report one](../../issues/new/choose).
+
 ## What's here
 
 | Path | What it is |
